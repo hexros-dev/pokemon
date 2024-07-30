@@ -7,6 +7,8 @@
 // @match        *://*/truyen/*/*/*/
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
 // @require     https://cdn.jsdelivr.net/npm/axios-userscript-adapter@0.2.0-alpha.2
+// @updateURL    https://raw.githubusercontent.com/hexros-dev/pokemon/main/image-pokemon-names.userscript.js
+// @downloadURL  https://raw.githubusercontent.com/hexros-dev/pokemon/main/image-pokemon-names.userscript.js
 // @grant       GM.xmlHttpRequest
 // ==/UserScript==
 
