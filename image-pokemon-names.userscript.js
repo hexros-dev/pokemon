@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://example.com/
-// @version      1.2.5
+// @version      1.2.6
 // @description  Hiển thị hình ảnh trong name Pokémon
 // @author       Hexros Raymond
 // @match        *://*/truyen/*/*/*/
@@ -53,8 +53,8 @@
         styleItem.forEach(element => {
             element.style.display = 'inline-block';
             element.style.margin = '-5px 0 0 2px';
-            element.style.width = '25px';
-            element.style.height = '25px';
+            element.style.width = '35px';
+            element.style.height = '35px';
         });
     }
 
