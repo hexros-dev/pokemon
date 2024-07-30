@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://example.com/
-// @version      1.2.6
+// @version      1.3.5
 // @description  Hiển thị hình ảnh trong name Pokémon
 // @author       Hexros Raymond
 // @match        *://*/truyen/*/*/*/
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
 // @require     https://cdn.jsdelivr.net/npm/axios-userscript-adapter@0.2.0-alpha.2
-// @updateURL    https://raw.githubusercontent.com/hexros-dev/pokemon/main/image-pokemon-names.userscript.js
-// @downloadURL  https://raw.githubusercontent.com/hexros-dev/pokemon/main/image-pokemon-names.userscript.js
 // @grant       GM.xmlHttpRequest
 // ==/UserScript==
 
@@ -62,6 +60,7 @@
 
     function createButton(text, onClickFunction, bottomOffset) {
         var button = document.createElement('button');
+        button.className = 'new-btn';
         button.textContent = text;
 
         let styles = {
@@ -82,7 +81,7 @@
     }
 
     function copyName() {
-        createButton('Copy', copyContent, 160);
+        createButton('Copy', copyContent, 220);
         var copyText = document.querySelector("#namewd").value;
         async function copyContent(e) {
             try {
@@ -98,7 +97,7 @@
     }
 
     function getName(){
-       createButton('Get', pasteContent, 280);
+       createButton('Get', pasteContent, 340);
         axios.defaults.adapter = axiosGmxhrAdapter;
         async function pasteContent(e){
             try{
@@ -122,13 +121,34 @@
     function runName() {
         createButton('Start', function() {
             document.querySelector("button[onclick='excute()']").click();
-        }, 220);
+        }, 280);
     }
 
     function showNS() {
         createButton('Names', function() {
             document.querySelector("button[onclick='showNS()']").click();
-        }, 100);
+        }, 160);
+    }
+
+    function showHide(){
+        createButton('Show', showHideContent, 100);
+        async function showHideContent(e){
+            try{
+                var state = e.target.textContent;
+                if (state === 'Show'){
+                    copyName();
+                    runName();
+                    showNS();
+                    getName();
+                    e.target.textContent = 'Hide';
+                }else if(state === 'Hide'){
+                    document.querySelectorAll("button.new-btn").forEach(el => {if (el.textContent !== 'Hide') {el.remove()}})
+                    e.target.textContent = 'Show';
+                }
+            }catch (err){
+                console.log(err);
+            }
+        };
     }
 
 
@@ -141,9 +161,6 @@
             loadImage();
         });
 
-        copyName();
-        runName();
-        showNS();
-        getName();
+        showHide()
     };
 })();
