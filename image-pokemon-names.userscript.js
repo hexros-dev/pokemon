@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://example.com/
-// @version      1.4.1
+// @version      1.4.4
 // @description  Hiển thị hình ảnh trong name Pokémon
 // @author       Hexros Raymond
 // @match        *://*/truyen/*/*/*/
@@ -36,17 +36,17 @@
         const styleType = document.querySelectorAll('.pokemon-type');
         styleType.forEach(element => {
             element.style.display = 'inline-block';
-            element.style.margin = '-5px -2px 0px 2px';
-            element.style.width = '25px';
-            element.style.height = '25px';
+            // element.style.margin = '-5px -2px 0px 2px';
+            element.style.width = '40px';
+            element.style.height = '40px';
         });
 
         const styleBall = document.querySelectorAll('.pokemon-ball');
         styleBall.forEach(element => {
             element.style.display = 'inline-block';
-            element.style.margin = '-5px 0 0 2px';
-            element.style.width = '35px';
-            element.style.height = '35px';
+            // element.style.margin = '-5px 0 0 2px';
+            element.style.width = '40px';
+            element.style.height = '40px';
         });
 
         const styleItem = document.querySelectorAll('.pokemon-item');
