@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://example.com/
-// @version      1.4.0
+// @version      1.4.1
 // @description  Hiển thị hình ảnh trong name Pokémon
 // @author       Hexros Raymond
 // @match        *://*/truyen/*/*/*/
