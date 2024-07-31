@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://example.com/
-// @version      1.4.5
-// @description  Hiển thị hình ảnh trong name Pokémon
+// @version      1.4.6
+// @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://*/truyen/*/*/*/
 // @require     https://cdn.jsdelivr.net/npm/axios@v1.0.0-alpha.1/dist/axios.min.js
@@ -37,8 +37,8 @@
         styleType.forEach(element => {
             element.style.display = 'inline-block';
             // element.style.margin = '-5px -2px 0px 2px';
-            element.style.width = '45px';
-            element.style.height = '45px';
+            element.style.width = '40px';
+            element.style.height = '40px';
         });
 
         const styleBall = document.querySelectorAll('.pokemon-ball');
