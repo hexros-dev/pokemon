@@ -28,9 +28,9 @@
         const styleImg = document.querySelectorAll('.pokemon-image');
         styleImg.forEach(element => {
             element.style.display = 'inline-block';
-            element.style.margin = '-25px -5px -20px 0';
-            element.style.width = '65px';
-            element.style.height = '65px';
+            // element.style.margin = '-25px -5px -20px 0';
+            element.style.width = '80px';
+            element.style.height = '80px';
         });
 
         const styleType = document.querySelectorAll('.pokemon-type');
