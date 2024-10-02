@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.1
+// @version      3.2
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -12,7 +12,7 @@
 // @grant        GM_getValue
 // @grant        GM_deleteValue
 // @connect      raw.githubusercontent.com
-// @icon64       https://i.postimg.cc/8kqyjRg7/pokeball.png
+// @icon         https://raw.githubusercontent.com/hexros-dev/pokemon/main/logo.png
 // ==/UserScript==
 
 (function () {
