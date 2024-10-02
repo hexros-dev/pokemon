@@ -897,43 +897,53 @@
 	};
 
 	function printPokemonStats(pokemon) {
-		const abilitiesMap = {
-			ability1: 1,
-			ability2: 2,
-			hidden: '(hidden ability)',
-		};
+	const abilitiesMap = {
+		ability1: 1,
+		ability2: 2,
+		hidden: '(hidden ability)',
+	};
 
-		const formattedAbilities = Object.entries(pokemon.abilities)
-			.filter(([_, value]) => value !== null)
-			.map(([key, value]) => {
-				const prefix = `${abilitiesMap[key]}. `;
-				const suffix = key === 'hidden' ? ` ${abilitiesMap[key]}` : '';
-				return `<span class="text-muted">${prefix}</span>${value}<small class="text-muted">${suffix}</small>`;
-			})
-			.join('<br>');
+	// Lọc và đếm số abilities không null
+	const abilityCount = Object.entries(pokemon.abilities)
+		.filter(([key, value]) => key !== 'hidden' && value !== null).length;
 
-		const stats = {
-			Name: `<strong>${pokemon.name}</strong>`,
-			Ndex: `<strong>${pokemon.number.replace('#', '')}</strong>`,
-			Type: pokemon.type
-				.map(
-					(type) =>
-						`<span class="${type}"><strong>${type}</strong></span>`,
-				)
-				.join(', '),
-			Abilities: formattedAbilities,
-			HP: pokemon.hp,
-			Attack: pokemon.attack,
-			Defense: pokemon.defense,
-			'Sp. Atk': pokemon.spAttack,
-			'Sp. Def': pokemon.spDefense,
-			Speed: pokemon.speed,
-			Total: `<strong>${pokemon.total}</strong>`,
-		};
+	const formattedAbilities = Object.entries(pokemon.abilities)
+		.filter(([_, value]) => value !== null)
+		.map(([key, value]) => {
+			let prefix = '';
+			if (key === 'hidden') {
+				// Đặt prefix là số tiếp theo của các abilities đã đếm
+				prefix = `${abilityCount + 1}. `;
+			} else {
+				// Đặt prefix theo abilitiesMap nếu không phải hidden
+				prefix = `${abilitiesMap[key]}. `;
+			}
+			const suffix = key === 'hidden' ? ` ${abilitiesMap[key]}` : '';
+			return `<span class="text-muted">${prefix}</span>${value}<small class="text-muted">${suffix}</small>`;
+		})
+		.join('<br>');
 
-		return renderTable('Pokémon', stats);
+	const stats = {
+		Name: `<strong>${pokemon.name}</strong>`,
+		Ndex: `<strong>${pokemon.number.replace('#', '')}</strong>`,
+		Type: pokemon.type
+			.map(
+				(type) =>
+					`<span class="${type}"><strong>${type}</strong></span>`,
+			)
+			.join(', '),
+		Abilities: formattedAbilities,
+		HP: pokemon.hp,
+		Attack: pokemon.attack,
+		Defense: pokemon.defense,
+		'Sp. Atk': pokemon.spAttack,
+		'Sp. Def': pokemon.spDefense,
+		Speed: pokemon.speed,
+		Total: `<strong>${pokemon.total}</strong>`,
+	};
+
+	return renderTable('Pokémon', stats);
 	}
-
 	function printPokemonMove(move) {
 		const moveInfo = {
 			Name: `<strong>${move.name}</strong>`,
