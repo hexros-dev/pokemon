@@ -13,7 +13,7 @@
 // @grant        GM_deleteValue
 // @connect      raw.githubusercontent.com
 // @icon         https://raw.githubusercontent.com/hexros-dev/pokemon/main/logo.png
-// @updateURL       https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/master/userscript.js
+// @updateURL    https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/master/userscript.js
 // ==/UserScript==
 
 (function () {
