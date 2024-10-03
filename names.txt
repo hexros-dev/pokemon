@@ -1,3 +1,17 @@
+$洛托=Rotto
+$玛丽露=Marill<img class="pokemon-image" data-pokedex="Marill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/183.png">
+$白杨镇=Alamos Town
+$奥拉席翁=Oración
+$哏噶=Noga
+$冠军=Champion <img class="pokemon-ball" data-pokedex="Cherish Ball" src="https://www.serebii.net/itemdex/sprites/sv/cherishball.png">
+$大师=Master <img class="pokemon-ball" data-pokedex="Master Ball" src="https://www.serebii.net/itemdex/sprites/sv/masterball.png">
+$职业=Professional <img class="pokemon-ball" data-pokedex="Premier Ball" src="https://www.serebii.net/itemdex/sprites/sv/premierball.png">
+$资深=Veteran <img class="pokemon-ball" data-pokedex="Ultra Ball" src="https://www.serebii.net/itemdex/sprites/sv/ultraball.png">
+$精英=Elite <img class="pokemon-ball" data-pokedex="Great Ball" src="https://www.serebii.net/itemdex/sprites/sv/greatball.png">
+$初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png">
+$铃兰=Lily of the Valley
+$达马岚=Tamaranze
+$铃兰大会=Lily of the Valley Conference
 ==============Pokémon==============
 $冰九尾=Alolan Ninetales<img class="pokemon-image" data-pokedex="Alolan Ninetales" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/038_f2.png">
 $铁壳蛹=Kakuna<img class="pokemon-image" data-pokedex="Kakuna" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/014.png">
