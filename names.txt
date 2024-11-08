@@ -2641,7 +2641,7 @@ $杏仔果=Apicot Berry <img class="items" data-pokedex="Apicot Berry" src="http
 $利木果=Aspear Berry <img class="items" data-pokedex="Aspear Berry" src="https://www.serebii.net/itemdex/sprites/sv/aspearberry.png"/>
 $霹霹果=Babiri Berry <img class="items" data-pokedex="Babiri Berry" src="https://www.serebii.net/itemdex/sprites/sv/babiriberry.png"/>
 $靛莓果=Belue Berry <img class="items" data-pokedex="Belue Berry" src="https://www.serebii.net/itemdex/sprites/pgl/belueberry.png"/>
-$墨莓果=Bluk Berry <img class="items" data-pokedex="Bluk Berry" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/17.png"/>
+$墨莓果=Bluk Berry <img class="items" data-pokedex="Bluk Berry" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/17.png"/>
 $草蚕果=Charti Berry <img class="items" data-pokedex="Charti Berry" src="https://www.serebii.net/itemdex/sprites/sv/chartiberry.png"/>
 $樱子果=Cheri Berry <img class="items" data-pokedex="Cheri Berry" src="https://www.serebii.net/itemdex/sprites/sv/cheriberry.png"/>
 $零余果=Chesto Berry <img class="items" data-pokedex="Chesto Berry" src="https://www.serebii.net/itemdex/sprites/sv/chestoberry.png"/>
@@ -2649,7 +2649,7 @@ $灯浆果=Chilan Berry <img class="items" data-pokedex="Chilan Berry" src="http
 $莲蒲果=Chople Berry <img class="items" data-pokedex="Chople Berry" src="https://www.serebii.net/itemdex/sprites/sv/chopleberry.png"/>
 $棱瓜果=Coba Berry <img class="items" data-pokedex="Coba Berry" src="https://www.serebii.net/itemdex/sprites/sv/cobaberry.png"/>
 $刺耳果=Colbur Berry <img class="items" data-pokedex="Colbur Berry" src="https://www.serebii.net/itemdex/sprites/sv/colburberry.png"/>
-$玉黍果=Cornn Berry <img class="items" data-pokedex="Cornn Berry" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/27.png"/>
+$玉黍果=Cornn Berry <img class="items" data-pokedex="Cornn Berry" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/27.png"/>
 $释陀果=Custap Berry <img class="items" data-pokedex="Custap Berry" src="https://www.serebii.net/itemdex/sprites/sv/custapberry.png"/>
 $金枕果=Durin Berry <img class="items" data-pokedex="Durin Berry" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/34.png"/>
 $谜芝果=Enigma Berry <img class="items" data-pokedex="Enigma Berry" src="https://www.serebii.net/itemdex/sprites/sv/enigmaberry.png"/>
