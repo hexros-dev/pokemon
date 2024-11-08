@@ -41,14 +41,102 @@ $资深=Veteran <img class="pokemon-ball" data-pokedex="Ultra Ball" src="https:/
 $精英=Elite <img class="pokemon-ball" data-pokedex="Great Ball" src="https://www.serebii.net/itemdex/sprites/sv/greatball.png">
 $初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png">
 ===========Mega Pokémon============
-$超级妙蛙花=Mega Venusaur<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png">
-$超级喷火龙X=Mega Charizard X<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png">
-$超级喷火龙Y=Mega Charizard Y<img class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png">
-$超级水箭龟=Blastoise<img class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png">
-$超级烈咬陆鲨=Mega Garchomp<img class="pokemon-image" data-pokedex="Mega Garchomp" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png">
-$超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png">
-$超级暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png">
-$Mega 蒂安希=Mega Diancie<img class="pokemon-image" data-pokedex="Mega Diancie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/719_f2.png">
+$超级妙蛙花=Mega Venusaur<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png"/>
+$Mega 妙蛙花=Mega Venusaur<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png.png"/>
+$超级喷火龙X=Mega Charizard X<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"/>
+$Mega 喷火龙X=Mega Charizard X<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"/>
+$超级喷火龙Y=Mega Charizard Y<img class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png"/>
+$Mega 喷火龙Y=Mega Charizard Y<img class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png"/>
+$超级水箭龟=Mega Blastoise<img class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png"/>
+$Mega 水箭龟=Mega Blastoise<img class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png"/>
+$超级大针蜂=Mega Beedrill<img class="pokemon-image" data-pokedex="Mega Beedrill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/015_f2.png"/>
+$Mega 大针蜂=Mega Beedrill<img class="pokemon-image" data-pokedex="Mega Beedrill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/015_f2.png"/>
+$超级大比鸟=Mega Pidgeot<img class="pokemon-image" data-pokedex="Mega Pidgeot" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/018_f2.png"/>
+$Mega 大比鸟=Mega Pidgeot<img class="pokemon-image" data-pokedex="Mega Pidgeot" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/018_f2.png"/>
+$超级胡地=Mega Alakazam<img class="pokemon-image" data-pokedex="Mega Alakazam" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/065_f2.png"/>
+$Mega 胡地=Mega Alakazam<img class="pokemon-image" data-pokedex="Mega Alakazam" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/065_f2.png"/>
+$超级呆壳兽=Mega Slowbro<img class="pokemon-image" data-pokedex="Mega Slowbro" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/080_f2.png"/>
+$Mega 呆壳兽=Mega Slowbro<img class="pokemon-image" data-pokedex="Mega Slowbro" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/080_f2.png"/>
+$超级耿鬼=Mega Gengar<img class="pokemon-image" data-pokedex="Mega Gengar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094_f2.png"/>
+$Mega 耿鬼=Mega Gengar<img class="pokemon-image" data-pokedex="Mega Gengar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094_f2.png"/>
+$超级袋兽=Mega Kangaskhan<img class="pokemon-image" data-pokedex="Mega Kangaskhan" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/115_f2.png"/>
+$Mega 袋兽=Mega Kangaskhan<img class="pokemon-image" data-pokedex="Mega Kangaskhan" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/115_f2.png"/>
+$超级凯罗斯=Mega Pinsir<img class="pokemon-image" data-pokedex="Mega Pinsir" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/0127_f2.png"/>
+$Mega 凯罗斯=Mega Pinsir<img class="pokemon-image" data-pokedex="Mega Pinsir" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/0127_f2.png"/>
+$超级暴鲤龙=Mega Gyarados<img class="pokemon-image" data-pokedex="Mega Gyarados" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/130_f2.png"/>
+$Mega 暴鲤龙=Mega Gyarados<img class="pokemon-image" data-pokedex="Mega Gyarados" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/130_f2.png"/>
+$超级化石翼龙=Mega Aerodactyl<img class="pokemon-image" data-pokedex="Mega Aerodactyl" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/142_f2.png"/>
+$Mega 化石翼龙=Mega Aerodactyl<img class="pokemon-image" data-pokedex="Mega Aerodactyl" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/142_f2.png"/>
+$超级超梦X=Mega Mewtwo X<img class="pokemon-image" data-pokedex="Mega Mewtwo X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f2.png"/>
+$Mega 超梦X=Mega Mewtwo X<img class="pokemon-image" data-pokedex="Mega Mewtwo X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f2.png"/>
+$超级超梦Y=Mega Mewtwo Y<img class="pokemon-image" data-pokedex="Mega Mewtwo Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"/>
+$Mega 超梦Y=Mega Mewtwo Y<img class="pokemon-image" data-pokedex="Mega Mewtwo Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"/>
+$超级电龙=Mega Ampharos<img class="pokemon-image" data-pokedex="Mega Ampharos" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/181_f2.png"/>
+$Mega 电龙=Mega Ampharos<img class="pokemon-image" data-pokedex="Mega Ampharos" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/181_f2.png"/>
+$超级大钢蛇=Mega Steelix<img class="pokemon-image" data-pokedex="Mega Steelix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/208_f2.png"/>
+$Mega 大钢蛇=Mega Steelix<img class="pokemon-image" data-pokedex="Mega Steelix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/208_f2.png"/>
+$超级巨钳螳螂=Mega Scizor<img class="pokemon-image" data-pokedex="Mega Scizor" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/212_f2.png"/>
+$Mega 巨钳螳螂=Mega Scizor<img class="pokemon-image" data-pokedex="Mega Scizor" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/212_f2.png"/>
+$超级赫拉克罗斯=Mega Heracross<img class="pokemon-image" data-pokedex="Mega Heracross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/214_f2.png"/>
+$Mega 赫拉克罗斯=Mega Heracross<img class="pokemon-image" data-pokedex="Mega Heracross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/214_f2.png"/>
+$超级黑鲁加=Mega Houndoom<img class="pokemon-image" data-pokedex="Mega Houndoom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/229_f2.png"/>
+$Mega 黑鲁加=Mega Houndoom<img class="pokemon-image" data-pokedex="Mega Houndoom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/229_f2.png"/>
+$超级班基拉斯=Mega Tyranitar<img class="pokemon-image" data-pokedex="Mega Tyranitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248_f2.png"/>
+$Mega 班基拉斯=Mega Tyranitar<img class="pokemon-image" data-pokedex="Mega Tyranitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248_f2.png"/>
+$超级蜥蜴王=Mega Sceptile<img class="pokemon-image" data-pokedex="Mega Sceptile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/254_f2.png"/>
+$Mega 蜥蜴王=Mega Sceptile<img class="pokemon-image" data-pokedex="Mega Sceptile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/254_f2.png"/>
+$超级火焰鸡=Mega Blaziken<img class="pokemon-image" data-pokedex="Mega Blaziken" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/257_f2.png"/>
+$Mega 火焰鸡=Mega Blaziken<img class="pokemon-image" data-pokedex="Mega Blaziken" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/257_f2.png"/>
+$超级巨沼怪=Mega Swampert<img class="pokemon-image" data-pokedex="Mega Swampert" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/260_f2.png"/>
+$Mega 巨沼怪=Mega Swampert<img class="pokemon-image" data-pokedex="Mega Swampert" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/260_f2.png"/>
+$超级沙奈朵=Mega Gardevoir<img class="pokemon-image" data-pokedex="Mega Gardevoir" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/282_f2.png"/>
+$Mega 沙奈朵=Mega Gardevoir<img class="pokemon-image" data-pokedex="Mega Gardevoir" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/282_f2.png"/>
+$超级勾魂眼=Mega Sableye<img class="pokemon-image" data-pokedex="Mega Sableye" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/302_f2.png"/>
+$Mega 勾魂眼=Mega Sableye<img class="pokemon-image" data-pokedex="Mega Sableye" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/302_f2.png"/>
+$超级大嘴娃=Mega Mawile<img class="pokemon-image" data-pokedex="Mega Mawile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/303_f2.png"/>
+$Mega 大嘴娃=Mega Mawile<img class="pokemon-image" data-pokedex="Mega Mawile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/303_f2.png"/>
+$超级波士可多拉=Mega Aggron<img class="pokemon-image" data-pokedex="Mega Aggron" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/306_f2.png"/>
+$Mega 波士可多拉=Mega Aggron<img class="pokemon-image" data-pokedex="Mega Aggron" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/306_f2.png"/>
+$超级恰雷姆=Mega Medicham<img class="pokemon-image" data-pokedex="Mega Medicham" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/308_f2.png"/>
+$Mega 恰雷姆=Mega Medicham<img class="pokemon-image" data-pokedex="Mega Medicham" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/308_f2.png"/>
+$超级雷电兽=Mega Manectric<img class="pokemon-image" data-pokedex="Mega Manectric" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/310_f2.png"/>
+$Mega 雷电兽=Mega Manectric<img class="pokemon-image" data-pokedex="Mega Manectric" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/310_f2.png"/>
+$超级巨牙鲨=Mega Sharpedo<img class="pokemon-image" data-pokedex="Mega Sharpedo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/319_f2.png"/>
+$Mega 巨牙鲨=Mega Sharpedo<img class="pokemon-image" data-pokedex="Mega Sharpedo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/319_f2.png"/>
+$超级喷火驼=Mega Camerupt<img class="pokemon-image" data-pokedex="Mega Camerupt" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/323_f2.png"/>
+$Mega 喷火驼=Mega Camerupt<img class="pokemon-image" data-pokedex="Mega Camerupt" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/323_f2.png"/>
+$超级七夕青鸟=Mega Altaria<img class="pokemon-image" data-pokedex="Mega Altaria" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/334_f2.png"/>
+$Mega 七夕青鸟=Mega Altaria<img class="pokemon-image" data-pokedex="Mega Altaria" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/334_f2.png"/>
+$超级诅咒娃娃=Mega Banette<img class="pokemon-image" data-pokedex="Mega Banette" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/354_f2.png"/>
+$Mega 诅咒娃娃=Mega Banette<img class="pokemon-image" data-pokedex="Mega Banette" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/354_f2.png"/>
+$超级阿勃梭鲁=Mega Absol<img class="pokemon-image" data-pokedex="Mega Absol" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/359_f2.png"/>
+$Mega 阿勃梭鲁=Mega Absol<img class="pokemon-image" data-pokedex="Mega Absol" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/359_f2.png"/>
+$超级冰鬼护=Mega Glalie<img class="pokemon-image" data-pokedex="Mega Glalie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/362_f2.png"/>
+$Mega 冰鬼护=Mega Glalie<img class="pokemon-image" data-pokedex="Mega Glalie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/362_f2.png"/>
+$超级暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png"/>
+$Mega 暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png"/>
+$超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png"/>
+$Mega 巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png"/>
+$超级拉帝亚斯=Mega Latias<img class="pokemon-image" data-pokedex="Mega Latias" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/380_f2.png"/>
+$Mega 拉帝亚斯=Mega Latias<img class="pokemon-image" data-pokedex="Mega Latias" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/380_f2.png"/>
+$超级拉帝欧斯=Mega Latios<img class="pokemon-image" data-pokedex="Mega Latios" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/381_f2.png"/>
+$Mega 拉帝欧斯=Mega Latios<img class="pokemon-image" data-pokedex="Mega Latios" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/381_f2.png"/>
+$超级烈空坐=Mega Rayquaza<img class="pokemon-image" data-pokedex="Mega Rayquaza" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/384_f2.png"/>
+$Mega 烈空坐=Mega Rayquaza<img class="pokemon-image" data-pokedex="Mega Rayquaza" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/384_f2.png"/>
+$超级长耳兔=Mega Lopunny<img class="pokemon-image" data-pokedex="Mega Lopunny" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/428_f2.png"/>
+$Mega 长耳兔=Mega Lopunny<img class="pokemon-image" data-pokedex="Mega Lopunny" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/428_f2.png"/>
+$超级烈咬陆鲨=Mega Garchomp<img class="pokemon-image" data-pokedex="Mega Garchomp" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png"/>
+$Mega 烈咬陆鲨=Mega Garchomp<img class="pokemon-image" data-pokedex="Mega Garchomp" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png"/>
+$超级路卡利欧=Mega Lucario<img class="pokemon-image" data-pokedex="Mega Lucario" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448_f2.png"/>
+$Mega 路卡利欧=Mega Lucario<img class="pokemon-image" data-pokedex="Mega Lucario" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448_f2.png"/>
+$超级暴雪王=Mega Abomasnow<img class="pokemon-image" data-pokedex="Mega Abomasnow" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/460_f2.png"/>
+$Mega 暴雪王=Mega Abomasnow<img class="pokemon-image" data-pokedex="Mega Abomasnow" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/460_f2.png"/>
+$超级艾路雷朵=Mega Gallade<img class="pokemon-image" data-pokedex="Mega Gallade" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/475_f2.png"/>
+$Mega 艾路雷朵=Mega Gallade<img class="pokemon-image" data-pokedex="Mega Gallade" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/475_f2.png"/>
+$超级差不多娃娃=Mega Audino<img class="pokemon-image" data-pokedex="Mega Audino" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/531_f2.png"/>
+$Mega 差不多娃娃=Mega Audino<img class="pokemon-image" data-pokedex="Mega Audino" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/531_f2.png"/>
+$超级蒂安希=Mega Diancie<img class="pokemon-image" data-pokedex="Mega Diancie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/719_f2.png"/>
+$Mega 蒂安希=Mega Diancie<img class="pokemon-image" data-pokedex="Mega Diancie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/719_f2.png"/>
 ==============Pokémon==============
 $洛托=Rotto
 $哏噶=Noga
