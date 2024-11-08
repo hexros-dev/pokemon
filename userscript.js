@@ -966,6 +966,7 @@
 	function printItem(item) {
 		const itemInfo = {
 			Name: `<strong>${item.name}</strong>`,
+			Category: item.category || 'Others',
 			Effect: item.effect || 'None',
 		};
 		return renderTable('Item', itemInfo);

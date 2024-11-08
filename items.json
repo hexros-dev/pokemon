@@ -1,358 +1,447 @@
 {
 	"Aguav Berry": {
 		"name": "Aguav Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore some HP should it find itself in a pinch. But it will become confused if it hates the Berry's taste."
 	},
 	"Apicot Berry": {
 		"name": "Apicot Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its Sp. Def stat will be boosted should it find itself in a pinch."
 	},
 	"Aspear Berry": {
 		"name": "Aspear Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to thaw itself after being frozen."
 	},
 	"Babiri Berry": {
 		"name": "Babiri Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Steel-type move, the power of that move will be weakened."
 	},
 	"Belue Berry": {
 		"name": "Belue Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Beauty. This Berry is rare in other regions."
 	},
 	"Bluk Berry": {
 		"name": "Bluk Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Beauty. Its blue flesh is dry if eaten."
 	},
 	"Charti Berry": {
 		"name": "Charti Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Rock-type move, the power of that move will be weakened."
 	},
 	"Cheri Berry": {
 		"name": "Cheri Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to free itself from paralysis."
 	},
 	"Chesto Berry": {
 		"name": "Chesto Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to wake itself from sleep."
 	},
 	"Chilan Berry": {
 		"name": "Chilan Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a Normal-type move, the power of that move will be weakened."
 	},
 	"Chople Berry": {
 		"name": "Chople Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Fighting-type move, the power of that move will be weakened."
 	},
 	"Coba Berry": {
 		"name": "Coba Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Flying-type move, the power of that move will be weakened."
 	},
 	"Colbur Berry": {
 		"name": "Colbur Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Dark-type move, the power of that move will be weakened."
 	},
 	"Cornn Berry": {
 		"name": "Cornn Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Beauty. This Berry is rare in other regions."
 	},
 	"Custap Berry": {
 		"name": "Custap Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to act faster should it find itself in a pinch—but only for the next move it uses."
 	},
 	"Durin Berry": {
 		"name": "Durin Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cleverness. This Berry is rare in other regions."
 	},
 	"Enigma Berry": {
 		"name": "Enigma Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to regain some HP if it is hit with a supereffective move."
 	},
 	"Figy Berry": {
 		"name": "Figy Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore some HP should it find itself in a pinch. But it will become confused if it hates the Berry's taste."
 	},
 	"Ganlon Berry": {
 		"name": "Ganlon Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its Defense stat will be boosted should it find itself in a pinch."
 	},
 	"Golden Nanab Berry": {
 		"name": "Golden Nanab Berry",
+		"category": "Berry",
 		"effect": "A Berry that drastically calms Pokémon you're trying to catch when given to them."
 	},
 	"Golden Pinap Berry": {
 		"name": "Golden Pinap Berry",
+		"category": "Berry",
 		"effect": "A Berry that makes you drastically more likely to get an item when given to Pokémon you're trying to catch."
 	},
 	"Golden Razz Berry": {
 		"name": "Golden Razz Berry",
+		"category": "Berry",
 		"effect": "A Berry that makes it drastically easier to catch Pokémon when given to them."
 	},
 	"Grepa Berry": {
 		"name": "Grepa Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its Sp. Def stat."
 	},
 	"Haban Berry": {
 		"name": "Haban Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Dragon-type move, the power of that move will be weakened."
 	},
 	"Hondew Berry": {
 		"name": "Hondew Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its Sp. Atk stat."
 	},
 	"Hopo Berry": {
 		"name": "Hopo Berry",
+		"category": "Berry",
 		"effect": "A Berry that can be fed to a Pokémon to restore its PP. If a wild Pokémon eats one of these Berries, that Pokémon's reactions will be dulled."
 	},
 	"Iapapa Berry": {
 		"name": "Iapapa Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore some HP should it find itself in a pinch. But it will become confused if it hates the Berry's taste."
 	},
 	"Jaboca Berry": {
 		"name": "Jaboca Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a physical move, the attacker will also take damage."
 	},
 	"Kasib Berry": {
 		"name": "Kasib Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Ghost-type move, the power of that move will be weakened."
 	},
 	"Kebia Berry": {
 		"name": "Kebia Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Poison-type move, the power of that move will be weakened."
 	},
 	"Kee Berry": {
 		"name": "Kee Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a physical move, the holder's Defense stat will be boosted."
 	},
 	"Kelpsy Berry": {
 		"name": "Kelpsy Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its Attack stat."
 	},
 	"Lansat Berry": {
 		"name": "Lansat Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its critical-hit ratio will be boosted should it find itself in a pinch."
 	},
 	"Leppa Berry": {
 		"name": "Leppa Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 PP to a move."
 	},
 	"Liechi Berry": {
 		"name": "Liechi Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its Attack stat will be boosted should it find itself in a pinch."
 	},
 	"Lum Berry": {
 		"name": "Lum Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of any status condition it may have."
 	},
 	"Mago Berry": {
 		"name": "Mago Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore some HP should it find itself in a pinch. But it will become confused if it hates the Berry's taste."
 	},
 	"Magost Berry": {
 		"name": "Magost Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cuteness. This Berry is rare in other regions."
 	},
 	"Maranga Berry": {
 		"name": "Maranga Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a special move, the holder's Sp. Def stat will be boosted."
 	},
 	"Micle Berry": {
 		"name": "Micle Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its accuracy will be boosted should it find itself in a pinch—but only for the next move it uses."
 	},
 	"Nanab Berry": {
 		"name": "Nanab Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cuteness. Its pink flesh is sweet if eaten."
 	},
 	"Nomel Berry": {
 		"name": "Nomel Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Toughness. This Berry is rare in other regions."
 	},
 	"Occa Berry": {
 		"name": "Occa Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Fire-type move, the power of that move will be weakened."
 	},
 	"Oran Berry": {
 		"name": "Oran Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 HP to itself."
 	},
 	"Pamtre Berry": {
 		"name": "Pamtre Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Beauty. This Berry is rare in other regions."
 	},
 	"Passho Berry": {
 		"name": "Passho Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Water-type move, the power of that move will be weakened."
 	},
 	"Payapa Berry": {
 		"name": "Payapa Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Psychic-type move, the power of that move will be weakened."
 	},
 	"Pecha Berry": {
 		"name": "Pecha Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself."
 	},
 	"Persim Berry": {
 		"name": "Persim Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of confusion."
 	},
 	"Petaya Berry": {
 		"name": "Petaya Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its Sp. Atk stat will be boosted should it find itself in a pinch."
 	},
 	"Pinap Berry": {
 		"name": "Pinap Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Toughness. Its yellow flesh is sour if eaten."
 	},
 	"Pomeg Berry": {
 		"name": "Pomeg Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its HP stat."
 	},
 	"Qualot Berry": {
 		"name": "Qualot Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its Defense stat."
 	},
 	"Rabuta Berry": {
 		"name": "Rabuta Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cleverness. This Berry is rare in other regions."
 	},
 	"Rawst Berry": {
 		"name": "Rawst Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of a burn."
 	},
 	"Razz Berry": {
 		"name": "Razz Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Coolness. Its red flesh is spicy if eaten."
 	},
 	"Rindo Berry": {
 		"name": "Rindo Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Grass-type move, the power of that move will be weakened."
 	},
 	"Roseli Berry": {
 		"name": "Roseli Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Fairy-type move, the power of that move will be weakened."
 	},
 	"Rowap Berry": {
 		"name": "Rowap Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a special move, the attacker will also take damage."
 	},
 	"Salac Berry": {
 		"name": "Salac Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, its Speed stat will be boosted should it find itself in a pinch."
 	},
 	"Shuca Berry": {
 		"name": "Shuca Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Ground-type move, the power of that move will be weakened."
 	},
 	"Silver Nanab Berry": {
 		"name": "Silver Nanab Berry",
+		"category": "Berry",
 		"effect": "A Berry that calms Pokémon you're trying to catch when given to them."
 	},
 	"Silver Pinap Berry": {
 		"name": "Silver Pinap Berry",
+		"category": "Berry",
 		"effect": "A Berry that makes you more likely to get an item when given to Pokémon you're trying to catch."
 	},
 	"Silver Razz Berry": {
 		"name": "Silver Razz Berry",
+		"category": "Berry",
 		"effect": "A Berry that makes it easier to catch Pokémon when given to them."
 	},
 	"Sitrus Berry": {
 		"name": "Sitrus Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore a small amount of HP to itself."
 	},
 	"Spelon Berry": {
 		"name": "Spelon Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cuteness. This Berry is rare in other regions."
 	},
 	"Starf Berry": {
 		"name": "Starf Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, one of its stats will be sharply boosted should it find itself in a pinch."
 	},
 	"Tamato Berry": {
 		"name": "Tamato Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon is fed this Berry, it will grow more friendly, but it will lose base points for its Speed stat."
 	},
 	"Tanga Berry": {
 		"name": "Tanga Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Bug-type move, the power of that move will be weakened."
 	},
 	"Wacan Berry": {
 		"name": "Wacan Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Electric-type move, the power of that move will be weakened."
 	},
 	"Watmel Berry": {
 		"name": "Watmel Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cleverness. This Berry is rare in other regions."
 	},
 	"Wepear Berry": {
 		"name": "Wepear Berry",
+		"category": "Berry",
 		"effect": "Used to make Pokéblocks that will enhance Cleverness. Its green flesh is bitter if eaten."
 	},
 	"Wiki Berry": {
 		"name": "Wiki Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to restore some HP should it find itself in a pinch. But it will become confused if it hates the Berry's taste."
 	},
 	"Yache Berry": {
 		"name": "Yache Berry",
+		"category": "Berry",
 		"effect": "If a Pokémon holding this Berry is hit with a supereffective Ice-type move, the power of that move will be weakened."
 	},
 	"Armor Fossil": {
 		"name": "Armor Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived on the land. It looks to be from some kind of protective collar."
 	},
 	"Claw Fossil": {
 		"name": "Claw Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived in the sea. It appears to be a fragment of a claw."
 	},
 	"Cover Fossil": {
 		"name": "Cover Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived in the sea. It appears as though it could be part of a creature's back."
 	},
 	"Dome Fossil": {
 		"name": "Dome Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived in the sea. It could be a shell or carapace."
 	},
 	"Fossilized Bird": {
 		"name": "Fossilized Bird",
+		"category": "Fossils",
 		"effect": "A fossil piece left behind by a prehistoric Pokémon that once soared through the sky. What it looked like is a mystery."
 	},
 	"Fossilized Dino": {
 		"name": "Fossilized Dino",
+		"category": "Fossils",
 		"effect": "A fossil piece left behind by a prehistoric Pokémon that once lived in the sea. What it looked like is a mystery."
 	},
 	"Fossilized Drake": {
 		"name": "Fossilized Drake",
+		"category": "Fossils",
 		"effect": "A fossil piece left behind by a prehistoric Pokémon that once roamed the land. What it looked like is a mystery."
 	},
 	"Fossilized Fish": {
 		"name": "Fossilized Fish",
+		"category": "Fossils",
 		"effect": "A fossil piece left behind by a prehistoric Pokémon that once lived in the sea. What it looked like is a mystery."
 	},
 	"Helix Fossil": {
 		"name": "Helix Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived in the sea. It might be a piece of a seashell."
 	},
 	"Jaw Fossil": {
 		"name": "Jaw Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived on the land. It looks as if it could be a piece of a large jaw."
 	},
 	"Old Amber": {
 		"name": "Old Amber",
+		"category": "Fossils",
 		"effect": "A piece of amber that still contains the genetic material of a prehistoric Pokémon. It's clear with a tawny, reddish tint."
 	},
 	"Plume Fossil": {
 		"name": "Plume Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon said to be an ancestor to modern bird Pokémon. It looks as if it could have come from part of some creature's wing."
 	},
 	"Root Fossil": {
 		"name": "Root Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived in the sea. It looks as if it could be part of a plant's root."
 	},
 	"Sail Fossil": {
 		"name": "Sail Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail."
 	},
 	"Skull Fossil": {
 		"name": "Skull Fossil",
+		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it's part of a head."
 	}
 }
