@@ -41,6 +41,10 @@ $资深=Veteran <img class="pokemon-ball" data-pokedex="Ultra Ball" src="https:/
 $精英=Elite <img class="pokemon-ball" data-pokedex="Great Ball" src="https://www.serebii.net/itemdex/sprites/sv/greatball.png">
 $初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png">
 ===========Mega Pokémon============
+$超级妙蛙花=Mega Venusaur<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png">
+$超级喷火龙X=Mega Charizard X<img class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png">
+$超级喷火龙Y=Mega Charizard Y<img class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png">
+$超级水箭龟=Blastoise<img class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png">
 $超级烈咬陆鲨=Mega Garchomp<img class="pokemon-image" data-pokedex="Mega Garchomp" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png">
 $超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png">
 $超级暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png">
