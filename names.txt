@@ -2651,7 +2651,7 @@ $棱瓜果=Coba Berry <img class="items" data-pokedex="Coba Berry" src="https://
 $刺耳果=Colbur Berry <img class="items" data-pokedex="Colbur Berry" src="https://www.serebii.net/itemdex/sprites/sv/colburberry.png"/>
 $玉黍果=Cornn Berry <img class="items" data-pokedex="Cornn Berry" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/27.png"/>
 $释陀果=Custap Berry <img class="items" data-pokedex="Custap Berry" src="https://www.serebii.net/itemdex/sprites/sv/custapberry.png"/>
-$金枕果=Durin Berry <img class="items" data-pokedex="Durin Berry" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/34.png"/>
+$金枕果=Durin Berry <img class="items" data-pokedex="Durin Berry" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/34.png"/>
 $谜芝果=Enigma Berry <img class="items" data-pokedex="Enigma Berry" src="https://www.serebii.net/itemdex/sprites/sv/enigmaberry.png"/>
 $勿花果=Figy Berry <img class="items" data-pokedex="Figy Berry" src="https://www.serebii.net/itemdex/sprites/sv/figyberry.png"/>
 $龙睛果=Ganlon Berry <img class="items" data-pokedex="Ganlon Berry" src="https://www.serebii.net/itemdex/sprites/sv/ganlonberry.png"/>
