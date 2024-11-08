@@ -1,4 +1,35 @@
-
+====================================
+$海之王冠=Sea Crown
+$潜水艇=tàu ngầm
+$星星碎块=Star Piece
+$亚克夏=Samiya
+$汐嘉娜=Aster
+$希嘉娜=Zinnia
+$毒粉=<span class="pokemon-move Poison Status" data-pokedex="Poison Powder">Poison Powder</span>
+$空气之刃=<span class="pokemon-move Flying Special" data-pokedex="Air Slash">Air Slash</span>
+$送神山=Mount Pyre
+$神代=Brandon
+$芙蓉=Phoebe
+$花月=Sidney
+$波妮=Glacia
+$木槿=Joseph
+$火村=Tabitha
+$若叶=Wakaba
+$克丽丝塔儿=Crystal
+$拉达姆=Radam
+$雪成=Samuel
+$元气块碎块=Revive
+$元气块=Max Revive
+$比夏斯=Vicious
+$怀特=White
+$胡桃=Mary
+$诅咒之铠=Malicious Armor
+$敏江=Toshie
+$香薰=Laverre
+$玛绣=Valerie
+$娑罗=Shalour
+$可尔妮=Korrina
+$随意遗迹=Solaceon Ruins
 ==============Ranks==============
 $冠军=Champion <img class="pokemon-ball" data-pokedex="Cherish Ball" src="https://www.serebii.net/itemdex/sprites/sv/cherishball.png">
 $大师=Master <img class="pokemon-ball" data-pokedex="Master Ball" src="https://www.serebii.net/itemdex/sprites/sv/masterball.png">
@@ -9,6 +40,9 @@ $初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https:
 ==============Pokémon==============
 $洛托=Rotto
 $哏噶=Noga
+$毒粉蝶=Dustox<img class="pokemon-image" data-pokedex="Dustox" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/269.png">
+$切割洛托姆=Mow Rotom<img class="pokemon-image" data-pokedex="Mow Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f6.png">
+$超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png">
 $玛丽露=Marill<img class="pokemon-image" data-pokedex="Marill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/183.png">
 $冰九尾=Alolan Ninetales<img class="pokemon-image" data-pokedex="Alolan Ninetales" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/038_f2.png">
 $铁壳蛹=Kakuna<img class="pokemon-image" data-pokedex="Kakuna" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/014.png">
