@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.3.3
+// @version      3.3.6
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -23,6 +23,7 @@
 		NAME: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/names.txt',
 		STATS: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokemon-stats.json',
 		MOVES: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokemon-moves.json',
+		ITEMS: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/items.json',
 		ABILITIES:
 			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokemon-abilities.json',
 		TYPE_CHART:
@@ -81,6 +82,7 @@
 	const SELECTORS = {
 		IMAGE: '.pokemon-image',
 		MOVE: '.pokemon-move',
+		ITEMS: '.items',
 		ABILITY: '.pokemon-ability',
 		TYPE: '.pokemon-type',
 		POKEBALL: '.pokemon-ball',
@@ -216,7 +218,8 @@
 			transform: scale(1.2);
 		}
 
-		.pokemon-ball {
+		.pokemon-ball,
+		.items {
 			display: inline-block;
 			width: 40px;
 			height: 40px;
@@ -241,11 +244,6 @@
 		.pokemon-ability,
 		.pokemon-move {
 			font-weight: bold;
-		}
-
-		.pokemon-ball {
-			width: 35px;
-			height: 35px;
 		}
 
 		.contentbox > i > img {
@@ -360,8 +358,8 @@
 		}
 	};
 	const setupPokemonData = async () => {
-		const urls = Object.values(URLS).slice(1, 6);
-		const [stats, moves, abilities, typeChart, pokeball] =
+		const urls = Object.values(URLS).slice(1, 7);
+		const [stats, moves, items, abilities, typeChart, pokeball] =
 			await Promise.all(urls.map(fetchPokemonData));
 
 		return [
@@ -374,6 +372,11 @@
 				data: moves,
 				printFunction: printPokemonMove,
 				selector: SELECTORS.MOVE,
+			},
+			{
+				data: items,
+				printFunction: printItem,
+				selector: SELECTORS.ITEMS,
 			},
 			{
 				data: abilities,
@@ -898,53 +901,55 @@
 	};
 
 	function printPokemonStats(pokemon) {
-	const abilitiesMap = {
-		ability1: 1,
-		ability2: 2,
-		hidden: '(hidden ability)',
-	};
+		const abilitiesMap = {
+			ability1: 1,
+			ability2: 2,
+			hidden: '(hidden ability)',
+		};
 
-	// Lọc và đếm số abilities không null
-	const abilityCount = Object.entries(pokemon.abilities)
-		.filter(([key, value]) => key !== 'hidden' && value !== null).length;
+		// Lọc và đếm số abilities không null
+		const abilityCount = Object.entries(pokemon.abilities).filter(
+			([key, value]) => key !== 'hidden' && value !== null,
+		).length;
 
-	const formattedAbilities = Object.entries(pokemon.abilities)
-		.filter(([_, value]) => value !== null)
-		.map(([key, value]) => {
-			let prefix = '';
-			if (key === 'hidden') {
-				// Đặt prefix là số tiếp theo của các abilities đã đếm
-				prefix = `${abilityCount + 1}. `;
-			} else {
-				// Đặt prefix theo abilitiesMap nếu không phải hidden
-				prefix = `${abilitiesMap[key]}. `;
-			}
-			const suffix = key === 'hidden' ? ` ${abilitiesMap[key]}` : '';
-			return `<span class="text-muted">${prefix}</span>${value}<small class="text-muted">${suffix}</small>`;
-		})
-		.join('<br>');
+		const formattedAbilities = Object.entries(pokemon.abilities)
+			.filter(([_, value]) => value !== null)
+			.map(([key, value]) => {
+				let prefix = '';
+				if (key === 'hidden') {
+					// Đặt prefix là số tiếp theo của các abilities đã đếm
+					prefix = `${abilityCount + 1}. `;
+				} else {
+					// Đặt prefix theo abilitiesMap nếu không phải hidden
+					prefix = `${abilitiesMap[key]}. `;
+				}
+				const suffix = key === 'hidden' ? ` ${abilitiesMap[key]}` : '';
+				return `<span class="text-muted">${prefix}</span>${value}<small class="text-muted">${suffix}</small>`;
+			})
+			.join('<br>');
 
-	const stats = {
-		Name: `<strong>${pokemon.name}</strong>`,
-		Ndex: `<strong>${pokemon.number.replace('#', '')}</strong>`,
-		Type: pokemon.type
-			.map(
-				(type) =>
-					`<span class="${type}"><strong>${type}</strong></span>`,
-			)
-			.join(', '),
-		Abilities: formattedAbilities,
-		HP: pokemon.hp,
-		Attack: pokemon.attack,
-		Defense: pokemon.defense,
-		'Sp. Atk': pokemon.spAttack,
-		'Sp. Def': pokemon.spDefense,
-		Speed: pokemon.speed,
-		Total: `<strong>${pokemon.total}</strong>`,
-	};
+		const stats = {
+			Name: `<strong>${pokemon.name}</strong>`,
+			Ndex: `<strong>${pokemon.number.replace('#', '')}</strong>`,
+			Type: pokemon.type
+				.map(
+					(type) =>
+						`<span class="${type}"><strong>${type}</strong></span>`,
+				)
+				.join(', '),
+			Abilities: formattedAbilities,
+			HP: pokemon.hp,
+			Attack: pokemon.attack,
+			Defense: pokemon.defense,
+			'Sp. Atk': pokemon.spAttack,
+			'Sp. Def': pokemon.spDefense,
+			Speed: pokemon.speed,
+			Total: `<strong>${pokemon.total}</strong>`,
+		};
 
-	return renderTable('Pokémon', stats);
+		return renderTable('Pokémon', stats);
 	}
+
 	function printPokemonMove(move) {
 		const moveInfo = {
 			Name: `<strong>${move.name}</strong>`,
@@ -956,6 +961,14 @@
 			Effect: move.effect || 'None',
 		};
 		return renderTable('Move', moveInfo);
+	}
+
+	function printItem(item) {
+		const itemInfo = {
+			Name: `<strong>${item.name}</strong>`,
+			Effect: item.effect || 'None',
+		};
+		return renderTable('Item', itemInfo);
 	}
 
 	function printPokemonAbility(ability) {

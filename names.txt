@@ -238,7 +238,7 @@ $三合一磁怪=Magneton<img index="#0082" class="pokemon-image" data-pokedex="
 $三和一磁怪=Magneton<img index="#0082" class="pokemon-image" data-pokedex="Magneton" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/082.png"/>
 $大葱鸭=Farfetch'd<img index="#0083" class="pokemon-image" data-pokedex="Farfetch'd" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/083.png"/>
 $嘟嘟=Doduo<img index="#0084" class="pokemon-image" data-pokedex="Doduo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/084.png"/>
-$嘟嘟利=Doduo<img index="#0084" class="pokemon-image" data-pokedex="Doduo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/084.png"/>
+$嘟嘟利=Dodrio<img index="#0085" class="pokemon-image" data-pokedex="Dodrio" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/085.png"/>
 $小海狮=Seel<img index="#0086" class="pokemon-image" data-pokedex="Seel" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/086.png"/>
 $白海狮=Dewgong<img index="#0087" class="pokemon-image" data-pokedex="Dewgong" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/087.png"/>
 $臭泥=Grimer<img index="#0088" class="pokemon-image" data-pokedex="Grimer" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/088.png"/>
@@ -323,6 +323,7 @@ $火球鼠=Cyndaquil<img index="#0155" class="pokemon-image" data-pokedex="Cynda
 $火岩鼠=Quilava<img index="#0156" class="pokemon-image" data-pokedex="Quilava" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/156.png"/>
 $火暴兽=Typhlosion<img index="#0157" class="pokemon-image" data-pokedex="Typhlosion" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/157.png"/>
 $小锯鳄=Totodile<img index="#0158" class="pokemon-image" data-pokedex="Totodile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/158.png"/>
+$蓝鳄=Croconaw<img index="#0159" class="pokemon-image" data-pokedex="Croconaw" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/159.png"/>
 $篮鳄=Feraligatr<img index="#0160" class="pokemon-image" data-pokedex="Feraligatr" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/160.png"/>
 $蓝鳄=Feraligatr<img index="#0160" class="pokemon-image" data-pokedex="Feraligatr" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/160.png"/>
 $大力鱷=Feraligatr<img index="#0160" class="pokemon-image" data-pokedex="Feraligatr" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/160.png"/>
@@ -2634,79 +2635,81 @@ $特防强化=X Sp. Def
 $向尾喵的尾巴=Fluffy Tail
 $宝可尾草=Poké Toy
 ==============Berries==============
-$樱子果=Cheri Berry
-$零余果=Chesto Berry
-$桃桃果=Pecha Berry
-$莓莓果=Rawst Berry
-$利木果=Aspear Berry
-$苹野果=Leppa Berry
-$橙橙果=Oran Berry
-$柿仔果=Persim Berry
-$木子果=Lum Berry
-$文柚果=Sitrus Berry
-$勿花果=Figy Berry
-$异奇果=Wiki Berry
-$芒芒果=Mago Berry
-$乐芭果=Aguav Berry
-$芭亚果=Iapapa Berry
-$蔓莓果=Razz Berry
-$墨莓果=Bluk Berry
-$蕉香果=Nanab Berry
-$西梨果=Wepear Berry
-$凰梨果=Pinap Berry
-$榴石果=Pomeg Berry
-$藻根果=Kelpsy Berry
-$比巴果=Qualot Berry
-$哈密果=Hondew Berry
-$萄葡果=Grepa Berry
-$茄番果=Tamato Berry
-$玉黍果=Cornn Berry
-$岳竹果=Magost Berry
-$茸丹果=Rabuta Berry
-$檬柠果=Nomel Berry
-$刺角果=Spelon Berry
-$椰木果=Pamtre Berry
-$瓜西果=Watmel Berry
-$金枕果=Durin Berry
-$靛莓果=Belue Berry
-$枝荔果=Liechi Berry
-$龙睛果=Ganlon Berry
-$沙鳞果=Salac Berry
-$龙火果=Petaya Berry
-$杏仔果=Apicot Berry
-$兰萨果=Lansat Berry
-$星桃果=Starf Berry
-$谜芝果=Enigma Berry
-$巧可果=Occa Berry
-$千香果=Passho Berry
-$独木果=Wacan Berry
-$罗子果=Rindo Berry
-$番荔果=Yache Berry
-$莲蒲果=Chople Berry
-$通通果=Kebia Berry
-$腰木果=Shuca Berry
-$棱瓜果=Coba Berry
-$福禄果=Payapa Berry
-$扁樱果=Tanga Berry
-$草蚕果=Charti Berry
-$佛柑果=Kasib Berry
-$莓榴果=Haban Berry
-$刺耳果=Colbur Berry
-$霹霹果=Babiri Berry
-$灯浆果=Chilan Berry
-$奇秘果=Micle Berry
-$释陀果=Custap Berry
-$嘉珍果=Jaboca Berry
-$雾莲果=Rowap Berry
-$洛玫果=Roseli Berry
-$亚开果=Kee Berry
-$香罗果=Maranga Berry
-$银色蔓莓果=Silver Razz Berry
-$金色蔓莓果=Golden Razz Berry
-$银色蕉香果=Silver Nanab Berry
-$金色蕉香果=Golden Nanab Berry
-$银色凰梨果=Silver Pinap Berry
-$金色凰梨果=Golden Pinap Berry
+$乐芭果=Aguav Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/aguavberry.png"/>
+$杏仔果=Apicot Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/apicotberry.png"/>
+$利木果=Aspear Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/aspearberry.png"/>
+$霹霹果=Babiri Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/babiriberry.png"/>
+$靛莓果=Belue Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/belueberry.png"/>
+$墨莓果=Bluk Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/17.png"/>
+$草蚕果=Charti Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/chartiberry.png"/>
+$樱子果=Cheri Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/cheriberry.png"/>
+$零余果=Chesto Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/chestoberry.png"/>
+$灯浆果=Chilan Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/chilanberry.png"/>
+$莲蒲果=Chople Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/chopleberry.png"/>
+$棱瓜果=Coba Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/cobaberry.png"/>
+$刺耳果=Colbur Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/colburberry.png"/>
+$玉黍果=Cornn Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/27.png"/>
+$释陀果=Custap Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/custapberry.png"/>
+$金枕果=Durin Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/brilliantdiamondshiningpearl/berries/34.png"/>
+$谜芝果=Enigma Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/enigmaberry.png"/>
+$勿花果=Figy Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/figyberry.png"/>
+$龙睛果=Ganlon Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/ganlonberry.png"/>
+$金色蕉香果=Golden Nanab Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/goldennanabberry.png"/>
+$金色凰梨果=Golden Pinap Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/goldenpinapberry.png"/>
+$金色蔓莓果=Golden Razz Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/goldenrazzberry.png"/>
+$萄葡果=Grepa Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/grepaberry.png"/>
+$莓榴果=Haban Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/habanberry.png"/>
+$哈密果=Hondew Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/hondewberry.png"/>
+$花啤果=Hopo Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/legends/hopoberry.png"/>
+$芭亚果=Iapapa Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/iapapaberry.png"/>
+$嘉珍果=Jaboca Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/jabocaberry.png"/>
+$佛柑果=Kasib Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/kasibberry.png"/>
+$通通果=Kebia Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/kebiaberry.png"/>
+$亚开果=Kee Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/keeberry.png"/>
+$藻根果=Kelpsy Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/kelpsyberry.png"/>
+$兰萨果=Lansat Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/lansatberry.png"/>
+$苹野果=Leppa Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/leppaberry.png"/>
+$枝荔果=Liechi Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/liechiberry.png"/>
+$木子果=Lum Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/lumberry.png"/>
+$芒芒果=Mago Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/magoberry.png"/>
+$岳竹果=Magost Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/28.png"/>
+$香罗果=Maranga Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/marangaberry.png"/>
+$奇秘果=Micle Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/micleberry.png"/>
+$蕉香果=Nanab Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/nanabberry.png"/>
+$檬柠果=Nomel Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/30.png"/>
+$巧可果=Occa Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/occaberry.png"/>
+$橙橙果=Oran Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/oranberry.png"/>
+$椰木果=Pamtre Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/32.png"/>
+$千香果=Passho Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/passhoberry.png"/>
+$福禄果=Payapa Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/payapaberry.png"/>
+$桃桃果=Pecha Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/pechaberry.png"/>
+$柿仔果=Persim Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/persimberry.png"/>
+$龙火果=Petaya Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/petayaberry.png"/>
+$凰梨果=Pinap Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/20.png"/>
+$榴石果=Pomeg Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/pomegberry.png"/>
+$比巴果=Qualot Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/qualotberry.png"/>
+$茸丹果=Rabuta Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/rabutaberry.png"/>
+$莓莓果=Rawst Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/rawstberry.png"/>
+$蔓莓果=Razz Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/16.png"/>
+$罗子果=Rindo Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/rindoberry.png"/>
+$洛玫果=Roseli Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/roseliberry.png"/>
+$雾莲果=Rowap Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/rowapberry.png"/>
+$沙鳞果=Salac Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/salacberry.png"/>
+$腰木果=Shuca Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/shucaberry.png"/>
+$银色蕉香果=Silver Nanab Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/silvernanabberry.png"/>
+$银色凰梨果=Silver Pinap Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/silverpinapberry.png"/>
+$银色蔓莓果=Silver Razz Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/silverrazzberry.png"/>
+$文柚果=Sitrus Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/sitrusberry.png"/>
+$刺角果=Spelon Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/spelonberry.png"/>
+$星桃果=Starf Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/starfberry.png"/>
+$茄番果=Tamato Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/tamatoberry.png"/>
+$扁樱果=Tanga Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/tangaberry.png"/>
+$独木果=Wacan Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/wacanberry.png"/>
+$烛木果=Wacan Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/wacanberry.png"/>
+$瓜西果=Watmel Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/33.png"/>
+$西梨果=Wepear Berry<img class="items" src="https://www.serebii.net/brilliantdiamondshiningpearl/berries/19.png"/>
+$异奇果=Wiki Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/wikiberry.png"/>
+$番荔果=Yache Berry<img class="items" src="https://www.serebii.net/itemdex/sprites/sv/yacheberry.png"/>
 ==============Items==============
 $除虫喷雾=Repel
 $白银喷雾=Super Repel
@@ -2727,16 +2730,7 @@ $速速肥=Growth Mulch
 $湿湿肥=Damp Mulch
 $久久肥=Stable Mulch
 $粘粘肥=Gooey Mulch
-$根状化石=Root Fossil
-$爪子化石=Claw Fossil
-$贝壳化石=Helix Fossil
-$甲壳化石=Dome Fossil
-$秘密琥珀=Old Amber
-$盾甲化石=Armor Fossil
-$头盖化石=Skull Fossil
 $楔石=Odd Keystone
-$背盖化石=Cover Fossil
-$羽毛化石=Plume Fossil
 $释出之玉=Pass Orb
 $硕果肥=Rich Mulch
 $吃惊肥=Surprise Mulch
@@ -2744,8 +2738,6 @@ $劲劲肥=Boost Mulch
 $超效肥=Amaze Mulch
 $折价券=Discount Coupon
 $神秘摆设=Strange Souvenir
-$颚之化石=Jaw Fossil
-$鳍之化石=Sail Fossil
 $圆庆票=Festival Ticket
 $朱紅色花蜜=Red Nectar
 $金黄色花蜜=Yellow Nectar
@@ -2763,16 +2755,28 @@ $强化口袋=Power-Up Pocket
 $换装箱=Clothing Trunk
 $捕捉口袋=Catching Pocket
 $对战口袋=Battle Pocket
-$化石鸟=Fossilized Bird
-$化石鱼=Fossilized Fish
-$化石龙=Fossilized Drake
-$化石海兽=Fossilized Dino
 $甜甜苹果=Sweet Apple
 $酸酸苹果=Tart Apple
 $破裂的茶壶=Cracked Pot
 $缺损的茶壶=Chipped Pot
 $伽勒豆蔻手环=Galarica Cuff
 $伽勒豆蔻花圈=Galarica Wreath
+==============Fossils==============
+$盾甲化石=Armor Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/armorfossil.png"/>
+$爪子化石=Claw Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/clawfossil.png"/>
+$背盖化石=Cover Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/coverfossil.png"/>
+$甲壳化石=Dome Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/domefossil.png"/>
+$化石鸟=Fossilized Bird<img class="items" src="https://www.serebii.net/itemdex/sprites/fossilizedbird.png"/>
+$化石海兽=Fossilized Dino<img class="items" src="https://www.serebii.net/itemdex/sprites/fossilizeddino.png"/>
+$化石龙=Fossilized Drake<img class="items" src="https://www.serebii.net/itemdex/sprites/fossilizeddrake.png"/>
+$化石鱼=Fossilized Fish<img class="items" src="https://www.serebii.net/itemdex/sprites/fossilizedfish.png"/>
+$贝壳化石=Helix Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/helixfossil.png"/>
+$颚之化石=Jaw Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/jawfossil.png"/>
+$秘密琥珀=Old Amber<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/oldamber.png"/>
+$羽毛化石=Plume Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/plumefossil.png"/>
+$根状化石=Root Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/rootfossil.png"/>
+$鳍之化石=Sail Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/sailfossil.png"/>
+$头盖化石=Skull Fossil<img class="items" src="https://www.serebii.net/itemdex/sprites/pgl/skullfossil.png"/>
 ==============Evolution Stones==============
 $月之石=Moon Stone
 $火之石=Fire Stone
@@ -4525,7 +4529,6 @@ $以太基金会=Aether Foundation
 $呐喊队=Team Yell
 $马洛科蒙=Macro Cosmos
 $天星队=Team Star
-$烛木果=Wacan Berry
 $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
 $超梦进化石Ｙ=Mewtwonite Y
