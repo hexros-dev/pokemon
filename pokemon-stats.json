@@ -1,4 +1,21 @@
 {
+	"Shadow Lugia": {
+		"number": "#0249",
+		"name": "Shadow Lugia",
+		"type": ["Dark", "Flying"],
+		"abilities": {
+			"ability1": "Dark Aura",
+			"ability2": null,
+			"hidden": "Multiscale"
+		},
+		"hp": 106,
+		"attack": 130,
+		"defense": 90,
+		"spAttack": 154,
+		"spDefense": 90,
+		"speed": 110,
+		"total": 680
+	},
 	"Bulbasaur": {
 		"number": "#0001",
 		"name": "Bulbasaur",
