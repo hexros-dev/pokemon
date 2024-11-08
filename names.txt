@@ -1,12 +1,15 @@
 ====================================
+$王冠雪原=Crown Tundra
+$萨奇=Sird
+$觉醒石=Dawn Stone
+$冥王=Charon
+$丰源=Hoenn
 $海之王冠=Sea Crown
 $潜水艇=tàu ngầm
 $星星碎块=Star Piece
 $亚克夏=Samiya
 $汐嘉娜=Aster
 $希嘉娜=Zinnia
-$毒粉=<span class="pokemon-move Poison Status" data-pokedex="Poison Powder">Poison Powder</span>
-$空气之刃=<span class="pokemon-move Flying Special" data-pokedex="Air Slash">Air Slash</span>
 $送神山=Mount Pyre
 $神代=Brandon
 $芙蓉=Phoebe
@@ -37,19 +40,22 @@ $职业=Professional <img class="pokemon-ball" data-pokedex="Premier Ball" src="
 $资深=Veteran <img class="pokemon-ball" data-pokedex="Ultra Ball" src="https://www.serebii.net/itemdex/sprites/sv/ultraball.png">
 $精英=Elite <img class="pokemon-ball" data-pokedex="Great Ball" src="https://www.serebii.net/itemdex/sprites/sv/greatball.png">
 $初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png">
+===========Mega Pokémon============
+$超级烈咬陆鲨=Mega Garchomp<img class="pokemon-image" data-pokedex="Mega Garchomp" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png">
+$超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png">
+$超级暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png">
+$Mega 蒂安希=Mega Diancie<img class="pokemon-image" data-pokedex="Mega Diancie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/719_f2.png">
 ==============Pokémon==============
 $洛托=Rotto
 $哏噶=Noga
-$黑暗洛奇亚=Shadow Lugia <img class="pokemon-image" data-pokedex="Shadow Lugia" src="https://archives.bulbagarden.net/media/upload/thumb/8/82/249Lugia-Shadow_XD.png/800px-249Lugia-Shadow_XD.png"/>
-$毒粉蝶=Dustox<img class="pokemon-image" data-pokedex="Dustox" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/269.png"/>
-$切割洛托姆=Mow Rotom<img class="pokemon-image" data-pokedex="Mow Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f6.png"/>
-$超级巨金怪=Mega Metagross<img class="pokemon-image" data-pokedex="Mega Metagross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/376_f2.png"/>
-$玛丽露=Marill<img class="pokemon-image" data-pokedex="Marill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/183.png"/>
-$冰九尾=Alolan Ninetales<img class="pokemon-image" data-pokedex="Alolan Ninetales" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/038_f2.png"/>
-$铁壳蛹=Kakuna<img class="pokemon-image" data-pokedex="Kakuna" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/014.png"/>
-$大比鸟=Pidgeot<img class="pokemon-image" data-pokedex="Pidgeot" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/018.png"/>
-$尼多朗=Nidoran ♂<img class="pokemon-image" data-pokedex="Nidoran ♂" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/032.png"/>
-$皮皮=Clefairy<img class="pokemon-image" data-pokedex="Clefairy" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/035.png"/>
+$黑暗洛奇亚=Shadow Lugia <img class="pokemon-image" data-pokedex="Shadow Lugia" src="https://archives.bulbagarden.net/media/upload/thumb/8/82/249Lugia-Shadow_XD.png/800px-249Lugia-Shadow_XD.png">
+$毒粉蝶=Dustox<img class="pokemon-image" data-pokedex="Dustox" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/269.png">
+$玛丽露=Marill<img class="pokemon-image" data-pokedex="Marill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/183.png">
+$冰九尾=Alolan Ninetales<img class="pokemon-image" data-pokedex="Alolan Ninetales" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/038_f2.png">
+$铁壳蛹=Kakuna<img class="pokemon-image" data-pokedex="Kakuna" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/014.png">
+$大比鸟=Pidgeot<img class="pokemon-image" data-pokedex="Pidgeot" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/018.png">
+$尼多朗=Nidoran ♂<img class="pokemon-image" data-pokedex="Nidoran ♂" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/032.png">
+$皮皮=Clefairy<img class="pokemon-image" data-pokedex="Clefairy" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/035.png">
 $胖可丁=Wigglytuff<img class="pokemon-image" data-pokedex="Wigglytuff" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/040.png">
 $摩鲁蛾=Venomoth<img class="pokemon-image" data-pokedex="Venomoth" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/049.png">
 $哥达鸭=Golduck<img class="pokemon-image" data-pokedex="Golduck" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/055.png">
@@ -686,6 +692,11 @@ $泥驴仔=Mudbray<img class="pokemon-image" data-pokedex="Mudbray" src="https:/
 $泳圈鼬=Buizel<img class="pokemon-image" data-pokedex="Buizel" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/418.png">
 $洛奇亚=Lugia<img class="pokemon-image" data-pokedex="Lugia" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/249.png">
 $洛托姆=Rotom<img class="pokemon-image" data-pokedex="Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479.png">
+$加热洛托姆=Heat Rotom<img class="pokemon-image" data-pokedex="Heat Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f2.png">
+$清洗洛托姆=Wash Rotom<img class="pokemon-image" data-pokedex="Wash Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f3.png">
+$结冰洛托姆=Frost Rotom<img class="pokemon-image" data-pokedex="Frost Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f4.png">
+$旋转洛托姆=Fan Rotom<img class="pokemon-image" data-pokedex="Fan Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f5.png">
+$切割洛托姆=Mow Rotom<img class="pokemon-image" data-pokedex="Mow Rotom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/479_f6.png">
 $派拉斯=Paras<img class="pokemon-image" data-pokedex="Paras" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/046.png">
 $流氓鳄=Krookodile<img class="pokemon-image" data-pokedex="Krookodile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/553.png">
 $海兔兽=Gastrodon<img class="pokemon-image" data-pokedex="Gastrodon" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/423.png">
@@ -1091,6 +1102,7 @@ $顽皮熊猫=Pancham<img class="pokemon-image" data-pokedex="Pancham" src="http
 $顽皮雷弹=Electrode<img class="pokemon-image" data-pokedex="Electrode" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/101.png">
 $颤弦蝾螈=Toxtricity<img class="pokemon-image" data-pokedex="Toxtricity" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/849.png">
 $飘浮泡泡=Castform<img class="pokemon-image" data-pokedex="Castform" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/351.png">
+$漂浮泡泡=Castform<img class="pokemon-image" data-pokedex="Castform" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/351.png">
 $飞天螳螂=Scyther<img class="pokemon-image" data-pokedex="Scyther" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/123.png">
 $驹刀小兵=Pawniard<img class="pokemon-image" data-pokedex="Pawniard" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/624.png">
 $骑士蜗牛=Escavalier<img class="pokemon-image" data-pokedex="Escavalier" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/589.png">
@@ -1138,7 +1150,6 @@ $雷吉斯奇鲁=Registeel<img class="pokemon-image" data-pokedex="Registeel" sr
 $魔幻假面喵=Meowscarada<img class="pokemon-image" data-pokedex="Meowscarada" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/908.png">
 $麻麻鳗鱼王=Eelektross<img class="pokemon-image" data-pokedex="Eelektross" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/604.png">
 $洗翠形态黏美龙=Hisuian Goodra<img class="pokemon-image" data-pokedex="Hisuian Goodra" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/706_f2.png">
-$Mega 蒂安希=Mega Diancie<img class="pokemon-image" data-pokedex="Mega Diancie" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/719_f2.png">
 $洗翠地区的黏美龙=Hisuian Goodra<img class="pokemon-image" data-pokedex="Hisuian Goodra" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/706_f2.png">
 $洗翠形态的黏美龙=Hisuian Goodra<img class="pokemon-image" data-pokedex="Hisuian Goodra" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/706_f2.png">
 $阿罗拉地区的六尾=Alolan Vulpix<img class="pokemon-image" data-pokedex="Alolan Vulpix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/037_f2.png">
@@ -1147,7 +1158,6 @@ $黄昏之鬃=Dusk Mane<img class="pokemon-image" data-pokedex="Dusk Mane" src="
 $究极奈克洛兹玛=Ultra Necrozma<img class="pokemon-image" data-pokedex="Ultra Necrozma" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800_f4.png" />
 $拂晓之翼=Dawn Wings<img class="pokemon-image" data-pokedex="Dawn Wings" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800_f3.png" />
 $阿罗拉六尾=Alolan Vulpix<img class="pokemon-image" data-pokedex="Alolan Vulpix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/037_f2.png">
-$超级暴飞龙=Mega Salamence<img class="pokemon-image" data-pokedex="Mega Salamence" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/373_f2.png">
 $闪光耿鬼=Shiny Gengar<img class="pokemon-image" data-pokedex="Shiny Gengar" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/94.png">
 ==============Abilities==============
 $下载=<span class="pokemon-ability" data-pokedex="Download">Download</span>
@@ -1458,6 +1468,8 @@ $化学变化气体=<span class="pokemon-ability" data-pokedex="Neutralizing Gas
 $甩不掉的气味=<span class="pokemon-ability" data-pokedex="Lingering Aroma">Lingering Aroma</span>
 $飞出的内在物=<span class="pokemon-ability" data-pokedex="Innards Out">Innards Out</span>
 ==============Moves==============
+$毒粉=<span class="pokemon-move Poison Status" data-pokedex="Poison Powder">Poison Powder</span>
+$空气之刃=<span class="pokemon-move Flying Special" data-pokedex="Air Slash">Air Slash</span>
 $拍击=<span class="pokemon-move Normal Physical" data-pokedex="Pound">Pound</span>
 $空手劈=<span class="pokemon-move Fighting Physical" data-pokedex="Karate Chop">Karate Chop</span>
 $连环巴掌=<span class="pokemon-move Normal Physical" data-pokedex="Double Slap">Double Slap</span>
@@ -3492,7 +3504,6 @@ $潮=Matt
 $火雁=Courtney
 $千里=Norman
 $紫堇=Mauville
-$漂浮泡泡=Castform
 $兹伏奇木槿=Joseph Stone
 $真鸟=Matori
 $富士博士=Dr. Fuji
