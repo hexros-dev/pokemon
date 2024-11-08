@@ -1,0 +1,10 @@
+[ ] Sắp xếp lại file userscript.js
+[ ] Sắp xếp lại file names.txt
+[ ] Thêm hình ảnh cho items
+[x] Thêm hình ảnh cho berry
+[x] Thêm hình ảnh cho fossil
+[ ] Thêm data items vào file items.json
+[x] Thêm data berry vào file items.json
+[x] Thêm data fossil vào file items.json
+[ ] Kiểm tra xem còn sót names trong file OLD_PokemonNames.txt không, nếu có thêm vào file names.txt và xoá file cũ.
+[ ] Thêm hình ảnh cho nhân vật ???
