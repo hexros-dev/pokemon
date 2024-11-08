@@ -3106,13 +3106,13 @@ $桥梁邮件Ｃ=Bridge Mail T
 $桥梁邮件Ｖ=Bridge Mail V
 $桥梁邮件Ｗ=Bridge Mail M
 ==============Apricorns==============
-$红球果=Red Apricorn
-$蓝球果=Blue Apricorn
-$黄球果=Yellow Apricorn
-$绿球果=Green Apricorn
-$粉球果=Pink Apricorn
-$白球果=White Apricorn
-$黑球果=Black Apricorn
+$红球果=Red Apricorn <img class="items" data-pokedex="Red Apricorn" src="https://www.serebii.net/itemdex/sprites/redapricorn.png" />
+$蓝球果=Blue Apricorn <img class="items" data-pokedex="Blue Apricorn" src="https://www.serebii.net/itemdex/sprites/blueapricorn.png" />
+$黄球果=Yellow Apricorn <img class="items" data-pokedex="Yellow Apricorn" src="https://www.serebii.net/itemdex/sprites/yellowapricorn.png" />
+$绿球果=Green Apricorn <img class="items" data-pokedex="Green Apricorn" src="https://www.serebii.net/itemdex/sprites/greenapricorn.png" />
+$粉球果=Pink Apricorn <img class="items" data-pokedex="Pink Apricorn" src="https://www.serebii.net/itemdex/sprites/pinkapricorn.png" />
+$白球果=White Apricorn <img class="items" data-pokedex="White Apricorn" src="https://www.serebii.net/itemdex/sprites/whiteapricorn.png" />
+$黑球果=Black Apricorn <img class="items" data-pokedex="Black Apricorn" src="https://www.serebii.net/itemdex/sprites/blackapricorn.png" />
 ==============Treasures==============
 $金珠=Nugget
 $小蘑菇=Tiny Mushroom

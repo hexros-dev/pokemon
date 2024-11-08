@@ -3,9 +3,11 @@
 [ ] Thêm hình ảnh cho items
 [x] Thêm hình ảnh cho berry
 [x] Thêm hình ảnh cho fossil
+[x] Thêm hình ảnh cho apricorn
 [ ] Thêm data items vào file items.json
 [x] Thêm data berry vào file items.json
 [x] Thêm data fossil vào file items.json
+[x] Thêm data apricorn vào file items.json
 [ ] Tạo các hàm giúp giảm nhẹ việc thêm tính năng mới
 [ ] Kiểm tra xem còn sót names trong file OLD_PokemonNames.txt không, nếu có thêm vào file names.txt và xoá file cũ.
 [ ] Thêm hình ảnh cho nhân vật ???
