@@ -1,4 +1,5 @@
 ====================================
+$绿荫镇=Verdanturf Town
 $王冠雪原=Crown Tundra
 $萨奇=Sird
 $觉醒石=Dawn Stone
