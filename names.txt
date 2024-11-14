@@ -2780,16 +2780,16 @@ $根状化石=Root Fossil <img class="items" data-pokedex="Root Fossil" src="htt
 $鳍之化石=Sail Fossil <img class="items" data-pokedex="Sail Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/sailfossil.png"/>
 $头盖化石=Skull Fossil <img class="items" data-pokedex="Skull Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/skullfossil.png"/>
 ==============Evolution Stones==============
-$月之石=Moon Stone
-$火之石=Fire Stone
-$雷之石=Thunder Stone
-$水之石=Water Stone
-$叶之石=Leaf Stone
-$日之石=Sun Stone
-$光之石=Shiny Stone
-$暗之石=Dusk Stone
-$觉醒之石=Dawn Stone
-$冰之石=Ice Stone
+$月之石=Moon Stone<img class="items" data-pokedex="Moon Stone" src="https://www.serebii.net/itemdex/sprites/sv/moonstone.png" />
+$火之石=Fire Stone<img class="items" data-pokedex="Fire Stone" src="https://www.serebii.net/itemdex/sprites/sv/firestone.png" />
+$雷之石=Thunder Stone<img class="items" data-pokedex="Thunder Stone" src="https://www.serebii.net/itemdex/sprites/sv/thunderstone.png" />
+$水之石=Water Stone<img class="items" data-pokedex="Water Stone" src="https://www.serebii.net/itemdex/sprites/sv/waterstone.png" />
+$叶之石=Leaf Stone<img class="items" data-pokedex="Leaf Stone" src="https://www.serebii.net/itemdex/sprites/sv/leafstone.png" />
+$日之石=Sun Stone<img class="items" data-pokedex="Sun Stone" src="https://www.serebii.net/itemdex/sprites/sv/sunstone.png" />
+$光之石=Shiny Stone<img class="items" data-pokedex="Shiny Stone" src="https://www.serebii.net/itemdex/sprites/sv/shinystone.png" />
+$暗之石=Dusk Stone<img class="items" data-pokedex="Dusk Stone" src="https://www.serebii.net/itemdex/sprites/sv/duskstone.png" />
+$觉醒之石=Dawn Stone<img class="items" data-pokedex="Dawn Stone" src="https://www.serebii.net/itemdex/sprites/sv/dawnstone.png" />
+$冰之石=Ice Stone<img class="items" data-pokedex="Ice Stone" src="https://www.serebii.net/itemdex/sprites/sv/icestone.png" />
 ==============Held items==============
 $光粉=Bright Powder
 $先制之爪=Quick Claw
