@@ -597,60 +597,60 @@
 		"image": "https://www.serebii.net/itemdex/sprites/sv/moonstone.png",
 		"name": "Moon Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:\n\t- Nidorina → Nidoqueen\n\t- Nidorino → Nidoking\n\t- Clefairy → Clefable\n\t- Jigglypuff → Wigglytuff\n\t- Skitty → Delcatty\n\t- Munna → Musharna"
+		"effect": "A stone that evolves the following Pokémon:<br />- Nidorina → Nidoqueen<br />- Nidorino → Nidoking<br />- Clefairy → Clefable<br />- Jigglypuff → Wigglytuff<br />- Skitty → Delcatty<br />- Munna → Musharna"
 	},
 	"Fire Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/firestone.png",
 		"name": "Fire Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:\n\t- Vulpix → Ninetales\n\t- Growlithe → Arcanine\n\t- Eevee → Flareon\n\t- Pansear → Simisear\n\t- Capsakid → Scovillain"
+		"effect": "A stone that evolves the following Pokémon:<br />- Vulpix → Ninetales<br />- Growlithe → Arcanine<br />- Eevee → Flareon<br />- Pansear → Simisear<br />- Capsakid → Scovillain"
 	},
 	"Thunder Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/thunderstone.png",
 		"name": "Thunder Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Pikachu → Raichu\n\t- Magneton → Magnezone\n\t- Eevee → Jolteon\n\t- Eelektrik → Eelektross\n\t- Charjabug → Vikavolt\n\t- Nosepass → Probopass\n\t- Tadbulb → Bellibolt"
+		"effect": "A stone that evolves the following Pokémon:<br />- Pikachu → Raichu<br />- Magneton → Magnezone<br />- Eevee → Jolteon<br />- Eelektrik → Eelektross<br />- Charjabug → Vikavolt<br />- Nosepass → Probopass<br />- Tadbulb → Bellibolt"
 	},
 	"Water Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/waterstone.png",
 		"name": "Water Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Poliwhirl → Poliwrath\n\t- Shellder → Cloyster\n\t- Staryu → Starmie\n\t- Eevee → Vaporeon\n\t- Lombre → Ludicolo\n\t- Panpour → Simipour"
+		"effect": "A stone that evolves the following Pokémon:<br />- Poliwhirl → Poliwrath<br />- Shellder → Cloyster<br />- Staryu → Starmie<br />- Eevee → Vaporeon<br />- Lombre → Ludicolo<br />- Panpour → Simipour"
 	},
 	"Leaf Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/leafstone.png",
 		"name": "Leaf Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Gloom → Vileplume\n\t- Weepinbell → Victreebel\n\t- Hisuian Voltorb → Hisuian Electrode\n\t- Exeggcute → Exeggutor\n\t- Eevee → Leafeon\n\t- Nuzleaf → Shiftry\n\t- Pansage → Simisage"
+		"effect": "A stone that evolves the following Pokémon:<br />- Gloom → Vileplume<br />- Weepinbell → Victreebel<br />- Hisuian Voltorb → Hisuian Electrode<br />- Exeggcute → Exeggutor<br />- Eevee → Leafeon<br />- Nuzleaf → Shiftry<br />- Pansage → Simisage"
 	},
 	"Sun Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/sunstone.png",
 		"name": "Sun Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Gloom → Bellossom\n\t- Sunkern → Sunflora\n\t- Cottonee → Whimsicott\n\t- Petilil → Lilligant\n\t- Helioptile → Heliolisk"
+		"effect": "A stone that evolves the following Pokémon:<br />- Gloom → Bellossom<br />- Sunkern → Sunflora<br />- Cottonee → Whimsicott<br />- Petilil → Lilligant<br />- Helioptile → Heliolisk"
 	},
 	"Shiny Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/shinystone.png",
 		"name": "Shiny Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Togetic → Togekiss\n\t- Roselia → Roserade\n\t- Minccino → Cinccino\n\t- Floette → Florges"
+		"effect": "A stone that evolves the following Pokémon:<br />- Togetic → Togekiss<br />- Roselia → Roserade<br />- Minccino → Cinccino<br />- Floette → Florges"
 	},
 	"Dusk Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/duskstone.png",
 		"name": "Dusk Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Murkrow → Honchkrow\n\t- Misdreavus → Mismagius\n\t- Lampent → Chandelure\n\t- Doublade → Aegislash"
+		"effect": "A stone that evolves the following Pokémon:<br />- Murkrow → Honchkrow<br />- Misdreavus → Mismagius<br />- Lampent → Chandelure<br />- Doublade → Aegislash"
 	},
 	"Dawn Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/dawnstone.png",
 		"name": "Dawn Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:\n\t- Kirlia → Gallade\n\t- Snorunt → Froslass"
+		"effect": "A stone that evolves the following Pokémon:<br />- Kirlia → Gallade<br />- Snorunt → Froslass"
 	},
 	"Ice Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/icestone.png",
 		"name": "Ice Stone",
 		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon: \n\t- Alola Vulpix → Alola Ninetales\n\t- Alola Sandshrew → Alola Sandslash\n\t- Eevee → Glaceon\n\t- Galarian Darumaka → Galarian Darmanitan\n\t- Crabrawler → Crabominable\n\t- Cetoddle → Cetitan"
+		"effect": "A stone that evolves the following Pokémon:<br />- Alola Vulpix → Alola Ninetales<br />- Alola Sandshrew → Alola Sandslash<br />- Eevee → Glaceon<br />- Galarian Darumaka → Galarian Darmanitan<br />- Crabrawler → Crabominable<br />- Cetoddle → Cetitan"
 	}
 }
