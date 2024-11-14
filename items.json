@@ -574,5 +574,11 @@
 		"name": "Black Apricorn",
 		"category": "Miscellaneous",
 		"effect": "A black Apricorn. It has a smell that cannot be captured in words."
+	},
+	"Colress Machine": {
+		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
+		"name": "Colress Machine",
+		"category": "Key Item",
+		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
 	}
 }
