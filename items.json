@@ -580,5 +580,17 @@
 		"name": "Colress Machine",
 		"category": "Key Item",
 		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
+	},
+	"Revive": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/revive.png",
+		"name": "Revive",
+		"category": "Recovery",
+		"effect": "Restores a fainted Pokémon to 50% of their current maximum possible Hit Points."
+	},
+	"Max Revive": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maxrevive.png",
+		"name": "Max Revive",
+		"category": "Recovery",
+		"effect": "Completely revives a fainted Pokémon to its maximum Hit Points."
 	}
 }
