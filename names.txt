@@ -22,8 +22,6 @@ $若叶=Wakaba
 $克丽丝塔儿=Crystal
 $拉达姆=Radam
 $雪成=Samuel
-$元气块碎块=Revive
-$元气块=Max Revive
 $比夏斯=Vicious
 $怀特=White
 $胡桃=Mary
@@ -2532,8 +2530,10 @@ $全满药=Max Potion
 $厉害伤药=Hyper Potion
 $好伤药=Super Potion
 $万灵药=Full Heal
-$活力碎片=Revive
-$活力块=Max Revive
+$活力碎片=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
+$元气块碎块=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
+$活力块=Max Revive<img class="items" data-pokedex="Max Revive" src="https://www.serebii.net/itemdex/sprites/sv/maxrevive.png" />
+$元气块=Max Revive<img class="items" data-pokedex="Max Revive" src="https://www.serebii.net/itemdex/sprites/sv/maxrevive.png" />
 $美味之水=Fresh Water
 $劲爽汽水=Soda Pop
 $果汁牛奶=Lemonade
