@@ -3275,7 +3275,7 @@ $圆形护符=Oval Charm
 $闪耀护符=Shiny Charm
 $等离子卡=Plasma Card
 $脏手帕=Grubby Hanky
-$阿克罗玛机器=Colress Machine
+$阿克罗玛机器=Colress Machine<img class="items" data-pokedex="Colress Machine" src="https://www.serebii.net/itemdex/sprites/colressmchn.png" />
 $遗忘物=Dropped Item
 $现形镜=Reveal Glass
 $全息影像通讯器=Holo Caster
