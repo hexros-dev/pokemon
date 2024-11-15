@@ -170,37 +170,37 @@
 	"Feather Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/featherball.png",
 		"name": "Feather Ball",
-		"category": "A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
+		"description": "A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
 		"effect": "If used on specific flying encounters (not including regular encounters that happen to be flying), it attempts to catch the Pokémon with a catch rate modifier of 1.25×. Otherwise, it has a 1× modifier."
 	},
 	"Gigaton Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/gigatonball.png",
 		"name": "Gigaton Ball",
-		"category": "The ultimate iteration of the Heavy Ball. A ball that is too heavy to fly high or far, but it is highly effective if you manage to hit an unsuspecting Pokémon.",
+		"description": "The ultimate iteration of the Heavy Ball. A ball that is too heavy to fly high or far, but it is highly effective if you manage to hit an unsuspecting Pokémon.",
 		"effect": "It cannot be thrown very far, but is more effective if the Pokémon it's used on hasn't noticed the player. If so, it attempts to catch the Pokémon with a catch rate modifier of 2.75×. Otherwise, it has a 2.5× modifier. During a battle, the modifier is always 2.75×"
 	},
 	"Jet Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/jetball.png",
 		"name": "Jet Ball",
-		"category": "The ultimate iteration of the Feather Ball. A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
+		"description": "The ultimate iteration of the Feather Ball. A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
 		"effect": "If used on specific flying encounters (not including regular encounters that happen to be flying), it attempts to catch the Pokémon with a catch rate modifier of 2.75×. Otherwise, it has a 2× modifier."
 	},
 	"Leaden Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/leadenball.png",
 		"name": "Leaden Ball",
-		"category": "An improvement on the original Heavy Ball design. A ball that is too heavy to fly high or far, but it is highly effective if you manage to hit an unsuspecting Pokémon.",
+		"description": "An improvement on the original Heavy Ball design. A ball that is too heavy to fly high or far, but it is highly effective if you manage to hit an unsuspecting Pokémon.",
 		"effect": "It cannot be thrown very far, but is more effective if the Pokémon it's used on hasn't noticed the player. If so, it attempts to catch the Pokémon with a catch rate modifier of 2×. Otherwise, it has a 1.75× modifier. During a battle, the modifier is always 2×"
 	},
 	"Origin Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/originball.png",
 		"name": "Origin Ball",
-		"category": "A singular and irreplicable Poké Ball that can be used to catch the frenzied Pokémon raging at the Temple of Sinnoh.",
+		"description": "A singular and irreplicable Poké Ball that can be used to catch the frenzied Pokémon raging at the Temple of Sinnoh.",
 		"effect": "This item is automatically created during the game's story by Lian, Akari/Rei and Laventon and is used at the end of the fight with Dialga/Palkia to catch it."
 	},
 	"Wing Ball": {
 		"image": "https://www.serebii.net/itemdex/sprites/legends/wingball.png",
 		"name": "Wing Ball",
-		"category": "An improvement on the original Feather Ball design. A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
+		"description": "An improvement on the original Feather Ball design. A ball that flies fast and true—ideal for catching nimble Pokémon or Pokémon that fly high in the air.",
 		"effect": "If used on specific flying encounters (not including regular encounters that happen to be flying), it attempts to catch the Pokémon with a catch rate modifier of 2×. Otherwise, it has a 1.25× modifier."
 	}
 }

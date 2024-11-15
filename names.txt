@@ -2629,12 +2629,12 @@ $公园球=Park Ball<img class="pokemon-ball" data-pokedex="Park Ball" src="http
 $梦境球=Dream Ball<img class="pokemon-ball" data-pokedex="Dream Ball" src="https://www.serebii.net/itemdex/sprites/sv/dreamball.png"/>
 $究极球=Beast Ball<img class="pokemon-ball" data-pokedex="Beast Ball" src="https://www.serebii.net/itemdex/sprites/sv/beastball.png"/>
 $奇异球=Strange Ball<img class="pokemon-ball" data-pokedex="Strange Ball" src="https://www.serebii.net/itemdex/sprites/sv/strangeball.png"/>
-$飞羽球=Feather Ball <img class="items" data-pokedex="Feather Ball" src="https://www.serebii.net/itemdex/sprites/legends/featherball.png" />
-$巨重球=Gigaton Ball <img class="items" data-pokedex="Gigaton Ball" src="https://www.serebii.net/itemdex/sprites/legends/gigatonball.png" />
-$飞梭球=Jet Ball <img class="items" data-pokedex="Jet Ball" src="https://www.serebii.net/itemdex/sprites/legends/jetball.png" />
-$超重球=Leaden Ball <img class="items" data-pokedex="Leaden Ball" src="https://www.serebii.net/itemdex/sprites/legends/leadenball.png" />
-$起源球=Origin Ball <img class="items" data-pokedex="Origin Ball" src="https://www.serebii.net/itemdex/sprites/legends/originball.png" />
-$飞翼球=Wing Ball <img class="items" data-pokedex="Wing Ball" src="https://www.serebii.net/itemdex/sprites/legends/wingball.png" />
+$飞羽球=Feather Ball <img class="pokemon-ball" data-pokedex="Feather Ball" src="https://www.serebii.net/itemdex/sprites/legends/featherball.png" />
+$巨重球=Gigaton Ball <img class="pokemon-ball" data-pokedex="Gigaton Ball" src="https://www.serebii.net/itemdex/sprites/legends/gigatonball.png" />
+$飞梭球=Jet Ball <img class="pokemon-ball" data-pokedex="Jet Ball" src="https://www.serebii.net/itemdex/sprites/legends/jetball.png" />
+$超重球=Leaden Ball <img class="pokemon-ball" data-pokedex="Leaden Ball" src="https://www.serebii.net/itemdex/sprites/legends/leadenball.png" />
+$起源球=Origin Ball <img class="pokemon-ball" data-pokedex="Origin Ball" src="https://www.serebii.net/itemdex/sprites/legends/originball.png" />
+$飞翼球=Wing Ball <img class="pokemon-ball" data-pokedex="Wing Ball" src="https://www.serebii.net/itemdex/sprites/legends/wingball.png" />
 ==============Battle Effect==============
 $闪避强化=Aux Evasion <img class="items" data-pokedex="Aux Evasion" src="https://www.serebii.net/itemdex/sprites/legends/auxevasion.png" />
 $防守药丸=Aux Guard <img class="items" data-pokedex="Aux Guard" src="https://www.serebii.net/itemdex/sprites/legends/auxguard.png" />
