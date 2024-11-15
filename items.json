@@ -581,18 +581,6 @@
 		"category": "Key Item",
 		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
 	},
-	"Revive": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/revive.png",
-		"name": "Revive",
-		"category": "Recovery",
-		"effect": "Restores a fainted Pokémon to 50% of their current maximum possible Hit Points."
-	},
-	"Max Revive": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/maxrevive.png",
-		"name": "Max Revive",
-		"category": "Recovery",
-		"effect": "Completely revives a fainted Pokémon to its maximum Hit Points."
-	},
 	"Moon Stone": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/moonstone.png",
 		"name": "Moon Stone",
@@ -652,5 +640,503 @@
 		"name": "Ice Stone",
 		"category": "Evolutionary",
 		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Alola Vulpix</strong> → <strong>Alola Ninetales</strong><br />- <strong>Alola Sandshrew</strong> → <strong>Alola Sandslash</strong><br />- <strong>Eevee</strong> → <strong>Glaceon</strong><br />- <strong>Galarian Darumaka</strong> → <strong>Galarian Darmanitan</strong><br />- <strong>Crabrawler</strong> → <strong>Crabominable</strong><br />- <strong>Cetoddle</strong> → <strong>Cetitan</strong>"
+	},
+	"Antidote": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/antidote.png",
+		"name": "Antidote",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating poisoning. It can be used to lift the effects of being poisoned from a Pokémon."
+	},
+	"Awakening": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/awakening.png",
+		"name": "Awakening",
+		"category": "Recovery",
+		"effect": "A spray-type medicine to wake the sleeping. It can be used to rouse a Pokémon from the clutches of sleep."
+	},
+	"Berry Juice": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/berryjuice.png",
+		"name": "Berry Juice",
+		"category": "Recovery",
+		"effect": "A 100 percent pure juice made from Berries. It can be used to restore 20 HP to a Pokémon."
+	},
+	"Big Malasada": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/bigmalasada.png",
+		"name": "Big Malasada",
+		"category": "Recovery",
+		"effect": "The Alola region's famous fried confection. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Burn Heal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/burnheal.png",
+		"name": "Burn Heal",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating burns. It can be used to cure a Pokémon suffering from a burn."
+	},
+	"Casteliacone": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/casteliacone.png",
+		"name": "Casteliacone",
+		"category": "Recovery",
+		"effect": "Castelia City's specialty: soft-serve ice cream. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Elixir": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/elixir.png",
+		"name": "Elixir",
+		"category": "Recovery",
+		"effect": "A medicine that can be used to restore 10 PP to all four moves that a Pokémon knows."
+	},
+	"Energy Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/energypowder.png",
+		"name": "Energy Powder",
+		"category": "Recovery",
+		"effect": "A very bitter medicinal powder. It can be used to restore 60 HP to a Pokémon."
+	},
+	"Energy Root": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/energyroot.png",
+		"name": "Energy Root",
+		"category": "Recovery",
+		"effect": "A very bitter medicinal root. It can be used to restore 120 HP to a Pokémon."
+	},
+	"Ether": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ether.png",
+		"name": "Ether",
+		"category": "Recovery",
+		"effect": "A medicine that can be used to restore 10 PP to a single move that a Pokémon knows."
+	},
+	"Fine Remedy": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/fineremedy.png",
+		"name": "Fine Remedy",
+		"category": "Recovery",
+		"effect": "This item will heal 100 HP from your Pokémon but reduces the friendship by 10."
+	},
+	"Fresh Water": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/freshwater.png",
+		"name": "Fresh Water",
+		"category": "Recovery",
+		"effect": "Heals a Pokémon by 50HP. From Pokémon Sun & Moon it heals a Pokémon by 30HP.<br />In Red, Blue & Yellow, you can give it to a Saffron City Guardsman to obtain access to Saffron City.<br />In Celadon City, you can give it to a thirsty girl to obtain TM13 in Red, Blue & Yellow and TM16 in FRLG."
+	},
+	"Full Heal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fullheal.png",
+		"name": "Full Heal",
+		"category": "Recovery",
+		"effect": "A spray-type medicine that is broadly effective. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Full Restore": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fullrestore.png",
+		"name": "Full Restore",
+		"category": "Recovery",
+		"effect": "A medicine that can be used to fully restore the max HP of a Pokémon and cure any status condition it may have."
+	},
+	"Heal Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/healpowder.png",
+		"name": "Heal Powder",
+		"category": "Recovery",
+		"effect": "A very bitter medicinal powder. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Hyper Potion": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/hyperpotion.png",
+		"name": "Hyper Potion",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating wounds. It can be used to restore 120 HP to a Pokémon."
+	},
+	"Ice Heal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/iceheal.png",
+		"name": "Ice Heal",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating freezing. It can be used to thaw out a Pokémon that has been frozen solid."
+	},
+	"Jubilife Muffin": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/jubilifemuffin.png",
+		"name": "Jubilife Muffin",
+		"category": "Recovery",
+		"effect": "A hidden gem gaining popularity in Jubilife Village and beloved by Pokémon. This sweet treat can be fed to a Pokémon to cure any status condition it may have."
+	},
+	"Lava Cookie": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/lavacookie.png",
+		"name": "Lava Cookie",
+		"category": "Recovery",
+		"effect": "Lavaridge Town's local specialty. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Lemonade": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lemonade.png",
+		"name": "Lemonade",
+		"category": "Recovery",
+		"effect": "Heals a Pokémon by 80HP. From Pokémon Sun & Moon it heals a Pokémon by 70HP.<br />In Red, Blue & Yellow, you can give it to a Saffron City Guardsman to obtain access to Saffron City.<br />In Celadon City, you can give it to a thirsty girl to obtain TM49 in Red, Blue & Yellow and TM33 in FRLG.<br />In FireRed & LeafGreen, take to trainer at Memorial Pillar to give to his deceased Onix. You receive TM42."
+	},
+	"Lumiose Galette": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/lumiosegalette.png",
+		"name": "Lumiose Galette",
+		"category": "Recovery",
+		"effect": "A popular treat in Lumiose City. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Max Elixir": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maxelixir.png",
+		"name": "Max Elixir",
+		"category": "Recovery",
+		"effect": "A medicine that can be used to fully restore the max PP of all four moves that a Pokémon knows."
+	},
+	"Max Ether": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maxether.png",
+		"name": "Max Ether",
+		"category": "Recovery",
+		"effect": "A medicine that can be used to fully restore the max PP of a single move that a Pokémon knows."
+	},
+	"Max Honey": {
+		"image": "https://www.serebii.net/itemdex/sprites/maxhoney.png",
+		"name": "Max Honey",
+		"category": "Ingredient, Recovery",
+		"effect": "This item is used in the Isle of Armor to create Max Soup, which allows for Pokémon to Gigantamax if possible. It also acts like a Max Revive and can restore a fainted Pokémon to full Hit Points."
+	},
+	"Max Potion": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maxpotion.png",
+		"name": "Max Potion",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating wounds. It can be used to fully restore the max HP of a Pokémon."
+	},
+	"Max Revive": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maxrevive.png",
+		"name": "Max Revive",
+		"category": "Recovery",
+		"effect": "Completely revives a fainted Pokémon to its maximum Hit Points."
+	},
+	"Moomoo Milk": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/moomoomilk.png",
+		"name": "Moomoo Milk",
+		"category": "Recovery",
+		"effect": "A bottle of highly nutritious milk. It can be used to restore 100 HP to a Pokémon."
+	},
+	"Old Gateau": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/oldgateau.png",
+		"name": "Old Gateau",
+		"category": "Recovery",
+		"effect": "A hidden gem found in the Old Chateau. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Paralyze Heal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/paralyzeheal.png",
+		"name": "Paralyze Heal",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating paralysis. It can be used to free a Pokémon that has been paralyzed."
+	},
+	"Pewter Crunchies": {
+		"image": "https://www.serebii.net/itemdex/sprites/pewtercrunchies.png",
+		"name": "Pewter Crunchies",
+		"category": "Recovery",
+		"effect": "Pewter City's famous crunchy snack. They can be used to cure any status condition a Pokémon may have."
+	},
+	"Potion": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/potion.png",
+		"name": "Potion",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating wounds. It can be used to restore 20 HP to a Pokémon."
+	},
+	"Rage Candy Bar": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/ragecandybar.png",
+		"name": "Rage Candy Bar",
+		"category": "Recovery, Key Item",
+		"effect": "Mahogany Town's famous candy. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Remedy": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/remedy.png",
+		"name": "Remedy",
+		"category": "Recovery",
+		"effect": "An herbal medicine that can restore 60 HP to a Pokémon, just as a Potion does. Yet the bitter taste will make the Pokémon less friendly toward you."
+	},
+	"Revival Herb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/revivalherb.png",
+		"name": "Revival Herb",
+		"category": "Recovery",
+		"effect": "A very bitter medicinal herb. It can be used to revive a Pokémon that has fainted. It also fully restores the Pokémon's max HP."
+	},
+	"Revive": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/revive.png",
+		"name": "Revive",
+		"category": "Recovery",
+		"effect": "Restores a fainted Pokémon to 50% of their current maximum possible Hit Points."
+	},
+	"Roto HP Restore": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotohprestore.png",
+		"name": "Roto HP Restore",
+		"category": "Recovery",
+		"effect": "One of the Rotom Powers. When used, it fully restores the max HP of your battling Pokémon."
+	},
+	"Roto PP Restore": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotopprestore.png",
+		"name": "Roto PP Restore",
+		"category": "Recovery",
+		"effect": "One of the Rotom Powers. When used, it fully restores the max PP of your battling Pokémon."
+	},
+	"Sacred Ash": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/sacredash.png",
+		"name": "Sacred Ash",
+		"category": "Recovery",
+		"effect": "Ash that can be used to revive all party Pokémon that have fainted. It also fully restores the Pokémon's max HP."
+	},
+	"Shalour Sable": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/shaloursable.png",
+		"name": "Shalour Sable",
+		"category": "Recovery",
+		"effect": "Shalour City's famous shortbread. It can be used to cure any status condition a Pokémon may have."
+	},
+	"Soda Pop": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sodapop.png",
+		"name": "Soda Pop",
+		"category": "Recovery",
+		"effect": "A highly carbonated soda drink. It can be used to restore 50 HP to a Pokémon."
+	},
+	"Super Potion": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/superpotion.png",
+		"name": "Super Potion",
+		"category": "Recovery",
+		"effect": "A spray-type medicine for treating wounds. It can be used to restore 60 HP to a Pokémon."
+	},
+	"Superb Remedy": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/superbremedy.png",
+		"name": "Superb Remedy",
+		"category": "Recovery",
+		"effect": "An herbal medicine that can restore 150 HP to a Pokémon, just as a Hyper Potion does. Yet the bitter taste will make the Pokémon less friendly toward you."
+	},
+	"Sweet Heart": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/sweetheart.png",
+		"name": "Sweet Heart",
+		"category": "Recovery",
+		"effect": "A piece of cloyingly sweet chocolate. It can be used to restore 20 HP to a Pokémon."
+	},
+	"Azure Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/azureflute.png",
+		"name": "Azure Flute",
+		"category": "Key Item, Event Item",
+		"effect": "This item requires you to go to the Spear Pillar in Diamond, Pearl & Platinum. When there, you will be prompted to play the Flute. When you do, a new area opens up where Arceus lives."
+	},
+	"Enigma Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/enigmastone.png",
+		"name": "Enigma Stone",
+		"category": "Key Item, Event Item",
+		"effect": "This item, when taken to the Pewter Museum, will be discovered to be the Soul Dew and given to you. It will also activate Latios & Latias to appear in Pewter City in HeartGold & SoulSilver respectively."
+	},
+	"Eon Ticket": {
+		"image": "https://www.serebii.net/itemdex/sprites/eonticket.png",
+		"name": "Eon Ticket",
+		"category": "Key Item, Event Item",
+		"effect": "This item allows you to take the SS Aqua to Southern Island where Latios or Latias dwell."
+	},
+	"GS Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/gsball.png",
+		"name": "GS Ball",
+		"category": "Key Item, Event Item",
+		"effect": "This item is to be taken to Ilex Forest. If you go and place it in the Shrine there, Celebi will come and challenge you."
+	},
+	"Liberty Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/libertypass.png",
+		"name": "Liberty Pass",
+		"category": "Key Item, Event Item",
+		"effect": "This item requires you to go to Liberty Pier in Castelia City. With this item, you can enter the boat and get taken to Liberty Garden Tower where you'll encounter Team Plasma and Victini."
+	},
+	"Lock Capsule": {
+		"image": "https://www.serebii.net/itemdex/sprites/lockcapsule.png",
+		"name": "Lock Capsule",
+		"category": "Key Item, Event Item",
+		"effect": "A sturdy Capsule that can only be opened with a special key. In Pokémon Black & White, you can take the Lock Capsule to a character within Castelia City, Mr. Lock. Mr. Lock will tell you that the item inside got hidden within to protect it from Team Rocket. He will open it and give you TM95."
+	},
+	"Member Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/membercard.png",
+		"name": "Member Card",
+		"category": "Key Item, Event Item",
+		"effect": "This item requires you to go to the lock house in Canalave City in Diamond, Pearl & Platinum. When there, you will be able to unlock the door and enter. As you go for a nap, you will wake up on New Moon Island where Darkrai dwells."
+	},
+	"Oak's Letter": {
+		"image": "https://www.serebii.net/itemdex/sprites/oak'sletter.png",
+		"name": "Oak's Letter",
+		"category": "Key Item, Event Item",
+		"effect": "A letter from Professor Oak. Written in it is a request for you to go to Route 224."
+	},
+	"Secret Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/secretkey.png",
+		"name": "Secret Key",
+		"category": "Key Item, Event Item",
+		"effect": "In Red, Blue, Yellow, FireRed & LeafGreen, this item is used to open Cinnabar Island's Gym after it has been locked.<br />In Pokémon Platinum, this item can be utilised to access a new room in the Eterna City Galactic Building. In this room, there are five appliances that allow you to change Rotom's form."
+	},
+	"Old Sea Map": {
+		"image": "https://archives.bulbagarden.net/media/upload/6/62/Old_Sea_Map_artwork.png",
+		"name": "Old Sea Map",
+		"category": "Key Item, Event Item",
+		"effect": "This item allows you to take the SS Aqua to Faraway Island where Mew dwells."
+	},
+	"Bead Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/beadmail.png",
+		"name": "Bead Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL to be held by a Pokémon. It will bear the print of the Pokémon holding it."
+	},
+	"Bridge Mail D": {
+		"image": "https://www.serebii.net/itemdex/mail/bridgemailh.png",
+		"name": "Bridge Mail D",
+		"category": "Mail",
+		"effect": "Stationery featuring a print of a red drawbridge. Let a Pokémon hold it for use."
+	},
+	"Bridge Mail M": {
+		"image": "https://www.serebii.net/itemdex/mail/bridgemailw.png",
+		"name": "Bridge Mail M",
+		"category": "Mail",
+		"effect": "Stationery featuring a print of an arched bridge. Let a Pokémon hold it for use."
+	},
+	"Bridge Mail S": {
+		"image": "https://www.serebii.net/itemdex/mail/bridgemails.png",
+		"name": "Bridge Mail S",
+		"category": "Mail",
+		"effect": "Stationery featuring a print of a sky-piercing bridge. Let a Pokémon hold it for use."
+	},
+	"Bridge Mail T": {
+		"image": "https://www.serebii.net/itemdex/mail/bridgemailc.png",
+		"name": "Bridge Mail T",
+		"category": "Mail",
+		"effect": "Stationery featuring a print of a steel suspension bridge. Let a Pokémon hold it for use."
+	},
+	"Bridge Mail V": {
+		"image": "https://www.serebii.net/itemdex/mail/bridgemailv.png",
+		"name": "Bridge Mail V",
+		"category": "Mail",
+		"effect": "Stationery featuring a print of a brick bridge. Let a Pokémon hold it for use."
+	},
+	"Eon Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/eonmail.png",
+		"name": "Eon Mail",
+		"category": "Mail",
+		"effect": "EEVEE-print MAIL"
+	},
+	"Favored Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/lovemail.png",
+		"name": "Favored Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for writing about your favorite things. Let a Pokémon hold it for delivery."
+	},
+	"Flower Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/flowermail.png",
+		"name": "Flower Mail",
+		"category": "Mail",
+		"effect": "Flower-print MAIL"
+	},
+	"Glitter Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/glittermail.png",
+		"name": "Glitter Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute PIKACHU print. It is to be held by a Pokémon."
+	},
+	"Greet Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/firstmail.png",
+		"name": "Greet Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for introductory greetings. Let a Pokémon hold it for delivery."
+	},
+	"Harbor Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/harbormail.png",
+		"name": "Harbor Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute WINGULL print. It is to be held by a Pokémon."
+	},
+	"Inquiry Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/questionmail.png",
+		"name": "Inquiry Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for writing questions. Let a Pokémon hold it for delivery."
+	},
+	"Like Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/recommendationmail.png",
+		"name": "Like Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for writing recommendations. Let a Pokémon hold it for delivery."
+	},
+	"LiteBlue Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/litebluemail.png",
+		"name": "LiteBlue Mail",
+		"category": "Mail",
+		"effect": "DRATINI-print MAIL"
+	},
+	"Lovely Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/lovelymail.png",
+		"name": "Lovely Mail",
+		"category": "Mail",
+		"effect": "Heart-print MAIL"
+	},
+	"Mech Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/mechmail.png",
+		"name": "Mech Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute MAGNEMITE print. It is to be held by a Pokémon."
+	},
+	"Morph Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/morphmail.png",
+		"name": "Morph Mail",
+		"category": "Mail",
+		"effect": "DITTO-print MAIL"
+	},
+	"Music Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/musicmail.png",
+		"name": "Music Mail",
+		"category": "Mail",
+		"effect": "NATU-print MAIL."
+	},
+	"Orange Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/orangemail.png",
+		"name": "Orange Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute ZIGZAGOON print. It is to be held by a Pokémon."
+	},
+	"Portrait Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/portraitmail.png",
+		"name": "Portrait Mail",
+		"category": "Mail",
+		"effect": "MAIL featuring the holder's likeness."
+	},
+	"RSVP Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/invitemail.png",
+		"name": "RSVP Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for invitations. Let a Pokémon hold it for delivery."
+	},
+	"Reply Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/returnmail.png",
+		"name": "Reply Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for writing a reply. Let a Pokémon hold it for delivery."
+	},
+	"Retro Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/retromail.png",
+		"name": "Retro Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a print of three cute Pokémon. It is to be held by a Pokémon."
+	},
+	"Shadow Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/shadowmail.png",
+		"name": "Shadow Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute DUSKULL print. It is to be held by a Pokémon."
+	},
+	"Surf Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/surfmail.png",
+		"name": "Surf Mail",
+		"category": "Mail",
+		"effect": "LAPRAS-print MAIL"
+	},
+	"Thanks Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/thanksmail.png",
+		"name": "Thanks Mail",
+		"category": "Mail",
+		"effect": "Stationery designed for a thank-you note. Let a Pokémon hold it for delivery."
+	},
+	"Tropic Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/tropicmail.png",
+		"name": "Tropic Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute BELLOSSOM print. It is to be held by a Pokémon."
+	},
+	"Wave Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/wavemail.png",
+		"name": "Wave Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute WAILMER print. It is to be held by a Pokémon."
+	},
+	"Wood Mail": {
+		"image": "https://www.serebii.net/itemdex/mail/woodmail.png",
+		"name": "Wood Mail",
+		"category": "Mail",
+		"effect": "A piece of MAIL featuring a cute SLAKOTH print. It is to be held by a Pokémon."
 	}
 }

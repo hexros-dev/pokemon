@@ -1916,6 +1916,7 @@ $玩水=<span class="pokemon-move Water Status" data-pokedex="Water Sport">Water
 $冥想=<span class="pokemon-move Psychic Status" data-pokedex="Calm Mind">Calm Mind</span>
 $叶刃=<span class="pokemon-move Grass Physical" data-pokedex="Leaf Blade">Leaf Blade</span>
 $龙之舞=<span class="pokemon-move Dragon Status" data-pokedex="Dragon Dance">Dragon Dance</span>
+$多拉贡荡斯=<span class="pokemon-move Dragon Status" data-pokedex="Dragon Dance">Dragon Dance</span>
 $岩石爆击=<span class="pokemon-move Rock Physical" data-pokedex="Rock Blast">Rock Blast</span>
 $电击波=<span class="pokemon-move Electric Special" data-pokedex="Shock Wave">Shock Wave</span>
 $水之波动=<span class="pokemon-move Water Special" data-pokedex="Water Pulse">Water Pulse</span>
@@ -2518,29 +2519,54 @@ $神鸟猛攻=<span class="pokemon-move Flying Physical" data-pokedex="Sky Attac
 $破坏死光=<span class="type Normal Special" data-pokedex="Hyper Beam">Hyper Beam</span>
 $龙之爪=<span class="type Dragon Physical" data-pokedex="Dragon Claw">Dragon Claw</span>
 $急冻光线=<span class="type Ice Special" data-pokedex="Ice Beam">Ice Beam</span>
-==============Medicines==============
-$伤药=Potion
-$解毒药=Antidote
-$灼伤药=Burn Heal
-$解冻药=Ice Heal
-$解眠药=Awakening
-$解麻药=Paralyze Heal
-$全复药=Full Restore
-$全满药=Max Potion
-$厉害伤药=Hyper Potion
-$好伤药=Super Potion
-$万灵药=Full Heal
-$活力碎片=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
-$元气块碎块=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
+===========Recovery===========
+$解毒药=Antidote <img class="items" data-pokedex="Antidote" src="https://www.serebii.net/itemdex/sprites/sv/antidote.png" />
+$解眠药=Awakening <img class="items" data-pokedex="Awakening" src="https://www.serebii.net/itemdex/sprites/sv/awakening.png" />
+$树果汁=Berry Juice <img class="items" data-pokedex="Berry Juice" src="https://www.serebii.net/itemdex/sprites/pgl/berryjuice.png" />
+$大马拉萨达=Big Malasada <img class="items" data-pokedex="Big Malasada" src="https://www.serebii.net/itemdex/sprites/pgl/bigmalasada.png" />
+$灼伤药=Burn Heal <img class="items" data-pokedex="Burn Heal" src="https://www.serebii.net/itemdex/sprites/sv/burnheal.png" />
+$飞云冰淇淋=Casteliacone <img class="items" data-pokedex="Casteliacone" src="https://www.serebii.net/itemdex/sprites/pgl/casteliacone.png" />
+$ＰＰ多项小补剂=Elixir <img class="items" data-pokedex="Elixir" src="https://www.serebii.net/itemdex/sprites/sv/elixir.png" />
+$元气粉=Energy Powder <img class="items" data-pokedex="Energy Powder" src="https://www.serebii.net/itemdex/sprites/sv/energypowder.png" />
+$元气根=Energy Root <img class="items" data-pokedex="Energy Root" src="https://www.serebii.net/itemdex/sprites/sv/energyroot.png" />
+$ＰＰ单项小补剂=Ether <img class="items" data-pokedex="Ether" src="https://www.serebii.net/itemdex/sprites/sv/ether.png" />
+$好中药=Fine Remedy <img class="items" data-pokedex="Fine Remedy" src="https://www.serebii.net/itemdex/sprites/legends/fineremedy.png" />
+$美味之水=Fresh Water <img class="items" data-pokedex="Fresh Water" src="https://www.serebii.net/itemdex/sprites/sv/freshwater.png" />
+$万灵药=Full Heal <img class="items" data-pokedex="Full Heal" src="https://www.serebii.net/itemdex/sprites/sv/fullheal.png" />
+$全复药=Full Restore <img class="items" data-pokedex="Full Restore" src="https://www.serebii.net/itemdex/sprites/sv/fullrestore.png" />
+$万能粉=Heal Powder <img class="items" data-pokedex="Heal Powder" src="https://www.serebii.net/itemdex/sprites/sv/healpowder.png" />
+$厉害伤药=Hyper Potion <img class="items" data-pokedex="Hyper Potion" src="https://www.serebii.net/itemdex/sprites/sv/hyperpotion.png" />
+$解冻药=Ice Heal <img class="items" data-pokedex="Ice Heal" src="https://www.serebii.net/itemdex/sprites/sv/iceheal.png" />
+$祝庆玛芬=Jubilife Muffin <img class="items" data-pokedex="Jubilife Muffin" src="https://www.serebii.net/itemdex/sprites/legends/jubilifemuffin.png" />
+$釜炎仙贝=Lava Cookie <img class="items" data-pokedex="Lava Cookie" src="https://www.serebii.net/itemdex/sprites/pgl/lavacookie.png" />
+$果汁牛奶=Lemonade <img class="items" data-pokedex="Lemonade" src="https://www.serebii.net/itemdex/sprites/sv/lemonade.png" />
+$密阿雷格雷派饼=Lumiose Galette <img class="items" data-pokedex="Lumiose Galette" src="https://www.serebii.net/itemdex/sprites/pgl/lumiosegalette.png" />
+$ＰＰ多项全补剂=Max Elixir <img class="items" data-pokedex="Max Elixir" src="https://www.serebii.net/itemdex/sprites/sv/maxelixir.png" />
+$ＰＰ单项全补剂=Max Ether <img class="items" data-pokedex="Max Ether" src="https://www.serebii.net/itemdex/sprites/sv/maxether.png" />
+$极巨甜蜜=Max Honey <img class="items" data-pokedex="Max Honey" src="https://www.serebii.net/itemdex/sprites/maxhoney.png" />
+$全满药=Max Potion <img class="items" data-pokedex="Max Potion" src="https://www.serebii.net/itemdex/sprites/sv/maxpotion.png" />
 $活力块=Max Revive<img class="items" data-pokedex="Max Revive" src="https://www.serebii.net/itemdex/sprites/sv/maxrevive.png" />
 $元气块=Max Revive<img class="items" data-pokedex="Max Revive" src="https://www.serebii.net/itemdex/sprites/sv/maxrevive.png" />
-$美味之水=Fresh Water
-$劲爽汽水=Soda Pop
-$果汁牛奶=Lemonade
-$ＰＰ单项小补剂=Ether
-$ＰＰ单项全补剂=Max Ether
-$ＰＰ多项小补剂=Elixir
-$ＰＰ多项全补剂=Max Elixir
+$哞哞鲜奶=Moomoo Milk <img class="items" data-pokedex="Moomoo Milk" src="https://www.serebii.net/itemdex/sprites/sv/moomoomilk.png" />
+$哞哞牛奶=Moomoo Milk <img class="items" data-pokedex="Moomoo Milk" src="https://www.serebii.net/itemdex/sprites/sv/moomoomilk.png" />
+$森之羊羹=Old Gateau <img class="items" data-pokedex="Old Gateau" src="https://www.serebii.net/itemdex/sprites/pgl/oldgateau.png" />
+$解麻药=Paralyze Heal <img class="items" data-pokedex="Paralyze Heal" src="https://www.serebii.net/itemdex/sprites/sv/paralyzeheal.png" />
+$深灰米果=Pewter Crunchies <img class="items" data-pokedex="Pewter Crunchies" src="https://www.serebii.net/itemdex/sprites/pewtercrunchies.png" />
+$伤药=Potion <img class="items" data-pokedex="Potion" src="https://www.serebii.net/itemdex/sprites/sv/potion.png" />
+$愤怒馒头=Rage Candy Bar <img class="items" data-pokedex="Rage Candy Bar" src="https://www.serebii.net/itemdex/sprites/pgl/ragecandybar.png" />
+$中药=Remedy <img class="items" data-pokedex="Remedy" src="https://www.serebii.net/itemdex/sprites/legends/remedy.png" />
+$复活草=Revival Herb <img class="items" data-pokedex="Revival Herb" src="https://www.serebii.net/itemdex/sprites/sv/revivalherb.png" />
+$活力碎片=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
+$元气块碎块=Revive<img class="items" data-pokedex="Revive" src="https://www.serebii.net/itemdex/sprites/sv/revive.png" />
+$ＨＰ回复碰碰=Roto HP Restore <img class="items" data-pokedex="Roto HP Restore" src="https://www.serebii.net/itemdex/sprites/pgl/rotohprestore.png" />
+$ＰＰ回复碰碰=Roto PP Restore <img class="items" data-pokedex="Roto PP Restore" src="https://www.serebii.net/itemdex/sprites/pgl/rotopprestore.png" />
+$圣灰=Sacred Ash <img class="items" data-pokedex="Sacred Ash" src="https://www.serebii.net/itemdex/sprites/pgl/sacredash.png" />
+$娑罗沙布蕾=Shalour Sable <img class="items" data-pokedex="Shalour Sable" src="https://www.serebii.net/itemdex/sprites/pgl/shaloursable.png" />
+$劲爽汽水=Soda Pop <img class="items" data-pokedex="Soda Pop" src="https://www.serebii.net/itemdex/sprites/sv/sodapop.png" />
+$好伤药=Super Potion <img class="items" data-pokedex="Super Potion" src="https://www.serebii.net/itemdex/sprites/sv/superpotion.png" />
+$厉害中药=Superb Remedy <img class="items" data-pokedex="Superb Remedy" src="https://www.serebii.net/itemdex/sprites/legends/superbremedy.png" />
+$心形甜点=Sweet Heart <img class="items" data-pokedex="Sweet Heart" src="https://www.serebii.net/itemdex/sprites/pgl/sweetheart.png" />
+==============Medicines==============
 $ＨＰ增强剂=HP Up
 $攻击增强剂=Protein
 $防御增强剂=Iron
@@ -2548,32 +2574,15 @@ $速度增强剂=Carbos
 $特攻增强剂=Calcium
 $神奇糖果=Rare Candy
 $ＰＰ提升剂=PP Up
-$哞哞鲜奶=Moomoo Milk
-$哞哞牛奶=Moomoo Milk
-$元气粉=Energy Powder
-$元气根=Energy Root
-$万能粉=Heal Powder
-$复活草=Revival Herb
-$树果汁=Berry Juice
-$圣灰=Sacred Ash
-$愤怒馒头=Rage Candy Bar
-$釜炎仙贝=Lava Cookie
 $特防增强剂=Zinc
 $ＰＰ极限提升剂=PP Max
-$森之羊羹=Old Gateau
-$心形甜点=Sweet Heart
 $体力之羽=Health Feather
 $肌力之羽=Muscle Feather
 $抵抗之羽=Resist Feather
 $智力之羽=Genius Feather
 $精神之羽=Clever Feather
 $瞬发之羽=Swift Feather
-$飞云冰淇淋=Casteliacone
 $特性胶囊=Ability Capsule
-$密阿雷格雷派饼=Lumiose Galette
-$娑罗沙布蕾=Shalour Sable
-$大马拉萨达=Big Malasada
-$深灰米果=Pewter Crunchies
 $元气糖果=Health Candy
 $力量糖果=Mighty Candy
 $守护糖果=Tough Candy
@@ -3066,8 +3075,6 @@ $经验碰碰=Roto Exp. Points
 $亲密碰碰=Roto Friendship
 $相遇碰碰=Roto Encounter
 $隐身碰碰=Roto Stealth
-$ＨＰ回复碰碰=Roto HP Restore
-$ＰＰ回复碰碰=Roto PP Restore
 $加油碰碰=Roto Boost
 $捕捉碰碰=Roto Catch
 $腐朽的剑=Rusted Sword
@@ -3094,18 +3101,36 @@ $水井面具=Wellspring Mask
 $火灶面具=Hearthflame Mask
 $复合金属=Metal Alloy
 ==============Mails==============
-$初次邮件=Greet Mail
-$喜爱邮件=Favored Mail
-$邀请邮件=RSVP Mail
-$感谢邮件=Thanks Mail
-$询问邮件=Inquiry Mail
-$推荐邮件=Like Mail
-$回复邮件=Reply Mail
-$桥梁邮件Ｓ=Bridge Mail S
-$桥梁邮件Ｈ=Bridge Mail D
-$桥梁邮件Ｃ=Bridge Mail T
-$桥梁邮件Ｖ=Bridge Mail V
-$桥梁邮件Ｗ=Bridge Mail M
+$珠寶郵件=Bead Mail <img class="items" style="height: 40px;" data-pokedex="Bead Mail" src="https://www.serebii.net/itemdex/mail/beadmail.png" />
+$桥梁邮件Ｈ=Bridge Mail D <img class="items" style="height: 40px;" data-pokedex="Bridge Mail D" src="https://www.serebii.net/itemdex/mail/bridgemailh.png" />
+$桥梁邮件Ｗ=Bridge Mail M <img class="items" style="height: 40px;" data-pokedex="Bridge Mail M" src="https://www.serebii.net/itemdex/mail/bridgemailw.png" />
+$桥梁邮件Ｓ=Bridge Mail S <img class="items" style="height: 40px;" data-pokedex="Bridge Mail S" src="https://www.serebii.net/itemdex/mail/bridgemails.png" />
+$桥梁邮件Ｃ=Bridge Mail T <img class="items" style="height: 40px;" data-pokedex="Bridge Mail T" src="https://www.serebii.net/itemdex/mail/bridgemailc.png" />
+$桥梁邮件Ｖ=Bridge Mail V <img class="items" style="height: 40px;" data-pokedex="Bridge Mail V" src="https://www.serebii.net/itemdex/mail/bridgemailv.png" />
+$伊布郵件=Eon Mail <img class="items" style="height: 40px;" data-pokedex="Eon Mail" src="https://www.serebii.net/itemdex/mail/eonmail.png" />
+$喜爱邮件=Favored Mail <img class="items" style="height: 40px;" data-pokedex="Favored Mail" src="https://www.serebii.net/itemdex/mail/lovemail.png" />
+$花案郵件=Flower Mail <img class="items" style="height: 40px;" data-pokedex="Flower Mail" src="https://www.serebii.net/itemdex/mail/flowermail.png" />
+$閃亮郵件=Glitter Mail <img class="items" style="height: 40px;" data-pokedex="Glitter Mail" src="https://www.serebii.net/itemdex/mail/glittermail.png" />
+$初次邮件=Greet Mail <img class="items" style="height: 40px;" data-pokedex="Greet Mail" src="https://www.serebii.net/itemdex/mail/firstmail.png" />
+$港口郵件=Harbor Mail <img class="items" style="height: 40px;" data-pokedex="Harbor Mail" src="https://www.serebii.net/itemdex/mail/harbormail.png" />
+$询问邮件=Inquiry Mail <img class="items" style="height: 40px;" data-pokedex="Inquiry Mail" src="https://www.serebii.net/itemdex/mail/questionmail.png" />
+$推荐邮件=Like Mail <img class="items" style="height: 40px;" data-pokedex="Like Mail" src="https://www.serebii.net/itemdex/mail/recommendationmail.png" />
+$水色郵件=LiteBlue Mail <img class="items" style="height: 40px;" data-pokedex="LiteBlue Mail" src="https://www.serebii.net/itemdex/mail/litebluemail.png" />
+$可愛郵件=Lovely Mail <img class="items" style="height: 40px;" data-pokedex="Lovely Mail" src="https://www.serebii.net/itemdex/mail/lovelymail.png" />
+$機械郵件=Mech Mail <img class="items" style="height: 40px;" data-pokedex="Mech Mail" src="https://www.serebii.net/itemdex/mail/mechmail.png" />
+$變身郵件=Morph Mail <img class="items" style="height: 40px;" data-pokedex="Morph Mail" src="https://www.serebii.net/itemdex/mail/morphmail.png" />
+$音符郵件=Music Mail <img class="items" style="height: 40px;" data-pokedex="Music Mail" src="https://www.serebii.net/itemdex/mail/musicmail.png" />
+$橙色郵件=Orange Mail <img class="items" style="height: 40px;" data-pokedex="Orange Mail" src="https://www.serebii.net/itemdex/mail/orangemail.png" />
+$肖像郵件=Portrait Mail <img class="items" style="height: 40px;" data-pokedex="Portrait Mail" src="https://www.serebii.net/itemdex/mail/portraitmail.png" />
+$邀请邮件=RSVP Mail <img class="items" style="height: 40px;" data-pokedex="RSVP Mail" src="https://www.serebii.net/itemdex/mail/invitemail.png" />
+$回复邮件=Reply Mail <img class="items" style="height: 40px;" data-pokedex="Reply Mail" src="https://www.serebii.net/itemdex/mail/returnmail.png" />
+$復古郵件=Retro Mail <img class="items" style="height: 40px;" data-pokedex="Retro Mail" src="https://www.serebii.net/itemdex/mail/retromail.png" />
+$影子郵件=Shadow Mail <img class="items" style="height: 40px;" data-pokedex="Shadow Mail" src="https://www.serebii.net/itemdex/mail/shadowmail.png" />
+$衝浪郵件=Surf Mail <img class="items" style="height: 40px;" data-pokedex="Surf Mail" src="https://www.serebii.net/itemdex/mail/surfmail.png" />
+$感谢邮件=Thanks Mail <img class="items" style="height: 40px;" data-pokedex="Thanks Mail" src="https://www.serebii.net/itemdex/mail/thanksmail.png" />
+$熱帶郵件=Tropic Mail <img class="items" style="height: 40px;" data-pokedex="Tropic Mail" src="https://www.serebii.net/itemdex/mail/tropicmail.png" />
+$波濤郵件=Wave Mail <img class="items" style="height: 40px;" data-pokedex="Wave Mail" src="https://www.serebii.net/itemdex/mail/wavemail.png" />
+$木紋郵件=Wood Mail <img class="items" style="height: 40px;" data-pokedex="Wood Mail" src="https://www.serebii.net/itemdex/mail/woodmail.png" />
 ==============Apricorns==============
 $红球果=Red Apricorn <img class="items" data-pokedex="Red Apricorn" src="https://www.serebii.net/itemdex/sprites/redapricorn.png" />
 $蓝球果=Blue Apricorn <img class="items" data-pokedex="Blue Apricorn" src="https://www.serebii.net/itemdex/sprites/blueapricorn.png" />
@@ -3114,6 +3139,17 @@ $绿球果=Green Apricorn <img class="items" data-pokedex="Green Apricorn" src="
 $粉球果=Pink Apricorn <img class="items" data-pokedex="Pink Apricorn" src="https://www.serebii.net/itemdex/sprites/pinkapricorn.png" />
 $白球果=White Apricorn <img class="items" data-pokedex="White Apricorn" src="https://www.serebii.net/itemdex/sprites/whiteapricorn.png" />
 $黑球果=Black Apricorn <img class="items" data-pokedex="Black Apricorn" src="https://www.serebii.net/itemdex/sprites/blackapricorn.png" />
+===========Event Item===========
+$天界之笛=Azure Flute <img class="items" data-pokedex="Azure Flute" src="https://www.serebii.net/itemdex/sprites/legends/azureflute.png" />
+$谜之水晶=Enigma Stone <img class="items" data-pokedex="Enigma Stone" src="https://www.serebii.net/itemdex/sprites/enigmastone.png" />
+$无限船票=Eon Ticket <img class="items" data-pokedex="Eon Ticket" src="https://www.serebii.net/itemdex/sprites/eonticket.png" />
+$ＧＳ球=GS Ball <img class="items" data-pokedex="GS Ball" src="https://www.serebii.net/itemdex/sprites/gsball.png" />
+$自由船票=Liberty Pass <img class="items" data-pokedex="Liberty Pass" src="https://www.serebii.net/itemdex/sprites/libertypass.png" />
+$上锁的容器=Lock Capsule <img class="items" data-pokedex="Lock Capsule" src="https://www.serebii.net/itemdex/sprites/lockcapsule.png" />
+$会员卡=Member Card <img class="items" data-pokedex="Member Card" src="https://www.serebii.net/itemdex/sprites/membercard.png" />
+$大木的信=Oak's Letter <img class="items" data-pokedex="Oak's Letter" src="https://www.serebii.net/itemdex/sprites/oak'sletter.png" />
+$秘密钥匙=Secret Key <img class="items" data-pokedex="Secret Key" src="https://www.serebii.net/itemdex/sprites/secretkey.png" />
+$古航海图=Old Sea Map <img class="items" data-pokedex="Old Sea Map" src="https://archives.bulbagarden.net/media/upload/6/62/Old_Sea_Map_artwork.png" />
 ==============Treasures==============
 $金珠=Nugget
 $小蘑菇=Tiny Mushroom
@@ -3184,11 +3220,9 @@ $包裹=Parcel
 $探宝器=Dowsing Machine
 $钥匙卡=Card Key
 $宝可梦之笛=Poké Flute
-$秘密钥匙=Secret Key
 $西尔佛检视镜=Silph Scope
 $金假牙=Gold Teeth
 $电梯钥匙=Lift Key
-$ＧＳ球=GS Ball
 $秘传之药=Secret Medicine
 $蓝卡=Blue Card
 $透明铃铛=Clear Bell
@@ -3212,7 +3246,6 @@ $集灰袋=Soot Sack
 $地下钥匙=Basement Key
 $宝可方块盒=Pokéblock Case
 $给大吾的信=Letter
-$无限船票=Eon Ticket
 $探测器=Scanner
 $ＧＯＧＯ护目镜=Go-Goggles
 $陨石=Meteorite
@@ -3239,10 +3272,7 @@ $红色锁链=Red Chain
 $可达鸭喷壶=Sprayduck
 $宝芬盒=Poffin Case
 $房间钥匙=Suite Key
-$大木的信=Oak's Letter
 $新月之羽=Lunar Feather
-$会员卡=Member Card
-$天界之笛=Azure Flute
 $火山镇石=Magma Stone
 $兑换券１=Coupon 1
 $兑换券２=Coupon 2
@@ -3257,9 +3287,6 @@ $ＧＢ播放器=GB Sounds
 $海声铃铛=Tidal Bell
 $数据卡=Data Card
 $草绿色宝珠=Jade Orb
-$上锁的容器=Lock Capsule
-$谜之水晶=Enigma Stone
-$自由船票=Liberty Pass
 $物品箱=Prop Case
 $龙之骨=Dragon Skull
 $光明石=Light Stone
@@ -4521,18 +4548,19 @@ $北上原生區=Kitakami Wilds
 $永久森林=Timeless Woods
 $地獄谷=Infernal Pass
 $冷水洞=Chilling Waterhead
-$火箭队=Team Rocket
-$彩虹火箭队=Team Rainbow Rocket
-$熔岩队=Team Magma
-$海洋队=Team Aqua
-$银河队=Team Galactic
-$等离子队=Team Plasma
-$闪焰队=Team Flare
-$骷髅队=Team Skull
-$以太基金会=Aether Foundation
-$呐喊队=Team Yell
-$马洛科蒙=Macro Cosmos
-$天星队=Team Star
+$火箭队=Team Rocket <img class="logo" data-pokedex="Team Rocket" src="https://archives.bulbagarden.net/media/upload/c/c8/Rocket-logo.png" />
+$彩虹火箭队=Team Rainbow Rocket <img class="logo" data-pokedex="Team Rainbow Rocket" src="https://archives.bulbagarden.net/media/upload/d/d5/Rainbow_Rocket_logo.png" />
+$熔岩队=Team Magma <img class="logo" data-pokedex="Team Magma" src="https://archives.bulbagarden.net/media/upload/e/ee/Magma-logo.png" />
+$海洋队=Team Aqua <img class="logo" data-pokedex="Team Aqua" src="https://archives.bulbagarden.net/media/upload/b/bf/Aqua-logo.png" />
+$水舰队=Team Aqua <img class="logo" data-pokedex="Team Aqua" src="https://archives.bulbagarden.net/media/upload/b/bf/Aqua-logo.png" />
+$银河队=Team Galactic <img style="width: auto;" class="logo" data-pokedex="Team Galactic" src="https://archives.bulbagarden.net/media/upload/a/a7/Galactic-logo.png" />
+$等离子队=Team Plasma <img style="width: auto;" class="logo" data-pokedex="Team Plasma" src="https://archives.bulbagarden.net/media/upload/a/a9/Plasma-logo.png" />
+$闪焰队=Team Flare <img style="width: auto;" class="logo" data-pokedex="Team Flare" src="https://archives.bulbagarden.net/media/upload/3/3f/Flare_logo.png" />
+$骷髅队=Team Skull <img class="logo" data-pokedex="Team Skull" src="https://archives.bulbagarden.net/media/upload/c/c4/Skull-Logo.png" />
+$以太基金会=Aether Foundation <img class="logo" data-pokedex="Aether Foundation" src="https://archives.bulbagarden.net/media/upload/c/c4/Aether-logo.png" />
+$呐喊队=Team Yell <img class="logo" data-pokedex="Team Yell" src="https://archives.bulbagarden.net/media/upload/9/9b/Yell-Logo.png" />
+$马洛科蒙=Macro Cosmos <img class="logo" data-pokedex="Macro Cosmos" src="https://archives.bulbagarden.net/media/upload/2/25/Macro_Cosmos-logo.png" />
+$天星队=Team Star <img class="logo" data-pokedex="Team Star" src="https://archives.bulbagarden.net/media/upload/a/aa/Star-logo.png" />
 $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
 $超梦进化石Ｙ=Mewtwonite Y
@@ -4650,7 +4678,6 @@ $天真薄荷=Naive Mint
 $认真薄荷=Serious Mint
 $许愿星块=Wishing Piece
 $许愿星碎片=Wishing Chip
-$极巨甜蜜=Max Honey
 $极巨菇菇=Max Mushrooms
 $伽勒豆蔻枝=Galarica Twig
 $时尚名人卡=Style Card
@@ -5056,9 +5083,10 @@ $亚希达=Scott
 $咒术之躯=Curse Body
 $西奇=Sitch
 $哈尔莫尼亚=Harmonia
+$哈尔孟尼亚=Harmonia
+$景太郎=Keitaro
 $雷吉=Reggie
 $滋伏奇=Stone
-$水舰队=Team Aqua
 $娜娜美=Daisy
 $贝尔里慈=Berlitz
 $普兰汀娜=Platinum

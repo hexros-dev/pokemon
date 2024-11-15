@@ -225,6 +225,13 @@
 			height: 40px;
 			cursor: pointer;
 		}
+
+		.logo {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			cursor: pointer;
+		}
 		
 		.type {
 			font-weight: bold;
