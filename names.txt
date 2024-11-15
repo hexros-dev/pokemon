@@ -23,7 +23,6 @@ $雪成=Samuel
 $比夏斯=Vicious
 $怀特=White
 $胡桃=Mary
-$诅咒之铠=Malicious Armor
 $敏江=Toshie
 $香薰=Laverre
 $玛绣=Valerie
@@ -2780,12 +2779,6 @@ $强化口袋=Power-Up Pocket
 $换装箱=Clothing Trunk
 $捕捉口袋=Catching Pocket
 $对战口袋=Battle Pocket
-$甜甜苹果=Sweet Apple
-$酸酸苹果=Tart Apple
-$破裂的茶壶=Cracked Pot
-$缺损的茶壶=Chipped Pot
-$伽勒豆蔻手环=Galarica Cuff
-$伽勒豆蔻花圈=Galarica Wreath
 ==============Fossils==============
 $盾甲化石=Armor Fossil <img class="items" data-pokedex="Armor Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/armorfossil.png"/>
 $爪子化石=Claw Fossil <img class="items" data-pokedex="Claw Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/clawfossil.png"/>
@@ -2802,6 +2795,50 @@ $羽毛化石=Plume Fossil <img class="items" data-pokedex="Plume Fossil" src="h
 $根状化石=Root Fossil <img class="items" data-pokedex="Root Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/rootfossil.png"/>
 $鳍之化石=Sail Fossil <img class="items" data-pokedex="Sail Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/sailfossil.png"/>
 $头盖化石=Skull Fossil <img class="items" data-pokedex="Skull Fossil" src="https://www.serebii.net/itemdex/sprites/pgl/skullfossil.png"/>
+==============Evolutionary Items==============
+$庆祝之铠=Auspicious Armor <img class="items" data-pokedex="Auspicious Armor" src="https://www.serebii.net/itemdex/sprites/sv/auspiciousarmor.png" />
+$野莓糖饰=Berry Sweet <img class="items" data-pokedex="Berry Sweet" src="https://www.serebii.net/itemdex/sprites/sv/berrysweet.png" />
+$黑奇石=Black Augurite <img class="items" data-pokedex="Black Augurite" src="https://www.serebii.net/itemdex/sprites/legends/blackaugurite.png" />
+$缺损的茶壶=Chipped Pot <img class="items" data-pokedex="Chipped Pot" src="https://www.serebii.net/itemdex/sprites/sv/chippedpot.png" />
+$幸运草糖饰=Clover Sweet <img class="items" data-pokedex="Clover Sweet" src="https://www.serebii.net/itemdex/sprites/sv/cloversweet.png" />
+$破裂的茶壶=Cracked Pot <img class="items" data-pokedex="Cracked Pot" src="https://www.serebii.net/itemdex/sprites/sv/crackedpot.png" />
+$深海鳞片=Deep Sea Scale <img class="items" data-pokedex="Deep Sea Scale" src="https://www.serebii.net/itemdex/sprites/pgl/deepseascale.png" />
+$深海之牙=Deep Sea Tooth <img class="items" data-pokedex="Deep Sea Tooth" src="https://www.serebii.net/itemdex/sprites/pgl/deepseatooth.png" />
+$龙之鳞片=Dragon Scale <img class="items" data-pokedex="Dragon Scale" src="https://www.serebii.net/itemdex/sprites/sv/dragonscale.png" />
+$可疑补丁=Dubious Disc <img class="items" data-pokedex="Dubious Disc" src="https://www.serebii.net/itemdex/sprites/sv/dubiousdisc.png" />
+$电力增幅器=Electirizer <img class="items" data-pokedex="Electirizer" src="https://www.serebii.net/itemdex/sprites/sv/electirizer.png" />
+$花朵糖饰=Flower Sweet <img class="items" data-pokedex="Flower Sweet" src="https://www.serebii.net/itemdex/sprites/sv/flowersweet.png" />
+$伽勒豆蔻手环=Galarica Cuff <img class="items" data-pokedex="Galarica Cuff" src="https://www.serebii.net/itemdex/sprites/sv/galaricacuff.png" />
+$伽勒豆蔻花圈=Galarica Wreath <img class="items" data-pokedex="Galarica Wreath" src="https://www.serebii.net/itemdex/sprites/sv/galaricawreath.png" />
+$王者之证=King's Rock <img class="items" data-pokedex="King's Rock" src="https://www.serebii.net/itemdex/sprites/sv/king'srock.png" />
+$头领凭证=Leader's Crest <img class="items" data-pokedex="Leader's Crest" src="https://www.serebii.net/itemdex/sprites/leader'screst.png" />
+$联系绳=Linking Cord <img class="items" data-pokedex="Linking Cord" src="https://www.serebii.net/itemdex/sprites/legends/linkingcord.png" />
+$爱心糖饰=Love Sweet <img class="items" data-pokedex="Love Sweet" src="https://www.serebii.net/itemdex/sprites/sv/lovesweet.png" />
+$熔岩增幅器=Magmarizer <img class="items" data-pokedex="Magmarizer" src="https://www.serebii.net/itemdex/sprites/sv/magmarizer.png" />
+$咒术之铠=Malicious Armor <img class="items" data-pokedex="Malicious Armor" src="https://www.serebii.net/itemdex/sprites/sv/maliciousarmor.png" />
+$诅咒之铠=Malicious Armor <img class="items" data-pokedex="Malicious Armor" src="https://www.serebii.net/itemdex/sprites/sv/maliciousarmor.png" />
+$杰作茶碗=Masterpiece Teacup <img class="items" data-pokedex="Masterpiece Teacup" src="https://www.serebii.net/itemdex/sprites/sv/masterpieceteacup.png" />
+$复合金属=Metal Alloy <img class="items" data-pokedex="Metal Alloy" src="https://www.serebii.net/itemdex/sprites/sv/metalalloy.png" />
+$金属膜=Metal Coat <img class="items" data-pokedex="Metal Coat" src="https://www.serebii.net/itemdex/sprites/sv/metalcoat.png" />
+$浑圆之石=Oval Stone <img class="items" data-pokedex="Oval Stone" src="https://www.serebii.net/itemdex/sprites/sv/ovalstone.png" />
+$泥炭块=Peat Block <img class="items" data-pokedex="Peat Block" src="https://www.serebii.net/itemdex/sprites/legends/peatblock.png" />
+$美丽鳞片=Prism Scale <img class="items" data-pokedex="Prism Scale" src="https://www.serebii.net/itemdex/sprites/sv/prismscale.png" />
+$护具=Protector <img class="items" data-pokedex="Protector" src="https://www.serebii.net/itemdex/sprites/sv/protector.png" />
+$锐利之爪=Razor Claw <img class="items" data-pokedex="Razor Claw" src="https://www.serebii.net/itemdex/sprites/sv/razorclaw.png" />
+$锐利之牙=Razor Fang <img class="items" data-pokedex="Razor Fang" src="https://www.serebii.net/itemdex/sprites/sv/razorfang.png" />
+$灵界之布=Reaper Cloth <img class="items" data-pokedex="Reaper Cloth" src="https://www.serebii.net/itemdex/sprites/sv/reapercloth.png" />
+$蝴蝶结糖饰=Ribbon Sweet <img class="items" data-pokedex="Ribbon Sweet" src="https://www.serebii.net/itemdex/sprites/sv/ribbonsweet.png" />
+$香袋=Sachet <img class="items" data-pokedex="Sachet" src="https://www.serebii.net/itemdex/sprites/pgl/sachet.png" />
+$恶之挂轴=Scroll of Darkness <img class="items" data-pokedex="Scroll of Darkness" src="https://www.serebii.net/itemdex/sprites/sv/scrollofdarkness.png" />
+$水之挂轴=Scroll of Waters <img class="items" data-pokedex="Scroll of Waters" src="https://www.serebii.net/itemdex/sprites/sv/scrollofwaters.png" />
+$星星糖饰=Star Sweet <img class="items" data-pokedex="Star Sweet" src="https://www.serebii.net/itemdex/sprites/sv/starsweet.png" />
+$草莓糖饰=Strawberry Sweet <img class="items" data-pokedex="Strawberry Sweet" src="https://www.serebii.net/itemdex/sprites/sv/strawberrysweet.png" />
+$甜甜苹果=Sweet Apple <img class="items" data-pokedex="Sweet Apple" src="https://www.serebii.net/itemdex/sprites/sv/sweetapple.png" />
+$蜜汁苹果=Syrupy Apple <img class="items" data-pokedex="Syrupy Apple" src="https://www.serebii.net/itemdex/sprites/sv/syrupyapple.png" />
+$酸酸苹果=Tart Apple <img class="items" data-pokedex="Tart Apple" src="https://www.serebii.net/itemdex/sprites/sv/tartapple.png" />
+$凡作茶碗=Unremarkable Teacup <img class="items" data-pokedex="Unremarkable Teacup" src="https://www.serebii.net/itemdex/sprites/sv/unremarkableteacup.png" />
+$升级数据=Upgrade <img class="items" data-pokedex="Upgrade" src="https://www.serebii.net/itemdex/sprites/sv/upgrade.png" />
+$泡沫奶油=Whipped Dream <img class="items" data-pokedex="Whipped Dream" src="https://www.serebii.net/itemdex/sprites/pgl/whippeddream.png" />
 ==============Evolution Stones==============
 $月之石=Moon Stone<img class="items" data-pokedex="Moon Stone" src="https://www.serebii.net/itemdex/sprites/sv/moonstone.png" />
 $火之石=Fire Stone<img class="items" data-pokedex="Fire Stone" src="https://www.serebii.net/itemdex/sprites/sv/firestone.png" />
@@ -2816,7 +2853,6 @@ $冰之石=Ice Stone<img class="items" data-pokedex="Ice Stone" src="https://www
 ==============Held items==============
 $光粉=Bright Powder
 $先制之爪=Quick Claw
-$王者之证=King's Rock
 $银粉=Silver Powder
 $护符金币=Amulet Coin
 $洁净之符=Cleanse Tag
@@ -2825,9 +2861,7 @@ $不变之石=Everstone
 $气势头带=Focus Band
 $幸运蛋=Lucky Egg
 $焦点镜=Scope Lens
-$金属膜=Metal Coat
 $吃剩的东西=Leftovers
-$龙之鳞片=Dragon Scale
 $电气球=Light Ball
 $柔软沙子=Soft Sand
 $硬石头=Hard Stone
@@ -2843,7 +2877,6 @@ $诅咒之符=Spell Tag
 $弯曲的汤匙=Twisted Spoon
 $木炭=Charcoal
 $龙之牙=Dragon Fang
-$升级数据=Upgrade
 $吉利拳=Lucky Punch
 $金属粉=Metal Powder
 $粗骨头=Thick Club
@@ -2855,8 +2888,6 @@ $安抚之铃=Soothe Bell
 $心灵香草=Mental Herb
 $讲究头带=Choice Band
 $心之水滴=Soul Dew
-$深海之牙=Deep Sea Tooth
-$深海鳞片=Deep Sea Scale
 $丝绸围巾=Silk Scarf
 $贝壳之铃=Shell Bell
 $海潮薰香=Sea Incense
@@ -2891,13 +2922,6 @@ $涟漪薰香=Wave Incense
 $花朵薰香=Rose Incense
 $幸运薰香=Luck Incense
 $洁净薰香=Pure Incense
-$护具=Protector
-$电力增幅器=Electirizer
-$熔岩增幅器=Magmarizer
-$可疑补丁=Dubious Disc
-$灵界之布=Reaper Cloth
-$锐利之爪=Razor Claw
-$锐利之牙=Razor Fang
 $浑圆之石=Oval Stone
 $金刚宝珠=Adamant Orb
 $白玉宝珠=Lustrous Orb
@@ -2939,7 +2963,6 @@ $水流卡带=Douse Drive
 $闪电卡带=Shock Drive
 $火焰卡带=Burn Drive
 $冰冻卡带=Chill Drive
-$美丽鳞片=Prism Scale
 $进化奇石=Eviolite
 $轻石=Float Stone
 $凸凸头盔=Rocky Helmet
@@ -2970,8 +2993,6 @@ $一般宝石=Normal Gem
 $弱点保险=Weakness Policy
 $突击背心=Assault Vest
 $妖精石板=Pixie Plate
-$泡沫奶油=Whipped Dream
-$香袋=Sachet
 $光苔=Luminous Moss
 $雪球=Snowball
 $防尘护目镜=Safety Goggles
@@ -3092,13 +3113,6 @@ $隐身碰碰=Roto Stealth
 $捕捉碰碰=Roto Catch
 $腐朽的剑=Rusted Sword
 $腐朽的盾=Rusted Shield
-$草莓糖饰=Strawberry Sweet
-$爱心糖饰=Love Sweet
-$野莓糖饰=Berry Sweet
-$幸运草糖饰=Clover Sweet
-$花朵糖饰=Flower Sweet
-$星星糖饰=Star Sweet
-$蝴蝶结糖饰=Ribbon Sweet
 $爽喉喷雾=Throat Spray
 $避难背包=Eject Pack
 $厚底靴=Heavy-Duty Boots
@@ -3106,13 +3120,9 @@ $打空保险=Blunder Policy
 $客房服务=Room Service
 $万能伞=Utility Umbrella
 $妖精之羽=Fairy Feather
-$蜜汁苹果=Syrupy Apple
-$凡作茶碗=Unremarkable Teacup
-$杰作茶碗=Masterpiece Teacup
 $础石面具=Cornerstone Mask
 $水井面具=Wellspring Mask
 $火灶面具=Hearthflame Mask
-$复合金属=Metal Alloy
 ==============Mails==============
 $珠寶郵件=Bead Mail <img class="items" style="height: 40px;" data-pokedex="Bead Mail" src="https://www.serebii.net/itemdex/mail/beadmail.png" />
 $桥梁邮件Ｈ=Bridge Mail D <img class="items" style="height: 40px;" data-pokedex="Bridge Mail D" src="https://www.serebii.net/itemdex/mail/bridgemailh.png" />
@@ -4793,9 +4803,6 @@ $紫之书=Violet Book
 $海岱的钱包=Kofu’s Wallet
 $小竹笋=Tiny Bamboo Shoot
 $大竹笋=Big Bamboo Shoot
-$恶之挂轴=Scroll of Darkness
-$水之挂轴=Scroll of Waters
-$咒术之铠=Malicious Armor
 $一般太晶碎块=Normal Tera Shard
 $火太晶碎块=Fire Tera Shard
 $水太晶碎块=Water Tera Shard
@@ -5091,8 +5098,6 @@ $眨眼皮卡丘三明治签=Winking Pika Pick
 $伊布三明治签=Vee-Vee Pick
 $笑脸伊布三明治签=Smiling Vee Pick
 $蓝珠珠三明治签=Blue Poké Ball Pick
-$庆祝之铠=Auspicious Armor
-$头领凭证=Leader’s Crest
 $粉红水壶=Pink Bottle
 $蓝色水壶=Blue Bottle
 $黄色水壶=Yellow Bottle

@@ -533,114 +533,6 @@
 		"category": "Fossils",
 		"effect": "A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it's part of a head."
 	},
-	"Red Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/redapricorn.png",
-		"name": "Red Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A red Apricorn. It has a pungent scent that assails the nostrils."
-	},
-	"Blue Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/blueapricorn.png",
-		"name": "Blue Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A blue Apricorn. It has a slightly grassy smell to it."
-	},
-	"Yellow Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/yellowapricorn.png",
-		"name": "Yellow Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A yellow Apricorn. It has a light, refreshing scent."
-	},
-	"Green Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/greenapricorn.png",
-		"name": "Green Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A green Apricorn. It has a mysterious and aromatic scent."
-	},
-	"Pink Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/pinkapricorn.png",
-		"name": "Pink Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A pink Apricorn. It has a pleasantly sweet scent."
-	},
-	"White Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/whiteapricorn.png",
-		"name": "White Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A white Apricorn. It doesn't have any aroma at all."
-	},
-	"Black Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/blackapricorn.png",
-		"name": "Black Apricorn",
-		"category": "Miscellaneous",
-		"effect": "A black Apricorn. It has a smell that cannot be captured in words."
-	},
-	"Colress Machine": {
-		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
-		"name": "Colress Machine",
-		"category": "Key Item",
-		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
-	},
-	"Moon Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/moonstone.png",
-		"name": "Moon Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Nidorina</strong> → <strong>Nidoqueen</strong><br />- <strong>Nidorino</strong> → <strong>Nidoking</strong><br />- <strong>Clefairy</strong> → <strong>Clefable</strong><br />- <strong>Jigglypuff</strong> → <strong>Wigglytuff</strong><br />- <strong>Skitty</strong> → <strong>Delcatty</strong><br />- <strong>Munna</strong> → <strong>Musharna</strong>"
-	},
-	"Fire Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/firestone.png",
-		"name": "Fire Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Vulpix</strong> → <strong>Ninetales</strong><br />- <strong>Growlithe</strong> → <strong>Arcanine</strong><br />- <strong>Eevee</strong> → <strong>Flareon</strong><br />- <strong>Pansear</strong> → <strong>Simisear</strong><br />- <strong>Capsakid</strong> → <strong>Scovillain</strong>"
-	},
-	"Thunder Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/thunderstone.png",
-		"name": "Thunder Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Pikachu</strong> → <strong>Raichu</strong><br />- <strong>Magneton</strong> → <strong>Magnezone</strong><br />- <strong>Eevee</strong> → <strong>Jolteon</strong><br />- <strong>Eelektrik</strong> → <strong>Eelektross</strong><br />- <strong>Charjabug</strong> → <strong>Vikavolt</strong><br />- <strong>Nosepass</strong> → <strong>Probopass</strong><br />- <strong>Tadbulb</strong> → <strong>Bellibolt</strong>"
-	},
-	"Water Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/waterstone.png",
-		"name": "Water Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Poliwhirl</strong> → <strong>Poliwrath</strong><br />- <strong>Shellder</strong> → <strong>Cloyster</strong><br />- <strong>Staryu</strong> → <strong>Starmie</strong><br />- <strong>Eevee</strong> → <strong>Vaporeon</strong><br />- <strong>Lombre</strong> → <strong>Ludicolo</strong><br />- <strong>Panpour</strong> → <strong>Simipour</strong>"
-	},
-	"Leaf Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/leafstone.png",
-		"name": "Leaf Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Gloom</strong> → <strong>Vileplume</strong><br />- <strong>Weepinbell</strong> → <strong>Victreebel</strong><br />- <strong>Hisuian Voltorb</strong> → <strong>Hisuian Electrode</strong><br />- <strong>Exeggcute</strong> → <strong>Exeggutor</strong><br />- <strong>Eevee</strong> → <strong>Leafeon</strong><br />- <strong>Nuzleaf</strong> → <strong>Shiftry</strong><br />- <strong>Pansage</strong> → <strong>Simisage</strong>"
-	},
-	"Sun Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/sunstone.png",
-		"name": "Sun Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Gloom</strong> → <strong>Bellossom</strong><br />- <strong>Sunkern</strong> → <strong>Sunflora</strong><br />- <strong>Cottonee</strong> → <strong>Whimsicott</strong><br />- <strong>Petilil</strong> → <strong>Lilligant</strong><br />- <strong>Helioptile</strong> → <strong>Heliolisk</strong>"
-	},
-	"Shiny Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/shinystone.png",
-		"name": "Shiny Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Togetic</strong> → <strong>Togekiss</strong><br />- <strong>Roselia</strong> → <strong>Roserade</strong><br />- <strong>Minccino</strong> → <strong>Cinccino</strong><br />- <strong>Floette</strong> → <strong>Florges</strong>"
-	},
-	"Dusk Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/duskstone.png",
-		"name": "Dusk Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Murkrow</strong> → <strong>Honchkrow</strong><br />- <strong>Misdreavus</strong> → <strong>Mismagius</strong><br />- <strong>Lampent</strong> → <strong>Chandelure</strong><br />- <strong>Doublade</strong> → <strong>Aegislash</strong>"
-	},
-	"Dawn Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/dawnstone.png",
-		"name": "Dawn Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Kirlia</strong> → <strong>Gallade</strong><br />- <strong>Snorunt</strong> → <strong>Froslass</strong>"
-	},
-	"Ice Stone": {
-		"image": "https://www.serebii.net/itemdex/sprites/sv/icestone.png",
-		"name": "Ice Stone",
-		"category": "Evolutionary",
-		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Alola Vulpix</strong> → <strong>Alola Ninetales</strong><br />- <strong>Alola Sandshrew</strong> → <strong>Alola Sandslash</strong><br />- <strong>Eevee</strong> → <strong>Glaceon</strong><br />- <strong>Galarian Darumaka</strong> → <strong>Galarian Darmanitan</strong><br />- <strong>Crabrawler</strong> → <strong>Crabominable</strong><br />- <strong>Cetoddle</strong> → <strong>Cetitan</strong>"
-	},
 	"Antidote": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/antidote.png",
 		"name": "Antidote",
@@ -1234,5 +1126,317 @@
 		"name": "X Speed",
 		"category": "Battle Effect",
 		"effect": "In battle, it raises the Pokémon's Speed by 1 stage until the battle is over or the Pokémon is withdrawn. Increases Pokémon's Happiness.<br />As of Pokémon Sun & Moon, it boosts by 2 stages."
+	},
+	"Auspicious Armor": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/auspiciousarmor.png",
+		"name": "Auspicious Armor",
+		"category": "Evolutionary",
+		"effect": "This item can be used to evolve the following Pokémon:<br />- <strong>Charcadet</strong> → <strong>Armarouge</strong>"
+	},
+	"Berry Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/berrysweet.png",
+		"name": "Berry Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Berry Sweet."
+	},
+	"Black Augurite": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/blackaugurite.png",
+		"name": "Black Augurite",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Scyther</strong> → <strong>Kleavor</strong>"
+	},
+	"Chipped Pot": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/chippedpot.png",
+		"name": "Chipped Pot",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Sinistea</strong> → <strong>Polteageist</strong>"
+	},
+	"Clover Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/cloversweet.png",
+		"name": "Clover Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Clover Sweet."
+	},
+	"Cracked Pot": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/crackedpot.png",
+		"name": "Cracked Pot",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Sinistea</strong> → <strong>Polteageist</strong>"
+	},
+	"Dawn Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dawnstone.png",
+		"name": "Dawn Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Kirlia</strong> → <strong>Gallade</strong><br />- <strong>Snorunt</strong> → <strong>Froslass</strong>"
+	},
+	"Deep Sea Scale": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/deepseascale.png",
+		"name": "Deep Sea Scale",
+		"category": "Hold Item, Evolutionary",
+		"effect": "If the DeepSeaScale is held by Clamperl, the holder's Special Defence is doubled.<br />This item, when held by a Pokémon and the Pokémon is traded evolves the following Pokémon:<br />- <strong>Clamperl</strong> → <strong>Gorebyss</strong>"
+	},
+	"Deep Sea Tooth": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/deepseatooth.png",
+		"name": "Deep Sea Tooth",
+		"category": "Hold Item, Evolutionary",
+		"effect": "If the DeepSeaTooth is held by Clamperl, the holder's Special Attack is doubled.<br />This item, when held by a Pokémon and the Pokémon is traded evolves the following Pokémon:<br />- <strong>Clamperl</strong> → <strong>Huntail</strong>"
+	},
+	"Dragon Scale": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dragonscale.png",
+		"name": "Dragon Scale",
+		"category": "Evolutionary",
+		"effect": "In Gold, Silver & Crystal, this hold item boosts Dragon-type moves by 10%.<br />This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Seadra</strong> → <strong>Kingdra</strong>"
+	},
+	"Dubious Disc": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dubiousdisc.png",
+		"name": "Dubious Disc",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Porygon 2</strong> → <strong>Porygon-Z</strong>"
+	},
+	"Dusk Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/duskstone.png",
+		"name": "Dusk Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Murkrow</strong> → <strong>Honchkrow</strong><br />- <strong>Misdreavus</strong> → <strong>Mismagius</strong><br />- <strong>Lampent</strong> → <strong>Chandelure</strong><br />- <strong>Doublade</strong> → <strong>Aegislash</strong>"
+	},
+	"Electirizer": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/electirizer.png",
+		"name": "Electirizer",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Electabuzz</strong> → <strong>Electivire</strong>"
+	},
+	"Fire Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/firestone.png",
+		"name": "Fire Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Vulpix</strong> → <strong>Ninetales</strong><br />- <strong>Growlithe</strong> → <strong>Arcanine</strong><br />- <strong>Eevee</strong> → <strong>Flareon</strong><br />- <strong>Pansear</strong> → <strong>Simisear</strong><br />- <strong>Capsakid</strong> → <strong>Scovillain</strong>"
+	},
+	"Flower Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/flowersweet.png",
+		"name": "Flower Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Flower Sweet."
+	},
+	"Galarica Cuff": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/galaricacuff.png",
+		"name": "Galarica Cuff",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Galarian Slowpoke</strong> → <strong>Galarian Slowbro</strong>"
+	},
+	"Galarica Wreath": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/galaricawreath.png",
+		"name": "Galarica Wreath",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Galarian Slowpoke</strong> → <strong>Galarian Slowking</strong>"
+	},
+	"Ice Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/icestone.png",
+		"name": "Ice Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Alola Vulpix</strong> → <strong>Alola Ninetales</strong><br />- <strong>Alola Sandshrew</strong> → <strong>Alola Sandslash</strong><br />- <strong>Eevee</strong> → <strong>Glaceon</strong><br />- <strong>Galarian Darumaka</strong> → <strong>Galarian Darmanitan</strong><br />- <strong>Crabrawler</strong> → <strong>Crabominable</strong><br />- <strong>Cetoddle</strong> → <strong>Cetitan</strong>"
+	},
+	"King's Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/king'srock.png",
+		"name": "King's Rock",
+		"category": "Hold Item, Evolutionary",
+		"effect": "When this item is held by a Pokémon, the likelihood of the opponent flinching from a damaging attack by this Pokémon is increased by 10 %.<br />This item, when held by a Pokémon and the Pokémon is traded evolves the following Pokémon:<br />- <strong>Poliwhirl</strong> → <strong>Politoed</strong><br />- <strong>Slowpoke</strong> → <strong>Slowking</strong>"
+	},
+	"Leader's Crest": {
+		"image": "https://www.serebii.net/itemdex/sprites/leader'screst.png",
+		"name": "Leader's Crest",
+		"category": "Evolutionary",
+		"effect": "This item is held by wild Bisharp that can be found in groups with several Pawniard. Defeating Bisharp that hold these allow for you to evolve:<br />- <strong>Bisharp</strong> → <strong>Kingambit</strong>"
+	},
+	"Leaf Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/leafstone.png",
+		"name": "Leaf Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Gloom</strong> → <strong>Vileplume</strong><br />- <strong>Weepinbell</strong> → <strong>Victreebel</strong><br />- <strong>Hisuian Voltorb</strong> → <strong>Hisuian Electrode</strong><br />- <strong>Exeggcute</strong> → <strong>Exeggutor</strong><br />- <strong>Eevee</strong> → <strong>Leafeon</strong><br />- <strong>Nuzleaf</strong> → <strong>Shiftry</strong><br />- <strong>Pansage</strong> → <strong>Simisage</strong>"
+	},
+	"Linking Cord": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/linkingcord.png",
+		"name": "Linking Cord",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Kadabra</strong> → <strong>Alakazam</strong><br />- <strong>Machoke</strong> → <strong>Machamp</strong><br />- <strong>Graveler</strong> → <strong>Golem</strong><br />- <strong>Haunter</strong> → <strong>Gengar</strong>"
+	},
+	"Love Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lovesweet.png",
+		"name": "Love Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Love Sweet."
+	},
+	"Magmarizer": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/magmarizer.png",
+		"name": "Magmarizer",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Magmar</strong> → <strong>Magmortar</strong>"
+	},
+	"Malicious Armor": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/maliciousarmor.png",
+		"name": "Malicious Armor",
+		"category": "Evolutionary",
+		"effect": "This item can be used to evolve the following Pokémon:<br />- <strong>Charcadet</strong> → <strong>Ceruledge</strong>"
+	},
+	"Masterpiece Teacup": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/masterpieceteacup.png",
+		"name": "Masterpiece Teacup",
+		"category": "Evolutionary",
+		"effect": "This item will evolve Poltchageist into Sinistcha."
+	},
+	"Metal Alloy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/metalalloy.png",
+		"name": "Metal Alloy",
+		"category": "Evolutionary",
+		"effect": "This item can be used to evolve the following Pokémon:<br />- <strong>Duraludon</strong> → <strong>Archaludon</strong>"
+	},
+	"Metal Coat": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/metalcoat.png",
+		"name": "Metal Coat",
+		"category": "Hold Item, Evolutionary",
+		"effect": "When this item is held, any Steel-type move used by the holder has its power increased by 20%<br />In Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed & LeafGreen, the power of Steel-type moves is increased by 10%.<br />This item, when held by a Pokémon and the Pokémon is traded evolves the following Pokémon:<br />- <strong>Onix</strong> → <strong>Steelix</strong><br />- <strong>Scyther</strong> → <strong>Scizor</strong>"
+	},
+	"Moon Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/moonstone.png",
+		"name": "Moon Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Nidorina</strong> → <strong>Nidoqueen</strong><br />- <strong>Nidorino</strong> → <strong>Nidoking</strong><br />- <strong>Clefairy</strong> → <strong>Clefable</strong><br />- <strong>Jigglypuff</strong> → <strong>Wigglytuff</strong><br />- <strong>Skitty</strong> → <strong>Delcatty</strong><br />- <strong>Munna</strong> → <strong>Musharna</strong>"
+	},
+	"Oval Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ovalstone.png",
+		"name": "Oval Stone",
+		"category": "Evolutionary",
+		"effect": "A hold item that evolves the following Pokémon when given to the Pokémon to hold and the Pokémon is levelled up:<br />- <strong>Happiny</strong> → <strong>Chansey</strong>"
+	},
+	"Peat Block": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/peatblock.png",
+		"name": "Peat Block",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Ursaring</strong> → <strong>Ursaluna</strong>"
+	},
+	"Prism Scale": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/prismscale.png",
+		"name": "Prism Scale",
+		"category": "Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Feebas</strong> → <strong>Milotic</strong>"
+	},
+	"Protector": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/protector.png",
+		"name": "Protector",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Rhydon</strong> → <strong>Rhyperior</strong>"
+	},
+	"Razor Claw": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/razorclaw.png",
+		"name": "Razor Claw",
+		"category": "Hold Item, Evolutionary",
+		"effect": "When this item is held by a Pokémon, the holder's Critical Hit ratio is raised by 1 stage.<br />This item, if the holder is of a certain species and levels up, evolves the following Pokémon:<br />- <strong>Sneasel</strong> → <strong>Weavile</strong><br />- <strong>Hisuian Sneasel</strong> → <strong>Sneasler</strong>"
+	},
+	"Razor Fang": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/razorfang.png",
+		"name": "Razor Fang",
+		"category": "Hold Item, Evolutionary",
+		"effect": "When this item is held by a Pokémon, if the holder uses a move that damages the opponent, the chance of the opponent flinching is increased by 10%.<br />This item, if the holder is of a certain species and levels up at night, evolves the following Pokémon:<br />- <strong>Gligar</strong> → <strong>Gliscor</strong>"
+	},
+	"Reaper Cloth": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/reapercloth.png",
+		"name": "Reaper Cloth",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Dusclops</strong> → <strong>Dusknoir</strong>"
+	},
+	"Ribbon Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ribbonsweet.png",
+		"name": "Ribbon Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Ribbon Sweet."
+	},
+	"Sachet": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/sachet.png",
+		"name": "Sachet",
+		"category": "Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Spritzee</strong> → <strong>Aromatisse</strong>"
+	},
+	"Scroll of Darkness": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/scrollofdarkness.png",
+		"name": "Scroll of Darkness",
+		"category": "Evolutionary, Key Item",
+		"effect": "This item can be used to evolve the following Pokémon:<br />- <strong>Kubfu</strong> → <strong>Single Strike Style Urshifu</strong>"
+	},
+	"Scroll of Waters": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/scrollofwaters.png",
+		"name": "Scroll of Waters",
+		"category": "Evolutionary, Key Item",
+		"effect": "This item can be used to evolve the following Pokémon:<br />- <strong>Kubfu</strong> → <strong>Rapid Strike Style Urshifu</strong>"
+	},
+	"Shiny Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/shinystone.png",
+		"name": "Shiny Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Togetic</strong> → <strong>Togekiss</strong><br />- <strong>Roselia</strong> → <strong>Roserade</strong><br />- <strong>Minccino</strong> → <strong>Cinccino</strong><br />- <strong>Floette</strong> → <strong>Florges</strong>"
+	},
+	"Star Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/starsweet.png",
+		"name": "Star Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Star Sweet."
+	},
+	"Strawberry Sweet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/strawberrysweet.png",
+		"name": "Strawberry Sweet",
+		"category": "Hold Item, Evolutionary",
+		"effect": "This item can be attached to Milcery. When attached to Milcery and you spin using the control stick on the spot, it will cause Milcery to evolve into an Alcremie with the appearance of the Strawberry Sweet."
+	},
+	"Sun Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sunstone.png",
+		"name": "Sun Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Gloom</strong> → <strong>Bellossom</strong><br />- <strong>Sunkern</strong> → <strong>Sunflora</strong><br />- <strong>Cottonee</strong> → <strong>Whimsicott</strong><br />- <strong>Petilil</strong> → <strong>Lilligant</strong><br />- <strong>Helioptile</strong> → <strong>Heliolisk</strong>"
+	},
+	"Sweet Apple": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sweetapple.png",
+		"name": "Sweet Apple",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Applin</strong> → <strong>Appletun</strong>"
+	},
+	"Syrupy Apple": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/syrupyapple.png",
+		"name": "Syrupy Apple",
+		"category": "Evolutionary",
+		"effect": "This item will evolve Applin into Dipplin."
+	},
+	"Tart Apple": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/tartapple.png",
+		"name": "Tart Apple",
+		"category": "Evolutionary",
+		"effect": "This item, when used on a Pokémon causes it to evolve. It is used by the following Pokémon:<br />- <strong>Applin</strong> → <strong>Flapple</strong>"
+	},
+	"Thunder Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/thunderstone.png",
+		"name": "Thunder Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Pikachu</strong> → <strong>Raichu</strong><br />- <strong>Magneton</strong> → <strong>Magnezone</strong><br />- <strong>Eevee</strong> → <strong>Jolteon</strong><br />- <strong>Eelektrik</strong> → <strong>Eelektross</strong><br />- <strong>Charjabug</strong> → <strong>Vikavolt</strong><br />- <strong>Nosepass</strong> → <strong>Probopass</strong><br />- <strong>Tadbulb</strong> → <strong>Bellibolt</strong>"
+	},
+	"Unremarkable Teacup": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/unremarkableteacup.png",
+		"name": "Unremarkable Teacup",
+		"category": "Evolutionary",
+		"effect": "This item will evolve Poltchageist into Sinistcha."
+	},
+	"Upgrade": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/upgrade.png",
+		"name": "Upgrade",
+		"category": "Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Porygon</strong> → <strong>Porygon 2</strong>"
+	},
+	"Water Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/waterstone.png",
+		"name": "Water Stone",
+		"category": "Evolutionary",
+		"effect": "A stone that evolves the following Pokémon:<br />- <strong>Poliwhirl</strong> → <strong>Poliwrath</strong><br />- <strong>Shellder</strong> → <strong>Cloyster</strong><br />- <strong>Staryu</strong> → <strong>Starmie</strong><br />- <strong>Eevee</strong> → <strong>Vaporeon</strong><br />- <strong>Lombre</strong> → <strong>Ludicolo</strong><br />- <strong>Panpour</strong> → <strong>Simipour</strong>"
+	},
+	"Whipped Dream": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/whippeddream.png",
+		"name": "Whipped Dream",
+		"category": "Evolutionary",
+		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Swirlix</strong> → <strong>Slurpuff</strong>"
 	}
 }
