@@ -1254,6 +1254,7 @@ $桃歹郎=Pecharunt<img index="#1025" class="pokemon-image" data-pokedex="Pecha
 ==============Sounds==============
 $洛托=Rotto
 $哏噶=Noga
+$雷吉=Reggie
 ==============Abilities==============
 $下载=<span class="pokemon-ability" data-pokedex="Download">Download</span>
 $不眠=<span class="pokemon-ability" data-pokedex="Insomnia">Insomnia</span>
