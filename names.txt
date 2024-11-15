@@ -2629,19 +2629,34 @@ $公园球=Park Ball<img class="pokemon-ball" data-pokedex="Park Ball" src="http
 $梦境球=Dream Ball<img class="pokemon-ball" data-pokedex="Dream Ball" src="https://www.serebii.net/itemdex/sprites/sv/dreamball.png"/>
 $究极球=Beast Ball<img class="pokemon-ball" data-pokedex="Beast Ball" src="https://www.serebii.net/itemdex/sprites/sv/beastball.png"/>
 $奇异球=Strange Ball<img class="pokemon-ball" data-pokedex="Strange Ball" src="https://www.serebii.net/itemdex/sprites/sv/strangeball.png"/>
+$飞羽球=Feather Ball <img class="items" data-pokedex="Feather Ball" src="https://www.serebii.net/itemdex/sprites/legends/featherball.png" />
+$巨重球=Gigaton Ball <img class="items" data-pokedex="Gigaton Ball" src="https://www.serebii.net/itemdex/sprites/legends/gigatonball.png" />
+$飞梭球=Jet Ball <img class="items" data-pokedex="Jet Ball" src="https://www.serebii.net/itemdex/sprites/legends/jetball.png" />
+$超重球=Leaden Ball <img class="items" data-pokedex="Leaden Ball" src="https://www.serebii.net/itemdex/sprites/legends/leadenball.png" />
+$起源球=Origin Ball <img class="items" data-pokedex="Origin Ball" src="https://www.serebii.net/itemdex/sprites/legends/originball.png" />
+$飞翼球=Wing Ball <img class="items" data-pokedex="Wing Ball" src="https://www.serebii.net/itemdex/sprites/legends/wingball.png" />
+==============Battle Effect==============
+$闪避强化=Aux Evasion <img class="items" data-pokedex="Aux Evasion" src="https://www.serebii.net/itemdex/sprites/legends/auxevasion.png" />
+$防守药丸=Aux Guard <img class="items" data-pokedex="Aux Guard" src="https://www.serebii.net/itemdex/sprites/legends/auxguard.png" />
+$进攻药丸=Aux Power <img class="items" data-pokedex="Aux Power" src="https://www.serebii.net/itemdex/sprites/legends/auxpower.png" />
+$多重强化=Aux Powerguard <img class="items" data-pokedex="Aux Powerguard" src="https://www.serebii.net/itemdex/sprites/legends/auxpowerguard.png" />
+$讲究粽=Choice Dumpling <img class="items" data-pokedex="Choice Dumpling" src="https://www.serebii.net/itemdex/sprites/legends/choicedumpling.png" />
+$要害攻击=Dire Hit <img class="items" data-pokedex="Dire Hit" src="https://www.serebii.net/itemdex/sprites/sv/direhit.png" />
+$能力防守=Guard Spec. <img class="items" data-pokedex="Guard Spec." src="https://www.serebii.net/itemdex/sprites/sv/guardspec..png" />
+$加油碰碰=Roto Boost <img class="items" data-pokedex="Roto Boost" src="https://www.serebii.net/itemdex/sprites/pgl/rotoboost.png" />
+$颠倒烧=Swap Snack <img class="items" data-pokedex="Swap Snack" src="https://www.serebii.net/itemdex/sprites/legends/swapsnack.png" />
+$双倍腌菜=Twice-Spiced Radish <img class="items" data-pokedex="Twice-Spiced Radish" src="https://www.serebii.net/itemdex/sprites/legends/twice-spicedradish.png" />
+$命中强化=X Accuracy <img class="items" data-pokedex="X Accuracy" src="https://www.serebii.net/itemdex/sprites/sv/xaccuracy.png" />
+$力量强化=X Attack <img class="items" data-pokedex="X Attack" src="https://www.serebii.net/itemdex/sprites/sv/xattack.png" />
+$防御强化=X Defense <img class="items" data-pokedex="X Defense" src="https://www.serebii.net/itemdex/sprites/sv/xdefense.png" />
+$特攻强化=X Sp. Atk <img class="items" data-pokedex="X Sp. Atk" src="https://www.serebii.net/itemdex/sprites/sv/xsp.atk.png" />
+$特防强化=X Sp. Def <img class="items" data-pokedex="X Sp. Def" src="https://www.serebii.net/itemdex/sprites/sv/xsp.def.png" />
+$速度强化=X Speed <img class="items" data-pokedex="X Speed" src="https://www.serebii.net/itemdex/sprites/sv/xspeed.png" />
 ==============Battle Items==============
-$能力防守=Guard Spec.
-$要害攻击=Dire Hit
-$力量强化=X Attack
-$防御强化=X Defense
-$速度强化=X Speed
-$命中强化=X Accuracy
-$特攻强化=X Sp. Atk
 $皮皮玩偶=Poké Doll
 $蓝色玻璃哨=Blue Flute
 $黄色玻璃哨=Yellow Flute
 $红色玻璃哨=Red Flute
-$特防强化=X Sp. Def
 $向尾喵的尾巴=Fluffy Tail
 $宝可尾草=Poké Toy
 ==============Berries==============
@@ -3074,7 +3089,6 @@ $经验碰碰=Roto Exp. Points
 $亲密碰碰=Roto Friendship
 $相遇碰碰=Roto Encounter
 $隐身碰碰=Roto Stealth
-$加油碰碰=Roto Boost
 $捕捉碰碰=Roto Catch
 $腐朽的剑=Rusted Sword
 $腐朽的盾=Rusted Shield
