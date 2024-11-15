@@ -1532,6 +1532,7 @@ $菌丝之力=<span class="pokemon-ability" data-pokedex="Mycelium Might">Myceli
 $虫之预感=<span class="pokemon-ability" data-pokedex="Swarm">Swarm</span>
 $螺旋尾鳍=<span class="pokemon-ability" data-pokedex="Propeller Tail">Propeller Tail</span>
 $诅咒之躯=<span class="pokemon-ability" data-pokedex="Cursed Body">Cursed Body</span>
+$咒术之躯=<span class="pokemon-ability" data-pokedex="Cursed Body">Cursed Body</span>
 $跃跃欲逃=<span class="pokemon-ability" data-pokedex="Wimp Out">Wimp Out</span>
 $达摩模式=<span class="pokemon-ability" data-pokedex="Zen Mode">Zen Mode</span>
 $连续攻击=<span class="pokemon-ability" data-pokedex="Skill Link">Skill Link</span>
@@ -5080,7 +5081,6 @@ $渡渡鸟=Chim Dodo
 $菊老大=Clay
 $源治=Drake
 $亚希达=Scott
-$咒术之躯=Curse Body
 $西奇=Sitch
 $哈尔莫尼亚=Harmonia
 $哈尔孟尼亚=Harmonia
