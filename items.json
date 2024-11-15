@@ -1438,5 +1438,53 @@
 		"name": "Whipped Dream",
 		"category": "Evolutionary",
 		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Swirlix</strong> → <strong>Slurpuff</strong>"
+	},
+	"Red Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/redapricorn.png",
+		"name": "Red Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A red Apricorn. It has a pungent scent that assails the nostrils."
+	},
+	"Blue Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/blueapricorn.png",
+		"name": "Blue Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A blue Apricorn. It has a slightly grassy smell to it."
+	},
+	"Yellow Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/yellowapricorn.png",
+		"name": "Yellow Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A yellow Apricorn. It has a light, refreshing scent."
+	},
+	"Green Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/greenapricorn.png",
+		"name": "Green Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A green Apricorn. It has a mysterious and aromatic scent."
+	},
+	"Pink Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/pinkapricorn.png",
+		"name": "Pink Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A pink Apricorn. It has a pleasantly sweet scent."
+	},
+	"White Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/whiteapricorn.png",
+		"name": "White Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A white Apricorn. It doesn't have any aroma at all."
+	},
+	"Black Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/blackapricorn.png",
+		"name": "Black Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A black Apricorn. It has a smell that cannot be captured in words."
+	},
+	"Colress Machine": {
+		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
+		"name": "Colress Machine",
+		"category": "Key Item",
+		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
 	}
 }
