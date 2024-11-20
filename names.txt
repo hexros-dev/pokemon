@@ -1,11 +1,9 @@
 ====================================
 $萨奇=Sird
-$觉醒石=Dawn Stone
 $冥王=Charon
 $丰源=Hoenn
 $海之王冠=Sea Crown
 $潜水艇=tàu ngầm
-$星星碎块=Star Piece
 $亚克夏=Samiya
 $汐嘉娜=Aster
 $希嘉娜=Zinnia
@@ -1604,7 +1602,6 @@ $猛撞=<span class="pokemon-move Normal Physical" data-pokedex="Take Down">Take
 $大闹一番=<span class="pokemon-move Normal Physical" data-pokedex="Thrash">Thrash</span>
 $舍身冲撞=<span class="pokemon-move Normal Physical" data-pokedex="Double-Edge">Double-Edge</span>
 $摇尾巴=<span class="pokemon-move Normal Status" data-pokedex="Tail Whip">Tail Whip</span>
-$毒针=<span class="pokemon-move Poison Physical" data-pokedex="Poison Sting">Poison Sting</span>
 $双针=<span class="pokemon-move Bug Physical" data-pokedex="Twineedle">Twineedle</span>
 $飞弹针=<span class="pokemon-move Bug Physical" data-pokedex="Pin Missile">Pin Missile</span>
 $瞪眼=<span class="pokemon-move Normal Status" data-pokedex="Leer">Leer</span>
@@ -2564,41 +2561,161 @@ $劲爽汽水=Soda Pop <img class="items" data-pokedex="Soda Pop" src="https://w
 $好伤药=Super Potion <img class="items" data-pokedex="Super Potion" src="https://www.serebii.net/itemdex/sprites/sv/superpotion.png" />
 $厉害中药=Superb Remedy <img class="items" data-pokedex="Superb Remedy" src="https://www.serebii.net/itemdex/sprites/legends/superbremedy.png" />
 $心形甜点=Sweet Heart <img class="items" data-pokedex="Sweet Heart" src="https://www.serebii.net/itemdex/sprites/pgl/sweetheart.png" />
-==============Medicines==============
-$ＨＰ增强剂=HP Up
-$攻击增强剂=Protein
-$防御增强剂=Iron
-$速度增强剂=Carbos
-$特攻增强剂=Calcium
-$神奇糖果=Rare Candy
-$ＰＰ提升剂=PP Up
-$特防增强剂=Zinc
-$ＰＰ极限提升剂=PP Max
-$体力之羽=Health Feather
-$肌力之羽=Muscle Feather
-$抵抗之羽=Resist Feather
-$智力之羽=Genius Feather
-$精神之羽=Clever Feather
-$瞬发之羽=Swift Feather
-$特性胶囊=Ability Capsule
-$元气糖果=Health Candy
-$力量糖果=Mighty Candy
-$守护糖果=Tough Candy
-$知识糖果=Smart Candy
-$心灵糖果=Courage Candy
-$敏捷糖果=Quick Candy
-$元气糖果Ｌ=Health Candy L
-$力量糖果Ｌ=Mighty Candy L
-$守护糖果Ｌ=Tough Candy L
-$知识糖果Ｌ=Smart Candy L
-$心灵糖果Ｌ=Courage Candy L
-$敏捷糖果Ｌ=Quick Candy L
-$元气糖果ＸＬ=Health Candy XL
-$力量糖果ＸＬ=Mighty Candy XL
-$守护糖果ＸＬ=Tough Candy XL
-$知识糖果ＸＬ=Smart Candy XL
-$心灵糖果ＸＬ=Courage Candy XL
-$敏捷糖果ＸＬ=Quick Candy XL
+==============Vitamins==============
+$特性胶囊=Ability Capsule <img class="items" data-pokedex="Ability Capsule" src="https://www.serebii.net/itemdex/sprites/sv/abilitycapsule.png" />
+$特性膏药=Ability Patch <img class="items" data-pokedex="Ability Patch" src="https://www.serebii.net/itemdex/sprites/sv/abilitypatch.png" />
+$凯西的糖果=Abra Candy <img class="items" data-pokedex="Abra Candy" src="https://www.serebii.net/itemdex/sprites/abracandy.png" />
+$固执薄荷=Adamant Mint <img class="items" data-pokedex="Adamant Mint" src="https://www.serebii.net/itemdex/sprites/sv/adamantmint.png" />
+$化石翼龙的糖果=Aerodactyl Candy <img class="items" data-pokedex="Aerodactyl Candy" src="https://www.serebii.net/itemdex/sprites/aerodactylcandy.png" />
+$急冻鸟的糖果=Articuno Candy <img class="items" data-pokedex="Articuno Candy" src="https://www.serebii.net/itemdex/sprites/articunocandy.png" />
+$喇叭芽的糖果=Bellsprout Candy <img class="items" data-pokedex="Bellsprout Candy" src="https://www.serebii.net/itemdex/sprites/bellsproutcandy.png" />
+$大胆薄荷=Bold Mint <img class="items" data-pokedex="Bold Mint" src="https://www.serebii.net/itemdex/sprites/sv/boldmint.png" />
+$勇敢薄荷=Brave Mint <img class="items" data-pokedex="Brave Mint" src="https://www.serebii.net/itemdex/sprites/sv/bravemint.png" />
+$妙蛙种子的糖果=Bulbasaur Candy <img class="items" data-pokedex="Bulbasaur Candy" src="https://www.serebii.net/itemdex/sprites/bulbasaurcandy.png" />
+$特攻增强剂=Calcium <img class="items" data-pokedex="Calcium" src="https://www.serebii.net/itemdex/sprites/sv/calcium.png" />
+$温和薄荷=Calm Mint <img class="items" data-pokedex="Calm Mint" src="https://www.serebii.net/itemdex/sprites/sv/calmmint.png" />
+$速度增强剂=Carbos <img class="items" data-pokedex="Carbos" src="https://www.serebii.net/itemdex/sprites/sv/carbos.png" />
+$慎重薄荷=Careful Mint <img class="items" data-pokedex="Careful Mint" src="https://www.serebii.net/itemdex/sprites/sv/carefulmint.png" />
+$绿毛虫的糖果=Caterpie Candy <img class="items" data-pokedex="Caterpie Candy" src="https://www.serebii.net/itemdex/sprites/caterpiecandy.png" />
+$吉利蛋的糖果=Chansey Candy <img class="items" data-pokedex="Chansey Candy" src="https://www.serebii.net/itemdex/sprites/chanseycandy.png" />
+$小火龙的糖果=Charmander Candy <img class="items" data-pokedex="Charmander Candy" src="https://www.serebii.net/itemdex/sprites/charmandercandy.png" />
+$皮皮的糖果=Clefairy Candy <img class="items" data-pokedex="Clefairy Candy" src="https://www.serebii.net/itemdex/sprites/clefairycandy.png" />
+$精神之羽=Clever Feather <img class="items" data-pokedex="Clever Feather" src="https://www.serebii.net/itemdex/sprites/sv/cleverfeather.png" />
+$精神粘糕=Clever Mochi <img class="items" data-pokedex="Clever Mochi" src="https://www.serebii.net/itemdex/sprites/sv/clevermochi.png" />
+$心灵糖果=Courage Candy <img class="items" data-pokedex="Courage Candy" src="https://www.serebii.net/itemdex/sprites/couragecandy.png" />
+$心灵糖果Ｌ=Courage Candy L <img class="items" data-pokedex="Courage Candy L" src="https://www.serebii.net/itemdex/sprites/couragecandyl.png" />
+$心灵糖果ＸＬ=Courage Candy XL <img class="items" data-pokedex="Courage Candy XL" src="https://www.serebii.net/itemdex/sprites/couragecandyxl.png" />
+$卡拉卡拉的糖果=Cubone Candy <img class="items" data-pokedex="Cubone Candy" src="https://www.serebii.net/itemdex/sprites/cubonecandy.png" />
+$地鼠的糖果=Diglett Candy <img class="items" data-pokedex="Diglett Candy" src="https://www.serebii.net/itemdex/sprites/diglettcandy.png" />
+$百变怪的糖果=Ditto Candy <img class="items" data-pokedex="Ditto Candy" src="https://www.serebii.net/itemdex/sprites/dittocandy.png" />
+$嘟嘟的糖果=Doduo Candy <img class="items" data-pokedex="Doduo Candy" src="https://www.serebii.net/itemdex/sprites/doduocandy.png" />
+$迷你龙的糖果=Dratini Candy <img class="items" data-pokedex="Dratini Candy" src="https://www.serebii.net/itemdex/sprites/dratinicandy.png" />
+$催眠貘的糖果=Drowzee Candy <img class="items" data-pokedex="Drowzee Candy" src="https://www.serebii.net/itemdex/sprites/drowzeecandy.png" />
+$极巨糖果=Dynamax Candy <img class="items" data-pokedex="Dynamax Candy" src="https://www.serebii.net/itemdex/sprites/dynamaxcandy.png" />
+$伊布的糖果=Eevee Candy <img class="items" data-pokedex="Eevee Candy" src="https://www.serebii.net/itemdex/sprites/eeveecandy.png" />
+$阿柏蛇的糖果=Ekans Candy <img class="items" data-pokedex="Ekans Candy" src="https://www.serebii.net/itemdex/sprites/ekanscandy.png" />
+$电击兽的糖果=Electabuzz Candy <img class="items" data-pokedex="Electabuzz Candy" src="https://www.serebii.net/itemdex/sprites/electabuzzcandy.png" />
+$蛋蛋的糖果=Exeggcute Candy <img class="items" data-pokedex="Exeggcute Candy" src="https://www.serebii.net/itemdex/sprites/exeggcutecandy.png" />
+$经验糖果Ｌ=Exp. Candy L <img class="items" data-pokedex="Exp. Candy L" src="https://www.serebii.net/itemdex/sprites/sv/exp.candyl.png" />
+$经验糖果Ｍ=Exp. Candy M <img class="items" data-pokedex="Exp. Candy M" src="https://www.serebii.net/itemdex/sprites/sv/exp.candym.png" />
+$经验糖果Ｓ=Exp. Candy S <img class="items" data-pokedex="Exp. Candy S" src="https://www.serebii.net/itemdex/sprites/sv/exp.candys.png" />
+$经验糖果ＸＬ=Exp. Candy XL <img class="items" data-pokedex="Exp. Candy XL" src="https://www.serebii.net/itemdex/sprites/sv/exp.candyxl.png" />
+$经验糖果ＸＳ=Exp. Candy XS <img class="items" data-pokedex="Exp. Candy XS" src="https://www.serebii.net/itemdex/sprites/sv/exp.candyxs.png" />
+$大葱鸭的糖果=Farfetch'd Candy <img class="items" data-pokedex="Farfetch'd Candy" src="https://www.serebii.net/itemdex/sprites/farfetch'dcandy.png" />
+$净空粘糕=Fresh-Start Mochi <img class="items" data-pokedex="Fresh-Start Mochi" src="https://www.serebii.net/itemdex/sprites/sv/fresh-startmochi.png" />
+$鬼斯的糖果=Gastly Candy <img class="items" data-pokedex="Gastly Candy" src="https://www.serebii.net/itemdex/sprites/gastlycandy.png" />
+$智力之羽=Genius Feather <img class="items" data-pokedex="Genius Feather" src="https://www.serebii.net/itemdex/sprites/sv/geniusfeather.png" />
+$智力粘糕=Genius Mochi <img class="items" data-pokedex="Genius Mochi" src="https://www.serebii.net/itemdex/sprites/sv/geniusmochi.png" />
+$温顺薄荷=Gentle Mint <img class="items" data-pokedex="Gentle Mint" src="https://www.serebii.net/itemdex/sprites/sv/gentlemint.png" />
+$小拳石的糖果=Geodude Candy <img class="items" data-pokedex="Geodude Candy" src="https://www.serebii.net/itemdex/sprites/geodudecandy.png" />
+$角金鱼的糖果=Goldeen Candy <img class="items" data-pokedex="Goldeen Candy" src="https://www.serebii.net/itemdex/sprites/goldeencandy.png" />
+$臭泥的糖果=Grimer Candy <img class="items" data-pokedex="Grimer Candy" src="https://www.serebii.net/itemdex/sprites/grimercandy.png" />
+$奋斗沙=Grit Dust <img class="items" data-pokedex="Grit Dust" src="https://www.serebii.net/itemdex/sprites/legends/gritdust.png" />
+$奋斗砾=Grit Gravel <img class="items" data-pokedex="Grit Gravel" src="https://www.serebii.net/itemdex/sprites/legends/gritgravel.png" />
+$奋斗石=Grit Pebble <img class="items" data-pokedex="Grit Pebble" src="https://www.serebii.net/itemdex/sprites/legends/gritpebble.png" />
+$奋斗岩=Grit Rock <img class="items" data-pokedex="Grit Rock" src="https://www.serebii.net/itemdex/sprites/legends/gritrock.png" />
+$卡蒂狗的糖果=Growlithe Candy <img class="items" data-pokedex="Growlithe Candy" src="https://www.serebii.net/itemdex/sprites/growlithecandy.png" />
+$ＨＰ增强剂=HP Up <img class="items" data-pokedex="HP Up" src="https://www.serebii.net/itemdex/sprites/sv/hpup.png" />
+$急躁薄荷=Hasty Mint <img class="items" data-pokedex="Hasty Mint" src="https://www.serebii.net/itemdex/sprites/sv/hastymint.png" />
+$元气糖果=Health Candy <img class="items" data-pokedex="Health Candy" src="https://www.serebii.net/itemdex/sprites/healthcandy.png" />
+$元气糖果Ｌ=Health Candy L <img class="items" data-pokedex="Health Candy L" src="https://www.serebii.net/itemdex/sprites/healthcandyl.png" />
+$元气糖果ＸＬ=Health Candy XL <img class="items" data-pokedex="Health Candy XL" src="https://www.serebii.net/itemdex/sprites/healthcandyxl.png" />
+$体力之羽=Health Feather <img class="items" data-pokedex="Health Feather" src="https://www.serebii.net/itemdex/sprites/sv/healthfeather.png" />
+$体力粘糕=Health Mochi <img class="items" data-pokedex="Health Mochi" src="https://www.serebii.net/itemdex/sprites/sv/healthmochi.png" />
+$快拳郎的糖果=Hitmonchan Candy <img class="items" data-pokedex="Hitmonchan Candy" src="https://www.serebii.net/itemdex/sprites/hitmonchancandy.png" />
+$飞腿郎的糖果=Hitmonlee Candy <img class="items" data-pokedex="Hitmonlee Candy" src="https://www.serebii.net/itemdex/sprites/hitmonleecandy.png" />
+$墨海马的糖果=Horsea Candy <img class="items" data-pokedex="Horsea Candy" src="https://www.serebii.net/itemdex/sprites/horseacandy.png" />
+$淘气薄荷=Impish Mint <img class="items" data-pokedex="Impish Mint" src="https://www.serebii.net/itemdex/sprites/sv/impishmint.png" />
+$防御增强剂=Iron <img class="items" data-pokedex="Iron" src="https://www.serebii.net/itemdex/sprites/sv/iron.png" />
+$胖丁的糖果=Jigglypuff Candy <img class="items" data-pokedex="Jigglypuff Candy" src="https://www.serebii.net/itemdex/sprites/jigglypuffcandy.png" />
+$爽朗薄荷=Jolly Mint <img class="items" data-pokedex="Jolly Mint" src="https://www.serebii.net/itemdex/sprites/sv/jollymint.png" />
+$迷唇姐的糖果=Jynx Candy <img class="items" data-pokedex="Jynx Candy" src="https://www.serebii.net/itemdex/sprites/jynxcandy.png" />
+$化石盔的糖果=Kabuto Candy <img class="items" data-pokedex="Kabuto Candy" src="https://www.serebii.net/itemdex/sprites/kabutocandy.png" />
+$袋兽的糖果=Kangaskhan Candy <img class="items" data-pokedex="Kangaskhan Candy" src="https://www.serebii.net/itemdex/sprites/kangaskhancandy.png" />
+$瓦斯弹的糖果=Koffing Candy <img class="items" data-pokedex="Koffing Candy" src="https://www.serebii.net/itemdex/sprites/koffingcandy.png" />
+$大钳蟹的糖果=Krabby Candy <img class="items" data-pokedex="Krabby Candy" src="https://www.serebii.net/itemdex/sprites/krabbycandy.png" />
+$拉普拉斯的糖果=Lapras Candy <img class="items" data-pokedex="Lapras Candy" src="https://www.serebii.net/itemdex/sprites/laprascandy.png" />
+$乐天薄荷=Lax Mint <img class="items" data-pokedex="Lax Mint" src="https://www.serebii.net/itemdex/sprites/sv/laxmint.png" />
+$大舌头的糖果=Lickitung Candy <img class="items" data-pokedex="Lickitung Candy" src="https://www.serebii.net/itemdex/sprites/lickitungcandy.png" />
+$怕寂寞薄荷=Lonely Mint <img class="items" data-pokedex="Lonely Mint" src="https://www.serebii.net/itemdex/sprites/sv/lonelymint.png" />
+$腕力的糖果=Machop Candy <img class="items" data-pokedex="Machop Candy" src="https://www.serebii.net/itemdex/sprites/machopcandy.png" />
+$鲤鱼王的糖果=Magikarp Candy <img class="items" data-pokedex="Magikarp Candy" src="https://www.serebii.net/itemdex/sprites/magikarpcandy.png" />
+$鸭嘴火兽的糖果=Magmar Candy <img class="items" data-pokedex="Magmar Candy" src="https://www.serebii.net/itemdex/sprites/magmarcandy.png" />
+$小磁怪的糖果=Magnemite Candy <img class="items" data-pokedex="Magnemite Candy" src="https://www.serebii.net/itemdex/sprites/magnemitecandy.png" />
+$猴怪的糖果=Mankey Candy <img class="items" data-pokedex="Mankey Candy" src="https://www.serebii.net/itemdex/sprites/mankeycandy.png" />
+$美录坦的糖果=Meltan Candy <img class="items" data-pokedex="Meltan Candy" src="https://www.serebii.net/itemdex/sprites/meltancandy.png" />
+$喵喵的糖果=Meowth Candy <img class="items" data-pokedex="Meowth Candy" src="https://www.serebii.net/itemdex/sprites/meowthcandy.png" />
+$梦幻的糖果=Mew Candy <img class="items" data-pokedex="Mew Candy" src="https://www.serebii.net/itemdex/sprites/mewcandy.png" />
+$超梦的糖果=Mewtwo Candy <img class="items" data-pokedex="Mewtwo Candy" src="https://www.serebii.net/itemdex/sprites/mewtwocandy.png" />
+$力量糖果=Mighty Candy <img class="items" data-pokedex="Mighty Candy" src="https://www.serebii.net/itemdex/sprites/mightycandy.png" />
+$力量糖果Ｌ=Mighty Candy L <img class="items" data-pokedex="Mighty Candy L" src="https://www.serebii.net/itemdex/sprites/mightycandyl.png" />
+$力量糖果ＸＬ=Mighty Candy XL <img class="items" data-pokedex="Mighty Candy XL" src="https://www.serebii.net/itemdex/sprites/mightycandyxl.png" />
+$慢吞吞薄荷=Mild Mint <img class="items" data-pokedex="Mild Mint" src="https://www.serebii.net/itemdex/sprites/sv/mildmint.png" />
+$内敛薄荷=Modest Mint <img class="items" data-pokedex="Modest Mint" src="https://www.serebii.net/itemdex/sprites/sv/modestmint.png" />
+$火焰鸟的糖果=Moltres Candy <img class="items" data-pokedex="Moltres Candy" src="https://www.serebii.net/itemdex/sprites/moltrescandy.png" />
+$魔墙人偶的糖果=Mr. Mime Candy <img class="items" data-pokedex="Mr. Mime Candy" src="https://www.serebii.net/itemdex/sprites/mr.mimecandy.png" />
+$肌力之羽=Muscle Feather <img class="items" data-pokedex="Muscle Feather" src="https://www.serebii.net/itemdex/sprites/sv/musclefeather.png" />
+$肌力粘糕=Muscle Mochi <img class="items" data-pokedex="Muscle Mochi" src="https://www.serebii.net/itemdex/sprites/sv/musclemochi.png" />
+$天真薄荷=Naive Mint <img class="items" data-pokedex="Naive Mint" src="https://www.serebii.net/itemdex/sprites/sv/naivemint.png" />
+$顽皮薄荷=Naughty Mint <img class="items" data-pokedex="Naughty Mint" src="https://www.serebii.net/itemdex/sprites/sv/naughtymint.png" />
+$尼多兰的糖果=Nidoran♀ Candy <img class="items" data-pokedex="Nidoran♀ Candy" src="https://www.serebii.net/itemdex/sprites/nidoranfcandy.png" />
+$尼多朗的糖果=Nidoran♂ Candy <img class="items" data-pokedex="Nidoran♂ Candy" src="https://www.serebii.net/itemdex/sprites/nidoranmcandy.png" />
+$走路草的糖果=Oddish Candy <img class="items" data-pokedex="Oddish Candy" src="https://www.serebii.net/itemdex/sprites/oddishcandy.png" />
+$菊石兽的糖果=Omanyte Candy <img class="items" data-pokedex="Omanyte Candy" src="https://www.serebii.net/itemdex/sprites/omanytecandy.png" />
+$大岩蛇的糖果=Onix Candy <img class="items" data-pokedex="Onix Candy" src="https://www.serebii.net/itemdex/sprites/onixcandy.png" />
+$ＰＰ极限提升剂=PP Max <img class="items" data-pokedex="PP Max" src="https://www.serebii.net/itemdex/sprites/sv/ppmax.png" />
+$ＰＰ提升剂=PP Up <img class="items" data-pokedex="PP Up" src="https://www.serebii.net/itemdex/sprites/sv/ppup.png" />
+$派拉斯的糖果=Paras Candy <img class="items" data-pokedex="Paras Candy" src="https://www.serebii.net/itemdex/sprites/parascandy.png" />
+$波波的糖果=Pidgey Candy <img class="items" data-pokedex="Pidgey Candy" src="https://www.serebii.net/itemdex/sprites/pidgeycandy.png" />
+$皮卡丘的糖果=Pikachu Candy <img class="items" data-pokedex="Pikachu Candy" src="https://www.serebii.net/itemdex/sprites/pikachucandy.png" />
+$凯罗斯的糖果=Pinsir Candy <img class="items" data-pokedex="Pinsir Candy" src="https://www.serebii.net/itemdex/sprites/pinsircandy.png" />
+$蚊香蝌蚪的糖果=Poliwag Candy <img class="items" data-pokedex="Poliwag Candy" src="https://www.serebii.net/itemdex/sprites/poliwagcandy.png" />
+$小火马的糖果=Ponyta Candy <img class="items" data-pokedex="Ponyta Candy" src="https://www.serebii.net/itemdex/sprites/ponytacandy.png" />
+$多边兽的糖果=Porygon Candy <img class="items" data-pokedex="Porygon Candy" src="https://www.serebii.net/itemdex/sprites/porygoncandy.png" />
+$攻击增强剂=Protein <img class="items" data-pokedex="Protein" src="https://www.serebii.net/itemdex/sprites/sv/protein.png" />
+$可达鸭的糖果=Psyduck Candy <img class="items" data-pokedex="Psyduck Candy" src="https://www.serebii.net/itemdex/sprites/psyduckcandy.png" />
+$敏捷糖果=Quick Candy <img class="items" data-pokedex="Quick Candy" src="https://www.serebii.net/itemdex/sprites/quickcandy.png" />
+$敏捷糖果Ｌ=Quick Candy L <img class="items" data-pokedex="Quick Candy L" src="https://www.serebii.net/itemdex/sprites/quickcandyl.png" />
+$敏捷糖果ＸＬ=Quick Candy XL <img class="items" data-pokedex="Quick Candy XL" src="https://www.serebii.net/itemdex/sprites/quickcandyxl.png" />
+$冷静薄荷=Quiet Mint <img class="items" data-pokedex="Quiet Mint" src="https://www.serebii.net/itemdex/sprites/sv/quietmint.png" />
+$神奇糖果=Rare Candy <img class="items" data-pokedex="Rare Candy" src="https://www.serebii.net/itemdex/sprites/sv/rarecandy.png" />
+$马虎薄荷=Rash Mint <img class="items" data-pokedex="Rash Mint" src="https://www.serebii.net/itemdex/sprites/sv/rashmint.png" />
+$小拉达的糖果=Rattata Candy <img class="items" data-pokedex="Rattata Candy" src="https://www.serebii.net/itemdex/sprites/rattatacandy.png" />
+$悠闲薄荷=Relaxed Mint <img class="items" data-pokedex="Relaxed Mint" src="https://www.serebii.net/itemdex/sprites/sv/relaxedmint.png" />
+$抵抗之羽=Resist Feather <img class="items" data-pokedex="Resist Feather" src="https://www.serebii.net/itemdex/sprites/sv/resistfeather.png" />
+$抵抗粘糕=Resist Mochi <img class="items" data-pokedex="Resist Mochi" src="https://www.serebii.net/itemdex/sprites/sv/resistmochi.png" />
+$独角犀牛的糖果=Rhyhorn Candy <img class="items" data-pokedex="Rhyhorn Candy" src="https://www.serebii.net/itemdex/sprites/rhyhorncandy.png" />
+$穿山鼠的糖果=Sandshrew Candy <img class="items" data-pokedex="Sandshrew Candy" src="https://www.serebii.net/itemdex/sprites/sandshrewcandy.png" />
+$自大薄荷=Sassy Mint <img class="items" data-pokedex="Sassy Mint" src="https://www.serebii.net/itemdex/sprites/sv/sassymint.png" />
+$飞天螳螂的糖果=Scyther Candy <img class="items" data-pokedex="Scyther Candy" src="https://www.serebii.net/itemdex/sprites/scythercandy.png" />
+$小海狮的糖果=Seel Candy <img class="items" data-pokedex="Seel Candy" src="https://www.serebii.net/itemdex/sprites/seelcandy.png" />
+$认真薄荷=Serious Mint <img class="items" data-pokedex="Serious Mint" src="https://www.serebii.net/itemdex/sprites/sv/seriousmint.png" />
+$大舌贝的糖果=Shellder Candy <img class="items" data-pokedex="Shellder Candy" src="https://www.serebii.net/itemdex/sprites/shelldercandy.png" />
+$呆呆兽的糖果=Slowpoke Candy <img class="items" data-pokedex="Slowpoke Candy" src="https://www.serebii.net/itemdex/sprites/slowpokecandy.png" />
+$知识糖果=Smart Candy <img class="items" data-pokedex="Smart Candy" src="https://www.serebii.net/itemdex/sprites/smartcandy.png" />
+$知识糖果Ｌ=Smart Candy L <img class="items" data-pokedex="Smart Candy L" src="https://www.serebii.net/itemdex/sprites/smartcandyl.png" />
+$知识糖果ＸＬ=Smart Candy XL <img class="items" data-pokedex="Smart Candy XL" src="https://www.serebii.net/itemdex/sprites/smartcandyxl.png" />
+$卡比兽的糖果=Snorlax Candy <img class="items" data-pokedex="Snorlax Candy" src="https://www.serebii.net/itemdex/sprites/snorlaxcandy.png" />
+$烈雀的糖果=Spearow Candy <img class="items" data-pokedex="Spearow Candy" src="https://www.serebii.net/itemdex/sprites/spearowcandy.png" />
+$杰尼龟的糖果=Squirtle Candy <img class="items" data-pokedex="Squirtle Candy" src="https://www.serebii.net/itemdex/sprites/squirtlecandy.png" />
+$海星星的糖果=Staryu Candy <img class="items" data-pokedex="Staryu Candy" src="https://www.serebii.net/itemdex/sprites/staryucandy.png" />
+$瞬发之羽=Swift Feather <img class="items" data-pokedex="Swift Feather" src="https://www.serebii.net/itemdex/sprites/sv/swiftfeather.png" />
+$瞬发粘糕=Swift Mochi <img class="items" data-pokedex="Swift Mochi" src="https://www.serebii.net/itemdex/sprites/sv/swiftmochi.png" />
+$蔓藤怪的糖果=Tangela Candy <img class="items" data-pokedex="Tangela Candy" src="https://www.serebii.net/itemdex/sprites/tangelacandy.png" />
+$肯泰罗的糖果=Tauros Candy <img class="items" data-pokedex="Tauros Candy" src="https://www.serebii.net/itemdex/sprites/tauroscandy.png" />
+$玛瑙水母的糖果=Tentacool Candy <img class="items" data-pokedex="Tentacool Candy" src="https://www.serebii.net/itemdex/sprites/tentacoolcandy.png" />
+$胆小薄荷=Timid Mint <img class="items" data-pokedex="Timid Mint" src="https://www.serebii.net/itemdex/sprites/sv/timidmint.png" />
+$守护糖果=Tough Candy <img class="items" data-pokedex="Tough Candy" src="https://www.serebii.net/itemdex/sprites/toughcandy.png" />
+$守护糖果Ｌ=Tough Candy L <img class="items" data-pokedex="Tough Candy L" src="https://www.serebii.net/itemdex/sprites/toughcandyl.png" />
+$守护糖果ＸＬ=Tough Candy XL <img class="items" data-pokedex="Tough Candy XL" src="https://www.serebii.net/itemdex/sprites/toughcandyxl.png" />
+$毛球的糖果=Venonat Candy <img class="items" data-pokedex="Venonat Candy" src="https://www.serebii.net/itemdex/sprites/venonatcandy.png" />
+$霹雳电球的糖果=Voltorb Candy <img class="items" data-pokedex="Voltorb Candy" src="https://www.serebii.net/itemdex/sprites/voltorbcandy.png" />
+$六尾的糖果=Vulpix Candy <img class="items" data-pokedex="Vulpix Candy" src="https://www.serebii.net/itemdex/sprites/vulpixcandy.png" />
+$独角虫的糖果=Weedle Candy <img class="items" data-pokedex="Weedle Candy" src="https://www.serebii.net/itemdex/sprites/weedlecandy.png" />
+$许愿星块=Wishing Piece <img class="items" data-pokedex="Wishing Piece" src="https://www.serebii.net/itemdex/sprites/wishingpiece.png" />
+$闪电鸟的糖果=Zapdos Candy <img class="items" data-pokedex="Zapdos Candy" src="https://www.serebii.net/itemdex/sprites/zapdoscandy.png" />
+$特防增强剂=Zinc <img class="items" data-pokedex="Zinc" src="https://www.serebii.net/itemdex/sprites/sv/zinc.png" />
+$超音蝠的糖果=Zubat Candy <img class="items" data-pokedex="Zubat Candy" src="https://www.serebii.net/itemdex/sprites/zubatcandy.png" />
 ==============Pokéball==============
 $大师球=Master Ball<img class="pokemon-ball" data-pokedex="Master Ball" src="https://www.serebii.net/itemdex/sprites/sv/masterball.png"/>
 $高级球=Ultra Ball<img class="pokemon-ball" data-pokedex="Ultra Ball" src="https://www.serebii.net/itemdex/sprites/sv/ultraball.png"/>
@@ -2651,13 +2768,6 @@ $防御强化=X Defense <img class="items" data-pokedex="X Defense" src="https:/
 $特攻强化=X Sp. Atk <img class="items" data-pokedex="X Sp. Atk" src="https://www.serebii.net/itemdex/sprites/sv/xsp.atk.png" />
 $特防强化=X Sp. Def <img class="items" data-pokedex="X Sp. Def" src="https://www.serebii.net/itemdex/sprites/sv/xsp.def.png" />
 $速度强化=X Speed <img class="items" data-pokedex="X Speed" src="https://www.serebii.net/itemdex/sprites/sv/xspeed.png" />
-==============Battle Items==============
-$皮皮玩偶=Poké Doll
-$蓝色玻璃哨=Blue Flute
-$黄色玻璃哨=Yellow Flute
-$红色玻璃哨=Red Flute
-$向尾喵的尾巴=Fluffy Tail
-$宝可尾草=Poké Toy
 ==============Berries==============
 $乐芭果=Aguav Berry <img class="items" data-pokedex="Aguav Berry" src="https://www.serebii.net/itemdex/sprites/sv/aguavberry.png"/>
 $杏仔果=Apicot Berry <img class="items" data-pokedex="Apicot Berry" src="https://www.serebii.net/itemdex/sprites/sv/apicotberry.png"/>
@@ -2735,43 +2845,6 @@ $西梨果=Wepear Berry <img class="items" data-pokedex="Wepear Berry" src="http
 $异奇果=Wiki Berry <img class="items" data-pokedex="Wiki Berry" src="https://www.serebii.net/itemdex/sprites/sv/wikiberry.png"/>
 $番荔果=Yache Berry <img class="items" data-pokedex="Yache Berry" src="https://www.serebii.net/itemdex/sprites/sv/yacheberry.png"/>
 ==============Items==============
-$除虫喷雾=Repel
-$白银喷雾=Super Repel
-$黄金喷雾=Max Repel
-$离洞绳=Escape Rope
-$黑色玻璃哨=Black Flute
-$白色玻璃哨=White Flute
-$浅滩海盐=Shoal Salt
-$浅滩贝壳=Shoal Shell
-$红色碎片=Red Shard
-$蓝色碎片=Blue Shard
-$黄色碎片=Yellow Shard
-$绿色碎片=Green Shard
-$学习装置=Exp. Share
-$心之鳞片=Heart Scale
-$美味尾巴=Slowpoke Tail
-$速速肥=Growth Mulch
-$湿湿肥=Damp Mulch
-$久久肥=Stable Mulch
-$粘粘肥=Gooey Mulch
-$楔石=Odd Keystone
-$释出之玉=Pass Orb
-$硕果肥=Rich Mulch
-$吃惊肥=Surprise Mulch
-$劲劲肥=Boost Mulch
-$超效肥=Amaze Mulch
-$折价券=Discount Coupon
-$神秘摆设=Strange Souvenir
-$圆庆票=Festival Ticket
-$朱紅色花蜜=Red Nectar
-$金黄色花蜜=Yellow Nectar
-$桃粉色花蜜=Pink Nectar
-$兰紫色花蜜=Purple Nectar
-$树叶信=Leaf Letter
-$小小花束=Small Bouquet
-$引虫香水=Lure
-$白银香水=Super Lure
-$黄金香水=Max Lure
 $宝可梦盒=Pokémon Box
 $回复口袋=Medicine Pocket
 $糖果罐=Candy Jar
@@ -2840,162 +2913,247 @@ $凡作茶碗=Unremarkable Teacup <img class="items" data-pokedex="Unremarkable 
 $升级数据=Upgrade <img class="items" data-pokedex="Upgrade" src="https://www.serebii.net/itemdex/sprites/sv/upgrade.png" />
 $泡沫奶油=Whipped Dream <img class="items" data-pokedex="Whipped Dream" src="https://www.serebii.net/itemdex/sprites/pgl/whippeddream.png" />
 ==============Evolution Stones==============
-$月之石=Moon Stone<img class="items" data-pokedex="Moon Stone" src="https://www.serebii.net/itemdex/sprites/sv/moonstone.png" />
-$火之石=Fire Stone<img class="items" data-pokedex="Fire Stone" src="https://www.serebii.net/itemdex/sprites/sv/firestone.png" />
-$雷之石=Thunder Stone<img class="items" data-pokedex="Thunder Stone" src="https://www.serebii.net/itemdex/sprites/sv/thunderstone.png" />
-$水之石=Water Stone<img class="items" data-pokedex="Water Stone" src="https://www.serebii.net/itemdex/sprites/sv/waterstone.png" />
-$叶之石=Leaf Stone<img class="items" data-pokedex="Leaf Stone" src="https://www.serebii.net/itemdex/sprites/sv/leafstone.png" />
-$日之石=Sun Stone<img class="items" data-pokedex="Sun Stone" src="https://www.serebii.net/itemdex/sprites/sv/sunstone.png" />
-$光之石=Shiny Stone<img class="items" data-pokedex="Shiny Stone" src="https://www.serebii.net/itemdex/sprites/sv/shinystone.png" />
-$暗之石=Dusk Stone<img class="items" data-pokedex="Dusk Stone" src="https://www.serebii.net/itemdex/sprites/sv/duskstone.png" />
-$觉醒之石=Dawn Stone<img class="items" data-pokedex="Dawn Stone" src="https://www.serebii.net/itemdex/sprites/sv/dawnstone.png" />
-$冰之石=Ice Stone<img class="items" data-pokedex="Ice Stone" src="https://www.serebii.net/itemdex/sprites/sv/icestone.png" />
-==============Held items==============
-$光粉=Bright Powder
-$先制之爪=Quick Claw
-$银粉=Silver Powder
-$护符金币=Amulet Coin
-$洁净之符=Cleanse Tag
-$烟雾球=Smoke Ball
-$不变之石=Everstone
-$气势头带=Focus Band
-$幸运蛋=Lucky Egg
-$焦点镜=Scope Lens
-$吃剩的东西=Leftovers
-$电气球=Light Ball
-$柔软沙子=Soft Sand
-$硬石头=Hard Stone
-$奇迹种子=Miracle Seed
-$黑色眼镜=Black Glasses
-$黑带=Black Belt
-$磁铁=Magnet
-$神秘水滴=Mystic Water
-$锐利鸟嘴=Sharp Beak
-$毒针=Poison Barb
-$不融冰=Never-Melt Ice
-$诅咒之符=Spell Tag
-$弯曲的汤匙=Twisted Spoon
-$木炭=Charcoal
-$龙之牙=Dragon Fang
-$吉利拳=Lucky Punch
-$金属粉=Metal Powder
-$粗骨头=Thick Club
-$大葱=Leek
+$月之石=Moon Stone <img class="items" data-pokedex="Moon Stone" src="https://www.serebii.net/itemdex/sprites/sv/moonstone.png" />
+$火之石=Fire Stone <img class="items" data-pokedex="Fire Stone" src="https://www.serebii.net/itemdex/sprites/sv/firestone.png" />
+$雷之石=Thunder Stone <img class="items" data-pokedex="Thunder Stone" src="https://www.serebii.net/itemdex/sprites/sv/thunderstone.png" />
+$水之石=Water Stone <img class="items" data-pokedex="Water Stone" src="https://www.serebii.net/itemdex/sprites/sv/waterstone.png" />
+$叶之石=Leaf Stone <img class="items" data-pokedex="Leaf Stone" src="https://www.serebii.net/itemdex/sprites/sv/leafstone.png" />
+$日之石=Sun Stone <img class="items" data-pokedex="Sun Stone" src="https://www.serebii.net/itemdex/sprites/sv/sunstone.png" />
+$光之石=Shiny Stone <img class="items" data-pokedex="Shiny Stone" src="https://www.serebii.net/itemdex/sprites/sv/shinystone.png" />
+$暗之石=Dusk Stone <img class="items" data-pokedex="Dusk Stone" src="https://www.serebii.net/itemdex/sprites/sv/duskstone.png" />
+$觉醒之石=Dawn Stone <img class="items" data-pokedex="Dawn Stone" src="https://www.serebii.net/itemdex/sprites/sv/dawnstone.png" />
+$觉醒石=Dawn Stone <img class="items" data-pokedex="Dawn Stone" src="https://www.serebii.net/itemdex/sprites/sv/dawnstone.png" />
+$冰之石=Ice Stone <img class="items" data-pokedex="Ice Stone" src="https://www.serebii.net/itemdex/sprites/sv/icestone.png" />
+==============Hold Items==============
+$特性护具=Ability Shield <img class="items" data-pokedex="Ability Shield" src="https://www.serebii.net/itemdex/sprites/sv/abilityshield.png" />
+$球根=Absorb Bulb <img class="items" data-pokedex="Absorb Bulb" src="https://www.serebii.net/itemdex/sprites/sv/absorbbulb.png" />
+$大金刚宝玉=Adamant Crystal <img class="items" data-pokedex="Adamant Crystal" src="https://www.serebii.net/itemdex/sprites/sv/adamantcrystal.png" />
+$金刚宝珠=Adamant Orb <img class="items" data-pokedex="Adamant Orb" src="https://www.serebii.net/itemdex/sprites/sv/adamantorb.png" />
+$气球=Air Balloon <img class="items" data-pokedex="Air Balloon" src="https://www.serebii.net/itemdex/sprites/sv/airballoon.png" />
+$阿罗雷Ｚ=Aloraichium Z <img class="items" data-pokedex="Aloraichium Z" src="https://www.serebii.net/itemdex/sprites/pgl/aloraichiumz.png" />
+$护符金币=Amulet Coin <img class="items" data-pokedex="Amulet Coin" src="https://www.serebii.net/itemdex/sprites/sv/amuletcoin.png" />
+$突击背心=Assault Vest <img class="items" data-pokedex="Assault Vest" src="https://www.serebii.net/itemdex/sprites/sv/assaultvest.png" />
 $破坏基因=Berserk Gene
-$白色香草=White Herb
-$强制锻炼器=Macho Brace
-$安抚之铃=Soothe Bell
-$心灵香草=Mental Herb
-$讲究头带=Choice Band
-$心之水滴=Soul Dew
-$丝绸围巾=Silk Scarf
-$贝壳之铃=Shell Bell
-$海潮薰香=Sea Incense
-$悠闲薰香=Lax Incense
-$红色头巾=Red Scarf
-$蓝色头巾=Blue Scarf
-$粉红头巾=Pink Scarf
-$绿色头巾=Green Scarf
-$黄色头巾=Yellow Scarf
-$朱红色宝珠=Red Orb
-$靛蓝色宝珠=Blue Orb
-$火球石板=Flame Plate
-$水滴石板=Splash Plate
-$雷电石板=Zap Plate
-$碧绿石板=Meadow Plate
-$冰柱石板=Icicle Plate
-$拳头石板=Fist Plate
-$剧毒石板=Toxic Plate
-$大地石板=Earth Plate
-$蓝天石板=Sky Plate
-$神奇石板=Mind Plate
-$玉虫石板=Insect Plate
-$岩石石板=Stone Plate
-$妖怪石板=Spooky Plate
-$龙之石板=Draco Plate
-$恶颜石板=Dread Plate
-$钢铁石板=Iron Plate
-$奇异薰香=Odd Incense
-$岩石薰香=Rock Incense
-$饱腹薰香=Full Incense
-$涟漪薰香=Wave Incense
-$花朵薰香=Rose Incense
-$幸运薰香=Luck Incense
-$洁净薰香=Pure Incense
-$浑圆之石=Oval Stone
-$金刚宝珠=Adamant Orb
-$白玉宝珠=Lustrous Orb
-$白金宝珠=Griseous Orb
-$广角镜=Wide Lens
-$力量头带=Muscle Band
-$博识眼镜=Wise Glasses
-$达人带=Expert Belt
-$光之黏土=Light Clay
-$生命宝珠=Life Orb
-$强力香草=Power Herb
-$剧毒宝珠=Toxic Orb
-$火焰宝珠=Flame Orb
-$速度粉=Quick Powder
-$气势披带=Focus Sash
-$对焦镜=Zoom Lens
-$节拍器=Metronome
-$黑色铁球=Iron Ball
-$后攻之尾=Lagging Tail
-$红线=Destiny Knot
-$黑色污泥=Black Sludge
-$冰冷岩石=Icy Rock
-$沙沙岩石=Smooth Rock
-$炽热岩石=Heat Rock
-$潮湿岩石=Damp Rock
-$紧缠钩爪=Grip Claw
-$讲究围巾=Choice Scarf
-$附着针=Sticky Barb
-$力量护腕=Power Bracer
-$力量腰带=Power Belt
-$力量镜=Power Lens
-$力量束带=Power Band
-$力量护踝=Power Anklet
-$力量负重=Power Weight
-$美丽空壳=Shed Shell
-$大根茎=Big Root
-$讲究眼镜=Choice Specs
-$水流卡带=Douse Drive
-$闪电卡带=Shock Drive
-$火焰卡带=Burn Drive
-$冰冻卡带=Chill Drive
-$进化奇石=Eviolite
-$轻石=Float Stone
-$凸凸头盔=Rocky Helmet
-$气球=Air Balloon
-$红牌=Red Card
-$标靶=Ring Target
-$紧绑束带=Binding Band
-$球根=Absorb Bulb
-$充电电池=Cell Battery
-$逃脱按键=Eject Button
-$火之宝石=Fire Gem
-$水之宝石=Water Gem
-$电之宝石=Electric Gem
-$草之宝石=Grass Gem
-$冰之宝石=Ice Gem
-$格斗宝石=Fighting Gem
-$毒之宝石=Poison Gem
-$地面宝石=Ground Gem
-$飞行宝石=Flying Gem
-$超能力宝石=Psychic Gem
-$虫之宝石=Bug Gem
-$岩石宝石=Rock Gem
-$幽灵宝石=Ghost Gem
-$龙之宝石=Dragon Gem
-$恶之宝石=Dark Gem
-$钢之宝石=Steel Gem
-$一般宝石=Normal Gem
-$弱点保险=Weakness Policy
-$突击背心=Assault Vest
-$妖精石板=Pixie Plate
-$光苔=Luminous Moss
-$雪球=Snowball
-$防尘护目镜=Safety Goggles
+$大根茎=Big Root <img class="items" data-pokedex="Big Root" src="https://www.serebii.net/itemdex/sprites/sv/bigroot.png" />
+$紧绑束带=Binding Band <img class="items" data-pokedex="Binding Band" src="https://www.serebii.net/itemdex/sprites/sv/bindingband.png" />
+$黑带=Black Belt <img class="items" data-pokedex="Black Belt" src="https://www.serebii.net/itemdex/sprites/sv/blackbelt.png" />
+$黑色眼镜=Black Glasses <img class="items" data-pokedex="Black Glasses" src="https://www.serebii.net/itemdex/sprites/sv/blackglasses.png" />
+$黑色污泥=Black Sludge <img class="items" data-pokedex="Black Sludge" src="https://www.serebii.net/itemdex/sprites/sv/blacksludge.png" />
+$靛蓝色宝珠=Blue Orb <img class="items" data-pokedex="Blue Orb" src="https://www.serebii.net/itemdex/sprites/pgl/blueorb.png" />
+$蓝色头巾=Blue Scarf <img class="items" data-pokedex="Blue Scarf" src="https://www.serebii.net/itemdex/sprites/pgl/bluescarf.png" />
+$打空保险=Blunder Policy <img class="items" data-pokedex="Blunder Policy" src="https://www.serebii.net/itemdex/sprites/sv/blunderpolicy.png" />
+$驱劲能量=Booster Energy <img class="items" data-pokedex="Booster Energy" src="https://www.serebii.net/itemdex/sprites/sv/boosterenergy.png" />
+$光粉=Bright Powder <img class="items" data-pokedex="Bright Powder" src="https://www.serebii.net/itemdex/sprites/sv/brightpowder.png" />
+$虫之宝石=Bug Gem <img class="items" data-pokedex="Bug Gem" src="https://www.serebii.net/itemdex/sprites/pgl/buggem.png" />
+$虫子存储碟=Bug Memory <img class="items" data-pokedex="Bug Memory" src="https://www.serebii.net/itemdex/sprites/pgl/bugmemory.png" />
+$虫Ｚ=Buginium Z <img class="items" data-pokedex="Buginium Z" src="https://www.serebii.net/itemdex/sprites/pgl/buginiumz.png" />
+$火焰卡带=Burn Drive <img class="items" data-pokedex="Burn Drive" src="https://www.serebii.net/itemdex/sprites/pgl/burndrive.png" />
+$充电电池=Cell Battery <img class="items" data-pokedex="Cell Battery" src="https://www.serebii.net/itemdex/sprites/sv/cellbattery.png" />
+$木炭=Charcoal <img class="items" data-pokedex="Charcoal" src="https://www.serebii.net/itemdex/sprites/sv/charcoal.png" />
+$冰冻卡带=Chill Drive <img class="items" data-pokedex="Chill Drive" src="https://www.serebii.net/itemdex/sprites/pgl/chilldrive.png" />
+$讲究头带=Choice Band <img class="items" data-pokedex="Choice Band" src="https://www.serebii.net/itemdex/sprites/sv/choiceband.png" />
+$讲究围巾=Choice Scarf <img class="items" data-pokedex="Choice Scarf" src="https://www.serebii.net/itemdex/sprites/sv/choicescarf.png" />
+$讲究眼镜=Choice Specs <img class="items" data-pokedex="Choice Specs" src="https://www.serebii.net/itemdex/sprites/sv/choicespecs.png" />
+$洁净之符=Cleanse Tag <img class="items" data-pokedex="Cleanse Tag" src="https://www.serebii.net/itemdex/sprites/pgl/cleansetag.png" />
+$清净坠饰=Clear Amulet <img class="items" data-pokedex="Clear Amulet" src="https://www.serebii.net/itemdex/sprites/sv/clearamulet.png" />
+$础石面具=Cornerstone Mask <img class="items" data-pokedex="Cornerstone Mask" src="https://www.serebii.net/itemdex/sprites/sv/cornerstonemask.png" />
+$密探斗篷=Covert Cloak <img class="items" data-pokedex="Covert Cloak" src="https://www.serebii.net/itemdex/sprites/sv/covertcloak.png" />
+$潮湿岩石=Damp Rock <img class="items" data-pokedex="Damp Rock" src="https://www.serebii.net/itemdex/sprites/sv/damprock.png" />
+$恶之宝石=Dark Gem <img class="items" data-pokedex="Dark Gem" src="https://www.serebii.net/itemdex/sprites/pgl/darkgem.png" />
+$黑暗存储碟=Dark Memory <img class="items" data-pokedex="Dark Memory" src="https://www.serebii.net/itemdex/sprites/pgl/darkmemory.png" />
+$恶Ｚ=Darkinium Z <img class="items" data-pokedex="Darkinium Z" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/darkinium-z--bag.png" />
+$狙射树枭Ｚ=Decidium Z <img class="items" data-pokedex="Decidium Z" src="https://www.serebii.net/itemdex/sprites/pgl/decidiumz.png" />
+$红线=Destiny Knot <img class="items" data-pokedex="Destiny Knot" src="https://www.serebii.net/itemdex/sprites/sv/destinyknot.png" />
+$水流卡带=Douse Drive <img class="items" data-pokedex="Douse Drive" src="https://www.serebii.net/itemdex/sprites/pgl/dousedrive.png" />
+$龙之石板=Draco Plate <img class="items" data-pokedex="Draco Plate" src="https://www.serebii.net/itemdex/sprites/sv/dracoplate.png" />
+$龙之牙=Dragon Fang <img class="items" data-pokedex="Dragon Fang" src="https://www.serebii.net/itemdex/sprites/sv/dragonfang.png" />
+$龙之宝石=Dragon Gem <img class="items" data-pokedex="Dragon Gem" src="https://www.serebii.net/itemdex/sprites/pgl/dragongem.png" />
+$龙存储碟=Dragon Memory <img class="items" data-pokedex="Dragon Memory" src="https://www.serebii.net/itemdex/sprites/pgl/dragonmemory.png" />
+$龙Ｚ=Dragonium Z <img class="items" data-pokedex="Dragonium Z" src="https://www.serebii.net/itemdex/sprites/pgl/dragoniumz.png" />
+$恶颜石板=Dread Plate <img class="items" data-pokedex="Dread Plate" src="https://www.serebii.net/itemdex/sprites/sv/dreadplate.png" />
+$大地石板=Earth Plate <img class="items" data-pokedex="Earth Plate" src="https://www.serebii.net/itemdex/sprites/sv/earthplate.png" />
+$伊布Ｚ=Eevium Z <img class="items" data-pokedex="Eevium Z" src="https://www.serebii.net/itemdex/sprites/pgl/eeviumz.png" />
+$逃脱按键=Eject Button <img class="items" data-pokedex="Eject Button" src="https://www.serebii.net/itemdex/sprites/sv/ejectbutton.png" />
+$避难背包=Eject Pack <img class="items" data-pokedex="Eject Pack" src="https://www.serebii.net/itemdex/sprites/sv/ejectpack.png" />
+$电之宝石=Electric Gem <img class="items" data-pokedex="Electric Gem" src="https://www.serebii.net/itemdex/sprites/pgl/electricgem.png" />
+$电子存储碟=Electric Memory <img class="items" data-pokedex="Electric Memory" src="https://www.serebii.net/itemdex/sprites/pgl/electricmemory.png" />
+$电气种子=Electric Seed <img class="items" data-pokedex="Electric Seed" src="https://www.serebii.net/itemdex/sprites/sv/electricseed.png" />
+$电Ｚ=Electrium Z <img class="items" data-pokedex="Electrium Z" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electrium-z--bag.png" />
+$不变之石=Everstone <img class="items" data-pokedex="Everstone" src="https://www.serebii.net/itemdex/sprites/sv/everstone.png" />
+$进化奇石=Eviolite <img class="items" data-pokedex="Eviolite" src="https://www.serebii.net/itemdex/sprites/sv/eviolite.png" />
+$学习装置=Exp. Share <img class="items" data-pokedex="Exp. Share" src="https://www.serebii.net/itemdex/sprites/pgl/exp.share.png" />
+$达人带=Expert Belt <img class="items" data-pokedex="Expert Belt" src="https://www.serebii.net/itemdex/sprites/sv/expertbelt.png" />
+$妖精Ｚ=Fairium Z <img class="items" data-pokedex="Fairium Z" src="https://www.serebii.net/itemdex/sprites/pgl/fairiumz.png" />
+$妖精之羽=Fairy Feather <img class="items" data-pokedex="Fairy Feather" src="https://www.serebii.net/itemdex/sprites/sv/fairyfeather.png" />
+$妖精宝石=Fairy Gem <img class="items" data-pokedex="Fairy Gem" src="https://www.serebii.net/itemdex/sprites/pgl/fairygem.png" />
+$妖精存储碟=Fairy Memory <img class="items" data-pokedex="Fairy Memory" src="https://www.serebii.net/itemdex/sprites/pgl/fairymemory.png" />
+$格斗宝石=Fighting Gem <img class="items" data-pokedex="Fighting Gem" src="https://www.serebii.net/itemdex/sprites/pgl/fightinggem.png" />
+$战斗存储碟=Fighting Memory <img class="items" data-pokedex="Fighting Memory" src="https://www.serebii.net/itemdex/sprites/pgl/fightingmemory.png" />
+$格斗Ｚ=Fightinium Z <img class="items" data-pokedex="Fightinium Z" src="https://www.serebii.net/itemdex/sprites/pgl/fightiniumz.png" />
+$火之宝石=Fire Gem <img class="items" data-pokedex="Fire Gem" src="https://www.serebii.net/itemdex/sprites/pgl/firegem.png" />
+$火焰存储碟=Fire Memory <img class="items" data-pokedex="Fire Memory" src="https://www.serebii.net/itemdex/sprites/pgl/firememory.png" />
+$火Ｚ=Firium Z <img class="items" data-pokedex="Firium Z" src="https://www.serebii.net/itemdex/sprites/pgl/firiumz.png" />
+$拳头石板=Fist Plate <img class="items" data-pokedex="Fist Plate" src="https://www.serebii.net/itemdex/sprites/sv/fistplate.png" />
+$火焰宝珠=Flame Orb <img class="items" data-pokedex="Flame Orb" src="https://www.serebii.net/itemdex/sprites/sv/flameorb.png" />
+$火球石板=Flame Plate <img class="items" data-pokedex="Flame Plate" src="https://www.serebii.net/itemdex/sprites/sv/flameplate.png" />
+$轻石=Float Stone <img class="items" data-pokedex="Float Stone" src="https://www.serebii.net/itemdex/sprites/sv/floatstone.png" />
+$飞行宝石=Flying Gem <img class="items" data-pokedex="Flying Gem" src="https://www.serebii.net/itemdex/sprites/pgl/flyinggem.png" />
+$飞翔存储碟=Flying Memory <img class="items" data-pokedex="Flying Memory" src="https://www.serebii.net/itemdex/sprites/pgl/flyingmemory.png" />
+$飞行Ｚ=Flyinium Z <img class="items" data-pokedex="Flyinium Z" src="https://www.serebii.net/itemdex/sprites/pgl/flyiniumz.png" />
+$气势头带=Focus Band <img class="items" data-pokedex="Focus Band" src="https://www.serebii.net/itemdex/sprites/sv/focusband.png" />
+$气势披带=Focus Sash <img class="items" data-pokedex="Focus Sash" src="https://www.serebii.net/itemdex/sprites/sv/focussash.png" />
+$饱腹薰香=Full Incense <img class="items" data-pokedex="Full Incense" src="https://www.serebii.net/itemdex/sprites/pgl/fullincense.png" />
+$幽灵宝石=Ghost Gem <img class="items" data-pokedex="Ghost Gem" src="https://www.serebii.net/itemdex/sprites/pgl/ghostgem.png" />
+$幽灵存储碟=Ghost Memory <img class="items" data-pokedex="Ghost Memory" src="https://www.serebii.net/itemdex/sprites/pgl/ghostmemory.png" />
+$幽灵Ｚ=Ghostium Z <img class="items" data-pokedex="Ghostium Z" src="https://www.serebii.net/itemdex/sprites/pgl/ghostiumz.png" />
+$草之宝石=Grass Gem <img class="items" data-pokedex="Grass Gem" src="https://www.serebii.net/itemdex/sprites/pgl/grassgem.png" />
+$青草存储碟=Grass Memory <img class="items" data-pokedex="Grass Memory" src="https://www.serebii.net/itemdex/sprites/pgl/grassmemory.png" />
+$草Ｚ=Grassium Z <img class="items" data-pokedex="Grassium Z" src="https://www.serebii.net/itemdex/sprites/pgl/grassiumz.png" />
+$青草种子=Grassy Seed <img class="items" data-pokedex="Grassy Seed" src="https://www.serebii.net/itemdex/sprites/sv/grassyseed.png" />
+$绿色头巾=Green Scarf <img class="items" data-pokedex="Green Scarf" src="https://www.serebii.net/itemdex/sprites/pgl/greenscarf.png" />
+$紧缠钩爪=Grip Claw <img class="items" data-pokedex="Grip Claw" src="https://www.serebii.net/itemdex/sprites/sv/gripclaw.png" />
+$大白金宝玉=Griseous Core <img class="items" data-pokedex="Griseous Core" src="https://www.serebii.net/itemdex/sprites/sv/griseouscore.png" />
+$白金宝珠=Griseous Orb <img class="items" data-pokedex="Griseous Orb" src="https://www.serebii.net/itemdex/sprites/sv/griseousorb.png" />
+$地面宝石=Ground Gem <img class="items" data-pokedex="Ground Gem" src="https://www.serebii.net/itemdex/sprites/pgl/groundgem.png" />
+$大地存储碟=Ground Memory <img class="items" data-pokedex="Ground Memory" src="https://www.serebii.net/itemdex/sprites/pgl/groundmemory.png" />
+$地面Ｚ=Groundium Z <img class="items" data-pokedex="Groundium Z" src="https://www.serebii.net/itemdex/sprites/pgl/groundiumz.png" />
+$硬石头=Hard Stone <img class="items" data-pokedex="Hard Stone" src="https://www.serebii.net/itemdex/sprites/sv/hardstone.png" />
+$火灶面具=Hearthflame Mask <img class="items" data-pokedex="Hearthflame Mask" src="https://www.serebii.net/itemdex/sprites/sv/hearthflamemask.png" />
+$炽热岩石=Heat Rock <img class="items" data-pokedex="Heat Rock" src="https://www.serebii.net/itemdex/sprites/sv/heatrock.png" />
+$厚底靴=Heavy-Duty Boots <img class="items" data-pokedex="Heavy-Duty Boots" src="https://www.serebii.net/itemdex/sprites/sv/heavy-dutyboots.png" />
+$冰之宝石=Ice Gem <img class="items" data-pokedex="Ice Gem" src="https://www.serebii.net/itemdex/sprites/pgl/icegem.png" />
+$冰雪存储碟=Ice Memory <img class="items" data-pokedex="Ice Memory" src="https://www.serebii.net/itemdex/sprites/pgl/icememory.png" />
+$冰柱石板=Icicle Plate <img class="items" data-pokedex="Icicle Plate" src="https://www.serebii.net/itemdex/sprites/sv/icicleplate.png" />
+$冰Ｚ=Icium Z <img class="items" data-pokedex="Icium Z" src="https://www.serebii.net/itemdex/sprites/pgl/iciumz.png" />
+$冰冷岩石=Icy Rock <img class="items" data-pokedex="Icy Rock" src="https://www.serebii.net/itemdex/sprites/sv/icyrock.png" />
+$炽焰咆哮虎Ｚ=Incinium Z <img class="items" data-pokedex="Incinium Z" src="https://www.serebii.net/itemdex/sprites/pgl/inciniumz.png" />
+$玉虫石板=Insect Plate <img class="items" data-pokedex="Insect Plate" src="https://www.serebii.net/itemdex/sprites/sv/insectplate.png" />
+$黑色铁球=Iron Ball <img class="items" data-pokedex="Iron Ball" src="https://www.serebii.net/itemdex/sprites/sv/ironball.png" />
+$钢铁石板=Iron Plate <img class="items" data-pokedex="Iron Plate" src="https://www.serebii.net/itemdex/sprites/sv/ironplate.png" />
+$杖尾鳞甲龙Ｚ=Kommonium Z <img class="items" data-pokedex="Kommonium Z" src="https://www.serebii.net/itemdex/sprites/pgl/kommoniumz.png" />
+$后攻之尾=Lagging Tail <img class="items" data-pokedex="Lagging Tail" src="https://www.serebii.net/itemdex/sprites/sv/laggingtail.png" />
+$悠闲薰香=Lax Incense <img class="items" data-pokedex="Lax Incense" src="https://www.serebii.net/itemdex/sprites/pgl/laxincense.png" />
+$大葱=Leek <img class="items" data-pokedex="Leek" src="https://archives.bulbagarden.net/media/upload/2/24/Dream_Stick_Sprite.png" />
+$吃剩的东西=Leftovers <img class="items" data-pokedex="Leftovers" src="https://www.serebii.net/itemdex/sprites/sv/leftovers.png" />
+$生命宝珠=Life Orb <img class="items" data-pokedex="Life Orb" src="https://www.serebii.net/itemdex/sprites/sv/lifeorb.png" />
+$电气球=Light Ball <img class="items" data-pokedex="Light Ball" src="https://www.serebii.net/itemdex/sprites/pgl/lightball.png" />
+$光之黏土=Light Clay <img class="items" data-pokedex="Light Clay" src="https://www.serebii.net/itemdex/sprites/sv/lightclay.png" />
+$机变骰子=Loaded Dice <img class="items" data-pokedex="Loaded Dice" src="https://www.serebii.net/itemdex/sprites/sv/loadeddice.png" />
+$幸运薰香=Luck Incense <img class="items" data-pokedex="Luck Incense" src="https://www.serebii.net/itemdex/sprites/pgl/luckincense.png" />
+$幸运蛋=Lucky Egg <img class="items" data-pokedex="Lucky Egg" src="https://www.serebii.net/itemdex/sprites/sv/luckyegg.png" />
+$吉利拳=Lucky Punch <img class="items" data-pokedex="Lucky Punch" src="https://www.serebii.net/itemdex/sprites/pgl/luckypunch.png" />
+$光苔=Luminous Moss <img class="items" data-pokedex="Luminous Moss" src="https://www.serebii.net/itemdex/sprites/sv/luminousmoss.png" />
+$露奈雅拉Ｚ=Lunalium Z <img class="items" data-pokedex="Lunalium Z" src="https://www.serebii.net/itemdex/sprites/pgl/lunaliumz.png" />
+$大白宝玉=Lustrous Globe <img class="items" data-pokedex="Lustrous Globe" src="https://www.serebii.net/itemdex/sprites/sv/lustrousglobe.png" />
+$白玉宝珠=Lustrous Orb <img class="items" data-pokedex="Lustrous Orb" src="https://www.serebii.net/itemdex/sprites/sv/lustrousorb.png" />
+$鬃岩狼人Ｚ=Lycanium Z <img class="items" data-pokedex="Lycanium Z" src="https://www.serebii.net/itemdex/sprites/pgl/lycaniumz.png" />
+$强制锻炼器=Macho Brace <img class="items" data-pokedex="Macho Brace" src="https://www.serebii.net/itemdex/sprites/pgl/machobrace.png" />
+$磁铁=Magnet <img class="items" data-pokedex="Magnet" src="https://www.serebii.net/itemdex/sprites/sv/magnet.png" />
+$玛夏多Ｚ=Marshadium Z <img class="items" data-pokedex="Marshadium Z" src="https://www.serebii.net/itemdex/sprites/pgl/marshadiumz.png" />
+$碧绿石板=Meadow Plate <img class="items" data-pokedex="Meadow Plate" src="https://www.serebii.net/itemdex/sprites/sv/meadowplate.png" />
+$心灵香草=Mental Herb <img class="items" data-pokedex="Mental Herb" src="https://www.serebii.net/itemdex/sprites/sv/mentalherb.png" />
+$金属粉=Metal Powder <img class="items" data-pokedex="Metal Powder" src="https://www.serebii.net/itemdex/sprites/pgl/metalpowder.png" />
+$节拍器=Metronome <img class="items" data-pokedex="Metronome" src="https://www.serebii.net/itemdex/sprites/sv/metronome.png" />
+$挥指功=Metronome <img class="items" data-pokedex="Metronome" src="https://www.serebii.net/itemdex/sprites/sv/metronome.png" />
+$梦幻Ｚ=Mewnium Z <img class="items" data-pokedex="Mewnium Z" src="https://www.serebii.net/itemdex/sprites/pgl/mewniumz.png" />
+$谜拟ＱＺ=Mimikium Z <img class="items" data-pokedex="Mimikium Z" src="https://www.serebii.net/itemdex/sprites/pgl/mimikiumz.png" />
+$神奇石板=Mind Plate <img class="items" data-pokedex="Mind Plate" src="https://www.serebii.net/itemdex/sprites/sv/mindplate.png" />
+$奇迹种子=Miracle Seed <img class="items" data-pokedex="Miracle Seed" src="https://www.serebii.net/itemdex/sprites/sv/miracleseed.png" />
+$模仿香草=Mirror Herb <img class="items" data-pokedex="Mirror Herb" src="https://www.serebii.net/itemdex/sprites/sv/mirrorherb.png" />
+$薄雾种子=Misty Seed <img class="items" data-pokedex="Misty Seed" src="https://www.serebii.net/itemdex/sprites/sv/mistyseed.png" />
+$力量头带=Muscle Band <img class="items" data-pokedex="Muscle Band" src="https://www.serebii.net/itemdex/sprites/sv/muscleband.png" />
+$神秘水滴=Mystic Water <img class="items" data-pokedex="Mystic Water" src="https://www.serebii.net/itemdex/sprites/sv/mysticwater.png" />
+$不融冰=Never-Melt Ice <img class="items" data-pokedex="Never-Melt Ice" src="https://www.serebii.net/itemdex/sprites/sv/never-meltice.png" />
+$一般宝石=Normal Gem <img class="items" data-pokedex="Normal Gem" src="https://www.serebii.net/itemdex/sprites/sv/normalgem.png" />
+$一般Ｚ=Normalium Z <img class="items" data-pokedex="Normalium Z" src="https://www.serebii.net/itemdex/sprites/pgl/normaliumz.png" />
+$奇异薰香=Odd Incense <img class="items" data-pokedex="Odd Incense" src="https://www.serebii.net/itemdex/sprites/pgl/oddincense.png" />
+$皮卡丘Ｚ=Pikanium Z <img class="items" data-pokedex="Pikanium Z" src="https://www.serebii.net/itemdex/sprites/pgl/pikaniumz.png" />
+$智皮卡Ｚ=Pikashunium Z <img class="items" data-pokedex="Pikashunium Z" src="https://www.serebii.net/itemdex/sprites/pgl/pikashuniumz.png" />
+$粉紅色絲帶=Pink Bow
+$粉红头巾=Pink Scarf <img class="items" data-pokedex="Pink Scarf" src="https://www.serebii.net/itemdex/sprites/pgl/pinkscarf.png" />
+$妖精石板=Pixie Plate <img class="items" data-pokedex="Pixie Plate" src="https://www.serebii.net/itemdex/sprites/sv/pixieplate.png" />
+$毒针=Poison Barb <img class="items" data-pokedex="Poison Barb" src="https://www.serebii.net/itemdex/sprites/sv/poisonbarb.png" />
+$毒之宝石=Poison Gem <img class="items" data-pokedex="Poison Gem" src="https://www.serebii.net/itemdex/sprites/pgl/poisongem.png" />
+$毒存储碟=Poison Memory <img class="items" data-pokedex="Poison Memory" src="https://www.serebii.net/itemdex/sprites/pgl/poisonmemory.png" />
+$毒Ｚ=Poisonium Z <img class="items" data-pokedex="Poisonium Z" src="https://www.serebii.net/itemdex/sprites/pgl/poisoniumz.png" />
+$水玉色之帶=Polkadot Bow
+$力量护踝=Power Anklet <img class="items" data-pokedex="Power Anklet" src="https://www.serebii.net/itemdex/sprites/sv/poweranklet.png" />
+$力量束带=Power Band <img class="items" data-pokedex="Power Band" src="https://www.serebii.net/itemdex/sprites/sv/powerband.png" />
+$力量腰带=Power Belt <img class="items" data-pokedex="Power Belt" src="https://www.serebii.net/itemdex/sprites/sv/powerbelt.png" />
+$力量护腕=Power Bracer <img class="items" data-pokedex="Power Bracer" src="https://www.serebii.net/itemdex/sprites/sv/powerbracer.png" />
+$强力香草=Power Herb <img class="items" data-pokedex="Power Herb" src="https://www.serebii.net/itemdex/sprites/sv/powerherb.png" />
+$力量镜=Power Lens <img class="items" data-pokedex="Power Lens" src="https://www.serebii.net/itemdex/sprites/sv/powerlens.png" />
+$力量负重=Power Weight <img class="items" data-pokedex="Power Weight" src="https://www.serebii.net/itemdex/sprites/sv/powerweight.png" />
+$西狮海壬Ｚ=Primarium Z <img class="items" data-pokedex="Primarium Z" src="https://www.serebii.net/itemdex/sprites/pgl/primariumz.png" />
+$部位护具=Protective Pads <img class="items" data-pokedex="Protective Pads" src="https://www.serebii.net/itemdex/sprites/sv/protectivepads.png" />
+$超能力宝石=Psychic Gem <img class="items" data-pokedex="Psychic Gem" src="https://www.serebii.net/itemdex/sprites/pgl/psychicgem.png" />
+$精神存储碟=Psychic Memory <img class="items" data-pokedex="Psychic Memory" src="https://www.serebii.net/itemdex/sprites/pgl/psychicmemory.png" />
+$精神种子=Psychic Seed <img class="items" data-pokedex="Psychic Seed" src="https://www.serebii.net/itemdex/sprites/sv/psychicseed.png" />
+$超能力Ｚ=Psychium Z <img class="items" data-pokedex="Psychium Z" src="https://www.serebii.net/itemdex/sprites/pgl/psychiumz.png" />
+$拳击手套=Punching Glove <img class="items" data-pokedex="Punching Glove" src="https://www.serebii.net/itemdex/sprites/sv/punchingglove.png" />
+$洁净薰香=Pure Incense <img class="items" data-pokedex="Pure Incense" src="https://www.serebii.net/itemdex/sprites/pgl/pureincense.png" />
+$先制之爪=Quick Claw <img class="items" data-pokedex="Quick Claw" src="https://www.serebii.net/itemdex/sprites/sv/quickclaw.png" />
+$速度粉=Quick Powder <img class="items" data-pokedex="Quick Powder" src="https://www.serebii.net/itemdex/sprites/pgl/quickpowder.png" />
+$红牌=Red Card <img class="items" data-pokedex="Red Card" src="https://www.serebii.net/itemdex/sprites/sv/redcard.png" />
+$朱红色宝珠=Red Orb <img class="items" data-pokedex="Red Orb" src="https://www.serebii.net/itemdex/sprites/pgl/redorb.png" />
+$红色头巾=Red Scarf <img class="items" data-pokedex="Red Scarf" src="https://www.serebii.net/itemdex/sprites/pgl/redscarf.png" />
+$标靶=Ring Target <img class="items" data-pokedex="Ring Target" src="https://www.serebii.net/itemdex/sprites/sv/ringtarget.png" />
+$岩石宝石=Rock Gem <img class="items" data-pokedex="Rock Gem" src="https://www.serebii.net/itemdex/sprites/pgl/rockgem.png" />
+$岩石薰香=Rock Incense <img class="items" data-pokedex="Rock Incense" src="https://www.serebii.net/itemdex/sprites/pgl/rockincense.png" />
+$岩石存储碟=Rock Memory <img class="items" data-pokedex="Rock Memory" src="https://www.serebii.net/itemdex/sprites/pgl/rockmemory.png" />
+$岩石Ｚ=Rockium Z <img class="items" data-pokedex="Rockium Z" src="https://www.serebii.net/itemdex/sprites/pgl/rockiumz.png" />
+$凸凸头盔=Rocky Helmet <img class="items" data-pokedex="Rocky Helmet" src="https://www.serebii.net/itemdex/sprites/sv/rockyhelmet.png" />
+$客房服务=Room Service <img class="items" data-pokedex="Room Service" src="https://www.serebii.net/itemdex/sprites/sv/roomservice.png" />
+$花朵薰香=Rose Incense <img class="items" data-pokedex="Rose Incense" src="https://www.serebii.net/itemdex/sprites/pgl/roseincense.png" />
+$腐朽的盾=Rusted Shield <img class="items" data-pokedex="Rusted Shield" src="https://www.serebii.net/itemdex/sprites/sv/rustedshield.png" />
+$腐朽的剑=Rusted Sword <img class="items" data-pokedex="Rusted Sword" src="https://www.serebii.net/itemdex/sprites/sv/rustedsword.png" />
+$防尘护目镜=Safety Goggles <img class="items" data-pokedex="Safety Goggles" src="https://www.serebii.net/itemdex/sprites/sv/safetygoggles.png" />
+$焦点镜=Scope Lens <img class="items" data-pokedex="Scope Lens" src="https://www.serebii.net/itemdex/sprites/sv/scopelens.png" />
+$海潮薰香=Sea Incense <img class="items" data-pokedex="Sea Incense" src="https://www.serebii.net/itemdex/sprites/pgl/seaincense.png" />
+$锐利鸟嘴=Sharp Beak <img class="items" data-pokedex="Sharp Beak" src="https://www.serebii.net/itemdex/sprites/sv/sharpbeak.png" />
+$美丽空壳=Shed Shell <img class="items" data-pokedex="Shed Shell" src="https://www.serebii.net/itemdex/sprites/sv/shedshell.png" />
+$贝壳之铃=Shell Bell <img class="items" data-pokedex="Shell Bell" src="https://www.serebii.net/itemdex/sprites/sv/shellbell.png" />
+$闪电卡带=Shock Drive <img class="items" data-pokedex="Shock Drive" src="https://www.serebii.net/itemdex/sprites/pgl/shockdrive.png" />
+$丝绸围巾=Silk Scarf <img class="items" data-pokedex="Silk Scarf" src="https://www.serebii.net/itemdex/sprites/sv/silkscarf.png" />
+$银粉=Silver Powder <img class="items" data-pokedex="Silver Powder" src="https://www.serebii.net/itemdex/sprites/sv/silverpowder.png" />
+$蓝天石板=Sky Plate <img class="items" data-pokedex="Sky Plate" src="https://www.serebii.net/itemdex/sprites/sv/skyplate.png" />
+$烟雾球=Smoke Ball <img class="items" data-pokedex="Smoke Ball" src="https://www.serebii.net/itemdex/sprites/sv/smokeball.png" />
+$沙沙岩石=Smooth Rock <img class="items" data-pokedex="Smooth Rock" src="https://www.serebii.net/itemdex/sprites/sv/smoothrock.png" />
+$卡比兽Ｚ=Snorlium Z <img class="items" data-pokedex="Snorlium Z" src="https://www.serebii.net/itemdex/sprites/pgl/snorliumz.png" />
+$柔软沙子=Soft Sand <img class="items" data-pokedex="Soft Sand" src="https://www.serebii.net/itemdex/sprites/sv/softsand.png" />
+$索尔迦雷欧Ｚ=Solganium Z <img class="items" data-pokedex="Solganium Z" src="https://www.serebii.net/itemdex/sprites/pgl/solganiumz.png" />
+$安抚之铃=Soothe Bell <img class="items" data-pokedex="Soothe Bell" src="https://www.serebii.net/itemdex/sprites/sv/soothebell.png" />
+$心之水滴=Soul Dew <img class="items" data-pokedex="Soul Dew" src="https://www.serebii.net/itemdex/sprites/sv/souldew.png" />
+$诅咒之符=Spell Tag <img class="items" data-pokedex="Spell Tag" src="https://www.serebii.net/itemdex/sprites/sv/spelltag.png" />
+$水滴石板=Splash Plate <img class="items" data-pokedex="Splash Plate" src="https://www.serebii.net/itemdex/sprites/sv/splashplate.png" />
+$妖怪石板=Spooky Plate <img class="items" data-pokedex="Spooky Plate" src="https://www.serebii.net/itemdex/sprites/sv/spookyplate.png" />
+$钢之宝石=Steel Gem <img class="items" data-pokedex="Steel Gem" src="https://www.serebii.net/itemdex/sprites/pgl/steelgem.png" />
+$钢铁存储碟=Steel Memory <img class="items" data-pokedex="Steel Memory" src="https://www.serebii.net/itemdex/sprites/pgl/steelmemory.png" />
+$钢Ｚ=Steelium Z <img class="items" data-pokedex="Steelium Z" src="https://www.serebii.net/itemdex/sprites/pgl/steeliumz.png" />
+$附着针=Sticky Barb <img class="items" data-pokedex="Sticky Barb" src="https://www.serebii.net/itemdex/sprites/sv/stickybarb.png" />
+$岩石石板=Stone Plate <img class="items" data-pokedex="Stone Plate" src="https://www.serebii.net/itemdex/sprites/sv/stoneplate.png" />
+$卡璞Ｚ=Tapunium Z <img class="items" data-pokedex="Tapunium Z" src="https://www.serebii.net/itemdex/sprites/pgl/tapuniumz.png" />
+$大地膜=Terrain Extender <img class="items" data-pokedex="Terrain Extender" src="https://www.serebii.net/itemdex/sprites/sv/terrainextender.png" />
+$粗骨头=Thick Club <img class="items" data-pokedex="Thick Club" src="https://www.serebii.net/itemdex/sprites/pgl/thickclub.png" />
+$爽喉喷雾=Throat Spray <img class="items" data-pokedex="Throat Spray" src="https://www.serebii.net/itemdex/sprites/sv/throatspray.png" />
+$剧毒宝珠=Toxic Orb <img class="items" data-pokedex="Toxic Orb" src="https://www.serebii.net/itemdex/sprites/sv/toxicorb.png" />
+$剧毒石板=Toxic Plate <img class="items" data-pokedex="Toxic Plate" src="https://www.serebii.net/itemdex/sprites/sv/toxicplate.png" />
+$弯曲的汤匙=Twisted Spoon <img class="items" data-pokedex="Twisted Spoon" src="https://www.serebii.net/itemdex/sprites/sv/twistedspoon.png" />
+$究极奈克洛Ｚ=Ultranecrozium Z <img class="items" data-pokedex="Ultranecrozium Z" src="https://www.serebii.net/itemdex/sprites/pgl/ultranecroziumz.png" />
+$万能伞=Utility Umbrella <img class="items" data-pokedex="Utility Umbrella" src="https://www.serebii.net/itemdex/sprites/sv/utilityumbrella.png" />
+$水之宝石=Water Gem <img class="items" data-pokedex="Water Gem" src="https://www.serebii.net/itemdex/sprites/pgl/watergem.png" />
+$清水存储碟=Water Memory <img class="items" data-pokedex="Water Memory" src="https://www.serebii.net/itemdex/sprites/pgl/watermemory.png" />
+$水Ｚ=Waterium Z <img class="items" data-pokedex="Waterium Z" src="https://www.serebii.net/itemdex/sprites/pgl/wateriumz.png" />
+$涟漪薰香=Wave Incense <img class="items" data-pokedex="Wave Incense" src="https://www.serebii.net/itemdex/sprites/pgl/waveincense.png" />
+$弱点保险=Weakness Policy <img class="items" data-pokedex="Weakness Policy" src="https://www.serebii.net/itemdex/sprites/sv/weaknesspolicy.png" />
+$水井面具=Wellspring Mask <img class="items" data-pokedex="Wellspring Mask" src="https://www.serebii.net/itemdex/sprites/sv/wellspringmask.png" />
+$白色香草=White Herb <img class="items" data-pokedex="White Herb" src="https://www.serebii.net/itemdex/sprites/sv/whiteherb.png" />
+$广角镜=Wide Lens <img class="items" data-pokedex="Wide Lens" src="https://www.serebii.net/itemdex/sprites/sv/widelens.png" />
+$博识眼镜=Wise Glasses <img class="items" data-pokedex="Wise Glasses" src="https://www.serebii.net/itemdex/sprites/sv/wiseglasses.png" />
+$黄色头巾=Yellow Scarf <img class="items" data-pokedex="Yellow Scarf" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-scarf.png" />
+$雷电石板=Zap Plate <img class="items" data-pokedex="Zap Plate" src="https://www.serebii.net/itemdex/sprites/sv/zapplate.png" />
+$对焦镜=Zoom Lens <img class="items" data-pokedex="Zoom Lens" src="https://www.serebii.net/itemdex/sprites/sv/zoomlens.png" />
+==============Held items==============
 $耿鬼进化石=Gengarite
 $沙奈朵进化石=Gardevoirite
 $电龙进化石=Ampharosite
@@ -3026,7 +3184,6 @@ $雷电兽进化石=Manectite
 $烈咬陆鲨进化石=Garchompite
 $拉帝亚斯进化石=Latiasite
 $拉帝欧斯进化石=Latiosite
-$妖精宝石=Fairy Gem
 $巨沼怪进化石=Swampertite
 $蜥蜴王进化石=Sceptilite
 $勾魂眼进化石=Sablenite
@@ -3044,85 +3201,6 @@ $喷火驼进化石=Cameruptite
 $长耳兔进化石=Lopunnite
 $暴飞龙进化石=Salamencite
 $大针蜂进化石=Beedrillite
-$一般Ｚ=Normalium Z
-$火Ｚ=Firium Z
-$水Ｚ=Waterium Z
-$电Ｚ=Electrium Z
-$草Ｚ=Grassium Z
-$冰Ｚ=Icium Z
-$格斗Ｚ=Fightinium Z
-$毒Ｚ=Poisonium Z
-$地面Ｚ=Groundium Z
-$飞行Ｚ=Flyinium Z
-$超能力Ｚ=Psychium Z
-$虫Ｚ=Buginium Z
-$岩石Ｚ=Rockium Z
-$幽灵Ｚ=Ghostium Z
-$龙Ｚ=Dragonium Z
-$恶Ｚ=Darkinium Z
-$钢Ｚ=Steelium Z
-$妖精Ｚ=Fairium Z
-$皮卡丘Ｚ=Pikanium Z
-$狙射树枭Ｚ=Decidium Z
-$炽焰咆哮虎Ｚ=Incinium Z
-$西狮海壬Ｚ=Primarium Z
-$卡璞Ｚ=Tapunium Z
-$玛夏多Ｚ=Marshadium Z
-$阿罗雷Ｚ=Aloraichium Z
-$卡比兽Ｚ=Snorlium Z
-$伊布Ｚ=Eevium Z
-$梦幻Ｚ=Mewnium Z
-$智皮卡Ｚ=Pikashunium Z
-$胆怯球=Adrenaline Orb
-$大地膜=Terrain Extender
-$部位护具=Protective Pads
-$电气种子=Electric Seed
-$精神种子=Psychic Seed
-$薄雾种子=Misty Seed
-$青草种子=Grassy Seed
-$战斗存储碟=Fighting Memory
-$飞翔存储碟=Flying Memory
-$毒存储碟=Poison Memory
-$大地存储碟=Ground Memory
-$岩石存储碟=Rock Memory
-$虫子存储碟=Bug Memory
-$幽灵存储碟=Ghost Memory
-$钢铁存储碟=Steel Memory
-$火焰存储碟=Fire Memory
-$清水存储碟=Water Memory
-$青草存储碟=Grass Memory
-$电子存储碟=Electric Memory
-$精神存储碟=Psychic Memory
-$冰雪存储碟=Ice Memory
-$龙存储碟=Dragon Memory
-$黑暗存储碟=Dark Memory
-$妖精存储碟=Fairy Memory
-$索尔迦雷欧Ｚ=Solganium Z
-$露奈雅拉Ｚ=Lunalium Z
-$究极奈克洛Ｚ=Ultranecrozium Z
-$谜拟ＱＺ=Mimikium Z
-$鬃岩狼人Ｚ=Lycanium Z
-$杖尾鳞甲龙Ｚ=Kommonium Z
-$孵蛋碰碰=Roto Hatch
-$优惠碰碰=Roto Bargain
-$零花钱碰碰=Roto Prize Money
-$经验碰碰=Roto Exp. Points
-$亲密碰碰=Roto Friendship
-$相遇碰碰=Roto Encounter
-$隐身碰碰=Roto Stealth
-$捕捉碰碰=Roto Catch
-$腐朽的剑=Rusted Sword
-$腐朽的盾=Rusted Shield
-$爽喉喷雾=Throat Spray
-$避难背包=Eject Pack
-$厚底靴=Heavy-Duty Boots
-$打空保险=Blunder Policy
-$客房服务=Room Service
-$万能伞=Utility Umbrella
-$妖精之羽=Fairy Feather
-$础石面具=Cornerstone Mask
-$水井面具=Wellspring Mask
-$火灶面具=Hearthflame Mask
 ==============Mails==============
 $珠寶郵件=Bead Mail <img class="items" style="height: 40px;" data-pokedex="Bead Mail" src="https://www.serebii.net/itemdex/mail/beadmail.png" />
 $桥梁邮件Ｈ=Bridge Mail D <img class="items" style="height: 40px;" data-pokedex="Bridge Mail D" src="https://www.serebii.net/itemdex/mail/bridgemailh.png" />
@@ -3154,6 +3232,150 @@ $感谢邮件=Thanks Mail <img class="items" style="height: 40px;" data-pokedex=
 $熱帶郵件=Tropic Mail <img class="items" style="height: 40px;" data-pokedex="Tropic Mail" src="https://www.serebii.net/itemdex/mail/tropicmail.png" />
 $波濤郵件=Wave Mail <img class="items" style="height: 40px;" data-pokedex="Wave Mail" src="https://www.serebii.net/itemdex/mail/wavemail.png" />
 $木紋郵件=Wood Mail <img class="items" style="height: 40px;" data-pokedex="Wood Mail" src="https://www.serebii.net/itemdex/mail/woodmail.png" />
+==============Miscellaneous==============
+$胆怯球=Adrenaline Orb <img class="items" data-pokedex="Adrenaline Orb" src="https://www.serebii.net/itemdex/sprites/sv/adrenalineorb.png" />
+$超效肥=Amaze Mulch <img class="items" data-pokedex="Amaze Mulch" src="https://www.serebii.net/itemdex/sprites/pgl/amazemulch.png" />
+$铠甲矿石=Armorite Ore <img class="items" data-pokedex="Armorite Ore" src="https://www.serebii.net/itemdex/sprites/armoriteore.png" />
+$泥丸=Ball of Mud <img class="items" data-pokedex="Ball of Mud" src="https://www.serebii.net/itemdex/sprites/legends/ballofmud.png" />
+$芳香蘑菇=Balm Mushroom <img class="items" data-pokedex="Balm Mushroom" src="https://www.serebii.net/itemdex/sprites/sv/balmmushroom.png" />
+$幽尾玄鱼丸=Basculegion Food <img class="items" data-pokedex="Basculegion Food" src="https://www.serebii.net/itemdex/sprites/legends/basculegionfood.png" />
+$海边的玻璃=Beach Glass <img class="items" data-pokedex="Beach Glass" src="https://www.serebii.net/itemdex/sprites/beachglass.png" />
+$豆诱团=Bean Cake <img class="items" data-pokedex="Bean Cake" src="https://www.serebii.net/itemdex/sprites/legends/beancake.png" />
+$大竹笋=Big Bamboo Shoot <img class="items" data-pokedex="Big Bamboo Shoot" src="https://www.serebii.net/itemdex/sprites/sv/bigbambooshoot.png" />
+$大蘑菇=Big Mushroom <img class="items" data-pokedex="Big Mushroom" src="https://www.serebii.net/itemdex/sprites/sv/bigmushroom.png" />
+$巨大金珠=Big Nugget <img class="items" data-pokedex="Big Nugget" src="https://www.serebii.net/itemdex/sprites/sv/bignugget.png" />
+$大珍珠=Big Pearl <img class="items" data-pokedex="Big Pearl" src="https://www.serebii.net/itemdex/sprites/sv/bigpearl.png" />
+$黑色玻璃哨=Black Flute <img class="items" data-pokedex="Black Flute" src="https://www.serebii.net/itemdex/sprites/pgl/blackflute.png" />
+$蓝色玻璃哨=Blue Flute <img class="items" data-pokedex="Blue Flute" src="https://www.serebii.net/itemdex/sprites/pgl/blueflute.png" />
+$蓝色碎片=Blue Shard <img class="items" data-pokedex="Blue Shard" src="https://www.serebii.net/itemdex/sprites/pgl/blueshard.png" />
+$劲劲肥=Boost Mulch <img class="items" data-pokedex="Boost Mulch" src="https://www.serebii.net/itemdex/sprites/pgl/boostmulch.png" />
+$银色王冠=Bottle Cap <img class="items" data-pokedex="Bottle Cap" src="https://www.serebii.net/itemdex/sprites/sv/bottlecap.png" />
+$虫太晶碎块=Bug Tera Shard <img class="items" data-pokedex="Bug Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/bugterashard.png" />
+$粉笔石=Chalky Stone <img class="items" data-pokedex="Chalky Stone" src="https://www.serebii.net/itemdex/sprites/chalkystone.png" />
+$彗星碎片=Comet Shard <img class="items" data-pokedex="Comet Shard" src="https://www.serebii.net/itemdex/sprites/sv/cometshard.png" />
+$常见石=Common Stone <img class="items" data-pokedex="Common Stone" src="https://www.serebii.net/itemdex/sprites/commonstone.png" />
+$湿湿肥=Damp Mulch <img class="items" data-pokedex="Damp Mulch" src="https://www.serebii.net/itemdex/sprites/dampmulch.png" />
+$恶太晶碎块=Dark Tera Shard <img class="items" data-pokedex="Dark Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/darkterashard.png" />
+$折价券=Discount Coupon <img class="items" data-pokedex="Discount Coupon" src="https://www.serebii.net/itemdex/sprites/pgl/discountcoupon.png" />
+$引导石板=Discovery Slate <img class="items" data-pokedex="Discovery Slate" src="https://www.serebii.net/itemdex/sprites/discoveryslate.png" />
+$毁坏石板=Distortion Slate <img class="items" data-pokedex="Distortion Slate" src="https://www.serebii.net/itemdex/sprites/distortionslate.png" />
+$龙太晶碎块=Dragon Tera Shard <img class="items" data-pokedex="Dragon Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/dragonterashard.png" />
+$极矿石=Dynite Ore <img class="items" data-pokedex="Dynite Ore" src="https://www.serebii.net/itemdex/sprites/pgl/dyniteore.png" />
+$电太晶碎块=Electric Tera Shard <img class="items" data-pokedex="Electric Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/electricterashard.png" />
+$离洞绳=Escape Rope <img class="items" data-pokedex="Escape Rope" src="https://www.serebii.net/itemdex/sprites/pgl/escaperope.png" />
+$妖精太晶碎块=Fairy Tera Shard <img class="items" data-pokedex="Fairy Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/fairyterashard.png" />
+$圆庆票=Festival Ticket <img class="items" data-pokedex="Festival Ticket" src="https://www.serebii.net/itemdex/sprites/pgl/festivalticket.png" />
+$格斗太晶碎块=Fighting Tera Shard <img class="items" data-pokedex="Fighting Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/fightingterashard.png" />
+$火太晶碎块=Fire Tera Shard <img class="items" data-pokedex="Fire Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/fireterashard.png" />
+$向尾喵的尾巴=Fluffy Tail <img class="items" data-pokedex="Fluffy Tail" src="https://www.serebii.net/itemdex/sprites/pgl/fluffytail.png" />
+$飞行太晶碎块=Flying Tera Shard <img class="items" data-pokedex="Flying Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/flyingterashard.png" />
+$伽勒豆蔻枝=Galarica Twig <img class="items" data-pokedex="Galarica Twig" src="https://www.serebii.net/itemdex/sprites/sv/galaricatwig.png" />
+$基因石板=Genome Slate <img class="items" data-pokedex="Genome Slate" src="https://www.serebii.net/itemdex/sprites/genomeslate.png" />
+$幽灵太晶碎块=Ghost Tera Shard <img class="items" data-pokedex="Ghost Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/ghostterashard.png" />
+$金色王冠=Gold Bottle Cap <img class="items" data-pokedex="Gold Bottle Cap" src="https://www.serebii.net/itemdex/sprites/sv/goldbottlecap.png" />
+$金色叶子=Gold Leaf <img class="items" data-pokedex="Gold Leaf" src="https://www.serebii.net/itemdex/sprites/goldleaf.png" />
+$粘粘肥=Gooey Mulch <img class="items" data-pokedex="Gooey Mulch" src="https://www.serebii.net/itemdex/sprites/gooeymulch.png" />
+$谷诱团=Grain Cake <img class="items" data-pokedex="Grain Cake" src="https://www.serebii.net/itemdex/sprites/legends/graincake.png" />
+$草太晶碎块=Grass Tera Shard <img class="items" data-pokedex="Grass Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/grassterashard.png" />
+$绿色碎片=Green Shard <img class="items" data-pokedex="Green Shard" src="https://www.serebii.net/itemdex/sprites/pgl/greenshard.png" />
+$地面太晶碎块=Ground Tera Shard <img class="items" data-pokedex="Ground Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/groundterashard.png" />
+$速速肥=Growth Mulch <img class="items" data-pokedex="Growth Mulch" src="https://www.serebii.net/itemdex/sprites/growthmulch.png" />
+$心之鳞片=Heart Scale <img class="items" data-pokedex="Heart Scale" src="https://www.serebii.net/itemdex/sprites/pgl/heartscale.png" />
+$家乡玛芬=Hometown Muffin <img class="items" data-pokedex="Hometown Muffin" src="https://www.serebii.net/itemdex/sprites/legends/hometownmuffin.png" />
+$甜甜蜜=Honey <img class="items" data-pokedex="Honey" src="https://www.serebii.net/itemdex/sprites/sv/honey.png" />
+$蜜诱团=Honey Cake <img class="items" data-pokedex="Honey Cake" src="https://www.serebii.net/itemdex/sprites/legends/honeycake.png" />
+$冰太晶碎块=Ice Tera Shard <img class="items" data-pokedex="Ice Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/iceterashard.png" />
+$城都石板=Johto Slate <img class="items" data-pokedex="Johto Slate" src="https://www.serebii.net/itemdex/sprites/johtoslate.png" />
+$关都石板=Kanto Slate <img class="items" data-pokedex="Kanto Slate" src="https://www.serebii.net/itemdex/sprites/kantoslate.png" />
+$树叶信=Leaf Letter <img class="items" data-pokedex="Leaf Letter" src="https://www.serebii.net/itemdex/sprites/leafletter.png" />
+$一边的耳环=Lone Earring <img class="items" data-pokedex="Lone Earring" src="https://www.serebii.net/itemdex/sprites/loneearring.png" />
+$引虫香水=Lure <img class="items" data-pokedex="Lure" src="https://www.serebii.net/itemdex/sprites/lure.png" />
+$弹珠=Marble <img class="items" data-pokedex="Marble" src="https://www.serebii.net/itemdex/sprites/marble.png" />
+$黄金香水=Max Lure <img class="items" data-pokedex="Max Lure" src="https://www.serebii.net/itemdex/sprites/maxlure.png" />
+$黄金喷雾=Max Repel <img class="items" data-pokedex="Max Repel" src="https://www.serebii.net/itemdex/sprites/pgl/maxrepel.png" />
+$菇诱团=Mushroom Cake <img class="items" data-pokedex="Mushroom Cake" src="https://www.serebii.net/itemdex/sprites/legends/mushroomcake.png" />
+$谜之碎片Ｌ=Mysterious Shard L <img class="items" data-pokedex="Mysterious Shard L" src="https://www.serebii.net/itemdex/sprites/mysteriousshardl.png" />
+$谜之碎片Ｓ=Mysterious Shard S <img class="items" data-pokedex="Mysterious Shard S" src="https://www.serebii.net/itemdex/sprites/mysteriousshards.png" />
+$一般太晶碎块=Normal Tera Shard <img class="items" data-pokedex="Normal Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/normalterashard.png" />
+$金珠=Nugget <img class="items" data-pokedex="Nugget" src="https://www.serebii.net/itemdex/sprites/sv/nugget.png" />
+$大海石板=Oceanic Slate <img class="items" data-pokedex="Oceanic Slate" src="https://www.serebii.net/itemdex/sprites/oceanicslate.png" />
+$楔石=Odd Keystone <img class="items" data-pokedex="Odd Keystone" src="https://www.serebii.net/itemdex/sprites/legends/oddkeystone.png" />
+$释出之玉=Pass Orb <img class="items" data-pokedex="Pass Orb" src="https://www.serebii.net/itemdex/sprites/passorb.png" />
+$珍珠=Pearl <img class="items" data-pokedex="Pearl" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png" />
+$丸子珍珠=Pearl String <img class="items" data-pokedex="Pearl String" src="https://www.serebii.net/itemdex/sprites/sv/pearlstring.png" />
+$桃粉色花蜜=Pink Nectar <img class="items" data-pokedex="Pink Nectar" src="https://www.serebii.net/itemdex/sprites/sv/pinknectar.png" />
+$毒太晶碎块=Poison Tera Shard <img class="items" data-pokedex="Poison Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/poisonterashard.png" />
+$皮皮玩偶=Poké Doll <img class="items" data-pokedex="Poké Doll" src="https://www.serebii.net/itemdex/sprites/sv/pokedoll.png" />
+$皮皮娃娃=Poké Doll <img class="items" data-pokedex="Poké Doll" src="https://www.serebii.net/itemdex/sprites/sv/pokedoll.png" />
+$宝可尾草=Poké Toy <img class="items" data-pokedex="Poké Toy" src="https://www.serebii.net/itemdex/sprites/pgl/poketoy.png" />
+$宝可梦木娃娃=Pokéshi Doll <img class="items" data-pokedex="Pokéshi Doll" src="https://www.serebii.net/itemdex/sprites/legends/pokeshidoll.png" />
+$光滑泥球=Polished Mud Ball <img class="items" data-pokedex="Polished Mud Ball" src="https://www.serebii.net/itemdex/sprites/polishedmudball.png" />
+$美丽之羽=Pretty Feather <img class="items" data-pokedex="Pretty Feather" src="https://www.serebii.net/itemdex/sprites/sv/prettyfeather.png" />
+$超能力太晶碎块=Psychic Tera Shard <img class="items" data-pokedex="Psychic Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/psychicterashard.png" />
+$兰紫色花蜜=Purple Nectar <img class="items" data-pokedex="Purple Nectar" src="https://www.serebii.net/itemdex/sprites/sv/purplenectar.png" />
+$彩虹石板=Rainbow Slate <img class="items" data-pokedex="Rainbow Slate" src="https://www.serebii.net/itemdex/sprites/rainbowslate.png" />
+$贵重骨头=Rare Bone <img class="items" data-pokedex="Rare Bone" src="https://www.serebii.net/itemdex/sprites/sv/rarebone.png" />
+$红色玻璃哨=Red Flute <img class="items" data-pokedex="Red Flute" src="https://www.serebii.net/itemdex/sprites/pgl/redflute.png" />
+$朱紅色花蜜=Red Nectar <img class="items" data-pokedex="Red Nectar" src="https://www.serebii.net/itemdex/sprites/sv/rednectar.png" />
+$朱红色花蜜=Red Nectar <img class="items" data-pokedex="Red Nectar" src="https://www.serebii.net/itemdex/sprites/sv/rednectar.png" />
+$红色碎片=Red Shard <img class="items" data-pokedex="Red Shard" src="https://www.serebii.net/itemdex/sprites/pgl/redshard.png" />
+$古代手镯=Relic Band <img class="items" data-pokedex="Relic Band" src="https://www.serebii.net/itemdex/sprites/pgl/relicband.png" />
+$古代铜币=Relic Copper <img class="items" data-pokedex="Relic Copper" src="https://www.serebii.net/itemdex/sprites/pgl/reliccopper.png" />
+$古代王冠=Relic Crown <img class="items" data-pokedex="Relic Crown" src="https://www.serebii.net/itemdex/sprites/pgl/reliccrown.png" />
+$古代金币=Relic Gold <img class="items" data-pokedex="Relic Gold" src="https://www.serebii.net/itemdex/sprites/pgl/relicgold.png" />
+$古代银币=Relic Silver <img class="items" data-pokedex="Relic Silver" src="https://www.serebii.net/itemdex/sprites/pgl/relicsilver.png" />
+$古代石像=Relic Statue <img class="items" data-pokedex="Relic Statue" src="https://www.serebii.net/itemdex/sprites/pgl/relicstatue.png" />
+$古代之壶=Relic Vase <img class="items" data-pokedex="Relic Vase" src="https://www.serebii.net/itemdex/sprites/pgl/relicvase.png" />
+$除虫喷雾=Repel <img class="items" data-pokedex="Repel" src="https://www.serebii.net/itemdex/sprites/pgl/repel.png" />
+$硕果肥=Rich Mulch <img class="items" data-pokedex="Rich Mulch" src="https://www.serebii.net/itemdex/sprites/pgl/richmulch.png" />
+$岩石太晶碎块=Rock Tera Shard <img class="items" data-pokedex="Rock Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/rockterashard.png" />
+$优惠碰碰=Roto Bargain <img class="items" data-pokedex="Roto Bargain" src="https://www.serebii.net/itemdex/sprites/pgl/rotobargain.png" />
+$捕捉碰碰=Roto Catch <img class="items" data-pokedex="Roto Catch" src="https://www.serebii.net/itemdex/sprites/pgl/rotocatch.png" />
+$相遇碰碰=Roto Encounter <img class="items" data-pokedex="Roto Encounter" src="https://www.serebii.net/itemdex/sprites/pgl/rotoencounter.png" />
+$经验碰碰=Roto Exp. Points <img class="items" data-pokedex="Roto Exp. Points" src="https://www.serebii.net/itemdex/sprites/pgl/rotoexp.points.png" />
+$亲密碰碰=Roto Friendship <img class="items" data-pokedex="Roto Friendship" src="https://www.serebii.net/itemdex/sprites/pgl/rotofriendship.png" />
+$孵蛋碰碰=Roto Hatch <img class="items" data-pokedex="Roto Hatch" src="https://www.serebii.net/itemdex/sprites/pgl/rotohatch.png" />
+$零花钱碰碰=Roto Prize Money <img class="items" data-pokedex="Roto Prize Money" src="https://www.serebii.net/itemdex/sprites/pgl/rotoprizemoney.png" />
+$隐身碰碰=Roto Stealth <img class="items" data-pokedex="Roto Stealth" src="https://www.serebii.net/itemdex/sprites/pgl/rotostealth.png" />
+$矿诱团=Salt Cake <img class="items" data-pokedex="Salt Cake" src="https://www.serebii.net/itemdex/sprites/legends/saltcake.png" />
+$声弹=Scatter Bang <img class="items" data-pokedex="Scatter Bang" src="https://www.serebii.net/itemdex/sprites/legends/scatterbang.png" />
+$精通种子=Seed of Mastery <img class="items" data-pokedex="Seed of Mastery" src="https://www.serebii.net/itemdex/sprites/legends/seedofmastery.png" />
+$浅滩海盐=Shoal Salt <img class="items" data-pokedex="Shoal Salt" src="https://www.serebii.net/itemdex/sprites/pgl/shoalsalt.png" />
+$浅滩贝壳=Shoal Shell <img class="items" data-pokedex="Shoal Shell" src="https://www.serebii.net/itemdex/sprites/pgl/shoalshell.png" />
+$银色叶子=Silver Leaf <img class="items" data-pokedex="Silver Leaf" src="https://www.serebii.net/itemdex/sprites/silverleaf.png" />
+$美味尾巴=Slowpoke Tail <img class="items" data-pokedex="Slowpoke Tail" src="https://www.serebii.net/itemdex/sprites/slowpoketail.png" />
+$小小花束=Small Bouquet <img class="items" data-pokedex="Small Bouquet" src="https://www.serebii.net/itemdex/sprites/smallbouquet.png" />
+$烟弹=Smoke Bomb <img class="items" data-pokedex="Smoke Bomb" src="https://www.serebii.net/itemdex/sprites/legends/smokebomb.png" />
+$雪球=Snowball <img class="items" data-pokedex="Snowball" src="https://www.serebii.net/itemdex/sprites/sv/snowball.png" />
+$心之石板=Soul Slate <img class="items" data-pokedex="Soul Slate" src="https://www.serebii.net/itemdex/sprites/soulslate.png" />
+$蛀球果=Spoiled Apricorn <img class="items" data-pokedex="Spoiled Apricorn" src="https://www.serebii.net/itemdex/sprites/legends/spoiledapricorn.png" />
+$暴风石板=Squall Slate <img class="items" data-pokedex="Squall Slate" src="https://www.serebii.net/itemdex/sprites/squallslate.png" />
+$久久肥=Stable Mulch <img class="items" data-pokedex="Stable Mulch" src="https://www.serebii.net/itemdex/sprites/stablemulch.png" />
+$星星碎块=Star Piece <img class="items" data-pokedex="Star Piece" src="https://www.serebii.net/itemdex/sprites/sv/starpiece.png" />
+$星星碎片=Star Piece <img class="items" data-pokedex="Star Piece" src="https://www.serebii.net/itemdex/sprites/sv/starpiece.png" />
+$星星沙子=Stardust <img class="items" data-pokedex="Stardust" src="https://www.serebii.net/itemdex/sprites/sv/stardust.png" />
+$匿声喷雾=Stealth Spray <img class="items" data-pokedex="Stealth Spray" src="https://www.serebii.net/itemdex/sprites/legends/stealthspray.png" />
+$钢太晶碎块=Steel Tera Shard <img class="items" data-pokedex="Steel Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/steelterashard.png" />
+$黏丸=Sticky Glob <img class="items" data-pokedex="Sticky Glob" src="https://www.serebii.net/itemdex/sprites/legends/stickyglob.png" />
+$神秘摆设=Strange Souvenir <img class="items" data-pokedex="Strange Souvenir" src="https://www.serebii.net/itemdex/sprites/pgl/strangesouvenir.png" />
+$天空石板=Stratospheric Slate <img class="items" data-pokedex="Stratospheric Slate" src="https://www.serebii.net/itemdex/sprites/stratosphericslate.png" />
+$松掉的弹簧=Stretchy Spring <img class="items" data-pokedex="Stretchy Spring" src="https://www.serebii.net/itemdex/sprites/stretchyspring.png" />
+$白银香水=Super Lure <img class="items" data-pokedex="Super Lure" src="https://www.serebii.net/itemdex/sprites/superlure.png" />
+$白银喷雾=Super Repel <img class="items" data-pokedex="Super Repel" src="https://www.serebii.net/itemdex/sprites/sv/superrepel.png" />
+$吃惊肥=Surprise Mulch <img class="items" data-pokedex="Surprise Mulch" src="https://www.serebii.net/itemdex/sprites/pgl/surprisemulch.png" />
+$安全护符=Survival Charm <img class="items" data-pokedex="Survival Charm" src="https://www.serebii.net/itemdex/sprites/legends/survivalcharmr.png" />
+$大陆石板=Tectonic Slate <img class="items" data-pokedex="Tectonic Slate" src="https://www.serebii.net/itemdex/sprites/tectonicslate.png" />
+$替身护符=Tempting Charm <img class="items" data-pokedex="Tempting Charm" src="https://www.serebii.net/itemdex/sprites/legends/temptingcharmr.png" />
+$小竹笋=Tiny Bamboo Shoot <img class="items" data-pokedex="Tiny Bamboo Shoot" src="https://www.serebii.net/itemdex/sprites/sv/tinybambooshoot.png" />
+$小蘑菇=Tiny Mushroom <img class="items" data-pokedex="Tiny Mushroom" src="https://www.serebii.net/itemdex/sprites/sv/tinymushroom.png" />
+$南国贝壳=Tropical Shell <img class="items" data-pokedex="Tropical Shell" src="https://www.serebii.net/itemdex/sprites/tropicalshell.png" />
+$健康护符=Warding Charm <img class="items" data-pokedex="Warding Charm" src="https://www.serebii.net/itemdex/sprites/legends/wardingcharmr.png" />
+$水太晶碎块=Water Tera Shard <img class="items" data-pokedex="Water Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/waterterashard.png" />
+$白色玻璃哨=White Flute <img class="items" data-pokedex="White Flute" src="https://www.serebii.net/itemdex/sprites/pgl/whiteflute.png" />
+$许愿星碎片=Wishing Chip <img class="items" data-pokedex="Wishing Chip" src="https://www.serebii.net/itemdex/sprites/wishingchip.png" />
+$黄色玻璃哨=Yellow Flute <img class="items" data-pokedex="Yellow Flute" src="https://www.serebii.net/itemdex/sprites/pgl/yellowflute.png" />
+$金黄色花蜜=Yellow Nectar <img class="items" data-pokedex="Yellow Nectar" src="https://www.serebii.net/itemdex/sprites/sv/yellownectar.png" />
+$黄色碎片=Yellow Shard <img class="items" data-pokedex="Yellow Shard" src="https://www.serebii.net/itemdex/sprites/pgl/yellowshard.png" />
 ==============Apricorns==============
 $红球果=Red Apricorn <img class="items" data-pokedex="Red Apricorn" src="https://www.serebii.net/itemdex/sprites/redapricorn.png" />
 $蓝球果=Blue Apricorn <img class="items" data-pokedex="Blue Apricorn" src="https://www.serebii.net/itemdex/sprites/blueapricorn.png" />
@@ -3173,39 +3395,6 @@ $会员卡=Member Card <img class="items" data-pokedex="Member Card" src="https:
 $大木的信=Oak's Letter <img class="items" data-pokedex="Oak's Letter" src="https://www.serebii.net/itemdex/sprites/oak'sletter.png" />
 $秘密钥匙=Secret Key <img class="items" data-pokedex="Secret Key" src="https://www.serebii.net/itemdex/sprites/secretkey.png" />
 $古航海图=Old Sea Map <img class="items" data-pokedex="Old Sea Map" src="https://archives.bulbagarden.net/media/upload/6/62/Old_Sea_Map_artwork.png" />
-==============Treasures==============
-$金珠=Nugget
-$小蘑菇=Tiny Mushroom
-$大蘑菇=Big Mushroom
-$珍珠=Pearl
-$大珍珠=Big Pearl
-$星星沙子=Stardust
-$星星碎片=Star Piece
-$金色叶子=Gold Leaf
-$银色叶子=Silver Leaf
-$甜甜蜜=Honey
-$贵重骨头=Rare Bone
-$美丽之羽=Pretty Feather
-$芳香蘑菇=Balm Mushroom
-$巨大金珠=Big Nugget
-$丸子珍珠=Pearl String
-$彗星碎片=Comet Shard
-$古代铜币=Relic Copper
-$古代银币=Relic Silver
-$古代金币=Relic Gold
-$古代之壶=Relic Vase
-$古代手镯=Relic Band
-$古代石像=Relic Statue
-$古代王冠=Relic Crown
-$银色王冠=Bottle Cap
-$金色王冠=Gold Bottle Cap
-$松掉的弹簧=Stretchy Spring
-$粉笔石=Chalky Stone
-$弹珠=Marble
-$一边的耳环=Lone Earring
-$海边的玻璃=Beach Glass
-$光滑泥球=Polished Mud Ball
-$南国贝壳=Tropical Shell
 ==============Ingredients==============
 $粗绞肉香肠=Sausages
 $饱伯罐头=Bob's Food Tin
@@ -3389,7 +3578,6 @@ $奈克洛露奈合体器=N-Lunarizer
 $伊利马的一般Ｚ=Ilima's Normalium Z
 $留下的精灵球=Left Poké Ball
 $推荐函=Endorsement
-$许愿星=Wishing Star
 $极巨腕带=Dynamax Band
 $洛托姆自行车=Rotom Bike
 $露营组合=Camping Gear
@@ -3781,7 +3969,6 @@ $精灵联盟=Pokémon League
 $关东=Kanto
 $玻瓶=Cascarrafa
 $君莎=Jenny
-$挥指功=Metronome
 $婉龙=Shauntal
 $得文=Devon
 $究极之洞=Ultra Wormhole
@@ -4638,142 +4825,32 @@ $北上原生區=Kitakami Wilds
 $永久森林=Timeless Woods
 $地獄谷=Infernal Pass
 $冷水洞=Chilling Waterhead
-$火箭队=Team Rocket <img class="logo" data-pokedex="Team Rocket" src="https://media.52poke.com/wiki/b/bc/%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$彩虹火箭队=Team Rainbow Rocket <img class="logo" data-pokedex="Team Rainbow Rocket" src="https://media.52poke.com/wiki/3/3e/%E5%BD%A9%E8%99%B9%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$熔岩队=Team Magma <img class="logo" data-pokedex="Team Magma" src="https://media.52poke.com/wiki/8/83/%E7%86%94%E5%B2%A9%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$海洋队=Team Aqua <img class="logo" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$水舰队=Team Aqua <img class="logo" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$银河队=Team Galactic <img style="width: auto;" class="logo" data-pokedex="Team Galactic" src="https://media.52poke.com/wiki/6/62/%E9%8A%80%E6%B2%B3%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$等离子队=Team Plasma <img style="width: auto;" class="logo" data-pokedex="Team Plasma" src="https://media.52poke.com/wiki/4/4c/%E7%AD%89%E9%9B%A2%E5%AD%90%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$闪焰队=Team Flare <img style="width: auto;" class="logo" data-pokedex="Team Flare" src="https://media.52poke.com/wiki/9/9d/%E9%97%AA%E7%84%B0%E9%98%9F%E6%A0%87%E5%BF%97.png" />
-$骷髅队=Team Skull <img class="logo" data-pokedex="Team Skull" src="https://media.52poke.com/wiki/3/3e/%E9%AA%B7%E9%AB%8F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$以太基金会=Aether Foundation <img class="logo" data-pokedex="Aether Foundation" src="https://media.52poke.com/wiki/d/d5/%E4%BB%A5%E5%A4%AA%E5%9F%BA%E9%87%91%E4%BC%9A%E6%A0%87%E5%BF%97.png" />
-$呐喊队=Team Yell <img class="logo" data-pokedex="Team Yell" src="https://media.52poke.com/wiki/6/6f/%E5%91%90%E5%96%8A%E9%98%9F%E6%A0%87%E5%BF%97.png" />
-$马洛科蒙=Macro Cosmos <img class="logo" data-pokedex="Macro Cosmos" src="https://media.52poke.com/wiki/3/38/%E9%A9%AC%E6%B4%9B%E7%A7%91%E8%92%99%E6%A0%87%E5%BF%97.png" />
-$天星队=Team Star <img class="logo" data-pokedex="Team Star" src="https://media.52poke.com/wiki/3/31/%E5%A4%A9%E6%98%9F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+==========Teams==========
+$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://media.52poke.com/wiki/b/bc/%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://media.52poke.com/wiki/3/3e/%E5%BD%A9%E8%99%B9%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://media.52poke.com/wiki/8/83/%E7%86%94%E5%B2%A9%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://media.52poke.com/wiki/6/62/%E9%8A%80%E6%B2%B3%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://media.52poke.com/wiki/4/4c/%E7%AD%89%E9%9B%A2%E5%AD%90%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://media.52poke.com/wiki/9/9d/%E9%97%AA%E7%84%B0%E9%98%9F%E6%A0%87%E5%BF%97.png" />
+$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://media.52poke.com/wiki/3/3e/%E9%AA%B7%E9%AB%8F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://media.52poke.com/wiki/d/d5/%E4%BB%A5%E5%A4%AA%E5%9F%BA%E9%87%91%E4%BC%9A%E6%A0%87%E5%BF%97.png" />
+$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://media.52poke.com/wiki/6/6f/%E5%91%90%E5%96%8A%E9%98%9F%E6%A0%87%E5%BF%97.png" />
+$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://media.52poke.com/wiki/3/38/%E9%A9%AC%E6%B4%9B%E7%A7%91%E8%92%99%E6%A0%87%E5%BF%97.png" />
+$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://media.52poke.com/wiki/3/31/%E5%A4%A9%E6%98%9F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+===========================
 $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
 $超梦进化石Ｙ=Mewtwonite Y
 $喷火龙进化石Ｙ=Charizardite Y
-$常见石=Common Stone
 $衣物箱=Travel Trunk
-$朱红色花蜜=Red Nectar
 $伊利马一般Ｚ=Ilima Normalium Z
-$妙蛙种子的糖果=Bulbasaur Candy
-$小火龙的糖果=Charmander Candy
-$杰尼龟的糖果=Squirtle Candy
-$绿毛虫的糖果=Caterpie Candy
-$独角虫的糖果=Weedle Candy
-$波波的糖果=Pidgey Candy
-$小拉达的糖果=Rattata Candy
-$烈雀的糖果=Spearow Candy
-$阿柏蛇的糖果=Ekans Candy
-$皮卡丘的糖果=Pikachu Candy
-$穿山鼠的糖果=Sandshrew Candy
-$尼多兰的糖果=Nidoran♀ Candy
-$尼多朗的糖果=Nidoran♂ Candy
-$皮皮的糖果=Clefairy Candy
-$六尾的糖果=Vulpix Candy
-$胖丁的糖果=Jigglypuff Candy
-$超音蝠的糖果=Zubat Candy
-$走路草的糖果=Oddish Candy
-$派拉斯的糖果=Paras Candy
-$毛球的糖果=Venonat Candy
-$地鼠的糖果=Diglett Candy
-$喵喵的糖果=Meowth Candy
-$可达鸭的糖果=Psyduck Candy
-$猴怪的糖果=Mankey Candy
-$卡蒂狗的糖果=Growlithe Candy
-$蚊香蝌蚪的糖果=Poliwag Candy
-$凯西的糖果=Abra Candy
-$腕力的糖果=Machop Candy
-$喇叭芽的糖果=Bellsprout Candy
-$玛瑙水母的糖果=Tentacool Candy
-$小拳石的糖果=Geodude Candy
-$小火马的糖果=Ponyta Candy
-$呆呆兽的糖果=Slowpoke Candy
-$小磁怪的糖果=Magnemite Candy
-$大葱鸭的糖果=Farfetch’d Candy
-$嘟嘟的糖果=Doduo Candy
-$小海狮的糖果=Seel Candy
-$臭泥的糖果=Grimer Candy
-$大舌贝的糖果=Shellder Candy
-$鬼斯的糖果=Gastly Candy
-$大岩蛇的糖果=Onix Candy
-$催眠貘的糖果=Drowzee Candy
-$大钳蟹的糖果=Krabby Candy
-$霹雳电球的糖果=Voltorb Candy
-$蛋蛋的糖果=Exeggcute Candy
-$卡拉卡拉的糖果=Cubone Candy
-$飞腿郎的糖果=Hitmonlee Candy
-$快拳郎的糖果=Hitmonchan Candy
-$大舌头的糖果=Lickitung Candy
-$瓦斯弹的糖果=Koffing Candy
-$独角犀牛的糖果=Rhyhorn Candy
-$吉利蛋的糖果=Chansey Candy
-$蔓藤怪的糖果=Tangela Candy
-$袋兽的糖果=Kangaskhan Candy
-$墨海马的糖果=Horsea Candy
-$角金鱼的糖果=Goldeen Candy
-$海星星的糖果=Staryu Candy
-$魔墙人偶的糖果=Mr. Mime Candy
-$飞天螳螂的糖果=Scyther Candy
-$迷唇姐的糖果=Jynx Candy
-$电击兽的糖果=Electabuzz Candy
-$凯罗斯的糖果=Pinsir Candy
-$肯泰罗的糖果=Tauros Candy
-$鲤鱼王的糖果=Magikarp Candy
-$拉普拉斯的糖果=Lapras Candy
-$百变怪的糖果=Ditto Candy
-$伊布的糖果=Eevee Candy
-$多边兽的糖果=Porygon Candy
-$菊石兽的糖果=Omanyte Candy
-$化石盔的糖果=Kabuto Candy
-$化石翼龙的糖果=Aerodactyl Candy
-$卡比兽的糖果=Snorlax Candy
-$急冻鸟的糖果=Articuno Candy
-$闪电鸟的糖果=Zapdos Candy
-$火焰鸟的糖果=Moltres Candy
-$迷你龙的糖果=Dratini Candy
-$超梦的糖果=Mewtwo Candy
-$梦幻的糖果=Mew Candy
-$美录坦的糖果=Meltan Candy
-$鸭嘴火兽的糖果=Magmar Candy
-$经验糖果ＸＳ=Exp. Candy XS
-$经验糖果Ｓ=Exp. Candy S
-$经验糖果Ｍ=Exp. Candy M
-$经验糖果Ｌ=Exp. Candy L
-$经验糖果ＸＬ=Exp. Candy XL
-$极巨糖果=Dynamax Candy
-$怕寂寞薄荷=Lonely Mint
-$固执薄荷=Adamant Mint
-$顽皮薄荷=Naughty Mint
-$勇敢薄荷=Brave Mint
-$大胆薄荷=Bold Mint
-$淘气薄荷=Impish Mint
-$乐天薄荷=Lax Mint
-$悠闲薄荷=Relaxed Mint
-$内敛薄荷=Modest Mint
-$慢吞吞薄荷=Mild Mint
-$马虎薄荷=Rash Mint
-$冷静薄荷=Quiet Mint
-$温和薄荷=Calm Mint
-$温顺薄荷=Gentle Mint
-$慎重薄荷=Careful Mint
-$自大薄荷=Sassy Mint
-$胆小薄荷=Timid Mint
-$急躁薄荷=Hasty Mint
-$爽朗薄荷=Jolly Mint
-$天真薄荷=Naive Mint
-$认真薄荷=Serious Mint
 $许愿星块=Wishing Piece
-$许愿星碎片=Wishing Chip
 $极巨菇菇=Max Mushrooms
-$伽勒豆蔻枝=Galarica Twig
 $时尚名人卡=Style Card
 $铠甲车票=Armor Pass
 $经验护符=Exp. Charm
-$铠甲矿石=Armorite Ore
 $证章护符=Mark Charm
 $牵绊缰绳=Reins of Unity
 $牵绊缰绳=Reins of Unity
@@ -4784,50 +4861,18 @@ $白色鬃毛=White Mane Hair
 $黑色鬃毛=Black Mane Hair
 $冰萝卜=Iceroot Carrot
 $黑萝卜=Shaderoot Carrot
-$极矿石=Dynite Ore
 $萝卜种子=Carrot Seeds
-$特性膏药=Ability Patch
 $牵绊缰绳=Reins of Unity
-$大金刚宝玉=Adamant Crystal
-$大白宝玉=Lustrous Globe
-$大白金宝玉=Griseous Core
 $净空石板=Blank Plate
 $传说石板=Legend Plate
 $手机洛托姆=Rotom Phone
 $三明治=Sandwich
-$故勒顿的球=Koraidon’s Poké Ball
-$密勒顿的球=Miraidon’s Poké Ball
+$故勒顿的球=Koraidon's Poké Ball
+$密勒顿的球=Miraidon's Poké Ball
 $太晶珠=Tera Orb
 $朱之书=Scarlet Book
 $紫之书=Violet Book
 $海岱的钱包=Kofu’s Wallet
-$小竹笋=Tiny Bamboo Shoot
-$大竹笋=Big Bamboo Shoot
-$一般太晶碎块=Normal Tera Shard
-$火太晶碎块=Fire Tera Shard
-$水太晶碎块=Water Tera Shard
-$电太晶碎块=Electric Tera Shard
-$草太晶碎块=Grass Tera Shard
-$冰太晶碎块=Ice Tera Shard
-$格斗太晶碎块=Fighting Tera Shard
-$毒太晶碎块=Poison Tera Shard
-$地面太晶碎块=Ground Tera Shard
-$飞行太晶碎块=Flying Tera Shard
-$超能力太晶碎块=Psychic Tera Shard
-$虫太晶碎块=Bug Tera Shard
-$岩石太晶碎块=Rock Tera Shard
-$幽灵太晶碎块=Ghost Tera Shard
-$龙太晶碎块=Dragon Tera Shard
-$恶太晶碎块=Dark Tera Shard
-$钢太晶碎块=Steel Tera Shard
-$妖精太晶碎块=Fairy Tera Shard
-$驱劲能量=Booster Energy
-$特性护具=Ability Shield
-$清净坠饰=Clear Amulet
-$模仿香草=Mirror Herb
-$拳击手套=Punching Glove
-$密探斗篷=Covert Cloak
-$机变骰子=Loaded Dice
 $长棍面包=Baguette
 $蛋黄酱=Mayonnaise
 $番茄酱=Ketchup

@@ -1439,11 +1439,1013 @@
 		"category": "Evolutionary",
 		"effect": "This item, when attached to a Pokémon and traded, evolves the following Pokémon:<br />- <strong>Swirlix</strong> → <strong>Slurpuff</strong>"
 	},
-	"Red Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/redapricorn.png",
-		"name": "Red Apricorn",
+	"Ability Capsule": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/abilitycapsule.png",
+		"name": "Ability Capsule",
+		"category": "Vitamins",
+		"effect": "A capsule that allows a Pokémon to switch its current Ability to the other Ability its species can have."
+	},
+	"Ability Patch": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/abilitypatch.png",
+		"name": "Ability Patch",
+		"category": "Vitamins, Ability Patch",
+		"effect": "A patch that can be used to change the regular Ability of a Pokémon to a rarer Ability."
+	},
+	"Abra Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/abracandy.png",
+		"name": "Abra Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Adamant Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/adamantmint.png",
+		"name": "Adamant Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Attack stat grow stronger. However, its Sp. Atk stat may suffer."
+	},
+	"Aerodactyl Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/aerodactylcandy.png",
+		"name": "Aerodactyl Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Articuno Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/articunocandy.png",
+		"name": "Articuno Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Bellsprout Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/bellsproutcandy.png",
+		"name": "Bellsprout Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Bold Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/boldmint.png",
+		"name": "Bold Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Defense stat grow stronger. However, its Attack stat may suffer."
+	},
+	"Brave Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bravemint.png",
+		"name": "Brave Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Attack stat grow stronger. However, its Speed stat may suffer."
+	},
+	"Bulbasaur Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/bulbasaurcandy.png",
+		"name": "Bulbasaur Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Calcium": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/calcium.png",
+		"name": "Calcium",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's Sp. Atk stat."
+	},
+	"Calm Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/calmmint.png",
+		"name": "Calm Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Def stat grow stronger. However, its Attack stat may suffer."
+	},
+	"Carbos": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/carbos.png",
+		"name": "Carbos",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's Speed stat."
+	},
+	"Careful Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/carefulmint.png",
+		"name": "Careful Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Def stat grow stronger. However, its Sp. Atk stat may suffer."
+	},
+	"Caterpie Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/caterpiecandy.png",
+		"name": "Caterpie Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Chansey Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/chanseycandy.png",
+		"name": "Chansey Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Charmander Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/charmandercandy.png",
+		"name": "Charmander Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Clefairy Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/clefairycandy.png",
+		"name": "Clefairy Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Clever Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/cleverfeather.png",
+		"name": "Clever Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's Sp. Def stat."
+	},
+	"Clever Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/clevermochi.png",
+		"name": "Clever Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat."
+	},
+	"Courage Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/couragecandy.png",
+		"name": "Courage Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's Sp. Def stat."
+	},
+	"Courage Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/couragecandyl.png",
+		"name": "Courage Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's Sp. Def stat."
+	},
+	"Courage Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/couragecandyxl.png",
+		"name": "Courage Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's Sp. Def stat."
+	},
+	"Cubone Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/cubonecandy.png",
+		"name": "Cubone Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Diglett Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/diglettcandy.png",
+		"name": "Diglett Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Ditto Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/dittocandy.png",
+		"name": "Ditto Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Doduo Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/doduocandy.png",
+		"name": "Doduo Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Dratini Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/dratinicandy.png",
+		"name": "Dratini Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Drowzee Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/drowzeecandy.png",
+		"name": "Drowzee Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Dynamax Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/dynamaxcandy.png",
+		"name": "Dynamax Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it raises the Dynamax Level of a Pokémon by one. A higher level means higher HP when Dynamaxed."
+	},
+	"Eevee Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/eeveecandy.png",
+		"name": "Eevee Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Ekans Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/ekanscandy.png",
+		"name": "Ekans Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Electabuzz Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/electabuzzcandy.png",
+		"name": "Electabuzz Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Exeggcute Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/exeggcutecandy.png",
+		"name": "Exeggcute Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Exp. Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.candyl.png",
+		"name": "Exp. Candy L",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it grants a Pokémon a large number of Exp. Points."
+	},
+	"Exp. Candy M": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.candym.png",
+		"name": "Exp. Candy M",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it grants a Pokémon a moderate number of Exp. Points."
+	},
+	"Exp. Candy S": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.candys.png",
+		"name": "Exp. Candy S",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it grants a Pokémon a small number of Exp. Points."
+	},
+	"Exp. Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.candyxl.png",
+		"name": "Exp. Candy XL",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it grants a Pokémon a very large number of Exp. Points."
+	},
+	"Exp. Candy XS": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.candyxs.png",
+		"name": "Exp. Candy XS",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it grants a Pokémon a very small number of Exp. Points."
+	},
+	"Farfetch'd Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/farfetch'dcandy.png",
+		"name": "Farfetch'd Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Fresh-Start Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fresh-startmochi.png",
+		"name": "Fresh-Start Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points."
+	},
+	"Gastly Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/gastlycandy.png",
+		"name": "Gastly Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Genius Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/geniusfeather.png",
+		"name": "Genius Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's Sp. Atk stat."
+	},
+	"Genius Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/geniusmochi.png",
+		"name": "Genius Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat."
+	},
+	"Gentle Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/gentlemint.png",
+		"name": "Gentle Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Def stat grow stronger. However, its Defense stat may suffer."
+	},
+	"Geodude Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/geodudecandy.png",
+		"name": "Geodude Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Goldeen Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/goldeencandy.png",
+		"name": "Goldeen Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Grimer Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/grimercandy.png",
+		"name": "Grimer Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Grit Dust": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/gritdust.png",
+		"name": "Grit Dust",
+		"category": "Vitamins",
+		"effect": "Mysterious dust that can raise the effort level for one of a Pokémon's stats. It can be used to raise effort levels only up to level three, however."
+	},
+	"Grit Gravel": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/gritgravel.png",
+		"name": "Grit Gravel",
+		"category": "Vitamins",
+		"effect": "Mysterious gravel that can raise the effort level for one of a Pokémon's stats. It can be used only if the effort level is at least level three and no greater than level five."
+	},
+	"Grit Pebble": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/gritpebble.png",
+		"name": "Grit Pebble",
+		"category": "Vitamins",
+		"effect": "A mysterious pebble that can raise the effort level for one of a Pokémon's stats. It can be used only if the effort level is at least level six and no greater than level eight."
+	},
+	"Grit Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/gritrock.png",
+		"name": "Grit Rock",
+		"category": "Vitamins",
+		"effect": "A mysterious rock that can raise the effort level for one of a Pokémon's stats. It can be used only if the effort level has already reached level nine."
+	},
+	"Growlithe Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/growlithecandy.png",
+		"name": "Growlithe Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"HP Up": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/hpup.png",
+		"name": "HP Up",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's HP stat."
+	},
+	"Hasty Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/hastymint.png",
+		"name": "Hasty Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Speed stat grow stronger. However, its Defense stat may suffer."
+	},
+	"Health Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/healthcandy.png",
+		"name": "Health Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's HP."
+	},
+	"Health Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/healthcandyl.png",
+		"name": "Health Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's HP."
+	},
+	"Health Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/healthcandyxl.png",
+		"name": "Health Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's HP."
+	},
+	"Health Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/healthfeather.png",
+		"name": "Health Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's HP stat."
+	},
+	"Health Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/healthmochi.png",
+		"name": "Health Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat."
+	},
+	"Hitmonchan Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/hitmonchancandy.png",
+		"name": "Hitmonchan Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Hitmonlee Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/hitmonleecandy.png",
+		"name": "Hitmonlee Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Horsea Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/horseacandy.png",
+		"name": "Horsea Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Impish Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/impishmint.png",
+		"name": "Impish Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Defense stat grow stronger. However, its Sp. Atk stat may suffer."
+	},
+	"Iron": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/iron.png",
+		"name": "Iron",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's Defense stat."
+	},
+	"Jigglypuff Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/jigglypuffcandy.png",
+		"name": "Jigglypuff Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Jolly Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/jollymint.png",
+		"name": "Jolly Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Speed stat grow stronger. However, its Sp. Atk stat may suffer."
+	},
+	"Jynx Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/jynxcandy.png",
+		"name": "Jynx Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Kabuto Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/kabutocandy.png",
+		"name": "Kabuto Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Kangaskhan Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/kangaskhancandy.png",
+		"name": "Kangaskhan Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Koffing Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/koffingcandy.png",
+		"name": "Koffing Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Krabby Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/krabbycandy.png",
+		"name": "Krabby Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Lapras Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/laprascandy.png",
+		"name": "Lapras Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Lax Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/laxmint.png",
+		"name": "Lax Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Defense stat grow stronger. However, its Sp. Def stat may suffer."
+	},
+	"Lickitung Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/lickitungcandy.png",
+		"name": "Lickitung Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Lonely Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lonelymint.png",
+		"name": "Lonely Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Attack stat grow stronger. However, its Defense stat may suffer."
+	},
+	"Machop Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/machopcandy.png",
+		"name": "Machop Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Magikarp Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/magikarpcandy.png",
+		"name": "Magikarp Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Magmar Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/magmarcandy.png",
+		"name": "Magmar Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Magnemite Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/magnemitecandy.png",
+		"name": "Magnemite Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Mankey Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/mankeycandy.png",
+		"name": "Mankey Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Meltan Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/meltancandy.png",
+		"name": "Meltan Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Meowth Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/meowthcandy.png",
+		"name": "Meowth Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Mew Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/mewcandy.png",
+		"name": "Mew Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Mewtwo Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/mewtwocandy.png",
+		"name": "Mewtwo Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Mighty Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/mightycandy.png",
+		"name": "Mighty Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's Attack stat."
+	},
+	"Mighty Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/mightycandyl.png",
+		"name": "Mighty Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's Attack stat."
+	},
+	"Mighty Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/mightycandyxl.png",
+		"name": "Mighty Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's Attack stat."
+	},
+	"Mild Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mildmint.png",
+		"name": "Mild Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Atk stat grow stronger. However, its Defense stat may suffer."
+	},
+	"Modest Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/modestmint.png",
+		"name": "Modest Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Atk stat grow stronger. However, its Attack stat may suffer."
+	},
+	"Moltres Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/moltrescandy.png",
+		"name": "Moltres Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Mr. Mime Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/mr.mimecandy.png",
+		"name": "Mr. Mime Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Muscle Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/musclefeather.png",
+		"name": "Muscle Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's Attack stat."
+	},
+	"Muscle Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/musclemochi.png",
+		"name": "Muscle Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat."
+	},
+	"Naive Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/naivemint.png",
+		"name": "Naive Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Speed stat grow stronger. However, its Sp. Def stat may suffer."
+	},
+	"Naughty Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/naughtymint.png",
+		"name": "Naughty Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Attack stat grow stronger. However, its Sp. Def stat may suffer."
+	},
+	"Nidoran♀ Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/nidoranfcandy.png",
+		"name": "Nidoran♀ Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Nidoran♂ Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/nidoranmcandy.png",
+		"name": "Nidoran♂ Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Oddish Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/oddishcandy.png",
+		"name": "Oddish Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Omanyte Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/omanytecandy.png",
+		"name": "Omanyte Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Onix Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/onixcandy.png",
+		"name": "Onix Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"PP Max": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ppmax.png",
+		"name": "PP Max",
+		"category": "Vitamins",
+		"effect": "A medicine that can be used to raise the max PP of a single move that a Pokémon knows as high as it can possibly go."
+	},
+	"PP Up": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ppup.png",
+		"name": "PP Up",
+		"category": "Vitamins",
+		"effect": "A medicine that can be used to slightly raise the max PP of a single move that a Pokémon knows."
+	},
+	"Paras Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/parascandy.png",
+		"name": "Paras Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Pidgey Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/pidgeycandy.png",
+		"name": "Pidgey Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Pikachu Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/pikachucandy.png",
+		"name": "Pikachu Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Pinsir Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/pinsircandy.png",
+		"name": "Pinsir Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Poliwag Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/poliwagcandy.png",
+		"name": "Poliwag Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Ponyta Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/ponytacandy.png",
+		"name": "Ponyta Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Porygon Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/porygoncandy.png",
+		"name": "Porygon Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Protein": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/protein.png",
+		"name": "Protein",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's Attack stat."
+	},
+	"Psyduck Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/psyduckcandy.png",
+		"name": "Psyduck Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Quick Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/quickcandy.png",
+		"name": "Quick Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's Speed stat."
+	},
+	"Quick Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/quickcandyl.png",
+		"name": "Quick Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's Speed stat."
+	},
+	"Quick Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/quickcandyxl.png",
+		"name": "Quick Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's Speed stat."
+	},
+	"Quiet Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/quietmint.png",
+		"name": "Quiet Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Atk stat grow stronger. However, its Speed stat may suffer."
+	},
+	"Rare Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rarecandy.png",
+		"name": "Rare Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. If consumed, it raises a Pokémon's level by one."
+	},
+	"Rash Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rashmint.png",
+		"name": "Rash Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Atk stat grow stronger. However, its Sp. Def stat may suffer."
+	},
+	"Rattata Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/rattatacandy.png",
+		"name": "Rattata Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Relaxed Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/relaxedmint.png",
+		"name": "Relaxed Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Defense stat grow stronger. However, its Speed stat may suffer."
+	},
+	"Resist Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/resistfeather.png",
+		"name": "Resist Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's Defense stat."
+	},
+	"Resist Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/resistmochi.png",
+		"name": "Resist Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat."
+	},
+	"Rhyhorn Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/rhyhorncandy.png",
+		"name": "Rhyhorn Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Sandshrew Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sandshrewcandy.png",
+		"name": "Sandshrew Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Sassy Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sassymint.png",
+		"name": "Sassy Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Sp. Def stat grow stronger. However, its Speed stat may suffer."
+	},
+	"Scyther Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/scythercandy.png",
+		"name": "Scyther Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Seel Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/seelcandy.png",
+		"name": "Seel Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Serious Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/seriousmint.png",
+		"name": "Serious Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint will cause its Attack, Defense, Sp. Atk, Sp. Def, and Speed stats to grow at an equal rate."
+	},
+	"Shellder Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/shelldercandy.png",
+		"name": "Shellder Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Slowpoke Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/slowpokecandy.png",
+		"name": "Slowpoke Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Smart Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/smartcandy.png",
+		"name": "Smart Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's Sp. Atk stat."
+	},
+	"Smart Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/smartcandyl.png",
+		"name": "Smart Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's Sp. Atk stat."
+	},
+	"Smart Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/smartcandyxl.png",
+		"name": "Smart Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's Sp. Atk stat."
+	},
+	"Snorlax Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/snorlaxcandy.png",
+		"name": "Snorlax Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Spearow Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/spearowcandy.png",
+		"name": "Spearow Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Squirtle Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/squirtlecandy.png",
+		"name": "Squirtle Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Staryu Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/staryucandy.png",
+		"name": "Staryu Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Swift Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/swiftfeather.png",
+		"name": "Swift Feather",
+		"category": "Vitamins",
+		"effect": "An item to be used on a Pokémon. This feather slightly increases base points for a Pokémon's Speed stat."
+	},
+	"Swift Mochi": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/swiftmochi.png",
+		"name": "Swift Mochi",
+		"category": "Vitamins",
+		"effect": "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat."
+	},
+	"Tangela Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/tangelacandy.png",
+		"name": "Tangela Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Tauros Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/tauroscandy.png",
+		"name": "Tauros Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Tentacool Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/tentacoolcandy.png",
+		"name": "Tentacool Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Timid Mint": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/timidmint.png",
+		"name": "Timid Mint",
+		"category": "Vitamins",
+		"effect": "Having a Pokémon smell this mint can make its Speed stat grow stronger. However, its Attack stat may suffer."
+	},
+	"Tough Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/toughcandy.png",
+		"name": "Tough Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon's Defense stat."
+	},
+	"Tough Candy L": {
+		"image": "https://www.serebii.net/itemdex/sprites/toughcandyl.png",
+		"name": "Tough Candy L",
+		"category": "Vitamins",
+		"effect": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon's Defense stat."
+	},
+	"Tough Candy XL": {
+		"image": "https://www.serebii.net/itemdex/sprites/toughcandyxl.png",
+		"name": "Tough Candy XL",
+		"category": "Vitamins",
+		"effect": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon's Defense stat."
+	},
+	"Venonat Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/venonatcandy.png",
+		"name": "Venonat Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Voltorb Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/voltorbcandy.png",
+		"name": "Voltorb Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Vulpix Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/vulpixcandy.png",
+		"name": "Vulpix Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Weedle Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/weedlecandy.png",
+		"name": "Weedle Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Wishing Piece": {
+		"image": "https://www.serebii.net/itemdex/sprites/wishingpiece.png",
+		"name": "Wishing Piece",
+		"category": "Vitamins",
+		"effect": "Throw one into a Pokémon Den to attract a wild Dynamax Pokémon."
+	},
+	"Zapdos Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/zapdoscandy.png",
+		"name": "Zapdos Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Zinc": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/zinc.png",
+		"name": "Zinc",
+		"category": "Vitamins",
+		"effect": "A nutritious drink for Pokémon. This drink increases base points for a Pokémon's Sp. Def stat."
+	},
+	"Zubat Candy": {
+		"image": "https://www.serebii.net/itemdex/sprites/zubatcandy.png",
+		"name": "Zubat Candy",
+		"category": "Vitamins",
+		"effect": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
+	},
+	"Adrenaline Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/adrenalineorb.png",
+		"name": "Adrenaline Orb",
 		"category": "Miscellaneous",
-		"effect": "A red Apricorn. It has a pungent scent that assails the nostrils."
+		"effect": "An item to be held by a Pokémon. This orb boosts the Speed stat if the holder is intimidated."
+	},
+	"Amaze Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/amazemulch.png",
+		"name": "Amaze Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Armorite Ore": {
+		"image": "https://www.serebii.net/itemdex/sprites/armoriteore.png",
+		"name": "Armorite Ore",
+		"category": "Miscellaneous",
+		"effect": "Rare ore that can be obtained on the Isle of Armor. Something good will happen if you give it to a collector on the Isle of Armor."
+	},
+	"Ball of Mud": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/ballofmud.png",
+		"name": "Ball of Mud",
+		"category": "Miscellaneous",
+		"effect": "A ball of mud that has become stiff and hard. Hitting a Pokémon with one may stun the Pokémon, creating an opening for you to act."
+	},
+	"Balm Mushroom": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/balmmushroom.png",
+		"name": "Balm Mushroom",
+		"category": "Miscellaneous",
+		"effect": "A rare mushroom that gives off a nice fragrance. It can be sold at a high price to shops."
+	},
+	"Basculegion Food": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/basculegionfood.png",
+		"name": "Basculegion Food",
+		"category": "Miscellaneous",
+		"effect": "A favored food of Basculegion, a Pokémon that will bear you on its back. This food is crafted in an unusual way, from ingredients gathered via equally unusual methods."
+	},
+	"Beach Glass": {
+		"image": "https://www.serebii.net/itemdex/sprites/beachglass.png",
+		"name": "Beach Glass",
+		"category": "Miscellaneous",
+		"effect": "A piece of colored glass. Waves have rounded its edges. It's slightly rough to the touch."
+	},
+	"Bean Cake": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/beancake.png",
+		"name": "Bean Cake",
+		"category": "Miscellaneous",
+		"effect": "A cake made by combining beans with a Cake-Lure Base. These cakes are potently effective at attracting fish Pokémon, as well as bird Pokémon and their flying ilk."
+	},
+	"Big Bamboo Shoot": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bigbambooshoot.png",
+		"name": "Big Bamboo Shoot",
+		"category": "Miscellaneous",
+		"effect": "A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands."
+	},
+	"Big Mushroom": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bigmushroom.png",
+		"name": "Big Mushroom",
+		"category": "Miscellaneous",
+		"effect": "A large and rare mushroom. It's extremely popular with a certain class of collectors."
+	},
+	"Big Nugget": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bignugget.png",
+		"name": "Big Nugget",
+		"category": "Miscellaneous",
+		"effect": "A big nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops."
+	},
+	"Big Pearl": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bigpearl.png",
+		"name": "Big Pearl",
+		"category": "Miscellaneous",
+		"effect": "A rather large pearl that has a nice silvery sheen to it. It can be sold at a high price to shops."
+	},
+	"Black Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/blackapricorn.png",
+		"name": "Black Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A black Apricorn. It has a smell that cannot be captured in words."
+	},
+	"Black Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/blackflute.png",
+		"name": "Black Flute",
+		"category": "Miscellaneous",
+		"effect": "A flute made from black glass. It makes it easier to encounter high-level Pokémon in the place you use it."
 	},
 	"Blue Apricorn": {
 		"image": "https://www.serebii.net/itemdex/sprites/blueapricorn.png",
@@ -1451,11 +2453,191 @@
 		"category": "Miscellaneous",
 		"effect": "A blue Apricorn. It has a slightly grassy smell to it."
 	},
-	"Yellow Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/yellowapricorn.png",
-		"name": "Yellow Apricorn",
+	"Blue Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/blueflute.png",
+		"name": "Blue Flute",
 		"category": "Miscellaneous",
-		"effect": "A yellow Apricorn. It has a light, refreshing scent."
+		"effect": "A flute made from blue glass. It awakens sleeping Pokémon."
+	},
+	"Blue Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/blueshard.png",
+		"name": "Blue Shard",
+		"category": "Miscellaneous",
+		"effect": "A small blue shard. It appears to be a fragment of some sort of implement made long ago."
+	},
+	"Boost Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/boostmulch.png",
+		"name": "Boost Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Bottle Cap": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bottlecap.png",
+		"name": "Bottle Cap",
+		"category": "Miscellaneous",
+		"effect": "A lovely silver bottle cap. Certain people are delighted to be given one of these."
+	},
+	"Bug Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bugterashard.png",
+		"name": "Bug Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Chalky Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/chalkystone.png",
+		"name": "Chalky Stone",
+		"category": "Miscellaneous",
+		"effect": "A small whitish stone picked up at the edge of the road."
+	},
+	"Comet Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/cometshard.png",
+		"name": "Comet Shard",
+		"category": "Miscellaneous",
+		"effect": "A shard that fell to the ground when a comet passed nearby. It can be sold at a high price to shops."
+	},
+	"Common Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/commonstone.png",
+		"name": "Common Stone",
+		"category": "Miscellaneous",
+		"effect": "A perfectly normal stone that might appear to be valuable to some. It's all in the eye of the beholder."
+	},
+	"Damp Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/dampmulch.png",
+		"name": "Damp Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Dark Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/darkterashard.png",
+		"name": "Dark Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Discount Coupon": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/discountcoupon.png",
+		"name": "Discount Coupon",
+		"category": "Miscellaneous",
+		"effect": "This special coupon allows you to buy items at a discount when you are shopping at a boutique."
+	},
+	"Discovery Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/discoveryslate.png",
+		"name": "Discovery Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Discovery Room at Ramanas Park."
+	},
+	"Distortion Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/distortionslate.png",
+		"name": "Distortion Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Distortion Room at Ramanas Park."
+	},
+	"Dragon Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dragonterashard.png",
+		"name": "Dragon Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Dynite Ore": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/dyniteore.png",
+		"name": "Dynite Ore",
+		"category": "Miscellaneous",
+		"effect": "Mysterious ore that can be obtained in the Max Lair. Something good will happen if you give it to a collector in the Crown Tundra."
+	},
+	"Electric Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/electricterashard.png",
+		"name": "Electric Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Escape Rope": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/escaperope.png",
+		"name": "Escape Rope",
+		"category": "Miscellaneous, Key Item",
+		"effect": "A long and durable rope. Use it to escape instantly from locations like caves or dungeons. It can be used any number of times."
+	},
+	"Fairy Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fairyterashard.png",
+		"name": "Fairy Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Festival Ticket": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/festivalticket.png",
+		"name": "Festival Ticket",
+		"category": "Miscellaneous",
+		"effect": "A ticket that allows you to host a mission in Festival Plaza."
+	},
+	"Fighting Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fightingterashard.png",
+		"name": "Fighting Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Fire Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fireterashard.png",
+		"name": "Fire Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Fluffy Tail": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fluffytail.png",
+		"name": "Fluffy Tail",
+		"category": "Miscellaneous",
+		"effect": "A toy that attracts the attention of Pokémon. It guarantees escape from any battle with wild Pokémon."
+	},
+	"Flying Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/flyingterashard.png",
+		"name": "Flying Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Galarica Twig": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/galaricatwig.png",
+		"name": "Galarica Twig",
+		"category": "Miscellaneous",
+		"effect": "A twig from a species of tree called Galarica that grows in certain areas around the Galar region. It's a material for an accessory for a certain Pokémon."
+	},
+	"Genome Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/genomeslate.png",
+		"name": "Genome Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Genome Room at Ramanas Park."
+	},
+	"Ghost Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ghostterashard.png",
+		"name": "Ghost Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Gold Bottle Cap": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/goldbottlecap.png",
+		"name": "Gold Bottle Cap",
+		"category": "Miscellaneous",
+		"effect": "A lovely gold bottle cap, which is even rarer than a silver bottle cap. Certain people are delighted to be given one of these."
+	},
+	"Gold Leaf": {
+		"image": "https://www.serebii.net/itemdex/sprites/goldleaf.png",
+		"name": "Gold Leaf",
+		"category": "Miscellaneous",
+		"effect": "A strange, gold-colored leaf."
+	},
+	"Gooey Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/gooeymulch.png",
+		"name": "Gooey Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Grain Cake": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/graincake.png",
+		"name": "Grain Cake",
+		"category": "Miscellaneous",
+		"effect": "A cake made by combining grains with a Cake-Lure Base. These cakes are potently effective at attracting Pokémon that dwell and wander among the fields."
+	},
+	"Grass Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/grassterashard.png",
+		"name": "Grass Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
 	},
 	"Green Apricorn": {
 		"image": "https://www.serebii.net/itemdex/sprites/greenapricorn.png",
@@ -1463,11 +2645,563 @@
 		"category": "Miscellaneous",
 		"effect": "A green Apricorn. It has a mysterious and aromatic scent."
 	},
+	"Green Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/greenshard.png",
+		"name": "Green Shard",
+		"category": "Miscellaneous",
+		"effect": "A small green shard. It appears to be a fragment of some sort of implement made long ago."
+	},
+	"Ground Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/groundterashard.png",
+		"name": "Ground Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Growth Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/growthmulch.png",
+		"name": "Growth Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Heart Scale": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/heartscale.png",
+		"name": "Heart Scale",
+		"category": "Miscellaneous",
+		"effect": "A pretty, heart-shaped scale that is extremely rare. Certain people are delighted to be given one of these."
+	},
+	"Hometown Muffin": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/hometownmuffin.png",
+		"name": "Hometown Muffin",
+		"category": "Miscellaneous",
+		"effect": "A baked treat made from Berries and other ingredients, which is often eaten in regions such as Galar. It is beloved by a surprising number of Pokémon."
+	},
+	"Honey": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/honey.png",
+		"name": "Honey",
+		"category": "Miscellaneous",
+		"effect": "Honey collected thanks to Pokémon's efforts. It has a sweet aroma and can be sold at a low price to shops."
+	},
+	"Honey Cake": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/honeycake.png",
+		"name": "Honey Cake",
+		"category": "Miscellaneous",
+		"effect": "A cake made by combining honey with a Cake-Lure Base. These cakes are potently effective at attracting bug Pokémon and also those with fairylike charms."
+	},
+	"Ice Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/iceterashard.png",
+		"name": "Ice Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Johto Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/johtoslate.png",
+		"name": "Johto Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Johto Room at Ramanas Park."
+	},
+	"Kanto Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/kantoslate.png",
+		"name": "Kanto Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Kanto Room at Ramanas Park."
+	},
+	"Leaf Letter": {
+		"image": "https://www.serebii.net/itemdex/sprites/leafletter.png",
+		"name": "Leaf Letter",
+		"category": "Miscellaneous",
+		"effect": "A letter written on a leaf. Something is written using Eevee's footprints."
+	},
+	"Lone Earring": {
+		"image": "https://www.serebii.net/itemdex/sprites/loneearring.png",
+		"name": "Lone Earring",
+		"category": "Miscellaneous",
+		"effect": "A single earring that somebody dropped."
+	},
+	"Lure": {
+		"image": "https://www.serebii.net/itemdex/sprites/lure.png",
+		"name": "Lure",
+		"category": "Miscellaneous",
+		"effect": "A bottle of perfume that makes rare Pokémon more likely to appear for a short time when sprayed about."
+	},
+	"Marble": {
+		"image": "https://www.serebii.net/itemdex/sprites/marble.png",
+		"name": "Marble",
+		"category": "Miscellaneous",
+		"effect": "A round glass marble. You can see colored glass inside the transparent marble."
+	},
+	"Max Lure": {
+		"image": "https://www.serebii.net/itemdex/sprites/maxlure.png",
+		"name": "Max Lure",
+		"category": "Miscellaneous",
+		"effect": "A bottle of perfume that makes rare Pokémon more likely to appear when sprayed about. Its effect lasts longer than that of a Super Lure."
+	},
+	"Max Repel": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/maxrepel.png",
+		"name": "Max Repel",
+		"category": "Miscellaneous",
+		"effect": "An item that prevents low-level wild Pokémon from jumping out at you for a time. It lasts longer than Super Repel."
+	},
+	"Mushroom Cake": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/mushroomcake.png",
+		"name": "Mushroom Cake",
+		"category": "Miscellaneous",
+		"effect": "A cake made by combining mushrooms with a Cake-Lure Base. These cakes are potently effective at attracting the more monstrous Pokémon, as well as dragon Pokémon."
+	},
+	"Mysterious Shard L": {
+		"image": "https://www.serebii.net/itemdex/sprites/mysteriousshardl.png",
+		"name": "Mysterious Shard L",
+		"category": "Miscellaneous",
+		"effect": "A large shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses."
+	},
+	"Mysterious Shard S": {
+		"image": "https://www.serebii.net/itemdex/sprites/mysteriousshards.png",
+		"name": "Mysterious Shard S",
+		"category": "Miscellaneous",
+		"effect": "A small shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses."
+	},
+	"Normal Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/normalterashard.png",
+		"name": "Normal Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Nugget": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/nugget.png",
+		"name": "Nugget",
+		"category": "Miscellaneous",
+		"effect": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops."
+	},
+	"Oceanic Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/oceanicslate.png",
+		"name": "Oceanic Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Oceanic Room at Ramanas Park."
+	},
+	"Odd Keystone": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/oddkeystone.png",
+		"name": "Odd Keystone",
+		"category": "Miscellaneous",
+		"effect": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
+	},
+	"Pass Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/passorb.png",
+		"name": "Pass Orb",
+		"category": "Miscellaneous",
+		"effect": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power."
+	},
+	"Pearl": {
+		"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png",
+		"name": "Pearl",
+		"category": "Miscellaneous",
+		"effect": "A rather small pearl that has a nice silvery sheen to it. It can be sold at a low price to shops."
+	},
+	"Pearl String": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/pearlstring.png",
+		"name": "Pearl String",
+		"category": "Miscellaneous",
+		"effect": "Very large pearls that have a nice silvery sheen to them. They can be sold at a high price to shops."
+	},
 	"Pink Apricorn": {
 		"image": "https://www.serebii.net/itemdex/sprites/pinkapricorn.png",
 		"name": "Pink Apricorn",
 		"category": "Miscellaneous",
 		"effect": "A pink Apricorn. It has a pleasantly sweet scent."
+	},
+	"Pink Nectar": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/pinknectar.png",
+		"name": "Pink Nectar",
+		"category": "Miscellaneous",
+		"effect": "Flower nectar obtained from a pink flower. It changes the form of a certain species of Pokémon."
+	},
+	"Poison Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/poisonterashard.png",
+		"name": "Poison Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Poké Doll": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/pokedoll.png",
+		"name": "Poké Doll",
+		"category": "Miscellaneous",
+		"effect": "A doll that attracts the attention of Pokémon. It guarantees escape from any battle with wild Pokémon."
+	},
+	"Poké Toy": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/poketoy.png",
+		"name": "Poké Toy",
+		"category": "Miscellaneous",
+		"effect": "A toy that attracts the attention of Pokémon. It guarantees escape from any battle with wild Pokémon."
+	},
+	"Pokéshi Doll": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/pokeshidoll.png",
+		"name": "Pokéshi Doll",
+		"category": "Miscellaneous",
+		"effect": "A wooden toy carved in the image of a Pokémon. It can be sold to the general store."
+	},
+	"Polished Mud Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/polishedmudball.png",
+		"name": "Polished Mud Ball",
+		"category": "Miscellaneous",
+		"effect": "A ball made of mud. It had been polished for such a long time that the surface is very shiny."
+	},
+	"Pretty Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/prettyfeather.png",
+		"name": "Pretty Feather",
+		"category": "Miscellaneous",
+		"effect": "Though this feather is beautiful, it's just a regular feather and has no effect."
+	},
+	"Psychic Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/psychicterashard.png",
+		"name": "Psychic Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Purple Nectar": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/purplenectar.png",
+		"name": "Purple Nectar",
+		"category": "Miscellaneous",
+		"effect": "Flower nectar obtained from a purple flower. It changes the form of a certain species of Pokémon."
+	},
+	"Rainbow Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/rainbowslate.png",
+		"name": "Rainbow Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Rainbow Room at Ramanas Park."
+	},
+	"Rare Bone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rarebone.png",
+		"name": "Rare Bone",
+		"category": "Miscellaneous",
+		"effect": "A rare bone that is extremely valuable for the study of Pokémon archeology. It can be sold at a high price to shops."
+	},
+	"Red Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/redapricorn.png",
+		"name": "Red Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A red Apricorn. It has a pungent scent that assails the nostrils."
+	},
+	"Red Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/redflute.png",
+		"name": "Red Flute",
+		"category": "Miscellaneous",
+		"effect": "A flute made from red glass. It snaps Pokémon out of infatuation."
+	},
+	"Red Nectar": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rednectar.png",
+		"name": "Red Nectar",
+		"category": "Miscellaneous",
+		"effect": "Flower nectar obtained from a red flower. It changes the form of a certain species of Pokémon."
+	},
+	"Red Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/redshard.png",
+		"name": "Red Shard",
+		"category": "Miscellaneous",
+		"effect": "A small red shard. It appears to be a fragment of some sort of implement made long ago."
+	},
+	"Relic Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/relicband.png",
+		"name": "Relic Band",
+		"category": "Miscellaneous",
+		"effect": "A bracelet made by an ancient civilization about three thousand years ago."
+	},
+	"Relic Copper": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/reliccopper.png",
+		"name": "Relic Copper",
+		"category": "Miscellaneous",
+		"effect": "A copper coin used by an ancient civilization about three thousand years ago."
+	},
+	"Relic Crown": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/reliccrown.png",
+		"name": "Relic Crown",
+		"category": "Miscellaneous",
+		"effect": "A crown made by an ancient civilization about three thousand years ago."
+	},
+	"Relic Gold": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/relicgold.png",
+		"name": "Relic Gold",
+		"category": "Miscellaneous",
+		"effect": "A gold coin used by an ancient civilization about three thousand years ago."
+	},
+	"Relic Silver": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/relicsilver.png",
+		"name": "Relic Silver",
+		"category": "Miscellaneous",
+		"effect": "A silver coin used by an ancient civilization about three thousand years ago."
+	},
+	"Relic Statue": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/relicstatue.png",
+		"name": "Relic Statue",
+		"category": "Miscellaneous",
+		"effect": "A stone figurine made by an ancient civilization about three thousand years ago."
+	},
+	"Relic Vase": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/relicvase.png",
+		"name": "Relic Vase",
+		"category": "Miscellaneous",
+		"effect": "A vase made by an ancient civilization about three thousand years ago."
+	},
+	"Repel": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/repel.png",
+		"name": "Repel",
+		"category": "Miscellaneous",
+		"effect": "An item that prevents low-level wild Pokémon from jumping out at you for a short time."
+	},
+	"Rich Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/richmulch.png",
+		"name": "Rich Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Rock Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rockterashard.png",
+		"name": "Rock Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Roto Bargain": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotobargain.png",
+		"name": "Roto Bargain",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it reduces the prices of products at Poké Marts by half."
+	},
+	"Roto Catch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotocatch.png",
+		"name": "Roto Catch",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it makes you far likelier to succeed at catching the wild Pokémon in the immediate area."
+	},
+	"Roto Encounter": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotoencounter.png",
+		"name": "Roto Encounter",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it increases the chance of encountering high-level wild Pokémon for a certain period of time."
+	},
+	"Roto Exp. Points": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotoexp.points.png",
+		"name": "Roto Exp. Points",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it slightly increases the Exp. Points your Pokémon receive after battle."
+	},
+	"Roto Friendship": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotofriendship.png",
+		"name": "Roto Friendship",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it helps Pokémon in your party grow friendly quite a lot faster."
+	},
+	"Roto Hatch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotohatch.png",
+		"name": "Roto Hatch",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it helps Eggs hatch faster."
+	},
+	"Roto Prize Money": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotoprizemoney.png",
+		"name": "Roto Prize Money",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it triples the prize money you receive after battle."
+	},
+	"Roto Stealth": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rotostealth.png",
+		"name": "Roto Stealth",
+		"category": "Miscellaneous",
+		"effect": "One of the Rotom Powers. When used, it prevents you from encountering any wild Pokémon for a certain period of time."
+	},
+	"Salt Cake": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/saltcake.png",
+		"name": "Salt Cake",
+		"category": "Miscellaneous",
+		"effect": "A cake made by combining salt with a Cake-Lure Base. These cakes are potently effective at attracting Pokémon that bear a resemblance to grass, plants, or minerals."
+	},
+	"Scatter Bang": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/scatterbang.png",
+		"name": "Scatter Bang",
+		"category": "Miscellaneous",
+		"effect": "When thrown at the ground, these balls produce a loud noise and scare off low-level Pokémon in the area, sending them running."
+	},
+	"Seed of Mastery": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/seedofmastery.png",
+		"name": "Seed of Mastery",
+		"category": "Miscellaneous",
+		"effect": "A rare seed that can be given to the captain of the Security Corps to have a Pokémon master a move so it can be used in the agile style or strong style."
+	},
+	"Shoal Salt": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/shoalsalt.png",
+		"name": "Shoal Salt",
+		"category": "Miscellaneous",
+		"effect": "Salt that was found inside Shoal Cave."
+	},
+	"Shoal Shell": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/shoalshell.png",
+		"name": "Shoal Shell",
+		"category": "Miscellaneous",
+		"effect": "A seashell that was found inside Shoal Cave."
+	},
+	"Silver Leaf": {
+		"image": "https://www.serebii.net/itemdex/sprites/silverleaf.png",
+		"name": "Silver Leaf",
+		"category": "Miscellaneous",
+		"effect": "A strange, silver-colored leaf."
+	},
+	"Slowpoke Tail": {
+		"image": "https://www.serebii.net/itemdex/sprites/slowpoketail.png",
+		"name": "Slowpoke Tail",
+		"category": "Key Item, Miscellaneous",
+		"effect": "A very tasty tail of something. It can be sold at a high price to shops."
+	},
+	"Small Bouquet": {
+		"image": "https://www.serebii.net/itemdex/sprites/smallbouquet.png",
+		"name": "Small Bouquet",
+		"category": "Miscellaneous",
+		"effect": "A small bouquet that was made with heart and soul for a single Trainer."
+	},
+	"Smoke Bomb": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/smokebomb.png",
+		"name": "Smoke Bomb",
+		"category": "Miscellaneous",
+		"effect": "When thrown at the ground, these balls produce a cloud of fine powder that will reduce visibility in the area and keep wild Pokémon from noticing you."
+	},
+	"Snowball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/snowball.png",
+		"name": "Snowball",
+		"category": "Miscellaneous",
+		"effect": "A hard ball made of compressed snow. Hitting a Pokémon with one may stun the Pokémon, creating an opening for you to act."
+	},
+	"Soul Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/soulslate.png",
+		"name": "Soul Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Soul Room at Ramanas Park."
+	},
+	"Spoiled Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/spoiledapricorn.png",
+		"name": "Spoiled Apricorn",
+		"category": "Miscellaneous",
+		"effect": "An Apricorn that's had its insides eaten. Hitting a Pokémon with one may stun the Pokémon, creating an opening for you to act."
+	},
+	"Squall Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/squallslate.png",
+		"name": "Squall Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Squall Room at Ramanas Park."
+	},
+	"Stable Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/stablemulch.png",
+		"name": "Stable Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Star Piece": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/starpiece.png",
+		"name": "Star Piece",
+		"category": "Miscellaneous",
+		"effect": "A small shard of a beautiful gem that gives off a distinctly red sparkle. It can be sold at a high price to shops."
+	},
+	"Stardust": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/stardust.png",
+		"name": "Stardust",
+		"category": "Miscellaneous",
+		"effect": "Lovely red sand that flows between the fingers with a loose, silky feel. It can be sold at a low price to shops."
+	},
+	"Stealth Spray": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/stealthspray.png",
+		"name": "Stealth Spray",
+		"category": "Miscellaneous",
+		"effect": "When used in the field, this spray muffles the sound of your footsteps and makes wild Pokémon less likely to notice you for a short time."
+	},
+	"Steel Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/steelterashard.png",
+		"name": "Steel Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
+	},
+	"Sticky Glob": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/stickyglob.png",
+		"name": "Sticky Glob",
+		"category": "Miscellaneous",
+		"effect": "A ball of some kind of sticky substance. Hitting a Pokémon with one may stun the Pokémon, creating an opening for you to act."
+	},
+	"Strange Souvenir": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/strangesouvenir.png",
+		"name": "Strange Souvenir",
+		"category": "Miscellaneous",
+		"effect": "An ornament depicting a mysterious Pokémon that has been venerated as a guardian deity for an extremely long time in the Alola region."
+	},
+	"Stratospheric Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/stratosphericslate.png",
+		"name": "Stratospheric Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Stratospheric Room at Ramanas Park."
+	},
+	"Stretchy Spring": {
+		"image": "https://www.serebii.net/itemdex/sprites/stretchyspring.png",
+		"name": "Stretchy Spring",
+		"category": "Miscellaneous",
+		"effect": "A thin small spring. It's totally stretched out, and what it's used for is unknown."
+	},
+	"Super Lure": {
+		"image": "https://www.serebii.net/itemdex/sprites/superlure.png",
+		"name": "Super Lure",
+		"category": "Miscellaneous",
+		"effect": "A bottle of perfume that makes rare Pokémon more likely to appear when sprayed about. Its effect lasts longer than that of a Lure."
+	},
+	"Super Repel": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/superrepel.png",
+		"name": "Super Repel",
+		"category": "Miscellaneous",
+		"effect": "An item that prevents low-level wild Pokémon from jumping out at you for a time. It lasts longer than Repel."
+	},
+	"Surprise Mulch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/surprisemulch.png",
+		"name": "Surprise Mulch",
+		"category": "Miscellaneous",
+		"effect": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect."
+	},
+	"Survival Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/survivalcharmr.png",
+		"name": "Survival Charm",
+		"category": "Miscellaneous",
+		"effect": "A mysterious charm that holds the power to protect a person from fainting while out in the field. This type of charm comes in five different colors."
+	},
+	"Tectonic Slate": {
+		"image": "https://www.serebii.net/itemdex/sprites/tectonicslate.png",
+		"name": "Tectonic Slate",
+		"category": "Miscellaneous",
+		"effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Tectonic Room at Ramanas Park."
+	},
+	"Tempting Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/temptingcharmr.png",
+		"name": "Tempting Charm",
+		"category": "Miscellaneous",
+		"effect": "A mysterious charm that tends to be lost before any other item when you faint in the field. This type of charm comes in five different colors."
+	},
+	"Tiny Bamboo Shoot": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/tinybambooshoot.png",
+		"name": "Tiny Bamboo Shoot",
+		"category": "Miscellaneous",
+		"effect": "A small and rare bamboo shoot. It's quite popular with a certain class of gourmands."
+	},
+	"Tiny Mushroom": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/tinymushroom.png",
+		"name": "Tiny Mushroom",
+		"category": "Miscellaneous",
+		"effect": "A small and rare mushroom. It's quite popular with a certain class of collectors."
+	},
+	"Tropical Shell": {
+		"image": "https://www.serebii.net/itemdex/sprites/tropicalshell.png",
+		"name": "Tropical Shell",
+		"category": "Miscellaneous",
+		"effect": "A beautiful white shell that may have drifted from a sea in a warm region."
+	},
+	"Warding Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/wardingcharmr.png",
+		"name": "Warding Charm",
+		"category": "Miscellaneous",
+		"effect": "A mysterious charm that holds the power to protect a person from being afflicted with status conditions. This type of charm comes in five different colors."
+	},
+	"Water Tera Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/waterterashard.png",
+		"name": "Water Tera Shard",
+		"category": "Miscellaneous",
+		"effect": "On rare occasions, these shards form when a Tera Pokémon falls in battle and its Tera Jewel shatters."
 	},
 	"White Apricorn": {
 		"image": "https://www.serebii.net/itemdex/sprites/whiteapricorn.png",
@@ -1475,11 +3209,1385 @@
 		"category": "Miscellaneous",
 		"effect": "A white Apricorn. It doesn't have any aroma at all."
 	},
-	"Black Apricorn": {
-		"image": "https://www.serebii.net/itemdex/sprites/blackapricorn.png",
-		"name": "Black Apricorn",
+	"White Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/whiteflute.png",
+		"name": "White Flute",
 		"category": "Miscellaneous",
-		"effect": "A black Apricorn. It has a smell that cannot be captured in words."
+		"effect": "A flute made from white glass. It makes it easier to encounter low-level Pokémon in the place you use it."
+	},
+	"Wishing Chip": {
+		"image": "https://www.serebii.net/itemdex/sprites/wishingchip.png",
+		"name": "Wishing Chip",
+		"category": "Miscellaneous",
+		"effect": "Toss a number of them into a Pokémon Den for the chance to attract a wild Dynamax Pokémon."
+	},
+	"Yellow Apricorn": {
+		"image": "https://www.serebii.net/itemdex/sprites/yellowapricorn.png",
+		"name": "Yellow Apricorn",
+		"category": "Miscellaneous",
+		"effect": "A yellow Apricorn. It has a light, refreshing scent."
+	},
+	"Yellow Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/yellowflute.png",
+		"name": "Yellow Flute",
+		"category": "Miscellaneous",
+		"effect": "A flute made from yellow glass. It snaps Pokémon out of confusion."
+	},
+	"Yellow Nectar": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/yellownectar.png",
+		"name": "Yellow Nectar",
+		"category": "Miscellaneous",
+		"effect": "Flower nectar obtained from a yellow flower. It changes the form of a certain species of Pokémon."
+	},
+	"Yellow Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/yellowshard.png",
+		"name": "Yellow Shard",
+		"category": "Miscellaneous",
+		"effect": "A small yellow shard. It appears to be a fragment of some sort of implement made long ago."
+	},
+	"Ability Shield": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/abilityshield.png",
+		"name": "Ability Shield",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This cute and rather unique-looking shield protects the holder from having its Ability changed by others."
+	},
+	"Absorb Bulb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/absorbbulb.png",
+		"name": "Absorb Bulb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This single-use bulb boosts the Sp. Atk stat if the holder is damaged by a Water-type attack."
+	},
+	"Adamant Crystal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/adamantcrystal.png",
+		"name": "Adamant Crystal",
+		"category": "Key Item, Hold Item",
+		"effect": "An item to be held by Dialga. This large, glowing gem wells with power and allows the Pokémon to change form."
+	},
+	"Adamant Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/adamantorb.png",
+		"name": "Adamant Orb",
+		"category": "Hold Item",
+		"effect": "A brightly shining gem to be held by Dialga. It boosts the power of Dialga's Dragon- and Steel-type moves."
+	},
+	"Air Balloon": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/airballoon.png",
+		"name": "Air Balloon",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This balloon makes the holder float in the air. If the holder is hit with an attack, the balloon will burst."
+	},
+	"Aloraichium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/aloraichiumz.png",
+		"name": "Aloraichium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Alolan Raichu's Thunderbolt to a Z-Move."
+	},
+	"Amulet Coin": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/amuletcoin.png",
+		"name": "Amulet Coin",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It doubles any prize money received as long as the holder joins the battle at least once."
+	},
+	"Assault Vest": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/assaultvest.png",
+		"name": "Assault Vest",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This offensive vest boosts the holder's Sp. Def stat but prevents the use of status moves."
+	},
+	"Big Root": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bigroot.png",
+		"name": "Big Root",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This root boosts the amount of HP the holder restores to itself when it uses HP-stealing moves."
+	},
+	"Binding Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/bindingband.png",
+		"name": "Binding Band",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This band boosts the power of binding moves used by the holder."
+	},
+	"Black Belt": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/blackbelt.png",
+		"name": "Black Belt",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This belt helps with focus and boosts the power of the holder's Fighting-type moves."
+	},
+	"Black Glasses": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/blackglasses.png",
+		"name": "Black Glasses",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves."
+	},
+	"Black Sludge": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/blacksludge.png",
+		"name": "Black Sludge",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder is a Poison type, this sludge will gradually restore its HP. It damages any other type."
+	},
+	"Blue Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/blueorb.png",
+		"name": "Blue Orb",
+		"category": "Hold Item",
+		"effect": "A shiny blue orb that is said to have a deep connection to a legend of the Hoenn region."
+	},
+	"Blue Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/bluescarf.png",
+		"name": "Blue Scarf",
+		"category": "Hold Item",
+		"effect": "When a Pokémon holds this during a contest, it looks even more beautiful than usual."
+	},
+	"Blunder Policy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/blunderpolicy.png",
+		"name": "Blunder Policy",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder misses with a move due to low accuracy, this policy will sharply boost its Speed stat."
+	},
+	"Booster Energy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/boosterenergy.png",
+		"name": "Booster Energy",
+		"category": "Hold Item",
+		"effect": "An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon."
+	},
+	"Bright Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/brightpowder.png",
+		"name": "Bright Powder",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves."
+	},
+	"Bug Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/buggem.png",
+		"name": "Bug Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of bugs and will boost the power of a Bug-type move—but only once."
+	},
+	"Bug Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/bugmemory.png",
+		"name": "Bug Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Bug-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Buginium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/buginiumz.png",
+		"name": "Buginium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves."
+	},
+	"Burn Drive": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/burndrive.png",
+		"name": "Burn Drive",
+		"category": "Hold Item",
+		"effect": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Fire type."
+	},
+	"Cell Battery": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/cellbattery.png",
+		"name": "Cell Battery",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This single-use battery boosts the Attack stat if the holder is damaged by an Electric-type attack."
+	},
+	"Charcoal": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/charcoal.png",
+		"name": "Charcoal",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a combustible fuel that boosts the power of the holder's Fire-type moves."
+	},
+	"Chill Drive": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/chilldrive.png",
+		"name": "Chill Drive",
+		"category": "Hold Item",
+		"effect": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Ice type."
+	},
+	"Choice Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/choiceband.png",
+		"name": "Choice Band",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This curious headband boosts the holder's Attack stat but only allows the use of a single move."
+	},
+	"Choice Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/choicescarf.png",
+		"name": "Choice Scarf",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This curious scarf boosts the holder's Speed stat but only allows the use of a single move."
+	},
+	"Choice Specs": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/choicespecs.png",
+		"name": "Choice Specs",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. These curious glasses boost the holder's Sp. Atk stat but only allow the use of a single move."
+	},
+	"Cleanse Tag": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/cleansetag.png",
+		"name": "Cleanse Tag",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It helps keep wild Pokémon away when the holder is the head of the party."
+	},
+	"Clear Amulet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/clearamulet.png",
+		"name": "Clear Amulet",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This clear, sparkling amulet protects the holder from having its stats lowered by moves used against it or by other Pokémon's Abilities."
+	},
+	"Cornerstone Mask": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/cornerstonemask.png",
+		"name": "Cornerstone Mask",
+		"category": "Hold Item",
+		"effect": "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Rock type during battle."
+	},
+	"Covert Cloak": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/covertcloak.png",
+		"name": "Covert Cloak",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This hooded cloak conceals the holder, tricking the eyes of its enemies and protecting it from the additional effects of moves."
+	},
+	"Damp Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/damprock.png",
+		"name": "Damp Rock",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder changes the weather to rain, the rain will persist for longer than usual."
+	},
+	"Dark Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/darkgem.png",
+		"name": "Dark Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of darkness and will boost the power of a Dark-type move—but only once."
+	},
+	"Dark Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/darkmemory.png",
+		"name": "Dark Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Dark-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Darkinium Z": {
+		"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/darkinium-z--bag.png",
+		"name": "Darkinium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves."
+	},
+	"Decidium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/decidiumz.png",
+		"name": "Decidium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Decidueye's Spirit Shackle to a Z-Move."
+	},
+	"Destiny Knot": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/destinyknot.png",
+		"name": "Destiny Knot",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Should the holder of this bright-red thread become infatuated, the Pokémon it is infatuated with will be similarly afflicted."
+	},
+	"Douse Drive": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/dousedrive.png",
+		"name": "Douse Drive",
+		"category": "Hold Item",
+		"effect": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Water type."
+	},
+	"Draco Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dracoplate.png",
+		"name": "Draco Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of dragons and boosts the power of the holder's Dragon-type moves."
+	},
+	"Dragon Fang": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dragonfang.png",
+		"name": "Dragon Fang",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This hard, sharp fang boosts the power of the holder's Dragon-type moves."
+	},
+	"Dragon Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/dragongem.png",
+		"name": "Dragon Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of dragons and will boost the power of a Dragon-type move—but only once."
+	},
+	"Dragon Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/dragonmemory.png",
+		"name": "Dragon Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Dragon-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Dragonium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/dragoniumz.png",
+		"name": "Dragonium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Dragon-type moves to Dragon-type Z-Moves."
+	},
+	"Dread Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dreadplate.png",
+		"name": "Dread Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of darkness and boosts the power of the holder's Dark-type moves."
+	},
+	"Earth Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/earthplate.png",
+		"name": "Earth Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of the earth and boosts the power of the holder's Ground-type moves."
+	},
+	"Eevium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/eeviumz.png",
+		"name": "Eevium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Eevee's Last Resort to a Z-Move."
+	},
+	"Eject Button": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ejectbutton.png",
+		"name": "Eject Button",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder is damaged by an attack, it will be switched out of battle to be replaced by another Pokémon on your team."
+	},
+	"Eject Pack": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ejectpack.png",
+		"name": "Eject Pack",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder's stats are lowered, it will be switched out of battle."
+	},
+	"Electric Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/electricgem.png",
+		"name": "Electric Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of electricity and will boost the power of an Electric-type move—but only once."
+	},
+	"Electric Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/electricmemory.png",
+		"name": "Electric Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Electric-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Electric Seed": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/electricseed.png",
+		"name": "Electric Seed",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the terrain becomes Electric Terrain, the holder will use this seed to boost its own Defense stat."
+	},
+	"Electrium Z": {
+		"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electrium-z--bag.png",
+		"name": "Electrium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Electric-type moves to Electric-type Z-Moves."
+	},
+	"Everstone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/everstone.png",
+		"name": "Everstone",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. A Pokémon holding this peculiar stone is prevented from evolving."
+	},
+	"Eviolite": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/eviolite.png",
+		"name": "Eviolite",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve."
+	},
+	"Exp. Share": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/exp.share.png",
+		"name": "Exp. Share",
+		"category": "Hold Item, Key Item",
+		"effect": "Turning on this special device will allow all the Pokémon on your team to share in Exp. Points gained."
+	},
+	"Expert Belt": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/expertbelt.png",
+		"name": "Expert Belt",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a well-worn belt that slightly boosts the power of the holder's supereffective moves."
+	},
+	"Fairium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fairiumz.png",
+		"name": "Fairium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Fairy-type moves to Fairy-type Z-Moves."
+	},
+	"Fairy Feather": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fairyfeather.png",
+		"name": "Fairy Feather",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves."
+	},
+	"Fairy Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fairygem.png",
+		"name": "Fairy Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of fairies and will boost the power of a Fairy-type move—but only once."
+	},
+	"Fairy Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fairymemory.png",
+		"name": "Fairy Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Fairy-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Fighting Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fightinggem.png",
+		"name": "Fighting Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of the fighting spirit and will boost the power of a Fighting-type move—but only once."
+	},
+	"Fighting Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fightingmemory.png",
+		"name": "Fighting Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Fighting-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Fightinium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fightiniumz.png",
+		"name": "Fightinium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Fighting-type moves to Fighting-type Z-Moves."
+	},
+	"Fire Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/firegem.png",
+		"name": "Fire Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of fire and will boost the power of a Fire-type move—but only once."
+	},
+	"Fire Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/firememory.png",
+		"name": "Fire Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Fire-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Firium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/firiumz.png",
+		"name": "Firium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Fire-type moves to Fire-type Z-Moves."
+	},
+	"Fist Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/fistplate.png",
+		"name": "Fist Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of the fighting spirit and boosts the power of the holder's Fighting-type moves."
+	},
+	"Flame Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/flameorb.png",
+		"name": "Flame Orb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a bizarre orb that gives off heat when touched and will afflict the holder with a burn during battle."
+	},
+	"Flame Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/flameplate.png",
+		"name": "Flame Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of fire and boosts the power of the holder's Fire-type moves."
+	},
+	"Float Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/floatstone.png",
+		"name": "Float Stone",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This very light stone reduces the weight of the holder."
+	},
+	"Flying Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/flyinggem.png",
+		"name": "Flying Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of flight and will boost the power of a Flying-type move—but only once."
+	},
+	"Flying Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/flyingmemory.png",
+		"name": "Flying Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Flying-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Flyinium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/flyiniumz.png",
+		"name": "Flyinium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Flying-type moves to Flying-type Z-Moves."
+	},
+	"Focus Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/focusband.png",
+		"name": "Focus Band",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP."
+	},
+	"Focus Sash": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/focussash.png",
+		"name": "Focus Sash",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once."
+	},
+	"Full Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/fullincense.png",
+		"name": "Full Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that makes the holder move slower than usual."
+	},
+	"Ghost Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/ghostgem.png",
+		"name": "Ghost Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of ghosts and will boost the power of a Ghost-type move—but only once."
+	},
+	"Ghost Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/ghostmemory.png",
+		"name": "Ghost Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Ghost-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Ghostium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/ghostiumz.png",
+		"name": "Ghostium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Ghost-type moves to Ghost-type Z-Moves."
+	},
+	"Grass Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/grassgem.png",
+		"name": "Grass Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of plants and will boost the power of a Grass-type move—but only once."
+	},
+	"Grass Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/grassmemory.png",
+		"name": "Grass Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Grass-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Grassium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/grassiumz.png",
+		"name": "Grassium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Grass-type moves to Grass-type Z-Moves."
+	},
+	"Grassy Seed": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/grassyseed.png",
+		"name": "Grassy Seed",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the terrain becomes Grassy Terrain, the holder will use this seed to boost its own Defense stat."
+	},
+	"Green Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/greenscarf.png",
+		"name": "Green Scarf",
+		"category": "Hold Item",
+		"effect": "When a Pokémon holds this during a contest, it looks even cleverer than usual."
+	},
+	"Grip Claw": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/gripclaw.png",
+		"name": "Grip Claw",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder uses moves that deal damage over several turns, such as Bind or Wrap, their effects will last longer than usual."
+	},
+	"Griseous Core": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/griseouscore.png",
+		"name": "Griseous Core",
+		"category": "Key Item, Hold Item",
+		"effect": "An item to be held by Giratina. This large, glowing gem wells with power and allows the Pokémon to change form."
+	},
+	"Griseous Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/griseousorb.png",
+		"name": "Griseous Orb",
+		"category": "Hold Item",
+		"effect": "A shining gem to be held by Giratina. It boosts the power of Giratina's Dragon- and Ghost-type moves."
+	},
+	"Ground Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/groundgem.png",
+		"name": "Ground Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of the earth and will boost the power of a Ground-type move—but only once."
+	},
+	"Ground Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/groundmemory.png",
+		"name": "Ground Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Ground-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Groundium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/groundiumz.png",
+		"name": "Groundium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Ground-type moves to Ground-type Z-Moves."
+	},
+	"Hard Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/hardstone.png",
+		"name": "Hard Stone",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a durable stone that boosts the power of the holder's Rock-type moves."
+	},
+	"Hearthflame Mask": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/hearthflamemask.png",
+		"name": "Hearthflame Mask",
+		"category": "Hold Item",
+		"effect": "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Fire type during battle."
+	},
+	"Heat Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/heatrock.png",
+		"name": "Heat Rock",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder changes the weather to harsh sunlight, the sunlight will persist for longer than usual."
+	},
+	"Heavy-Duty Boots": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/heavy-dutyboots.png",
+		"name": "Heavy-Duty Boots",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. These boots protect the holder from the effects of traps and the like set on the battlefield."
+	},
+	"Ice Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/icegem.png",
+		"name": "Ice Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of ice and will boost the power of an Ice-type move—but only once."
+	},
+	"Ice Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/icememory.png",
+		"name": "Ice Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Ice-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Icicle Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/icicleplate.png",
+		"name": "Icicle Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of ice and boosts the power of the holder's Ice-type moves."
+	},
+	"Icium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/iciumz.png",
+		"name": "Icium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type Z-Moves."
+	},
+	"Icy Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/icyrock.png",
+		"name": "Icy Rock",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder changes the weather to snow, the snow will persist for longer than usual."
+	},
+	"Incinium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/inciniumz.png",
+		"name": "Incinium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Incineroar's Darkest Lariat to a Z-Move."
+	},
+	"Insect Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/insectplate.png",
+		"name": "Insect Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of bugs and boosts the power of the holder's Bug-type moves."
+	},
+	"Iron Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ironball.png",
+		"name": "Iron Ball",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It lowers the holder's Speed stat and makes the holder vulnerable to Ground- type moves even if it is a Flying type or is levitating."
+	},
+	"Iron Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ironplate.png",
+		"name": "Iron Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of steel and boosts the power of the holder's Steel-type moves."
+	},
+	"Kommonium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/kommoniumz.png",
+		"name": "Kommonium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Kommo-o's Clanging Scales to a Z-Move."
+	},
+	"Lagging Tail": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/laggingtail.png",
+		"name": "Lagging Tail",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. A tail of something, this item is tremendously heavy and makes the holder move slower than usual."
+	},
+	"Lax Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/laxincense.png",
+		"name": "Lax Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. The curious aroma of this incense may cause moves to miss its holder."
+	},
+	"Leek": {
+		"image": "https://archives.bulbagarden.net/media/upload/2/24/Dream_Stick_Sprite.png",
+		"name": "Leek",
+		"category": "Hold Item",
+		"effect": "An item to be held by Farfetch'd. This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch'd's moves."
+	},
+	"Leftovers": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/leftovers.png",
+		"name": "Leftovers",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. The holder's HP is slowly but steadily restored throughout a battle."
+	},
+	"Life Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lifeorb.png",
+		"name": "Life Orb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It boosts the power of the holder's moves, but the holder also loses a small amount of HP with each attack it lands."
+	},
+	"Light Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/lightball.png",
+		"name": "Light Ball",
+		"category": "Hold Item",
+		"effect": "An item to be held by Pikachu. It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats."
+	},
+	"Light Clay": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lightclay.png",
+		"name": "Light Clay",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder uses protective moves like Light Screen or Reflect, their effects will last longer than usual."
+	},
+	"Loaded Dice": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/loadeddice.png",
+		"name": "Loaded Dice",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This loaded dice always rolls a good number, and holding one can ensure that the holder's multistrike moves hit more times."
+	},
+	"Luck Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/luckincense.png",
+		"name": "Luck Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It doubles any prize money received as long as the holder joins the battle at least once."
+	},
+	"Lucky Egg": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/luckyegg.png",
+		"name": "Lucky Egg",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's an egg filled with happiness that earns the holder extra Exp. Points."
+	},
+	"Lucky Punch": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/luckypunch.png",
+		"name": "Lucky Punch",
+		"category": "Hold Item",
+		"effect": "An item to be held by Chansey. This lucky boxing glove boosts the critical-hit ratio of Chansey's moves."
+	},
+	"Luminous Moss": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/luminousmoss.png",
+		"name": "Luminous Moss",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This single-use luminous moss boosts the Sp. Def stat if the holder is damaged by a Water-type move."
+	},
+	"Lunalium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/lunaliumz.png",
+		"name": "Lunalium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Lunala's Moongeist Beam to a Z-Move."
+	},
+	"Lustrous Globe": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lustrousglobe.png",
+		"name": "Lustrous Globe",
+		"category": "Key Item, Hold Item",
+		"effect": "An item to be held by Palkia. This large, glowing orb wells with power and allows the Pokémon to change form."
+	},
+	"Lustrous Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/lustrousorb.png",
+		"name": "Lustrous Orb",
+		"category": "Hold Item",
+		"effect": "A beautifully shining gem to be held by Palkia. It boosts the power of Palkia's Dragon- and Water-type moves."
+	},
+	"Lycanium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/lycaniumz.png",
+		"name": "Lycanium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Lycanroc's Stone Edge to a Z-Move."
+	},
+	"Macho Brace": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/machobrace.png",
+		"name": "Macho Brace",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this stiff, heavy brace reduces a Pokémon's Speed in battle but allows its stats to grow more quickly."
+	},
+	"Magnet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/magnet.png",
+		"name": "Magnet",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a powerful magnet that boosts the power of the holder's Electric-type moves."
+	},
+	"Marshadium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/marshadiumz.png",
+		"name": "Marshadium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Marshadow's Spectral Thief to a Z-Move."
+	},
+	"Meadow Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/meadowplate.png",
+		"name": "Meadow Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of plants and boosts the power of the holder's Grass-type moves."
+	},
+	"Mental Herb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mentalherb.png",
+		"name": "Mental Herb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. The holder will be able to shake off move-binding effects to move freely— but only once."
+	},
+	"Metal Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/metalpowder.png",
+		"name": "Metal Powder",
+		"category": "Hold Item",
+		"effect": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts Ditto's Defense stat."
+	},
+	"Metronome": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/metronome.png",
+		"name": "Metronome",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It boosts the power of a move that's used repeatedly. Once the chain is broken, the move's power returns to normal."
+	},
+	"Mewnium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/mewniumz.png",
+		"name": "Mewnium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Mew's Psychic to a Z-Move."
+	},
+	"Mimikium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/mimikiumz.png",
+		"name": "Mimikium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Mimikyu's Play Rough to a Z-Move."
+	},
+	"Mind Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mindplate.png",
+		"name": "Mind Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of psychic energy and boosts the power of the holder's Psychic-type moves."
+	},
+	"Miracle Seed": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/miracleseed.png",
+		"name": "Miracle Seed",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a seed imbued with life-force that boosts the power of the holder's Grass-type moves."
+	},
+	"Mirror Herb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mirrorherb.png",
+		"name": "Mirror Herb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This herb will allow the holder to mirror an opponent's stat increases to boost its own stats—but only once."
+	},
+	"Misty Seed": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mistyseed.png",
+		"name": "Misty Seed",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the terrain becomes Misty Terrain, the holder will use this seed to boost its own Sp. Def stat."
+	},
+	"Muscle Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/muscleband.png",
+		"name": "Muscle Band",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of the holder's physical moves."
+	},
+	"Mystic Water": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/mysticwater.png",
+		"name": "Mystic Water",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This teardrop-shaped gem boosts the power of the holder's Water-type moves."
+	},
+	"Never-Melt Ice": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/never-meltice.png",
+		"name": "Never-Melt Ice",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves."
+	},
+	"Normal Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/normalgem.png",
+		"name": "Normal Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of normalcy and will boost the power of a Normal-type move—but only once."
+	},
+	"Normalium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/normaliumz.png",
+		"name": "Normalium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Normal-type moves to Normal-type Z-Moves."
+	},
+	"Odd Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/oddincense.png",
+		"name": "Odd Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of the holder's Psychic-type moves."
+	},
+	"Pikanium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/pikaniumz.png",
+		"name": "Pikanium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Pikachu's Volt Tackle to a Z-Move."
+	},
+	"Pikashunium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/pikashuniumz.png",
+		"name": "Pikashunium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "This is a crystallized form of Z-Power. It upgrades Thunderbolt to a Z-Move when used by a Pikachu wearing a cap."
+	},
+	"Pink Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/pinkscarf.png",
+		"name": "Pink Scarf",
+		"category": "Hold Item",
+		"effect": "When a Pokémon holds this during a contest, it looks even cuter than usual."
+	},
+	"Pixie Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/pixieplate.png",
+		"name": "Pixie Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of fairies and boosts the power of the holder's Fairy-type moves."
+	},
+	"Poison Barb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/poisonbarb.png",
+		"name": "Poison Barb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This small poisonous barb boosts the power of the holder's Poison-type moves."
+	},
+	"Poison Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/poisongem.png",
+		"name": "Poison Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of poison and will boost the power of a Poison-type move—but only once."
+	},
+	"Poison Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/poisonmemory.png",
+		"name": "Poison Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Poison-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Poisonium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/poisoniumz.png",
+		"name": "Poisonium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Poison-type moves to Poison-type Z-Moves."
+	},
+	"Power Anklet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/poweranklet.png",
+		"name": "Power Anklet",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this anklet reduces a Pokémon's Speed in battle but allows its Speed stat to grow more quickly."
+	},
+	"Power Band": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerband.png",
+		"name": "Power Band",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this band reduces a Pokémon's Speed in battle but allows its Sp. Def stat to grow more quickly."
+	},
+	"Power Belt": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerbelt.png",
+		"name": "Power Belt",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this belt reduces a Pokémon's Speed in battle but allows its Defense stat to grow more quickly."
+	},
+	"Power Bracer": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerbracer.png",
+		"name": "Power Bracer",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this bracer reduces a Pokémon's Speed in battle but allows its Attack stat to grow more quickly."
+	},
+	"Power Herb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerherb.png",
+		"name": "Power Herb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge—but only once."
+	},
+	"Power Lens": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerlens.png",
+		"name": "Power Lens",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this lens reduces a Pokémon's Speed in battle but allows its Sp. Atk stat to grow more quickly."
+	},
+	"Power Weight": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/powerweight.png",
+		"name": "Power Weight",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Holding this weight reduces a Pokémon's Speed in battle but allows its HP stat to grow more quickly."
+	},
+	"Primarium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/primariumz.png",
+		"name": "Primarium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Primarina's Sparkling Aria to a Z-Move."
+	},
+	"Protective Pads": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/protectivepads.png",
+		"name": "Protective Pads",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. These pads protect the holder from effects triggered by making direct contact with another Pokémon."
+	},
+	"Psychic Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/psychicgem.png",
+		"name": "Psychic Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of psychic energy and will boost the power of a Psychic-type move—but only once."
+	},
+	"Psychic Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/psychicmemory.png",
+		"name": "Psychic Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Psychic-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Psychic Seed": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/psychicseed.png",
+		"name": "Psychic Seed",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the terrain becomes Psychic Terrain, the holder will use this seed to boost its own Sp. Def stat."
+	},
+	"Psychium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/psychiumz.png",
+		"name": "Psychium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Psychic-type moves to Psychic-type Z-Moves."
+	},
+	"Punching Glove": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/punchingglove.png",
+		"name": "Punching Glove",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This protective glove boosts the power of the holder's punching moves and prevents direct contact with targets."
+	},
+	"Pure Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/pureincense.png",
+		"name": "Pure Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It helps keep wild Pokémon away when the holder is the head of the party."
+	},
+	"Quick Claw": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/quickclaw.png",
+		"name": "Quick Claw",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This light, sharp claw lets the holder move first occasionally."
+	},
+	"Quick Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/quickpowder.png",
+		"name": "Quick Powder",
+		"category": "Hold Item",
+		"effect": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts Ditto's Speed stat."
+	},
+	"Red Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/redcard.png",
+		"name": "Red Card",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder is damaged by an attack, the mysterious power of this card can remove the attacker from the battle."
+	},
+	"Red Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/redorb.png",
+		"name": "Red Orb",
+		"category": "Key Item, Hold Item",
+		"effect": "A shiny red orb that is said to have a deep connection to a legend of the Hoenn region."
+	},
+	"Red Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/redscarf.png",
+		"name": "Red Scarf",
+		"category": "Hold Item",
+		"effect": "When a Pokémon holds this during a contest, it looks even cooler than usual."
+	},
+	"Ring Target": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/ringtarget.png",
+		"name": "Ring Target",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Moves that would normally have no effect due to type matchups will still hit the holder."
+	},
+	"Rock Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rockgem.png",
+		"name": "Rock Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of rock and will boost the power of a Rock-type move—but only once."
+	},
+	"Rock Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rockincense.png",
+		"name": "Rock Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of the holder's Rock-type moves."
+	},
+	"Rock Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rockmemory.png",
+		"name": "Rock Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Rock-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Rockium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/rockiumz.png",
+		"name": "Rockium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Rock-type moves to Rock-type Z-Moves."
+	},
+	"Rocky Helmet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rockyhelmet.png",
+		"name": "Rocky Helmet",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If another Pokémon makes direct contact with the holder, that Pokémon will be damaged."
+	},
+	"Room Service": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/roomservice.png",
+		"name": "Room Service",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If Trick Room takes effect, this item will lower the holder's Speed stat."
+	},
+	"Rose Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/roseincense.png",
+		"name": "Rose Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of the holder's Grass-type moves."
+	},
+	"Rusted Shield": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rustedshield.png",
+		"name": "Rusted Shield",
+		"category": "Hold Item",
+		"effect": "It is said that a hero used this shield to halt a terrible disaster in ancient times. But it's grown rusty and worn."
+	},
+	"Rusted Sword": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rustedsword.png",
+		"name": "Rusted Sword",
+		"category": "Hold Item",
+		"effect": "It is said that a hero used this sword to halt a terrible disaster in ancient times. But it's grown rusty and worn."
+	},
+	"Safety Goggles": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/safetygoggles.png",
+		"name": "Safety Goggles",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. These goggles protect the holder from both sandstorm damage and the effects of powders and spores."
+	},
+	"Scope Lens": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/scopelens.png",
+		"name": "Scope Lens",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio."
+	},
+	"Sea Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/seaincense.png",
+		"name": "Sea Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of the holder's Water-type moves."
+	},
+	"Sharp Beak": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sharpbeak.png",
+		"name": "Sharp Beak",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a long, sharp beak that boosts the power of the holder's Flying-type moves."
+	},
+	"Shed Shell": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/shedshell.png",
+		"name": "Shed Shell",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. Hard and sturdy, this discarded carapace enables the holder to switch out of battle without fail."
+	},
+	"Shell Bell": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/shellbell.png",
+		"name": "Shell Bell",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. The holder restores a little HP to itself every time it inflicts damage with an attack."
+	},
+	"Shock Drive": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/shockdrive.png",
+		"name": "Shock Drive",
+		"category": "Hold Item",
+		"effect": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Electric type."
+	},
+	"Silk Scarf": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/silkscarf.png",
+		"name": "Silk Scarf",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a sumptuous scarf that boosts the power of the holder's Normal-type moves."
+	},
+	"Silver Powder": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/silverpowder.png",
+		"name": "Silver Powder",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a shiny silver powder that boosts the power of the holder's Bug-type moves."
+	},
+	"Sky Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/skyplate.png",
+		"name": "Sky Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of flight and boosts the power of the holder's Flying-type moves."
+	},
+	"Smoke Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/smokeball.png",
+		"name": "Smoke Ball",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon encounter without fail."
+	},
+	"Smooth Rock": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/smoothrock.png",
+		"name": "Smooth Rock",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder changes the weather to a sandstorm, the storm will persist for longer than usual."
+	},
+	"Snorlium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/snorliumz.png",
+		"name": "Snorlium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Snorlax's Giga Impact to a Z-Move."
+	},
+	"Soft Sand": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/softsand.png",
+		"name": "Soft Sand",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a loose, silky sand that boosts the power of the holder's Ground-type moves."
+	},
+	"Solganium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/solganiumz.png",
+		"name": "Solganium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Solgaleo's Sunsteel Strike to a Z-Move."
+	},
+	"Soothe Bell": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/soothebell.png",
+		"name": "Soothe Bell",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly."
+	},
+	"Soul Dew": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/souldew.png",
+		"name": "Soul Dew",
+		"category": "Hold Item",
+		"effect": "A wondrous orb to be held by Latios or Latias. It boosts the power of their Psychic- and Dragon-type moves."
+	},
+	"Spell Tag": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/spelltag.png",
+		"name": "Spell Tag",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves."
+	},
+	"Splash Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/splashplate.png",
+		"name": "Splash Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of water and boosts the power of the holder's Water-type moves."
+	},
+	"Spooky Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/spookyplate.png",
+		"name": "Spooky Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of ghosts and boosts the power of the holder's Ghost-type moves."
+	},
+	"Steel Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/steelgem.png",
+		"name": "Steel Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of steel and will boost the power of a Steel-type move—but only once."
+	},
+	"Steel Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/steelmemory.png",
+		"name": "Steel Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Steel-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Steelium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/steeliumz.png",
+		"name": "Steelium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Steel-type moves to Steel-type Z-Moves."
+	},
+	"Sticky Barb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/stickybarb.png",
+		"name": "Sticky Barb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It damages the holder every turn and may latch on to Pokémon that make direct contact with the holder."
+	},
+	"Stone Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/stoneplate.png",
+		"name": "Stone Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of rock and boosts the power of the holder's Rock-type moves."
+	},
+	"Tapunium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/tapuniumz.png",
+		"name": "Tapunium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade the tapu's Nature's Madness to a Z-Move."
+	},
+	"Terrain Extender": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/terrainextender.png",
+		"name": "Terrain Extender",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It extends the duration of terrain caused by the holder's move or Ability."
+	},
+	"Thick Club": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/thickclub.png",
+		"name": "Thick Club",
+		"category": "Hold Item",
+		"effect": "An item to be held by Cubone or Marowak. This hard bone of unknown origin boosts their Attack stat."
+	},
+	"Throat Spray": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/throatspray.png",
+		"name": "Throat Spray",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder uses a sound-based move, this throat spray will boost its Sp. Atk stat."
+	},
+	"Toxic Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/toxicorb.png",
+		"name": "Toxic Orb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle."
+	},
+	"Toxic Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/toxicplate.png",
+		"name": "Toxic Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of poison and boosts the power of the holder's Poison-type moves."
+	},
+	"Twisted Spoon": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/twistedspoon.png",
+		"name": "Twisted Spoon",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves."
+	},
+	"Ultranecrozium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/ultranecroziumz.png",
+		"name": "Ultranecrozium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It's a crystal that turns Necrozma fused with Solgaleo or Lunala into a new form."
+	},
+	"Utility Umbrella": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/utilityumbrella.png",
+		"name": "Utility Umbrella",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and harsh sunlight."
+	},
+	"Water Gem": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/watergem.png",
+		"name": "Water Gem",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This gem is imbued with the essence of water and will boost the power of a Water-type move—but only once."
+	},
+	"Water Memory": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/watermemory.png",
+		"name": "Water Memory",
+		"category": "Hold Item",
+		"effect": "A memory disc that contains Water-type data. It changes the type of the holder if held by a certain species of Pokémon."
+	},
+	"Waterium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/wateriumz.png",
+		"name": "Waterium Z",
+		"category": "Z Crystal, Hold Item",
+		"effect": "It converts Z-Power into crystals that upgrade Water-type moves to Water-type Z-Moves."
+	},
+	"Wave Incense": {
+		"image": "https://www.serebii.net/itemdex/sprites/pgl/waveincense.png",
+		"name": "Wave Incense",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of the holder's Water-type moves."
+	},
+	"Weakness Policy": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/weaknesspolicy.png",
+		"name": "Weakness Policy",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. If the holder is hit with a move it's weak to, this policy sharply boosts its Attack and Sp. Atk stats."
+	},
+	"Wellspring Mask": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/wellspringmask.png",
+		"name": "Wellspring Mask",
+		"category": "Hold Item",
+		"effect": "An item to be held by Ogerpon. This carved wooden mask is adorned with crystals and allows Ogerpon to wield the Water type during battle."
+	},
+	"White Herb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/whiteherb.png",
+		"name": "White Herb",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It will restore any lowered stat in battle—but only once."
+	},
+	"Wide Lens": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/widelens.png",
+		"name": "Wide Lens",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. It's a magnifying lens that slightly boosts the accuracy of the holder's moves."
+	},
+	"Wise Glasses": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/wiseglasses.png",
+		"name": "Wise Glasses",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of the holder's special moves."
+	},
+	"Yellow Scarf": {
+		"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-scarf.png",
+		"name": "Yellow Scarf",
+		"category": "Hold Item",
+		"effect": "When a Pokémon holds this during a contest, it looks even tougher than usual."
+	},
+	"Zap Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/zapplate.png",
+		"name": "Zap Plate",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. This stone tablet is imbued with the essence of electricity and boosts the power of the holder's Electric-type moves."
+	},
+	"Zoom Lens": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/zoomlens.png",
+		"name": "Zoom Lens",
+		"category": "Hold Item",
+		"effect": "An item to be held by a Pokémon. When the holder acts after its target, its move will be more accurate than usual."
 	},
 	"Colress Machine": {
 		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",

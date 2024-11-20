@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.4
+// @version      3.5
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -30,6 +30,7 @@
 			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokemon-type-chart.json',
 		POKEBALL:
 			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokeball.json',
+		TEAM: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams.json',
 		TICK_ICON:
 			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/tick-16.png',
 		CROSS_ICON:
@@ -86,6 +87,7 @@
 		ABILITY: '.pokemon-ability',
 		TYPE: '.pokemon-type',
 		POKEBALL: '.pokemon-ball',
+		TEAM: '.teams',
 	};
 	const ICON_COLOR = '#a8a8a8';
 	const SVG_CODE = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
@@ -365,8 +367,8 @@
 		}
 	};
 	const setupPokemonData = async () => {
-		const urls = Object.values(URLS).slice(1, 7);
-		const [stats, moves, items, abilities, typeChart, pokeball] =
+		const urls = Object.values(URLS).slice(1, 8);
+		const [stats, moves, items, abilities, typeChart, pokeball, teams] =
 			await Promise.all(urls.map(fetchPokemonData));
 
 		return [
@@ -399,6 +401,11 @@
 				data: pokeball,
 				printFunction: printPokeBall,
 				selector: SELECTORS.POKEBALL,
+			},
+			{
+				data: teams,
+				printFunction: printTeams,
+				selector: SELECTORS.TEAM,
 			},
 		];
 	};
@@ -996,6 +1003,16 @@
 			Description: pokeball.description,
 		};
 		return renderTable('Poké Ball', pokeballInfo);
+	}
+
+	function printTeams(team) {
+		const teamInfo = {
+			'Leader(s)': team.leader.join(', '),
+			'Region(s)': team.region.join(', '),
+			'Admin(s)': team.admins.join(', '),
+			'Base Location(s)': team.base.join(', '),
+		};
+		return renderTable('Team', teamInfo);
 	}
 
 	function setupTypeData(type, typeChart) {
