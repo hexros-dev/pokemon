@@ -719,6 +719,9 @@ $木棉球=Cottonee<img index="#0546" class="pokemon-image" data-pokedex="Cotton
 $风妖精=Whimsicott<img index="#0547" class="pokemon-image" data-pokedex="Whimsicott" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/547.png"/>
 $百合根娃娃=Petilil<img index="#0548" class="pokemon-image" data-pokedex="Petilil" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/548.png"/>
 $裙儿小姐=Lilligant<img index="#0549" class="pokemon-image" data-pokedex="Lilligant" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/549.png"/>
+$红色条纹野蛮鲈鱼=Red-Striped Basculin <img index="#0550" class="pokemon-image" data-pokedex="Basculin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/550.png"/>
+$蓝色条纹野蛮鲈鱼=Blue-Striped Basculin <img index="#0550" class="pokemon-image" data-pokedex="Basculin Blue Striped Form" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/550_f2.png"/>
+$白色条纹野蛮鲈鱼=White-Striped Basculin <img index="#0550" class="pokemon-image" data-pokedex="Basculin White Striped Form" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/550_f3.png"/>
 $野蛮鲈鱼=Basculin<img index="#0550" class="pokemon-image" data-pokedex="Basculin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/550.png"/>
 $黑眼鳄=Sandile<img index="#0551" class="pokemon-image" data-pokedex="Sandile" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/551.png"/>
 $混混鳄=Krokorok<img index="#0552" class="pokemon-image" data-pokedex="Krokorok" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/552.png"/>
@@ -3848,6 +3851,8 @@ $冰柜镇=Montenevera
 Kitakami
 $翠绿镇=Mossui Town
 ==============Needed to sort==============
+$蓝莓学院=Blueberry Academy
+$黑暗铁三角=Shadow Triad
 $萨奇=Sird
 $冥王=Charon
 $丰源=Hoenn
