@@ -1,31 +1,3 @@
-====================================
-$萨奇=Sird
-$冥王=Charon
-$丰源=Hoenn
-$海之王冠=Sea Crown
-$潜水艇=tàu ngầm
-$亚克夏=Samiya
-$汐嘉娜=Aster
-$希嘉娜=Zinnia
-$送神山=Mount Pyre
-$神代=Brandon
-$芙蓉=Phoebe
-$花月=Sidney
-$波妮=Glacia
-$木槿=Joseph
-$火村=Tabitha
-$若叶=Wakaba
-$克丽丝塔儿=Crystal
-$拉达姆=Radam
-$雪成=Samuel
-$比夏斯=Vicious
-$怀特=White
-$胡桃=Mary
-$敏江=Toshie
-$香薰=Laverre
-$玛绣=Valerie
-$娑罗=Shalour
-$可尔妮=Korrina
 ==============Ranks==============
 $冠军=Champion <img class="pokemon-ball" data-pokedex="Cherish Ball" src="https://www.serebii.net/itemdex/sprites/sv/cherishball.png"/>
 $大师=Master <img class="pokemon-ball" data-pokedex="Master Ball" src="https://www.serebii.net/itemdex/sprites/sv/masterball.png"/>
@@ -33,7 +5,7 @@ $职业=Professional <img class="pokemon-ball" data-pokedex="Premier Ball" src="
 $资深=Veteran <img class="pokemon-ball" data-pokedex="Ultra Ball" src="https://www.serebii.net/itemdex/sprites/sv/ultraball.png"/>
 $精英=Elite <img class="pokemon-ball" data-pokedex="Great Ball" src="https://www.serebii.net/itemdex/sprites/sv/greatball.png"/>
 $初级=Beginner <img class="pokemon-ball" data-pokedex="Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png"/>
-===========Mega Pokémon============
+==============Mega Pokémon==============
 $超级妙蛙花=Mega Venusaur<img index="#0003" class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png"/>
 $Mega 妙蛙花=Mega Venusaur<img index="#0003" class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png.png"/>
 $超级喷火龙X=Mega Charizard X<img index="#0006" class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"/>
@@ -241,7 +213,6 @@ $刺甲贝=Cloyster<img index="#0091" class="pokemon-image" data-pokedex="Cloyst
 $鬼斯=Gastly<img index="#0092" class="pokemon-image" data-pokedex="Gastly" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/092.png"/>
 $鬼斯通=Haunter<img index="#0093" class="pokemon-image" data-pokedex="Haunter" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/093.png"/>
 $耿鬼=Gengar<img index="#0094" class="pokemon-image" data-pokedex="Gengar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png"/>
-$闪光耿鬼=Shiny Gengar<img index="#094" class="pokemon-image" data-pokedex="Shiny Gengar" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/94.png"/>
 $大岩蛇=Onix<img index="#0095" class="pokemon-image" data-pokedex="Onix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/095.png"/>
 $催眠貘=Drowzee<img index="#0096" class="pokemon-image" data-pokedex="Drowzee" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/096.png"/>
 $引梦貘人=Hypno<img index="#0097" class="pokemon-image" data-pokedex="Hypno" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/097.png"/>
@@ -1012,7 +983,6 @@ $铁火辉夜=Celesteela<img index="#0797" class="pokemon-image" data-pokedex="C
 $纸御剑=Kartana<img index="#0798" class="pokemon-image" data-pokedex="Kartana" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/798.png"/>
 $恶食大王=Guzzlord<img index="#0799" class="pokemon-image" data-pokedex="Guzzlord" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/799.png"/>
 $奈克洛兹玛=Necrozma<img index="#0800" class="pokemon-image" data-pokedex="Necrozma" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800.png"/>
-$闪光究极奈克洛兹玛=Shiny Ultra Necrozma<img index="#0800" class="pokemon-image" data-pokedex="Shiny Ultra Necrozma" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10157.png" />
 $黄昏之鬃=Dusk Mane<img index="#0800" class="pokemon-image" data-pokedex="Dusk Mane" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800_f2.png" />
 $究极奈克洛兹玛=Ultra Necrozma<img index="#0800" class="pokemon-image" data-pokedex="Ultra Necrozma" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800_f4.png" />
 $拂晓之翼=Dawn Wings<img index="#0800" class="pokemon-image" data-pokedex="Dawn Wings" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800_f3.png" />
@@ -1245,6 +1215,10 @@ $鐵磐岩=Iron Boulder<img index="#1022" class="pokemon-image" data-pokedex="Ir
 $鐵頭殼=Iron Crown<img index="#1023" class="pokemon-image" data-pokedex="Iron Crown" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1023.png"/>
 $太乐巴戈斯=Terapagos<img index="#1024" class="pokemon-image" data-pokedex="Terapagos" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1024.png"/>
 $桃歹郎=Pecharunt<img index="#1025" class="pokemon-image" data-pokedex="Pecharunt" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1025.png"/>
+==============Shiny Pokémon==============
+$闪光宝可梦=Shiny Pokémon
+$闪光耿鬼=Shiny Gengar<img index="#094" class="pokemon-image" data-pokedex="Shiny Gengar" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/94.png"/>
+$闪光究极奈克洛兹玛=Shiny Ultra Necrozma<img index="#0800" class="pokemon-image" data-pokedex="Shiny Ultra Necrozma" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10157.png" />
 ==============Sounds==============
 $洛托=Rotto
 $哏噶=Noga
@@ -2514,7 +2488,58 @@ $神鸟猛攻=<span class="pokemon-move Flying Physical" data-pokedex="Sky Attac
 $破坏死光=<span class="type Normal Special" data-pokedex="Hyper Beam">Hyper Beam</span>
 $龙之爪=<span class="type Dragon Physical" data-pokedex="Dragon Claw">Dragon Claw</span>
 $急冻光线=<span class="type Ice Special" data-pokedex="Ice Beam">Ice Beam</span>
-===========Recovery===========
+==============Types==============
+$冰属性=<span class="Ice">Ice Type <img class="pokemon-type Ice" style="display: inline-block;" data-pokedex="Ice" src="https://www.serebii.net/pokedex-sv/type/icon/ice.png"/></span>
+$恶属性=<span class="Dark">Dark Type <img class="pokemon-type Dark" style="display: inline-block;" data-pokedex="Dark" src="https://www.serebii.net/pokedex-sv/type/icon/dark.png"/></span>
+$毒属性=<span class="Poison">Poison Type <img class="pokemon-type Poison" style="display: inline-block;" data-pokedex="Poison" src="https://www.serebii.net/pokedex-sv/type/icon/poison.png"/></span>
+$水属性=<span class="Water">Water Type <img class="pokemon-type Water" style="display: inline-block;" data-pokedex="Water" src="https://www.serebii.net/pokedex-sv/type/icon/water.png"/></span>
+$火属性=<span class="Fire">Fire Type <img class="pokemon-type Fire" style="display: inline-block;" data-pokedex="Fire" src="https://www.serebii.net/pokedex-sv/type/icon/fire.png"/></span>
+$电属性=<span class="Electric">Electric Type <img class="pokemon-type Electric" style="display: inline-block;" data-pokedex="Electric" src="https://www.serebii.net/pokedex-sv/type/icon/electric.png"/></span>
+$草属性=<span class="Grass">Grass Type <img class="pokemon-type Grass" style="display: inline-block;" data-pokedex="Grass" src="https://www.serebii.net/pokedex-sv/type/icon/grass.png"/></span>
+$虫属性=<span class="Bug">Bug Type <img class="pokemon-type Bug" style="display: inline-block;" data-pokedex="Bug" src="https://www.serebii.net/pokedex-sv/type/icon/bug.png"/></span>
+$钢属性=<span class="Steel">Steel Type <img class="pokemon-type Steel" style="display: inline-block;" data-pokedex="Steel" src="https://www.serebii.net/pokedex-sv/type/icon/steel.png"/></span>
+$龙属性=<span class="Dragon">Dragon Type <img class="pokemon-type Dragon" style="display: inline-block;" data-pokedex="Dragon" src="https://www.serebii.net/pokedex-sv/type/icon/dragon.png"/></span>
+$一般属性=<span class="Normal">Normal Type <img class="pokemon-type Normal" style="display: inline-block;" data-pokedex="Normal" src="https://www.serebii.net/pokedex-sv/type/icon/normal.png"/></span>
+$地面属性=<span class="Ground">Ground Type <img class="pokemon-type Ground" style="display: inline-block;" data-pokedex="Ground" src="https://www.serebii.net/pokedex-sv/type/icon/ground.png"/></span>
+$妖精属性=<span class="Fairy">Fairy Type <img class="pokemon-type Fairy" style="display: inline-block;" data-pokedex="Fairy" src="https://www.serebii.net/pokedex-sv/type/icon/fairy.png"/></span>
+$岩石属性=<span class="Rock">Rock Type <img class="pokemon-type Rock" style="display: inline-block;" data-pokedex="Rock" src="https://www.serebii.net/pokedex-sv/type/icon/rock.png"/></span>
+$幽灵属性=<span class="Ghost">Ghost Type <img class="pokemon-type Ghost" style="display: inline-block;" data-pokedex="Ghost" src="https://www.serebii.net/pokedex-sv/type/icon/ghost.png"/></span>
+$格斗属性=<span class="Fighting">Fighting Type <img class="pokemon-type Fighting" style="display: inline-block;" data-pokedex="Fighting" src="https://www.serebii.net/pokedex-sv/type/icon/fighting.png"/></span>
+$超能属性=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
+$飞行属性=<span class="Flying">Flying Type <img class="pokemon-type Flying" style="display: inline-block;" data-pokedex="Flying" src="https://www.serebii.net/pokedex-sv/type/icon/flying.png"/></span>
+$冰系=<span class="Ice">Ice Type <img class="pokemon-type Ice" style="display: inline-block;" data-pokedex="Ice" src="https://www.serebii.net/pokedex-sv/type/icon/ice.png"/></span>
+$恶系=<span class="Dark">Dark Type <img class="pokemon-type Dark" style="display: inline-block;" data-pokedex="Dark" src="https://www.serebii.net/pokedex-sv/type/icon/dark.png"/></span>
+$毒系=<span class="Poison">Poison Type <img class="pokemon-type Poison" style="display: inline-block;" data-pokedex="Poison" src="https://www.serebii.net/pokedex-sv/type/icon/poison.png"/></span>
+$水系=<span class="Water">Water Type <img class="pokemon-type Water" style="display: inline-block;" data-pokedex="Water" src="https://www.serebii.net/pokedex-sv/type/icon/water.png"/></span>
+$火系=<span class="Fire">Fire Type <img class="pokemon-type Fire" style="display: inline-block;" data-pokedex="Fire" src="https://www.serebii.net/pokedex-sv/type/icon/fire.png"/></span>
+$电系=<span class="Electric">Electric Type <img class="pokemon-type Electric" style="display: inline-block;" data-pokedex="Electric" src="https://www.serebii.net/pokedex-sv/type/icon/electric.png"/></span>
+$草系=<span class="Grass">Grass Type <img class="pokemon-type Grass" style="display: inline-block;" data-pokedex="Grass" src="https://www.serebii.net/pokedex-sv/type/icon/grass.png"/></span>
+$虫系=<span class="Bug">Bug Type <img class="pokemon-type Bug" style="display: inline-block;" data-pokedex="Bug" src="https://www.serebii.net/pokedex-sv/type/icon/bug.png"/></span>
+$钢系=<span class="Steel">Steel Type <img class="pokemon-type Steel" style="display: inline-block;" data-pokedex="Steel" src="https://www.serebii.net/pokedex-sv/type/icon/steel.png"/></span>
+$龙系=<span class="Dragon">Dragon Type <img class="pokemon-type Dragon" style="display: inline-block;" data-pokedex="Dragon" src="https://www.serebii.net/pokedex-sv/type/icon/dragon.png"/></span>
+$一般系=<span class="Normal">Normal Type <img class="pokemon-type Normal" style="display: inline-block;" data-pokedex="Normal" src="https://www.serebii.net/pokedex-sv/type/icon/normal.png"/></span>
+$地面系=<span class="Ground">Ground Type <img class="pokemon-type Ground" style="display: inline-block;" data-pokedex="Ground" src="https://www.serebii.net/pokedex-sv/type/icon/ground.png"/></span>
+$妖精系=<span class="Fairy">Fairy Type <img class="pokemon-type Fairy" style="display: inline-block;" data-pokedex="Fairy" src="https://www.serebii.net/pokedex-sv/type/icon/fairy.png"/></span>
+$岩石系=<span class="Rock">Rock Type <img class="pokemon-type Rock" style="display: inline-block;" data-pokedex="Rock" src="https://www.serebii.net/pokedex-sv/type/icon/rock.png"/></span>
+$幽灵系=<span class="Ghost">Ghost Type <img class="pokemon-type Ghost" style="display: inline-block;" data-pokedex="Ghost" src="https://www.serebii.net/pokedex-sv/type/icon/ghost.png"/></span>
+$格斗系=<span class="Fighting">Fighting Type <img class="pokemon-type Fighting" style="display: inline-block;" data-pokedex="Fighting" src="https://www.serebii.net/pokedex-sv/type/icon/fighting.png"/></span>
+$超能系=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
+$飞行系=<span class="Flying">Flying Type <img class="pokemon-type Flying" style="display: inline-block;" data-pokedex="Flying" src="https://www.serebii.net/pokedex-sv/type/icon/flying.png"/></span>
+==========Teams==========
+$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rocket.png" />
+$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rainbow_rocket.png" />
+$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_magma.png" />
+$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
+$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
+$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_galactic.png" />
+$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_plasma.png" />
+$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_flare.png" />
+$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_skull.png" />
+$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/aether_foundation.png" />
+$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_yell.png" />
+$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/macro_cosmos.png" />
+$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_star.png" />
+==============Recovery==============
 $解毒药=Antidote <img class="items" data-pokedex="Antidote" src="https://www.serebii.net/itemdex/sprites/sv/antidote.png" />
 $解眠药=Awakening <img class="items" data-pokedex="Awakening" src="https://www.serebii.net/itemdex/sprites/sv/awakening.png" />
 $树果汁=Berry Juice <img class="items" data-pokedex="Berry Juice" src="https://www.serebii.net/itemdex/sprites/pgl/berryjuice.png" />
@@ -3822,44 +3847,34 @@ $穴扎镇=Zapapico
 $冰柜镇=Montenevera
 Kitakami
 $翠绿镇=Mossui Town
-==============Types==============
-$冰属性=<span class="Ice">Ice Type <img class="pokemon-type Ice" style="display: inline-block;" data-pokedex="Ice" src="https://www.serebii.net/pokedex-sv/type/icon/ice.png"/></span>
-$恶属性=<span class="Dark">Dark Type <img class="pokemon-type Dark" style="display: inline-block;" data-pokedex="Dark" src="https://www.serebii.net/pokedex-sv/type/icon/dark.png"/></span>
-$毒属性=<span class="Poison">Poison Type <img class="pokemon-type Poison" style="display: inline-block;" data-pokedex="Poison" src="https://www.serebii.net/pokedex-sv/type/icon/poison.png"/></span>
-$水属性=<span class="Water">Water Type <img class="pokemon-type Water" style="display: inline-block;" data-pokedex="Water" src="https://www.serebii.net/pokedex-sv/type/icon/water.png"/></span>
-$火属性=<span class="Fire">Fire Type <img class="pokemon-type Fire" style="display: inline-block;" data-pokedex="Fire" src="https://www.serebii.net/pokedex-sv/type/icon/fire.png"/></span>
-$电属性=<span class="Electric">Electric Type <img class="pokemon-type Electric" style="display: inline-block;" data-pokedex="Electric" src="https://www.serebii.net/pokedex-sv/type/icon/electric.png"/></span>
-$草属性=<span class="Grass">Grass Type <img class="pokemon-type Grass" style="display: inline-block;" data-pokedex="Grass" src="https://www.serebii.net/pokedex-sv/type/icon/grass.png"/></span>
-$虫属性=<span class="Bug">Bug Type <img class="pokemon-type Bug" style="display: inline-block;" data-pokedex="Bug" src="https://www.serebii.net/pokedex-sv/type/icon/bug.png"/></span>
-$钢属性=<span class="Steel">Steel Type <img class="pokemon-type Steel" style="display: inline-block;" data-pokedex="Steel" src="https://www.serebii.net/pokedex-sv/type/icon/steel.png"/></span>
-$龙属性=<span class="Dragon">Dragon Type <img class="pokemon-type Dragon" style="display: inline-block;" data-pokedex="Dragon" src="https://www.serebii.net/pokedex-sv/type/icon/dragon.png"/></span>
-$一般属性=<span class="Normal">Normal Type <img class="pokemon-type Normal" style="display: inline-block;" data-pokedex="Normal" src="https://www.serebii.net/pokedex-sv/type/icon/normal.png"/></span>
-$地面属性=<span class="Ground">Ground Type <img class="pokemon-type Ground" style="display: inline-block;" data-pokedex="Ground" src="https://www.serebii.net/pokedex-sv/type/icon/ground.png"/></span>
-$妖精属性=<span class="Fairy">Fairy Type <img class="pokemon-type Fairy" style="display: inline-block;" data-pokedex="Fairy" src="https://www.serebii.net/pokedex-sv/type/icon/fairy.png"/></span>
-$岩石属性=<span class="Rock">Rock Type <img class="pokemon-type Rock" style="display: inline-block;" data-pokedex="Rock" src="https://www.serebii.net/pokedex-sv/type/icon/rock.png"/></span>
-$幽灵属性=<span class="Ghost">Ghost Type <img class="pokemon-type Ghost" style="display: inline-block;" data-pokedex="Ghost" src="https://www.serebii.net/pokedex-sv/type/icon/ghost.png"/></span>
-$格斗属性=<span class="Fighting">Fighting Type <img class="pokemon-type Fighting" style="display: inline-block;" data-pokedex="Fighting" src="https://www.serebii.net/pokedex-sv/type/icon/fighting.png"/></span>
-$超能属性=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
-$飞行属性=<span class="Flying">Flying Type <img class="pokemon-type Flying" style="display: inline-block;" data-pokedex="Flying" src="https://www.serebii.net/pokedex-sv/type/icon/flying.png"/></span>
-$冰系=<span class="Ice">Ice Type <img class="pokemon-type Ice" style="display: inline-block;" data-pokedex="Ice" src="https://www.serebii.net/pokedex-sv/type/icon/ice.png"/></span>
-$恶系=<span class="Dark">Dark Type <img class="pokemon-type Dark" style="display: inline-block;" data-pokedex="Dark" src="https://www.serebii.net/pokedex-sv/type/icon/dark.png"/></span>
-$毒系=<span class="Poison">Poison Type <img class="pokemon-type Poison" style="display: inline-block;" data-pokedex="Poison" src="https://www.serebii.net/pokedex-sv/type/icon/poison.png"/></span>
-$水系=<span class="Water">Water Type <img class="pokemon-type Water" style="display: inline-block;" data-pokedex="Water" src="https://www.serebii.net/pokedex-sv/type/icon/water.png"/></span>
-$火系=<span class="Fire">Fire Type <img class="pokemon-type Fire" style="display: inline-block;" data-pokedex="Fire" src="https://www.serebii.net/pokedex-sv/type/icon/fire.png"/></span>
-$电系=<span class="Electric">Electric Type <img class="pokemon-type Electric" style="display: inline-block;" data-pokedex="Electric" src="https://www.serebii.net/pokedex-sv/type/icon/electric.png"/></span>
-$草系=<span class="Grass">Grass Type <img class="pokemon-type Grass" style="display: inline-block;" data-pokedex="Grass" src="https://www.serebii.net/pokedex-sv/type/icon/grass.png"/></span>
-$虫系=<span class="Bug">Bug Type <img class="pokemon-type Bug" style="display: inline-block;" data-pokedex="Bug" src="https://www.serebii.net/pokedex-sv/type/icon/bug.png"/></span>
-$钢系=<span class="Steel">Steel Type <img class="pokemon-type Steel" style="display: inline-block;" data-pokedex="Steel" src="https://www.serebii.net/pokedex-sv/type/icon/steel.png"/></span>
-$龙系=<span class="Dragon">Dragon Type <img class="pokemon-type Dragon" style="display: inline-block;" data-pokedex="Dragon" src="https://www.serebii.net/pokedex-sv/type/icon/dragon.png"/></span>
-$一般系=<span class="Normal">Normal Type <img class="pokemon-type Normal" style="display: inline-block;" data-pokedex="Normal" src="https://www.serebii.net/pokedex-sv/type/icon/normal.png"/></span>
-$地面系=<span class="Ground">Ground Type <img class="pokemon-type Ground" style="display: inline-block;" data-pokedex="Ground" src="https://www.serebii.net/pokedex-sv/type/icon/ground.png"/></span>
-$妖精系=<span class="Fairy">Fairy Type <img class="pokemon-type Fairy" style="display: inline-block;" data-pokedex="Fairy" src="https://www.serebii.net/pokedex-sv/type/icon/fairy.png"/></span>
-$岩石系=<span class="Rock">Rock Type <img class="pokemon-type Rock" style="display: inline-block;" data-pokedex="Rock" src="https://www.serebii.net/pokedex-sv/type/icon/rock.png"/></span>
-$幽灵系=<span class="Ghost">Ghost Type <img class="pokemon-type Ghost" style="display: inline-block;" data-pokedex="Ghost" src="https://www.serebii.net/pokedex-sv/type/icon/ghost.png"/></span>
-$格斗系=<span class="Fighting">Fighting Type <img class="pokemon-type Fighting" style="display: inline-block;" data-pokedex="Fighting" src="https://www.serebii.net/pokedex-sv/type/icon/fighting.png"/></span>
-$超能系=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
-$飞行系=<span class="Flying">Flying Type <img class="pokemon-type Flying" style="display: inline-block;" data-pokedex="Flying" src="https://www.serebii.net/pokedex-sv/type/icon/flying.png"/></span>
 ==============Needed to sort==============
+$萨奇=Sird
+$冥王=Charon
+$丰源=Hoenn
+$海之王冠=Sea Crown
+$潜水艇=tàu ngầm
+$亚克夏=Samiya
+$汐嘉娜=Aster
+$希嘉娜=Zinnia
+$送神山=Mount Pyre
+$神代=Brandon
+$芙蓉=Phoebe
+$花月=Sidney
+$波妮=Glacia
+$木槿=Joseph
+$火村=Tabitha
+$若叶=Wakaba
+$克丽丝塔儿=Crystal
+$拉达姆=Radam
+$雪成=Samuel
+$比夏斯=Vicious
+$怀特=White
+$胡桃=Mary
+$敏江=Toshie
+$香薰=Laverre
+$玛绣=Valerie
+$娑罗=Shalour
+$可尔妮=Korrina
 $红豆杉博士=Professor Aurea Juniper
 $夏卡=Drayden
 $白杨镇=Alamos Town
@@ -3980,7 +3995,6 @@ $太晶=Tera
 $啵尼=Bonnie
 $金黄=Saffron
 $缘朱=Ecruteak
-$闪光宝可梦=Shiny Pokémon
 $钢铁=Kurt
 $柳伯=Pryce
 $菊子=Agatha
@@ -4825,20 +4839,6 @@ $北上原生區=Kitakami Wilds
 $永久森林=Timeless Woods
 $地獄谷=Infernal Pass
 $冷水洞=Chilling Waterhead
-==========Teams==========
-$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rocket.png" />
-$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rainbow_rocket.png" />
-$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_magma.png" />
-$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
-$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
-$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_galactic.png" />
-$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_plasma.png" />
-$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_flare.png" />
-$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_skull.png" />
-$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/aether_foundation.png" />
-$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_yell.png" />
-$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/macro_cosmos.png" />
-$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_star.png" />
 ===========================
 $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
