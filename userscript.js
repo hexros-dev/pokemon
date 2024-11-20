@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.5
+// @version      3.6
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -228,7 +228,7 @@
 			cursor: pointer;
 		}
 
-		.logo {
+		.teams {
 			display: inline-block;
 			width: 50px;
 			height: 50px;
