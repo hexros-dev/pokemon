@@ -3329,7 +3329,7 @@ $金珠=Nugget <img class="items" data-pokedex="Nugget" src="https://www.serebii
 $大海石板=Oceanic Slate <img class="items" data-pokedex="Oceanic Slate" src="https://www.serebii.net/itemdex/sprites/oceanicslate.png" />
 $楔石=Odd Keystone <img class="items" data-pokedex="Odd Keystone" src="https://www.serebii.net/itemdex/sprites/legends/oddkeystone.png" />
 $释出之玉=Pass Orb <img class="items" data-pokedex="Pass Orb" src="https://www.serebii.net/itemdex/sprites/passorb.png" />
-$珍珠=Pearl <img class="items" data-pokedex="Pearl" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png" />
+$珍珠=Pearl <img class="items" data-pokedex="Pearl" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/pearl.png" />
 $丸子珍珠=Pearl String <img class="items" data-pokedex="Pearl String" src="https://www.serebii.net/itemdex/sprites/sv/pearlstring.png" />
 $桃粉色花蜜=Pink Nectar <img class="items" data-pokedex="Pink Nectar" src="https://www.serebii.net/itemdex/sprites/sv/pinknectar.png" />
 $毒太晶碎块=Poison Tera Shard <img class="items" data-pokedex="Poison Tera Shard" src="https://www.serebii.net/itemdex/sprites/sv/poisonterashard.png" />

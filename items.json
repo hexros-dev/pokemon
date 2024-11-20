@@ -846,7 +846,7 @@
 		"effect": "In Red, Blue, Yellow, FireRed & LeafGreen, this item is used to open Cinnabar Island's Gym after it has been locked.<br />In Pokémon Platinum, this item can be utilised to access a new room in the Eterna City Galactic Building. In this room, there are five appliances that allow you to change Rotom's form."
 	},
 	"Old Sea Map": {
-		"image": "https://archives.bulbagarden.net/media/upload/6/62/Old_Sea_Map_artwork.png",
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/old_sea_map.png",
 		"name": "Old Sea Map",
 		"category": "Key Item, Event Item",
 		"effect": "This item allows you to take the SS Aqua to Faraway Island where Mew dwells."
@@ -2790,7 +2790,7 @@
 		"effect": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power."
 	},
 	"Pearl": {
-		"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png",
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/pearl.png",
 		"name": "Pearl",
 		"category": "Miscellaneous",
 		"effect": "A rather small pearl that has a nice silvery sheen to it. It can be sold at a low price to shops."
@@ -3888,7 +3888,7 @@
 		"effect": "An item to be held by a Pokémon. The curious aroma of this incense may cause moves to miss its holder."
 	},
 	"Leek": {
-		"image": "https://archives.bulbagarden.net/media/upload/2/24/Dream_Stick_Sprite.png",
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/leek.png",
 		"name": "Leek",
 		"category": "Hold Item",
 		"effect": "An item to be held by Farfetch'd. This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch'd's moves."
@@ -4590,7 +4590,7 @@
 		"effect": "An item to be held by a Pokémon. When the holder acts after its target, its move will be more accurate than usual."
 	},
 	"Colress Machine": {
-		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png",
 		"name": "Colress Machine",
 		"category": "Key Item",
 		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
