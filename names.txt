@@ -4826,19 +4826,19 @@ $永久森林=Timeless Woods
 $地獄谷=Infernal Pass
 $冷水洞=Chilling Waterhead
 ==========Teams==========
-$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://media.52poke.com/wiki/b/bc/%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://media.52poke.com/wiki/3/3e/%E5%BD%A9%E8%99%B9%E7%81%AB%E7%AE%AD%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://media.52poke.com/wiki/8/83/%E7%86%94%E5%B2%A9%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://media.52poke.com/wiki/e/ec/%E6%B5%B7%E6%B4%8B%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://media.52poke.com/wiki/6/62/%E9%8A%80%E6%B2%B3%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://media.52poke.com/wiki/4/4c/%E7%AD%89%E9%9B%A2%E5%AD%90%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://media.52poke.com/wiki/9/9d/%E9%97%AA%E7%84%B0%E9%98%9F%E6%A0%87%E5%BF%97.png" />
-$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://media.52poke.com/wiki/3/3e/%E9%AA%B7%E9%AB%8F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
-$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://media.52poke.com/wiki/d/d5/%E4%BB%A5%E5%A4%AA%E5%9F%BA%E9%87%91%E4%BC%9A%E6%A0%87%E5%BF%97.png" />
-$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://media.52poke.com/wiki/6/6f/%E5%91%90%E5%96%8A%E9%98%9F%E6%A0%87%E5%BF%97.png" />
-$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://media.52poke.com/wiki/3/38/%E9%A9%AC%E6%B4%9B%E7%A7%91%E8%92%99%E6%A0%87%E5%BF%97.png" />
-$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://media.52poke.com/wiki/3/31/%E5%A4%A9%E6%98%9F%E9%9A%8A%E6%A8%99%E8%AA%8C.png" />
+$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rocket.png" />
+$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rainbow_rocket.png" />
+$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_magma.png" />
+$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
+$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
+$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_galactic.png" />
+$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_plasma.png" />
+$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_flare.png" />
+$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_skull.png" />
+$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/aether_foundation.png" />
+$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_yell.png" />
+$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/macro_cosmos.png" />
+$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_star.png" />
 ===========================
 $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
