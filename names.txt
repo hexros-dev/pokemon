@@ -826,6 +826,7 @@ $焰白酋雷姆=White Kyurem<img index="#0646" class="pokemon-image" data-poked
 $凯路迪欧=Keldeo<img index="#0647" class="pokemon-image" data-pokedex="Keldeo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/647.png"/>
 $美洛耶塔=Meloetta<img index="#0648" class="pokemon-image" data-pokedex="Meloetta" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/648.png"/>
 $红色的盖诺赛克特=Red Genesect<img index="#0649" class="pokemon-image" data-pokedex="Genesect" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/shiny/genesect.png"/>
+$红色盖诺赛克特=Red Genesect<img index="#0649" class="pokemon-image" data-pokedex="Genesect" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/shiny/genesect.png"/>
 $盖诺赛克特=Genesect<img index="#0649" class="pokemon-image" data-pokedex="Genesect" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/649.png"/>
 $哈力栗=Chespin<img index="#0650" class="pokemon-image" data-pokedex="Chespin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/650.png"/>
 $胖胖哈力=Quilladin<img index="#0651" class="pokemon-image" data-pokedex="Quilladin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/651.png"/>

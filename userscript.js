@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.11
+// @version      3.12
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -12,7 +12,7 @@
 // @grant        GM_getValue
 // @grant        GM_deleteValue
 // @connect      raw.githubusercontent.com
-// @icon         https://raw.githubusercontent.com/hexros-dev/pokemon/main/logo.png
+// @icon         https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/icons/logo.png
 // @updateURL    https://raw.githubusercontent.com/hexros-dev/pokemon/main/userscript.js
 // ==/UserScript==
 
@@ -32,9 +32,9 @@
 			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/pokeball.json',
 		TEAM: 'https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams.json',
 		TICK_ICON:
-			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/tick-16.png',
+			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/icons/tick-16.png',
 		CROSS_ICON:
-			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/cross-16.png',
+			'https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/icons/cross-16.png',
 	};
 	const CATEGORY_STYLE = {
 		Physical: 'https://img.pokemondb.net/images/icons/move-physical.png',
