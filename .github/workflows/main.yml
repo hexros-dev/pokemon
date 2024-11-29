@@ -30,16 +30,25 @@ jobs:
           # Check if 'test' branch exists on remote
           git branch -r | grep "origin/test" || git checkout -b test origin/main
 
-      # Rebase or Merge Main into Test
-      - name: Rebase or Merge Main into Test
+      # Merge Main into Test (but exclude .github)
+      - name: Merge Main into Test
         run: |
           git checkout test
           git fetch origin main
 
-          git rebase main || (
-            git merge -s ours main
-          )
-          
+          # Checkout the .github directory from 'test' to prevent it from being overwritten
+          git checkout test -- .github
+
+          # Merge branch 'main' into 'test', excluding .github folder
+          git merge origin/main --no-commit --no-ff
+
+          # Reset the .github directory back to the version in 'test'
+          git restore --staged .github
+
+          # Commit merge (if no conflicts)
+          git commit -m "Merge main into test"
+
+          # Push changes to test branch (only if merge succeeds)
           git push origin test
 
       # Notify conflict via Discord webhook
