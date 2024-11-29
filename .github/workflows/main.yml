@@ -1,6 +1,7 @@
 name: Auto Merge Main to Test
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
