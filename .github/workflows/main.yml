@@ -24,16 +24,22 @@ jobs:
       - name: Fetch all branches
         run: git fetch --all
 
-      # Rebase or merge with strategy 'ours'
+      # Ensure test branch exists or create it
+      - name: Ensure test branch exists
+        run: |
+          # Check if 'test' branch exists on remote
+          git branch -r | grep "origin/test" || git checkout -b test origin/main
+
+      # Rebase or Merge Main into Test
       - name: Rebase or Merge Main into Test
         run: |
           git checkout test
           git fetch origin main
-          
+
           git rebase main || (
             git merge -s ours main
           )
-
+          
           git push origin test
 
       # Notify conflict via Discord webhook
