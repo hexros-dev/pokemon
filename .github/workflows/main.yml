@@ -49,7 +49,6 @@ jobs:
           fi
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
-        continue-on-error: true
 
       # Save logs to file
       - name: Save logs
