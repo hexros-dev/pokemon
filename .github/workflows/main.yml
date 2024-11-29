@@ -67,17 +67,26 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          # Escape special characters to make sure the JSON is valid
-          LOG_CONTENT=$(cat logs/error_log.txt)
-          ESCAPED_LOG_CONTENT=$(echo "$LOG_CONTENT" | jq -R -s .)
-
-          MESSAGE="🚨 **Merge Process Failed**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Logs:\n\`\`\`\n$ESCAPED_LOG_CONTENT\n\`\`\`"
-          
-          curl -X POST -H "Content-Type: application/json" \
-          -d "{
-            \"content\": \"$MESSAGE\"
-          }" \
-          $DISCORD_WEBHOOK_URL
+            # Lấy log chi tiết của các file bị xung đột
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+            CONFLICT_DETAILS=""
+            
+            for FILE in $CONFLICT_FILES; do
+              CONFLICT_DETAILS="$CONFLICT_DETAILS\n\n**$FILE**:\n"
+              CONFLICT_LINES=$(git diff $FILE | grep -E '^\+|^-' | tail -n 20) # Lấy 20 dòng xung đột gần nhất
+              CONFLICT_DETAILS="$CONFLICT_DETAILS$CONFLICT_LINES"
+            done
+        
+            # Escape các ký tự đặc biệt trong JSON
+            ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | jq -R -s .)
+        
+            MESSAGE="🚨 **Merge Conflict Detected**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Conflicted Files and Details:\n$ESCAPED_CONFLICT_DETAILS"
+            
+            curl -X POST -H "Content-Type: application/json" \
+            -d "{
+              \"content\": \"$MESSAGE\"
+            }" \
+            $DISCORD_WEBHOOK_URL
 
   notify-discord:
     runs-on: ubuntu-latest
