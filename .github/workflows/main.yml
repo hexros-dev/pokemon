@@ -29,14 +29,11 @@ jobs:
         run: |
           git checkout test
           git fetch origin main
-
-          # Rebase branch 'test' onto 'main' (rebase)
+          
           git rebase main || (
-            # If rebase fails, merge using 'ours' strategy
             git merge -s ours main
           )
 
-          # Push changes to test branch (only if merge/rebase succeeds)
           git push origin test
 
       # Notify conflict via Discord webhook
