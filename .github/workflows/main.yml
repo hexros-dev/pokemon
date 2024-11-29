@@ -36,14 +36,18 @@ jobs:
           set -e
           git checkout test
           git fetch origin main
-          # Merge branch 'main' into 'test'
+          # Attempt to merge
           git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
-          # Detect conflicts
+          # Check for conflicts
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
             CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
-            echo "::set-output name=conflict_files::$CONFLICT_FILES"
-            # Resolve conflicts by keeping current branch versions
+            echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
+          else
+            echo "conflict_files=" >> $GITHUB_ENV
+          fi
+          # Resolve conflicts by keeping current branch versions
+          if [ -n "$CONFLICT_FILES" ]; then
             for file in $CONFLICT_FILES; do
               git checkout --ours -- "$file"
               git add "$file"
@@ -58,17 +62,39 @@ jobs:
     needs: merge-main-to-test
     if: always() # Always run this job
     steps:
+      # Capture logs
+      - name: Get logs
+        id: get_logs
+        run: |
+          if [ "${{ needs.merge-main-to-test.result }}" != "success" ]; then
+            LOGS=$(cat $GITHUB_WORKSPACE/_logs/$(ls -t $GITHUB_WORKSPACE/_logs | head -n 1))
+            echo "error_logs=$LOGS" >> $GITHUB_ENV
+          fi
+
+      # Notify Discord
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CONFLICT_FILES: ${{ env.conflict_files }}
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
+          ERROR_LOGS: ${{ env.error_logs }}
         run: |
           if [ "$JOB_STATUS" == "failure" ]; then
-            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease review the workflow logs for details."
+            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease review the logs for details."
           elif [ "$JOB_STATUS" == "success" ]; then
             MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')."
           else
             MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease check the logs for details."
+          fi
+
+          # Include conflicted files
+          if [ -n "$CONFLICT_FILES" ]; then
+            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_FILES\n\`\`\`"
+          fi
+
+          # Include error logs
+          if [ -n "$ERROR_LOGS" ]; then
+            MESSAGE="$MESSAGE\n\n📜 **Error Logs:**\n\`\`\`\n$(echo $ERROR_LOGS | head -c 2000)\n...\`\`\`"
           fi
 
           curl -X POST -H "Content-Type: application/json" \
