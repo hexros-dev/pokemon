@@ -1,0 +1,55 @@
+name: Auto Merge Main to Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-main-to-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Configure Git user (required for merge)
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+      # Fetch all branches
+      - name: Fetch all branches
+        run: git fetch --all
+
+      # Merge main into test
+      - name: Merge Main into Test
+        run: |
+          git checkout test
+          git merge --no-commit main
+
+          # Remove .github folder from the merged changes
+          rm -rf .github
+
+          # Complete the merge
+          git commit -m "Merge branch 'main' into 'test', excluding .github"
+
+      # Push changes to test branch (only if merge succeeds)
+      - name: Push changes
+        run: git push origin test
+
+      # Notify conflict via Discord webhook
+      - name: Notify Discord of Conflict
+        if: ${{ failure() }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          LAST_COMMIT=$(git log -1 --pretty=format:'%h - %s')
+          CONFLICT_FILES=$(git diff --name-only --diff-filter=U | paste -sd ', ' -)
+          curl -X POST -H "Content-Type: application/json" \
+          -d "{
+            \"content\": \"🚨 **Merge conflict detected!**\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n- **Last Commit:** $LAST_COMMIT\n- **Conflicted Files:** $CONFLICT_FILES\n\nPlease resolve the conflict manually.\"
+          }" \
+          $DISCORD_WEBHOOK_URL
