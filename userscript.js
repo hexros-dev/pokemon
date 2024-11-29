@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.10
+// @version      3.11
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -1014,6 +1014,7 @@
 
 	function printTeams(team) {
 		const teamInfo = {
+			Name: team.name,
 			'Leader(s)': team.leader.join(', '),
 			'Region(s)': team.region.join(', '),
 			'Admin(s)': team.admins.join(', '),
