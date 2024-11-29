@@ -40,7 +40,7 @@ jobs:
           git checkout test -- .github
 
           # Merge branch 'main' into 'test', excluding .github folder
-          git merge origin/main --no-commit --no-ff
+          git merge origin/main --no-commit --allow-unrelated-histories --no-ff
 
           # Reset the .github directory back to the version in 'test'
           git restore --staged .github
