@@ -24,21 +24,20 @@ jobs:
       - name: Fetch all branches
         run: git fetch --all
 
-      # Merge main into test
-      - name: Merge Main into Test
+      # Rebase or merge with strategy 'ours'
+      - name: Rebase or Merge Main into Test
         run: |
           git checkout test
-          git merge --no-commit main
+          git fetch origin main
 
-          # Keep all files added in test branch
-          git ls-files --others --exclude-standard | xargs -I {} git checkout --ours -- {}
+          # Rebase branch 'test' onto 'main' (rebase)
+          git rebase main || (
+            # If rebase fails, merge using 'ours' strategy
+            git merge -s ours main
+          )
 
-          # Complete the merge
-          git commit -m "Merge branch 'main' into 'test', preserving test-specific files"
-
-      # Push changes to test branch (only if merge succeeds)
-      - name: Push changes
-        run: git push origin test
+          # Push changes to test branch (only if merge/rebase succeeds)
+          git push origin test
 
       # Notify conflict via Discord webhook
       - name: Notify Discord of Conflict
