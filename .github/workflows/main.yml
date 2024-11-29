@@ -31,7 +31,7 @@ jobs:
           set -e
           git checkout test
           git fetch origin main
-          # Attempt to merge
+          echo "Attempting to merge 'main' into 'test'..."
           git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
           # Check for conflicts
           if git ls-files -u | grep -q ""; then
@@ -39,9 +39,11 @@ jobs:
             CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',' | sed 's/,$//')
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
           else
-            echo "conflict_files=" >> $GITHUB_ENV
+            echo "No conflicts detected." >> $GITHUB_ENV
           fi
+          echo "Merge status: Completed"
           if [ -n "$CONFLICT_FILES" ]; then
+            echo "Conflicted files: $CONFLICT_FILES"
             for file in $(echo $CONFLICT_FILES | tr ',' ' '); do
               git checkout --ours -- "$file"
               git add "$file"
@@ -50,17 +52,28 @@ jobs:
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
 
-      # Save logs to file
       - name: Save logs
         if: failure()
         run: |
-          set -e
           mkdir -p logs
           echo "Git log output:" > logs/error_log.txt
           git status >> logs/error_log.txt 2>&1
           git diff >> logs/error_log.txt 2>&1
           echo "Error log saved to logs/error_log.txt"
-          echo "log_file_path=logs/error_log.txt" >> $GITHUB_ENV
+          cat logs/error_log.txt  # In log ra console để kiểm tra
+
+      - name: Send logs to Discord
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          MESSAGE="🚨 **Merge Process Failed**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Logs:\n\`\`\`\n$(cat logs/error_log.txt)\n\`\`\`"
+          
+          curl -X POST -H "Content-Type: application/json" \
+          -d "{
+            \"content\": \"$MESSAGE\"
+          }" \
+          $DISCORD_WEBHOOK_URL
 
   notify-discord:
     runs-on: ubuntu-latest
@@ -70,25 +83,14 @@ jobs:
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          CONFLICT_FILES: ${{ env.conflict_files }}
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
         run: |
           if [ "$JOB_STATUS" == "failure" ]; then
-            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease review the logs for details."
+            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease review the logs for details."
           elif [ "$JOB_STATUS" == "success" ]; then
             MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')."
           else
             MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease check the logs for details."
-          fi
-
-          if [ -n "$CONFLICT_FILES" ]; then
-            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$(echo $CONFLICT_FILES | tr ',' '\n')\n\`\`\`"
-          fi
-
-          # Attach log details if available
-          if [ -f "${{ env.log_file_path }}" ]; then
-            LOG_CONTENT=$(cat "${{ env.log_file_path }}" | head -c 2000)
-            MESSAGE="$MESSAGE\n\n📜 **Error Logs:**\n\`\`\`\n$LOG_CONTENT\n...\`\`\`"
           fi
 
           curl -X POST -H "Content-Type: application/json" \
