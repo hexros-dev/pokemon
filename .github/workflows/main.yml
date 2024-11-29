@@ -55,12 +55,15 @@ jobs:
           # fi
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',' | sed 's/,$//')
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
-            for file in $CONFLICT_FILES; do
-              git checkout --ours -- $file
-              git add $file
-            done
+            echo "Merge status: Completed"
+            if [ -n "$CONFLICT_FILES" ]; then
+              echo "Conflicted files: $CONFLICT_FILES"
+              for file in $(echo $CONFLICT_FILES | tr ', ' ' '); do
+                git checkout --ours -- "$file"
+                git add "$file"
+              done
           fi
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
