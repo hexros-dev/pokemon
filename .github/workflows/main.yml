@@ -31,6 +31,7 @@ jobs:
 
       # Merge Main into Test (excluding conflicted files)
       - name: Merge Main into Test
+        id: merge
         run: |
           git checkout test
           git fetch origin main
@@ -42,7 +43,9 @@ jobs:
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
             CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+            echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
             CONFLICT_DETAILS=$(git diff --diff-filter=U)
+            echo "conflict_details=$CONFLICT_DETAILS" >> $GITHUB_ENV
             for file in $CONFLICT_FILES; do
               git checkout --ours -- $file
               git add $file
@@ -54,14 +57,14 @@ jobs:
 
       # Notify conflict via Discord webhook
       - name: Notify Discord of Conflict
-        if: ${{ failure() || success() }}
+        if: ${{ env.conflict_files != '' }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CONFLICT_FILES: ${{ env.conflict_files }}
+          CONFLICT_DETAILS: ${{ env.conflict_details }}
         run: |
-          if [ -n "$CONFLICT_FILES" ]; then
-            curl -X POST -H "Content-Type: application/json" \
-            -d "{
-              \"content\": \"🚨 **Merge conflict detected!**\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n- **Conflicted Files:** \`$CONFLICT_FILES\`\n\nDetails:\n\`\`\`$CONFLICT_DETAILS\`\`\`\nPlease review and resolve conflicts manually.\"
-            }" \
-            $DISCORD_WEBHOOK_URL
-          fi
+          curl -X POST -H "Content-Type: application/json" \
+          -d "{
+            \"content\": \"🚨 **Merge conflict detected!**\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n- **Conflicted Files:** \`$CONFLICT_FILES\`\n\nDetails:\n\`\`\`$CONFLICT_DETAILS\`\`\`\nPlease review and resolve conflicts manually.\"
+          }" \
+          $DISCORD_WEBHOOK_URL
