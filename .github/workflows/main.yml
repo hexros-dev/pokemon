@@ -52,7 +52,6 @@ jobs:
           # Commit resolved files
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
-        continue-on-error: true # Prevent job from stopping entirely on errors
 
   notify-discord:
     runs-on: ubuntu-latest
