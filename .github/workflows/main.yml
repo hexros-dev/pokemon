@@ -67,7 +67,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          MESSAGE="🚨 **Merge Process Failed**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Logs:\n\`\`\`\n$(cat logs/error_log.txt)\n\`\`\`"
+          # Escape special characters to make sure the JSON is valid
+          LOG_CONTENT=$(cat logs/error_log.txt)
+          ESCAPED_LOG_CONTENT=$(echo "$LOG_CONTENT" | jq -R -s .)
+
+          MESSAGE="🚨 **Merge Process Failed**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Logs:\n\`\`\`\n$ESCAPED_LOG_CONTENT\n\`\`\`"
           
           curl -X POST -H "Content-Type: application/json" \
           -d "{
