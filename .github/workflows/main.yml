@@ -78,10 +78,10 @@ jobs:
             done
         
             # Escape các ký tự đặc biệt trong JSON
-            ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | jq -R -s .)
+            ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
         
             MESSAGE="🚨 **Merge Conflict Detected**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Conflicted Files and Details:\n$ESCAPED_CONFLICT_DETAILS"
-            echo $MESSAGE
+            
             curl -X POST -H "Content-Type: application/json" \
             -d "{
               \"content\": \"$MESSAGE\"
