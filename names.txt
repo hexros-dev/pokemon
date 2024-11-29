@@ -3445,7 +3445,7 @@ $防晃护符=Catching Charm <img class="items" data-pokedex="Catching Charm" sr
 $神阖之笛=Celestica Flute <img class="items" data-pokedex="Celestica Flute" src="https://www.serebii.net/itemdex/sprites/legends/celesticaflute.png" />
 $透明铃铛=Clear Bell <img class="items" data-pokedex="Clear Bell" src="https://www.serebii.net/itemdex/sprites/clearbell.png" />
 $代币盒=Coin Case <img class="items" data-pokedex="Coin Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/coin_case.png" />
-$阿克罗玛机器=Colress Machine <img class="items" data-pokedex="Colress Machine" src="https://www.serebii.net/itemdex/sprites/colressmchn.png" />
+$阿克罗玛机器=Colress Machine <img class="items" data-pokedex="Colress Machine" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png" />
 $演出礼服=Contest Costume <img class="items" data-pokedex="Contest Costume" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/contest_costume.png" />
 $演出礼裙=Contest Costume <img class="items" data-pokedex="Contest Costume" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/contest_costume.png" />
 $华丽大赛参加证=Contest Pass <img class="items" data-pokedex="Contest Pass" src="https://www.serebii.net/itemdex/sprites/contestpass.png" />

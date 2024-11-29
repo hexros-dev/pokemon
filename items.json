@@ -4722,7 +4722,7 @@
 		"effect": "A case for holding coins obtained at the Game Corner. It can hold up to 50,000 coins."
 	},
 	"Colress Machine": {
-		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png",
 		"name": "Colress Machine",
 		"category": "Key Item",
 		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
