@@ -37,7 +37,13 @@ jobs:
           else
             echo "conflict_files=" >> $GITHUB_ENV
           fi
-
+          if [ -n "$CONFLICT_FILES" ]; then
+            echo "Conflicted files: $CONFLICT_FILES"
+            for file in $(echo $CONFLICT_FILES); do
+              git checkout --ours -- "$file"
+              git add "$file"
+            done
+          fi
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
 
