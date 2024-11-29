@@ -825,6 +825,7 @@ $暗黑酋雷姆=Black Kyurem<img index="#0646" class="pokemon-image" data-poked
 $焰白酋雷姆=White Kyurem<img index="#0646" class="pokemon-image" data-pokedex="White Kyurem" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/646_f2.png"/>
 $凯路迪欧=Keldeo<img index="#0647" class="pokemon-image" data-pokedex="Keldeo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/647.png"/>
 $美洛耶塔=Meloetta<img index="#0648" class="pokemon-image" data-pokedex="Meloetta" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/648.png"/>
+红色的盖诺赛克特=Red Genesect<img index="#0649" class="pokemon-image" data-pokedex="Genesect" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/shiny/genesect.png"/>
 $盖诺赛克特=Genesect<img index="#0649" class="pokemon-image" data-pokedex="Genesect" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/649.png"/>
 $哈力栗=Chespin<img index="#0650" class="pokemon-image" data-pokedex="Chespin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/650.png"/>
 $胖胖哈力=Quilladin<img index="#0651" class="pokemon-image" data-pokedex="Quilladin" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/651.png"/>
@@ -2529,19 +2530,19 @@ $格斗系=<span class="Fighting">Fighting Type <img class="pokemon-type Fightin
 $超能系=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
 $飞行系=<span class="Flying">Flying Type <img class="pokemon-type Flying" style="display: inline-block;" data-pokedex="Flying" src="https://www.serebii.net/pokedex-sv/type/icon/flying.png"/></span>
 ==========Teams==========
-$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rocket.png" />
-$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_rainbow_rocket.png" />
-$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_magma.png" />
-$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
-$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_aqua.png" />
-$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_galactic.png" />
-$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_plasma.png" />
-$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_flare.png" />
-$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_skull.png" />
-$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/aether_foundation.png" />
-$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_yell.png" />
-$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/macro_cosmos.png" />
-$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/teams_logo/team_star.png" />
+$火箭队=Team Rocket <img class="teams" data-pokedex="Team Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_rocket.png" />
+$彩虹火箭队=Team Rainbow Rocket <img class="teams" data-pokedex="Team Rainbow Rocket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_rainbow_rocket.png" />
+$熔岩队=Team Magma <img class="teams" data-pokedex="Team Magma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_magma.png" />
+$海洋队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_aqua.png" />
+$水舰队=Team Aqua <img class="teams" data-pokedex="Team Aqua" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_aqua.png" />
+$银河队=Team Galactic <img style="width: auto;" class="teams" data-pokedex="Team Galactic" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_galactic.png" />
+$等离子队=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_plasma.png" />
+$闪焰队=Team Flare <img style="width: auto;" class="teams" data-pokedex="Team Flare" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_flare.png" />
+$骷髅队=Team Skull <img class="teams" data-pokedex="Team Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_skull.png" />
+$以太基金会=Aether Foundation <img class="teams" data-pokedex="Aether Foundation" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/aether_foundation.png" />
+$呐喊队=Team Yell <img class="teams" data-pokedex="Team Yell" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_yell.png" />
+$马洛科蒙=Macro Cosmos <img class="teams" data-pokedex="Macro Cosmos" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/macro_cosmos.png" />
+$天星队=Team Star <img class="teams" data-pokedex="Team Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_star.png" />
 ==============Recovery==============
 $解毒药=Antidote <img class="items" data-pokedex="Antidote" src="https://www.serebii.net/itemdex/sprites/sv/antidote.png" />
 $解眠药=Awakening <img class="items" data-pokedex="Awakening" src="https://www.serebii.net/itemdex/sprites/sv/awakening.png" />
