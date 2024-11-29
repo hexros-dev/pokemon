@@ -127,13 +127,14 @@ jobs:
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
         run: |
           if [ "$JOB_STATUS" == "failure" ]; then
-            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease review the logs for details."
+            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease review the logs for details."
           elif [ "$JOB_STATUS" == "success" ]; then
-            MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')."
+            MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`."
           else
-            MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\nPlease check the logs for details."
+            MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease check the logs for details."
           fi
           if [ -n "$CONFLICT_FILES" ]; then
+            echo $CONFLICT_FILES
             MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$(echo $CONFLICT_FILES | tr ', ' '\n')\n\`\`\`"
           fi
           curl -X POST -H "Content-Type: application/json" \
