@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.9-alpha-2
+// @version      3.10
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -113,18 +113,6 @@
 		/>
 	</svg>`;
 	// ADD STYLES
-	// Object.entries(CATEGORY_STYLE).forEach(([key, value]) => {
-	// 	GM_addStyle(`
-	// 		.${key}::before {
-	// 			content: url("${value}");
-	//             display: inline-block;
-	// 			width: 50px;
-	// 			height: 30px;
-	//             margin-right: 10px;
-	//             transform: translateY(50%);
-	// 		}
-	// 	`);
-	// });
 	Object.entries(CATEGORY_STYLE).forEach(([key, value]) => {
 		GM_addStyle(`
 			.${key}::before {
@@ -132,7 +120,6 @@
 				display: inline-block;
 				width: 50px;
 				height: 30px;
-				margin-right: 10px;
 				background-image: url("${value}");
 				background-size: contain;
 				background-repeat: no-repeat;
@@ -141,8 +128,7 @@
 			}
 
 			.${key} {
-				display: inline-flex;
-				align-items: center;
+				line-height: 30px;
 			}
     	`);
 	});
