@@ -81,10 +81,10 @@ jobs:
           done
       
           # Escape các ký tự đặc biệt trong chuỗi JSON
-          ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+          # ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
       
           # Xây dựng thông báo Discord với JSON hợp lệ
-          MESSAGE="🚨 **Merge Conflict Detected**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Conflicted Files and Details:\n$ESCAPED_CONFLICT_DETAILS"
+          MESSAGE="🚨 **Merge Conflict Detected**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Conflicted Files and Details:\n$CONFLICT_DETAILS"
           
           # Kiểm tra log trước khi gửi
           echo "Sending the following message to Discord:"
