@@ -32,7 +32,7 @@ jobs:
 
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ', ')
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
           else
             echo "conflict_files=" >> $GITHUB_ENV
@@ -78,7 +78,7 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' '\n')
+            CONFLICT_LIST=$(echo "$CONFLICT_FILES")
             MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           else
             MESSAGE="$MESSAGE\n\n✅ **No conflicts detected!**"
