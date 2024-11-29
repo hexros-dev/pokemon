@@ -5268,3 +5268,4 @@ $修帝=Trip
 $常磐市=Viridian City
 $维奥=Vio
 $七贤人=Seven Sages
+$巨人洞窟=Giant Chasm
