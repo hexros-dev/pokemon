@@ -30,11 +30,11 @@ jobs:
           git checkout test
           git merge --no-commit main
 
-          # Remove .github folder from the merged changes
-          rm -rf .github
+          # Keep all files added in test branch
+          git ls-files --others --exclude-standard | xargs -I {} git checkout --ours -- {}
 
           # Complete the merge
-          git commit -m "Merge branch 'main' into 'test', excluding .github"
+          git commit -m "Merge branch 'main' into 'test', preserving test-specific files"
 
       # Push changes to test branch (only if merge succeeds)
       - name: Push changes
