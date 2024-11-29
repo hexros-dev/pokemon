@@ -2873,7 +2873,6 @@ $西梨果=Wepear Berry <img class="items" data-pokedex="Wepear Berry" src="http
 $异奇果=Wiki Berry <img class="items" data-pokedex="Wiki Berry" src="https://www.serebii.net/itemdex/sprites/sv/wikiberry.png"/>
 $番荔果=Yache Berry <img class="items" data-pokedex="Yache Berry" src="https://www.serebii.net/itemdex/sprites/sv/yacheberry.png"/>
 ==============Items==============
-$宝可梦盒=Pokémon Box
 $回复口袋=Medicine Pocket
 $糖果罐=Candy Jar
 $强化口袋=Power-Up Pocket
@@ -2967,7 +2966,6 @@ $紧绑束带=Binding Band <img class="items" data-pokedex="Binding Band" src="h
 $黑带=Black Belt <img class="items" data-pokedex="Black Belt" src="https://www.serebii.net/itemdex/sprites/sv/blackbelt.png" />
 $黑色眼镜=Black Glasses <img class="items" data-pokedex="Black Glasses" src="https://www.serebii.net/itemdex/sprites/sv/blackglasses.png" />
 $黑色污泥=Black Sludge <img class="items" data-pokedex="Black Sludge" src="https://www.serebii.net/itemdex/sprites/sv/blacksludge.png" />
-$靛蓝色宝珠=Blue Orb <img class="items" data-pokedex="Blue Orb" src="https://www.serebii.net/itemdex/sprites/pgl/blueorb.png" />
 $蓝色头巾=Blue Scarf <img class="items" data-pokedex="Blue Scarf" src="https://www.serebii.net/itemdex/sprites/pgl/bluescarf.png" />
 $打空保险=Blunder Policy <img class="items" data-pokedex="Blunder Policy" src="https://www.serebii.net/itemdex/sprites/sv/blunderpolicy.png" />
 $驱劲能量=Booster Energy <img class="items" data-pokedex="Booster Energy" src="https://www.serebii.net/itemdex/sprites/sv/boosterenergy.png" />
@@ -3423,6 +3421,223 @@ $会员卡=Member Card <img class="items" data-pokedex="Member Card" src="https:
 $大木的信=Oak's Letter <img class="items" data-pokedex="Oak's Letter" src="https://www.serebii.net/itemdex/sprites/oak'sletter.png" />
 $秘密钥匙=Secret Key <img class="items" data-pokedex="Secret Key" src="https://www.serebii.net/itemdex/sprites/secretkey.png" />
 $古航海图=Old Sea Map <img class="items" data-pokedex="Old Sea Map" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/old_sea_map.png" />
+==============Key Items==============
+$越野自行车=Acro Bike <img class="items" data-pokedex="Acro Bike" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/acro_bike.png" />
+$探险心得=Adventure Guide <img class="items" data-pokedex="Adventure Guide" src="https://www.serebii.net/itemdex/sprites/sv/adventureguide.png" />
+$球果盒=Apricorn Box <img class="items" data-pokedex="Apricorn Box" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/apricorn_box.png" />
+$海洋装=Aqua Suit <img class="items" data-pokedex="Aqua Suit" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/aqua_suit.png" />
+$铠甲车票=Armor Pass <img class="items" data-pokedex="Armor Pass" src="https://www.serebii.net/itemdex/sprites/armorpass.png" />
+$马志士的签名=Autograph <img class="items" data-pokedex="Autograph" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/autograph.png" />
+$亚克诺姆之牙=Azelf's Fang <img class="items" data-pokedex="Azelf's Fang" src="https://www.serebii.net/itemdex/sprites/legends/azelf'sfang.png" />
+$乐队的签名=Band Autograph <img class="items" data-pokedex="Band Autograph" src="https://www.serebii.net/itemdex/sprites/bandautograph.png" />
+$地下钥匙=Basement Key <img class="items" data-pokedex="Basement Key" src="https://www.serebii.net/itemdex/sprites/basementkey.png" />
+$树果种植盆=Berry Pots <img class="items" data-pokedex="Berry Pots" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/berry_pots.png" />
+$自行车=Bicycle <img class="items" data-pokedex="Bicycle" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/bicycle.png" />
+$黑色鬃毛=Black Mane Hair <img class="items" data-pokedex="Black Mane Hair" src="https://www.serebii.net/itemdex/sprites/blackmanehair.png" />
+$净空石板=Blank Plate <img class="items" data-pokedex="Blank Plate" src="https://www.serebii.net/itemdex/sprites/legends/blankplate.png" />
+$蓝卡=Blue Card <img class="items" data-pokedex="Blue Card" src="https://www.serebii.net/itemdex/sprites/bluecard.png" />
+$靛蓝色宝珠=Blue Orb <img class="items" data-pokedex="Blue Orb" src="https://www.serebii.net/itemdex/sprites/pgl/blueorb.png" />
+$蓝色花瓣=Blue Petal <img class="items" data-pokedex="Blue Petal" src="https://www.serebii.net/itemdex/sprites/bluepetal.png" />
+$露营组合=Camping Gear <img class="items" data-pokedex="Camping Gear" src="https://www.serebii.net/itemdex/sprites/campinggear.png" />
+$钥匙卡=Card Key <img class="items" data-pokedex="Card Key" src="https://www.serebii.net/itemdex/sprites/cardkey.png" />
+$萝卜种子=Carrot Seeds <img class="items" data-pokedex="Carrot Seeds" src="https://www.serebii.net/itemdex/sprites/carrotseeds.png" />
+$防晃护符=Catching Charm <img class="items" data-pokedex="Catching Charm" src="https://www.serebii.net/itemdex/sprites/sv/catchingcharm.png" />
+$神阖之笛=Celestica Flute <img class="items" data-pokedex="Celestica Flute" src="https://www.serebii.net/itemdex/sprites/legends/celesticaflute.png" />
+$透明铃铛=Clear Bell <img class="items" data-pokedex="Clear Bell" src="https://www.serebii.net/itemdex/sprites/clearbell.png" />
+$代币盒=Coin Case <img class="items" data-pokedex="Coin Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/coin_case.png" />
+$阿克罗玛机器=Colress Machine <img class="items" data-pokedex="Colress Machine" src="https://www.serebii.net/itemdex/sprites/colressmchn.png" />
+$演出礼服=Contest Costume <img class="items" data-pokedex="Contest Costume" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/contest_costume.png" />
+$演出礼裙=Contest Costume <img class="items" data-pokedex="Contest Costume" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/contest_costume.png" />
+$华丽大赛参加证=Contest Pass <img class="items" data-pokedex="Contest Pass" src="https://www.serebii.net/itemdex/sprites/contestpass.png" />
+$兑换券１=Coupon 1 <img class="items" data-pokedex="Coupon 1" src="https://www.serebii.net/itemdex/sprites/coupon1.png" />
+$兑换券２=Coupon 2 <img class="items" data-pokedex="Coupon 2" src="https://www.serebii.net/itemdex/sprites/coupon2.png" />
+$兑换券３=Coupon 3 <img class="items" data-pokedex="Coupon 3" src="https://www.serebii.net/itemdex/sprites/coupon3.png" />
+$工艺套组=Crafting Kit <img class="items" data-pokedex="Crafting Kit" src="https://www.serebii.net/itemdex/sprites/legends/craftingkit.png" />
+$王冠车票=Crown Pass <img class="items" data-pokedex="Crown Pass" src="https://www.serebii.net/itemdex/sprites/crownpass.png" />
+$结晶碎片=Crystal Cluster <img class="items" data-pokedex="Crystal Cluster" src="https://www.serebii.net/itemdex/sprites/sv/crystalcluster.png" />
+$基因之楔=DNA Splicers <img class="items" data-pokedex="DNA Splicers" src="https://www.serebii.net/itemdex/sprites/sv/dnasplicers.png" />
+$ＤＳ播放器=DS Sounds <img class="items" data-pokedex="DS Sounds" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/ds_sounds.png" />
+$黑暗石=Dark Stone <img class="items" data-pokedex="Dark Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dark_stone.png" />
+$得文的物品=Devon Goods <img class="items" data-pokedex="Devon Goods" src="https://www.serebii.net/itemdex/sprites/devongoods.png" />
+$得文的物品=Devon Parts <img class="items" data-pokedex="Devon Parts" src="https://www.serebii.net/itemdex/sprites/devonparts.png" />
+$得文侦测镜=Devon Scope <img class="items" data-pokedex="Devon Scope" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/devon_scope.png" />
+$得文潜水装备=Devon Scuba Gear <img class="items" data-pokedex="Devon Scuba Gear" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/devon_scuba_gear.png" />
+$挖洞钻=Digger Drill <img class="items" data-pokedex="Digger Drill" src="https://www.serebii.net/itemdex/sprites/diggerdrill.png" />
+$探宝器=Dowsing Machine <img class="items" data-pokedex="Dowsing Machine" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dowsing_machine.png" />
+$龙之骨=Dragon Skull <img class="items" data-pokedex="Dragon Skull" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dragon_skull.png" />
+$遗忘物=Dropped Item <img class="items" data-pokedex="Dropped Item" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dropped_item.png" />
+$极巨腕带=Dynamax Band <img class="items" data-pokedex="Dynamax Band" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dynamax_band.png" />
+$电梯钥匙=Elevator Key <img class="items" data-pokedex="Elevator Key" src="https://www.serebii.net/itemdex/sprites/elevatorkey.png" />
+$推荐函=Endorsement <img class="items" data-pokedex="Endorsement" src="https://www.serebii.net/itemdex/sprites/endorsement.png" />
+$奇异卡片=Enigmatic Card <img class="items" data-pokedex="Enigmatic Card" src="https://www.serebii.net/itemdex/sprites/enigmaticcard.png" />
+$无限之笛=Eon Flute <img class="items" data-pokedex="Eon Flute" src="https://www.serebii.net/itemdex/sprites/eonflute.png" />
+$永恒之冰=Eternal Ice <img class="items" data-pokedex="Eternal Ice" src="https://www.serebii.net/itemdex/sprites/legends/eternalice.png" />
+$经验护符=Exp. Charm <img class="items" data-pokedex="Exp. Charm" src="https://www.serebii.net/itemdex/sprites/sv/exp.charm.png" />
+$探险套装=Explorer Kit <img class="items" data-pokedex="Explorer Kit" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/explorer_kit.png" />
+$饰品盒=Fashion Case <img class="items" data-pokedex="Fashion Case" src="https://www.serebii.net/itemdex/sprites/fashioncase.png" />
+$钓竿=Fishing Rod <img class="items" data-pokedex="Fishing Rod" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/fishing_rod.png" />
+$材料袋=Forage Bag <img class="items" data-pokedex="Forage Bag" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/forage_bag.png" />
+$ＧＢ播放器=GB Sounds <img class="items" data-pokedex="GB Sounds" src="https://www.serebii.net/itemdex/sprites/gbsounds.png" />
+$银河队钥匙=Galactic Key <img class="items" data-pokedex="Galactic Key" src="https://www.serebii.net/itemdex/sprites/galactickey.png" />
+$晶耀护符=Glimmering Charm <img class="items" data-pokedex="Glimmering Charm" src="https://www.serebii.net/itemdex/sprites/sv/glimmeringcharm.png" />
+$ＧＯＧＯ护目镜=Go-Goggles <img class="items" data-pokedex="Go-Goggles" src="https://www.serebii.net/itemdex/sprites/go-goggles.png" />
+$金假牙=Gold Teeth <img class="items" data-pokedex="Gold Teeth" src="https://www.serebii.net/itemdex/sprites/goldteeth.png" />
+$好钓竿=Good Rod <img class="items" data-pokedex="Good Rod" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/good_rod.png" />
+$葛拉西蒂亚花=Gracidea <img class="items" data-pokedex="Gracidea" src="https://www.serebii.net/itemdex/sprites/sv/gracidea.png" />
+$配送物品１=Gram 1 <img class="items" data-pokedex="Gram 1" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png" />
+$配送物品２=Gram 2 <img class="items" data-pokedex="Gram 2" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png" />
+$配送物品３=Gram 3 <img class="items" data-pokedex="Gram 3" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png" />
+$绿色花瓣=Green Petal <img class="items" data-pokedex="Green Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/green_petal.png" />
+$脏手帕=Grubby Hanky <img class="items" data-pokedex="Grubby Hanky" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/grubby_hanky.png" />
+$厉害耳塞=Hi-tech Earbuds <img class="items" data-pokedex="Hi-tech Earbuds" src="https://www.serebii.net/itemdex/sprites/hi-techearbuds.png" />
+$全息影像通讯器=Holo Caster <img class="items" data-pokedex="Holo Caster" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/holo_caster.png" />
+$卡洛斯勋章=Honor of Kalos <img class="items" data-pokedex="Honor of Kalos" src="https://www.serebii.net/itemdex/sprites/honorofkalos.png" />
+$冰萝卜=Iceroot Carrot <img class="items" data-pokedex="Iceroot Carrot" src="https://www.serebii.net/itemdex/sprites/icerootcarrot.png" />
+$伊利马的一般Ｚ=Ilima's Normalium Z <img class="items" data-pokedex="Ilima's Normalium Z" src="https://www.serebii.net/itemdex/sprites/ilima'snormaliumz.png" />
+$蓝之时尚名人卡=Indigo Style Card <img class="items" data-pokedex="Indigo Style Card" src="https://www.serebii.net/itemdex/sprites/sv/indigostylecard.png" />
+$似珍石=Intriguing Stone <img class="items" data-pokedex="Intriguing Stone" src="https://www.serebii.net/itemdex/sprites/intriguingstone.png" />
+$草绿色宝珠=Jade Orb <img class="items" data-pokedex="Jade Orb" src="https://www.serebii.net/itemdex/sprites/jadeorb.png" />
+$冒险笔记=Journal <img class="items" data-pokedex="Journal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/guidebook.png" />
+$钥石=Key Stone <img class="items" data-pokedex="Key Stone" src="https://www.serebii.net/itemdex/sprites/keystone.png" />
+$１号客房的钥匙=Key to Room 1 <img class="items" data-pokedex="Key to Room 1" src="https://www.serebii.net/itemdex/sprites/keytoroom1.png" />
+$２号客房的钥匙=Key to Room 2 <img class="items" data-pokedex="Key to Room 2" src="https://www.serebii.net/itemdex/sprites/keytoroom2.png" />
+$４号客房的钥匙=Key to Room 4 <img class="items" data-pokedex="Key to Room 4" src="https://www.serebii.net/itemdex/sprites/keytoroom4.png" />
+$６号客房的钥匙=Key to Room 6 <img class="items" data-pokedex="Key to Room 6" src="https://www.serebii.net/itemdex/sprites/keytoroom6.png" />
+$海岱的钱包=Kofu's Wallet <img class="items" data-pokedex="Kofu's Wallet" src="https://www.serebii.net/itemdex/sprites/sv/kofu'swallet.png" />
+$故勒顿的球=Koraidon's Poké Ball <img class="items" data-pokedex="Koraidon's Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/koraidon'spokeball.png" />
+$留下的精灵球=Left Poké Ball <img class="items" data-pokedex="Left Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/pokeball.png" />
+$传说石板=Legend Plate <img class="items" data-pokedex="Legend Plate" src="https://www.serebii.net/itemdex/sprites/legends/legendplate.png" />
+$传说笔记=Legendary Clue <img class="items" data-pokedex="Legendary Clue" src="https://www.serebii.net/itemdex/sprites/legendaryclue.png" />
+$传说笔记１=Legendary Clue 1 <img class="items" data-pokedex="Legendary Clue 1" src="https://www.serebii.net/itemdex/sprites/legendaryclue1.png" />
+$传说笔记２=Legendary Clue 2 <img class="items" data-pokedex="Legendary Clue 2" src="https://www.serebii.net/itemdex/sprites/legendaryclue2.png" />
+$传说笔记３=Legendary Clue 3 <img class="items" data-pokedex="Legendary Clue 3" src="https://www.serebii.net/itemdex/sprites/legendaryclue3.png" />
+$隐形眼镜盒=Lens Case <img class="items" data-pokedex="Lens Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lens_case.png" />
+$给大吾的信=Letter <img class="items" data-pokedex="Letter" src="https://www.serebii.net/itemdex/sprites/letter.png" />
+$电梯钥匙=Lift Key <img class="items" data-pokedex="Lift Key" src="https://www.serebii.net/itemdex/sprites/liftkey.png" />
+$光明石=Light Stone <img class="items" data-pokedex="Light Stone" src="https://www.serebii.net/itemdex/sprites/lightstone.png" />
+$帅哥券=Looker Ticket <img class="items" data-pokedex="Looker Ticket" src="https://www.serebii.net/itemdex/sprites/lookerticket.png" />
+$宝物袋=Loot Sack <img class="items" data-pokedex="Loot Sack" src="https://www.serebii.net/itemdex/sprites/lootsack.png" />
+$遗失物=Lost Item <img class="items" data-pokedex="Lost Item" src="https://www.serebii.net/itemdex/sprites/lostitem.png" />
+$他人的遗失物=Lost Satchel <img class="items" data-pokedex="Lost Satchel" src="https://www.serebii.net/itemdex/sprites/legends/lostsatchel.png" />
+$新月之羽=Lunar Wing <img class="items" data-pokedex="Lunar Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lunar_wing.png" />
+$月牙之羽=Lunar Wing <img class="items" data-pokedex="Lunar Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lunar_wing.png" />
+$三日月羽毛=Lunar Wing <img class="items" data-pokedex="Lunar Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lunar_wing.png" />
+$音速自行车=Mach Bike <img class="items" data-pokedex="Mach Bike" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/mach_bike.png" />
+$机械零件=Machine Part <img class="items" data-pokedex="Machine Part" src="https://www.serebii.net/itemdex/sprites/machinepart.png" />
+$火岩標誌=Magma Emblem <img class="items" data-pokedex="Magma Emblem" src="https://www.serebii.net/itemdex/sprites/magmaemblem.png" />
+$火山镇石=Magma Stone <img class="items" data-pokedex="Magma Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Magma_Stone.png" />
+$熔岩装=Magma Suit <img class="items" data-pokedex="Magma Suit" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Magma_Suit.png" />
+$证章护符=Mark Charm <img class="items" data-pokedex="Mark Charm" src="https://www.serebii.net/itemdex/sprites/sv/markcharm.png" />
+$奖牌盒=Medal Box <img class="items" data-pokedex="Medal Box" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Medal_Box.png" />
+$超级手镯=Mega Bracelet <img class="items" data-pokedex="Mega Bracelet" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Mega_Bracelet.png" />
+$超级环=Mega Ring <img class="items" data-pokedex="Mega Ring" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Mega_Ring.png" />
+$艾姆利多之翅=Mesprit's Plume <img class="items" data-pokedex="Mesprit's Plume" src="https://www.serebii.net/itemdex/sprites/legends/mesprit'splume.png" />
+$陨石=Meteorite <img class="items" data-pokedex="Meteorite" src="https://www.serebii.net/itemdex/sprites/sv/meteorite.png" />
+$陨石碎片=Meteorite Shard <img class="items" data-pokedex="Meteorite Shard" src="https://www.serebii.net/itemdex/sprites/meteoriteshard.png" />
+$密勒顿的球=Miraidon's Poké Ball <img class="items" data-pokedex="Miraidon's Poké Ball" src="https://www.serebii.net/itemdex/sprites/sv/miraidon'spokeball.png" />
+$月亮之笛=Moon Flute <img class="items" data-pokedex="Moon Flute" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Moon_Flute.png" />
+$神奇蛋=Mystery Egg <img class="items" data-pokedex="Mystery Egg" src="https://www.serebii.net/itemdex/sprites/mysteryegg.png" />
+$奈克洛露奈合体器=N-Lunarizer <img class="items" data-pokedex="N-Lunarizer" src="https://www.serebii.net/itemdex/sprites/sv/n-lunarizer.png" />
+$奈克洛索尔合体器=N-Solarizer <img class="items" data-pokedex="N-Solarizer" src="https://www.serebii.net/itemdex/sprites/sv/n-solarizer.png" />
+$古代护符=Old Charm <img class="items" data-pokedex="Old Charm" src="https://www.serebii.net/itemdex/sprites/oldcharm.png" />
+$古老日记=Old Journal <img class="items" data-pokedex="Old Journal" src="https://www.serebii.net/itemdex/sprites/legends/oldjournal.png" />
+$陈旧的信=Old Letter <img class="items" data-pokedex="Old Letter" src="https://www.serebii.net/itemdex/sprites/oldletter.png" />
+$破旧钓竿=Old Rod <img class="items" data-pokedex="Old Rod" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Old_Rod.png" />
+$橙色花瓣=Orange Petal <img class="items" data-pokedex="Orange Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Orange_Petal.png" />
+$起源矿石=Origin Ore <img class="items" data-pokedex="Origin Ore" src="https://www.serebii.net/itemdex/sprites/legends/originore.png" />
+$圆形护符=Oval Charm <img class="items" data-pokedex="Oval Charm" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Oval_Charm.png" />
+$双人票=Pair of Tickets <img class="items" data-pokedex="Pair of Tickets" src="https://www.serebii.net/itemdex/sprites/pairoftickets.png" />
+$朋友手册=Pal Pad <img class="items" data-pokedex="Pal Pad" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pal_Pad.png" />
+$包裹=Parcel <img class="items" data-pokedex="Parcel" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Parcel.png" />
+$磁浮列车自由票=Pass <img class="items" data-pokedex="Pass" src="https://www.serebii.net/itemdex/sprites/pass.png" />
+$许可证=Permit <img class="items" data-pokedex="Permit" src="https://www.serebii.net/itemdex/sprites/permit.png" />
+$相册=Photo Album <img class="items" data-pokedex="Photo Album" src="https://www.serebii.net/itemdex/sprites/photoalbum.png" />
+$野餐组合=Picnic Set <img class="items" data-pokedex="Picnic Set" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Picnic_Set.png" />
+$粉红花瓣=Pink Petal <img class="items" data-pokedex="Pink Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pink_Petal.png" />
+$等离子卡=Plasma Card <img class="items" data-pokedex="Plasma Card" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Plasma_Card.png" />
+$宝芬盒=Poffin Case <img class="items" data-pokedex="Poffin Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poffin_Case.png" />
+$点数卡=Point Card <img class="items" data-pokedex="Point Card" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Point_Card.png" />
+$宝可追踪=Poké Radar <img class="items" data-pokedex="Poké Radar" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poké_Radar.png" />
+$宝可方块套装=PokéBlock Kit <img class="items" data-pokedex="PokéBlock Kit" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock_Kit.png" />
+$宝可方块盒=PokéBlock Case <img class="items" data-pokedex="PokéBlock Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock_Case.png" />
+$宝可梦之笛=Poké Flute <img class="items" data-pokedex="Poké Flute" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poké_Flute.png" />
+$宝可梦盒=Pokémon Box Link <img class="items" data-pokedex="Pokémon Box Link" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokémon_Box.png" />
+$发电厂通行证=Power Plant Pass <img class="items" data-pokedex="Power Plant Pass" src="https://www.serebii.net/itemdex/sprites/powerplantpass.png" />
+$惩戒之壶=Prison Bottle <img class="items" data-pokedex="Prison Bottle" src="https://www.serebii.net/itemdex/sprites/sv/prisonbottle.png" />
+$博士的信=Prof's Letter <img class="items" data-pokedex="Prof's Letter" src="https://www.serebii.net/itemdex/sprites/prof'sletter.png" />
+$博士的面罩=Professor's Mask <img class="items" data-pokedex="Professor's Mask" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Professor's_Mask.png" />
+$物品箱=Prop Case <img class="items" data-pokedex="Prop Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Prop_Case.png" />
+$紫色花瓣=Purple Petal <img class="items" data-pokedex="Purple Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Purple_Petal.png" />
+$光辉花瓣=Radiant Petal <img class="items" data-pokedex="Radiant Petal" src="https://www.serebii.net/itemdex/sprites/radiantpetal.png" />
+$虹色之花=Rainbow Flower <img class="items" data-pokedex="Rainbow Flower" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rainbow_Flower.png" />
+$彩虹通行船券=Rainbow Pass <img class="items" data-pokedex="Rainbow Pass" src="https://www.serebii.net/itemdex/sprites/rainbowpass.png" />
+$彩虹色羽毛=Rainbow Wing <img class="items" data-pokedex="Rainbow Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rainbow_Wing.png" />
+$红色锁链=Red Chain <img class="items" data-pokedex="Red Chain" src="https://www.serebii.net/itemdex/sprites/legends/redchain.png" />
+$红色花瓣=Red Petal <img class="items" data-pokedex="Red Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Red_Petal.png" />
+$红色鳞片=Red Scale <img class="items" data-pokedex="Red Scale" src="https://www.serebii.net/itemdex/sprites/redscale.png" />
+$牵绊缰绳=Reins of Unity <img class="items" data-pokedex="Reins of Unity" src="https://www.serebii.net/itemdex/sprites/sv/reinsofunity.png" />
+$牵绊缰绳=Reins of Unity <img class="items" data-pokedex="Reins of Unity" src="https://www.serebii.net/itemdex/sprites/sv/reinsofunity.png" />
+$牵绊缰绳=Reins of Unity <img class="items" data-pokedex="Reins of Unity" src="https://www.serebii.net/itemdex/sprites/sv/reinsofunity.png" />
+$现形镜=Reveal Glass <img class="items" data-pokedex="Reveal Glass" src="https://www.serebii.net/itemdex/sprites/sv/revealglass.png" />
+$骑行装置=Ride Pager <img class="items" data-pokedex="Ride Pager" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Ride_Pager.png" />
+$轮滑鞋=Roller Skates <img class="items" data-pokedex="Roller Skates" src="https://www.serebii.net/itemdex/sprites/rollerskates.png" />
+$洛拍棒=Roto-Stick <img class="items" data-pokedex="Roto-Stick" src="https://www.serebii.net/itemdex/sprites/sv/roto-stick.png" />
+$洛托姆自行车=Rotom Bike <img class="items" data-pokedex="Rotom Bike" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rotom_Bike.png" />
+$洛托姆型录=Rotom Catalog <img class="items" data-pokedex="Rotom Catalog" src="https://www.serebii.net/itemdex/sprites/sv/rotomcatalog.png" />
+$手机洛托姆=Rotom Phone <img class="items" data-pokedex="Rotom Phone" src="https://www.serebii.net/itemdex/sprites/sv/rotomphone.png" />
+$规则书=Rule Book <img class="items" data-pokedex="Rule Book" src="https://www.serebii.net/itemdex/sprites/rulebook.png" />
+$船票=S.S. Ticket <img class="items" data-pokedex="S.S. Ticket" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/SS_Ticket.png" />
+$三明治=Sandwich <img class="items" data-pokedex="Sandwich" src="https://www.serebii.net/itemdex/sprites/sv/sandwich.png" />
+$探测器=Scanner <img class="items" data-pokedex="Scanner" src="https://www.serebii.net/itemdex/sprites/scanner.png" />
+$朱之书=Scarlet Book <img class="items" data-pokedex="Scarlet Book" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Scarlet_Book.png" />
+$贴纸袋=Seal Bag <img class="items" data-pokedex="Seal Bag" src="https://www.serebii.net/itemdex/sprites/sealbag.png" />
+$贴纸盒=Seal Case <img class="items" data-pokedex="Seal Case" src="https://www.serebii.net/itemdex/sprites/sealcase.png" />
+$秘传之药=Secret Medicine <img class="items" data-pokedex="Secret Medicine" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Secret_Medicine.png" />
+$秘傳之藥=Secret Potion <img class="items" data-pokedex="Secret Potion" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Secret_Medicine.png" />
+$黑萝卜=Shaderoot Carrot <img class="items" data-pokedex="Shaderoot Carrot" src="https://www.serebii.net/itemdex/sprites/shaderootcarrot.png" />
+$闪耀护符=Shiny Charm <img class="items" data-pokedex="Shiny Charm" src="https://www.serebii.net/itemdex/sprites/sv/shinycharm.png" />
+$西尔佛检视镜=Silph Scope <img class="items" data-pokedex="Silph Scope" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Silph_Scope.png" />
+$银色之羽=Silver Wing <img class="items" data-pokedex="Silver Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Silver_Wing.png" />
+$银色羽毛=Silver Wing <img class="items" data-pokedex="Silver Wing" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Silver_Wing.png" />
+$索妮亚的书=Sonia's Book <img class="items" data-pokedex="Sonia's Book" src="https://www.serebii.net/itemdex/sprites/sonia'sbook.png" />
+$集灰袋=Soot Sack <img class="items" data-pokedex="Soot Sack" src="https://www.serebii.net/itemdex/sprites/sootsack.png" />
+$光辉石=Sparkling Stone <img class="items" data-pokedex="Sparkling Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sparkling_Stone.png" />
+$可达鸭喷壶=Sprayduck <img class="items" data-pokedex="Sprayduck" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sprayduck.png" />
+$莲叶童子喷壶=Sprinklotad <img class="items" data-pokedex="Sprinklotad" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sprinklotad.png" />
+$杰尼龟喷壶=Squirt Bottle <img class="items" data-pokedex="Squirt Bottle" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Squirt_Bottle.png" />
+$仓库钥匙=Storage Key <img class="items" data-pokedex="Storage Key" src="https://www.serebii.net/itemdex/sprites/storagekey.png" />
+$时尚名人卡=Style Card <img class="items" data-pokedex="Style Card" src="https://www.serebii.net/itemdex/sprites/stylecard.png" />
+$房间钥匙=Suite Key <img class="items" data-pokedex="Suite Key" src="https://www.serebii.net/itemdex/sprites/suitekey.png" />
+$太阳之笛=Sun Flute <img class="items" data-pokedex="Sun Flute" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sun_Flute.png" />
+$厉害钓竿=Super Rod <img class="items" data-pokedex="Super Rod" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Super_Rod.png" />
+$桔色徽章=Surge Badge <img class="items" data-pokedex="Surge Badge" src="https://www.serebii.net/itemdex/sprites/surgebadge.png" />
+$招式学习器盒=TM Case <img class="items" data-pokedex="TM Case" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/TM_Case.png" />
+$ＴＭＶ自由票=TMV Pass <img class="items" data-pokedex="TMV Pass" src="https://www.serebii.net/itemdex/sprites/tmvpass.png" />
+$茶=Tea <img class="items" data-pokedex="Tea" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Tea.png" />
+$碧草面具=Teal Mask <img class="items" data-pokedex="Teal Mask" src="https://www.serebii.net/itemdex/sprites/sv/tealmask.png" />
+$碧之时尚名人卡=Teal Style Card <img class="items" data-pokedex="Teal Style Card" src="https://www.serebii.net/itemdex/sprites/sv/tealstylecard.png" />
+$太晶珠=Tera Orb <img class="items" data-pokedex="Tera Orb" src="https://www.serebii.net/itemdex/sprites/sv/teraorb.png" />
+$海声铃铛=Tidal Bell <img class="items" data-pokedex="Tidal Bell" src="https://www.serebii.net/itemdex/sprites/tidalbell.png" />
+$破损日记=Torn Journal <img class="items" data-pokedex="Torn Journal" src="https://www.serebii.net/itemdex/sprites/legends/tornjournal.png" />
+$城镇地图=Town Map <img class="items" data-pokedex="Town Map" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Town_Map.png" />
+$衣物箱=Travel Trunk <img class="items" data-pokedex="Travel Trunk" src="https://www.serebii.net/itemdex/sprites/traveltrunk.png" />
+$通行船券=Tri-Pass <img class="items" data-pokedex="Tri-Pass" src="https://www.serebii.net/itemdex/sprites/tripass.png" />
+$未知图腾笔记=Unown Report <img class="items" data-pokedex="Unown Report" src="https://www.serebii.net/itemdex/sprites/unownreport.png" />
+$由克希之爪=Uxie's Claw <img class="items" data-pokedex="Uxie's Claw" src="https://www.serebii.net/itemdex/sprites/legends/uxie'sclaw.png" />
+$紫之书=Violet Book <img class="items" data-pokedex="Violet Book" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Violet_Book.png" />
+$对战记录器=Vs. Recorder <img class="items" data-pokedex="Vs. Recorder" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Vs._Recorder.png" />
+$对战搜寻器=Vs. Seeker <img class="items" data-pokedex="Vs. Seeker" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/VS_Seeker.png" />
+$吼吼鲸喷壶=Wailmer Pail <img class="items" data-pokedex="Wailmer Pail" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Wailmer_Pail.png" />
+$石板碎块=Wall Fragment <img class="items" data-pokedex="Wall Fragment" src="https://www.serebii.net/itemdex/sprites/legends/wallfragment.png" />
+$白色鬃毛=White Mane Hair <img class="items" data-pokedex="White Mane Hair" src="https://www.serebii.net/itemdex/sprites/whitemanehair.png" />
+$许愿星=Wishing Star <img class="items" data-pokedex="Wishing Star" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Wishing_Star.png" />
+$木雕王冠=Wooden Crown <img class="items" data-pokedex="Wooden Crown" src="https://www.serebii.net/itemdex/sprites/woodencrown.png" />
+$发电厂钥匙=Works Key <img class="items" data-pokedex="Works Key" src="https://www.serebii.net/itemdex/sprites/workskey.png" />
+$即时通讯器=Xtransceiver <img class="items" data-pokedex="Xtransceiver" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Xtransceiver.png" />
+$黄色花瓣=Yellow Petal <img class="items" data-pokedex="Yellow Petal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Yellow_Petal.png" />
+$Ｚ强力手环=Z-Power Ring <img class="items" data-pokedex="Z-Power Ring" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Z-Power_Ring.png" />
+$Ｚ手环=Z-Ring <img class="items" data-pokedex="Z-Ring" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Z-Ring.png" />
+$基格尔德多面体=Zygarde Cube <img class="items" data-pokedex="Zygarde Cube" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Zygarde_Cube.png" />
 ==============Ingredients==============
 $粗绞肉香肠=Sausages
 $饱伯罐头=Bob's Food Tin
@@ -3449,172 +3664,18 @@ $椰奶=Coconut Milk
 $即食面=Instant Noodles
 $即食肉排=Precooked Burger
 $超极粉=Gigantamix
-$自行车=Bicycle
-$城镇地图=Town Map
-$代币盒=Coin Case
-$破旧钓竿=Old Rod
-$好钓竿=Good Rod
-$厉害钓竿=Super Rod
-$船票=S.S. Ticket
-$包裹=Parcel
-$探宝器=Dowsing Machine
-$钥匙卡=Card Key
-$宝可梦之笛=Poké Flute
-$西尔佛检视镜=Silph Scope
-$金假牙=Gold Teeth
-$电梯钥匙=Lift Key
-$秘传之药=Secret Medicine
-$蓝卡=Blue Card
-$透明铃铛=Clear Bell
-$杰尼龟喷壶=Squirt Bottle
-$红色鳞片=Red Scale
-$遗失物=Lost Item
-$磁浮列车自由票=Pass
-$机械零件=Machine Part
-$银色之羽=Silver Feather
 $虹色之羽=Rainbow Feather
-$神奇蛋=Mystery Egg
-$茶=Tea
-$招式学习器盒=TM Case
-$对战搜寻器=Vs. Seeker
-$华丽大赛参加证=Contest Pass
-$音速自行车=Mach Bike
-$越野自行车=Acro Bike
-$吼吼鲸喷壶=Wailmer Pail
-$得文的物品=Devon Parts
-$集灰袋=Soot Sack
-$地下钥匙=Basement Key
-$宝可方块盒=Pokéblock Case
-$给大吾的信=Letter
-$探测器=Scanner
-$ＧＯＧＯ护目镜=Go-Goggles
-$陨石=Meteorite
-$１号客房的钥匙=Key to Room 1
-$２号客房的钥匙=Key to Room 2
-$４号客房的钥匙=Key to Room 4
-$６号客房的钥匙=Key to Room 6
-$仓库钥匙=Storage Key
-$得文侦测镜=Devon Scope
-$探险套装=Explorer Kit
-$宝物袋=Loot Sack
-$规则书=Rule Book
-$宝可追踪=Poké Radar
-$点数卡=Point Card
-$冒险笔记=Guidebook
-$贴纸盒=Seal Case
-$饰品盒=Fashion Case
-$贴纸袋=Seal Bag
-$朋友手册=Pal Pad
-$发电厂钥匙=Works Key
-$古代护符=Old Charm
-$银河队钥匙=Galactic Key
-$红色锁链=Red Chain
-$可达鸭喷壶=Sprayduck
-$宝芬盒=Poffin Case
-$房间钥匙=Suite Key
-$新月之羽=Lunar Feather
-$火山镇石=Magma Stone
-$兑换券１=Coupon 1
-$兑换券２=Coupon 2
-$兑换券３=Coupon 3
-$对战记录器=Vs. Recorder
-$葛拉西蒂亚花=Gracidea
-$球果盒=Apricorn Box
-$未知图腾笔记=Unown Report
-$树果种植盆=Berry Pots
-$相册=Photo Album
-$ＧＢ播放器=GB Sounds
-$海声铃铛=Tidal Bell
 $数据卡=Data Card
-$草绿色宝珠=Jade Orb
-$物品箱=Prop Case
-$龙之骨=Dragon Skull
-$光明石=Light Stone
-$黑暗石=Dark Stone
-$即时通讯器=Xtransceiver
-$配送物品１=Gram 1
-$配送物品２=Gram 2
-$配送物品３=Gram 3
-$奖牌盒=Medal Box
-$基因之楔=DNA Splicers
-$许可证=Permit
-$圆形护符=Oval Charm
-$闪耀护符=Shiny Charm
-$等离子卡=Plasma Card
-$脏手帕=Grubby Hanky
-$阿克罗玛机器=Colress Machine<img class="items" data-pokedex="Colress Machine" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png" />
-$遗忘物=Dropped Item
-$现形镜=Reveal Glass
-$全息影像通讯器=Holo Caster
-$博士的信=Prof's Letter
-$轮滑鞋=Roller Skates
-$莲叶童子喷壶=Sprinklotad
-$发电厂通行证=Power Plant Pass
-$超级环=Mega Ring
-$似珍石=Intriguing Stone
-$电梯钥匙=Elevator Key
-$ＴＭＶ自由票=TMV Pass
-$卡洛斯勋章=Honor of Kalos
-$探险心得=Adventure Guide
-$隐形眼镜盒=Lens Case
-$帅哥券=Looker Ticket
 $超级坠饰=Mega Charm
 $超级手套=Mega Glove
-$宝可方块套装=Pokéblock Kit
-$得文潜水装备=Devon Scuba Gear
-$演出礼服=Contest Costume
-$演出礼裙=Contest Costume
-$熔岩装=Magma Suit
-$海洋装=Aqua Suit
-$双人票=Pair of Tickets
-$超级手镯=Mega Bracelet
 $超级吊坠=Mega Pendant
 $超级眼镜=Mega Glasses
 $超级船锚=Mega Anchor
 $超级领针=Mega Stickpin
 $超级头冠=Mega Tiara
 $超级脚镯=Mega Anklet
-$惩戒之壶=Prison Bottle
 $超级护腕=Mega Cuff
-$陨石碎片=Meteorite Shard
-$无限之笛=Eon Flute
-$马志士的签名=Autograph
 $化妆包=Makeup Bag
-$钥石=Key Stone
-$Ｚ手环=Z-Ring
-$材料袋=Forage Bag
-$钓竿=Fishing Rod
-$博士的面罩=Professor's Mask
-$光辉石=Sparkling Stone
-$基格尔德多面体=Zygarde Cube
-$骑行装置=Ride Pager
-$太阳之笛=Sun Flute
-$月亮之笛=Moon Flute
-$奇异卡片=Enigmatic Card
-$Ｚ强力手环=Z-Power Ring
-$粉红花瓣=Pink Petal
-$橙色花瓣=Orange Petal
-$蓝色花瓣=Blue Petal
-$红色花瓣=Red Petal
-$绿色花瓣=Green Petal
-$黄色花瓣=Yellow Petal
-$紫色花瓣=Purple Petal
-$虹色之花=Rainbow Flower
-$桔色徽章=Surge Badge
-$奈克洛索尔合体器=N-Solarizer
-$奈克洛露奈合体器=N-Lunarizer
-$伊利马的一般Ｚ=Ilima's Normalium Z
-$留下的精灵球=Left Poké Ball
-$推荐函=Endorsement
-$极巨腕带=Dynamax Band
-$洛托姆自行车=Rotom Bike
-$露营组合=Camping Gear
-$厉害耳塞=Hi-tech Earbuds
-$防晃护符=Catching Charm
-$陈旧的信=Old Letter
-$乐队的签名=Band Autograph
-$索妮亚的书=Sonia's Book
-$洛托姆型录=Rotom Catalog
 ==============Wonder Launcher==============
 $要害攻击２=Dire Hit 2
 $速度强化２=X Speed 2
@@ -4849,35 +4910,9 @@ $喷火龙进化石Ｘ=Charizardite X
 $超梦进化石Ｘ=Mewtwonite X
 $超梦进化石Ｙ=Mewtwonite Y
 $喷火龙进化石Ｙ=Charizardite Y
-$衣物箱=Travel Trunk
 $伊利马一般Ｚ=Ilima Normalium Z
 $许愿星块=Wishing Piece
 $极巨菇菇=Max Mushrooms
-$时尚名人卡=Style Card
-$铠甲车票=Armor Pass
-$经验护符=Exp. Charm
-$证章护符=Mark Charm
-$牵绊缰绳=Reins of Unity
-$牵绊缰绳=Reins of Unity
-$王冠车票=Crown Pass
-$木雕王冠=Wooden Crown
-$光辉花瓣=Radiant Petal
-$白色鬃毛=White Mane Hair
-$黑色鬃毛=Black Mane Hair
-$冰萝卜=Iceroot Carrot
-$黑萝卜=Shaderoot Carrot
-$萝卜种子=Carrot Seeds
-$牵绊缰绳=Reins of Unity
-$净空石板=Blank Plate
-$传说石板=Legend Plate
-$手机洛托姆=Rotom Phone
-$三明治=Sandwich
-$故勒顿的球=Koraidon's Poké Ball
-$密勒顿的球=Miraidon's Poké Ball
-$太晶珠=Tera Orb
-$朱之书=Scarlet Book
-$紫之书=Violet Book
-$海岱的钱包=Kofu’s Wallet
 $长棍面包=Baguette
 $蛋黄酱=Mayonnaise
 $番茄酱=Ketchup
@@ -5118,7 +5153,6 @@ $小锻匠的毛=Tinkatink Hair
 $炭小侍的煤灰=Charcadet Soot
 $原野水母的薄片=Toedscool Flaps
 $乌波的黏液=Wooper Slime
-$野餐组合=Picnic Set
 $校园水壶=Academy Bottle
 $校园水壶=Academy Bottle
 $圆点水壶=Polka-Dot Bottle

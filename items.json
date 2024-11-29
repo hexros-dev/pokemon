@@ -4589,10 +4589,1258 @@
 		"category": "Hold Item",
 		"effect": "An item to be held by a Pokémon. When the holder acts after its target, its move will be more accurate than usual."
 	},
+	"Acro Bike": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/acro_bike.png",
+		"name": "Acro Bike",
+		"category": "Key Item",
+		"effect": "The key to New Mauville, which was constructed beneath Mauville City."
+	},
+	"Adventure Guide": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/adventureguide.png",
+		"name": "Adventure Guide",
+		"category": "Key Item",
+		"effect": "A mysterious and convenient notebook that contains all the advice a Trainer receives out on an adventure."
+	},
+	"Apricorn Box": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/apricorn_box.png",
+		"name": "Apricorn Box",
+		"category": "Key Item",
+		"effect": "A handy box where you can store up to 99 of each kind of Apricorn."
+	},
+	"Aqua Suit": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/aqua_suit.png",
+		"name": "Aqua Suit",
+		"category": "Key Item",
+		"effect": "A suit made with the collective technological know-how of Team Aqua. It can withstand any impact."
+	},
+	"Armor Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/armorpass.png",
+		"name": "Armor Pass",
+		"category": "Key Item",
+		"effect": "A pass to go to the Isle of Armor. Show it to the rail staff at Wedgehurst Station."
+	},
+	"Autograph": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/autograph.png",
+		"name": "Autograph",
+		"category": "Key Item",
+		"effect": "The autograph you got from the Vermilion City Gym Leader, Lt. Surge. He wrote, “Good luck!”"
+	},
+	"Azelf's Fang": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/azelf'sfang.png",
+		"name": "Azelf's Fang",
+		"category": "Key Item",
+		"effect": "Proof that you have completed the trial set by Azelf, the Being of Willpower that lives in Lake Valor. This item is needed to forge the Red Chain."
+	},
+	"Band Autograph": {
+		"image": "https://www.serebii.net/itemdex/sprites/bandautograph.png",
+		"name": "Band Autograph",
+		"category": "Key Item",
+		"effect": "It's signed by all members of the Galar region's most charismatic band, the Maximizers."
+	},
+	"Basement Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/basementkey.png",
+		"name": "Basement Key",
+		"category": "Key Item",
+		"effect": "A key that opens a door in the Goldenrod Tunnel."
+	},
+	"Berry Pots": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/berry_pots.png",
+		"name": "Berry Pots",
+		"category": "Key Item",
+		"effect": "Portable containers that allow you to easily cultivate Berries anywhere and anytime."
+	},
+	"Bicycle": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/bicycle.png",
+		"name": "Bicycle",
+		"category": "Key Item",
+		"effect": "A folding bike that enables a rider to get around much faster than with Running Shoes."
+	},
+	"Black Mane Hair": {
+		"image": "https://www.serebii.net/itemdex/sprites/blackmanehair.png",
+		"name": "Black Mane Hair",
+		"category": "Key Item",
+		"effect": "Mane hair that belonged to the King of Bountiful Harvests' beloved steed, Spectrier. The hair is very smooth to the touch."
+	},
+	"Blank Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/blankplate.png",
+		"name": "Blank Plate",
+		"category": "Key Item",
+		"effect": "A stone tablet imbued with the essence of normalcy. When used on a certain Pokémon, it allows that Pokémon to gain the power of the Normal type."
+	},
+	"Blue Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/bluecard.png",
+		"name": "Blue Card",
+		"category": "Key Item",
+		"effect": "A card to save points for the Buena's Password show."
+	},
+	"Blue Petal": {
+		"image": "https://www.serebii.net/itemdex/sprites/bluepetal.png",
+		"name": "Blue Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Lana during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Camping Gear": {
+		"image": "https://www.serebii.net/itemdex/sprites/campinggear.png",
+		"name": "Camping Gear",
+		"category": "Key Item",
+		"effect": "Everything you need to set up a tent and get cooking in a Wild Area or at a camping spot."
+	},
+	"Card Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/cardkey.png",
+		"name": "Card Key",
+		"category": "Key Item",
+		"effect": "A card key that opens a shutter in the Radio Tower."
+	},
+	"Carrot Seeds": {
+		"image": "https://www.serebii.net/itemdex/sprites/carrotseeds.png",
+		"name": "Carrot Seeds",
+		"category": "Key Item",
+		"effect": "Seeds to plant in a field. The kind of carrot you'll get is determined by which field you plant the seeds in."
+	},
+	"Catching Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/catchingcharm.png",
+		"name": "Catching Charm",
+		"category": "Key Item",
+		"effect": "Having one of these mysterious, unshakable charms makes it more likely you'll get a critical catch."
+	},
+	"Celestica Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/celesticaflute.png",
+		"name": "Celestica Flute",
+		"category": "Key Item",
+		"effect": "A flute that can be used to call special Pokémon that are willing to bear you around the region. Its timbre is eerie and mysterious."
+	},
+	"Clear Bell": {
+		"image": "https://www.serebii.net/itemdex/sprites/clearbell.png",
+		"name": "Clear Bell",
+		"category": "Key Item",
+		"effect": "A very old-fashioned bell that makes a gentle ringing sound."
+	},
+	"Coin Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/coin_case.png",
+		"name": "Coin Case",
+		"category": "Key Item",
+		"effect": "A case for holding coins obtained at the Game Corner. It can hold up to 50,000 coins."
+	},
 	"Colress Machine": {
-		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/colress_machine.png",
+		"image": "https://www.serebii.net/itemdex/sprites/colressmchn.png",
 		"name": "Colress Machine",
 		"category": "Key Item",
 		"effect": "This item, when given to you by Colress, will allow for you to remove Pokémon from blocking your path."
+	},
+	"Contest Costume": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/contest_costume.png",
+		"name": "Contest Costume",
+		"category": "Key Item",
+		"effect": "A very cool suit to be worn during the Contest Spectacular."
+	},
+	"Contest Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/contestpass.png",
+		"name": "Contest Pass",
+		"category": "Key Item",
+		"effect": "A pass required for entering Pokémon Contests. It has a drawing of an award ribbon on its front."
+	},
+	"Coupon 1": {
+		"image": "https://www.serebii.net/itemdex/sprites/coupon1.png",
+		"name": "Coupon 1",
+		"category": "Key Item",
+		"effect": "A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed."
+	},
+	"Coupon 2": {
+		"image": "https://www.serebii.net/itemdex/sprites/coupon2.png",
+		"name": "Coupon 2",
+		"category": "Key Item",
+		"effect": "A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed."
+	},
+	"Coupon 3": {
+		"image": "https://www.serebii.net/itemdex/sprites/coupon3.png",
+		"name": "Coupon 3",
+		"category": "Key Item",
+		"effect": "A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed."
+	},
+	"Crafting Kit": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/craftingkit.png",
+		"name": "Crafting Kit",
+		"category": "Key Item",
+		"effect": "A kit containing everything you might need for crafting, even when there is no workbench around. However, you can only use the materials you have in your satchel."
+	},
+	"Crown Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/crownpass.png",
+		"name": "Crown Pass",
+		"category": "Key Item",
+		"effect": "A pass to go to the Crown Tundra. Show it to the rail staff at Wedgehurst Station."
+	},
+	"Crystal Cluster": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/crystalcluster.png",
+		"name": "Crystal Cluster",
+		"category": "Key Item",
+		"effect": "A cluster of the crystals found within the Crystal Pool. They sparkle brilliantly and are apparently necessary to repair a certain mask."
+	},
+	"DNA Splicers": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/dnasplicers.png",
+		"name": "DNA Splicers",
+		"category": "Key Item",
+		"effect": "A splicer that fuses Kyurem and a certain Pokémon. They are said to have originally been one."
+	},
+	"DS Sounds": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/ds_sounds.png",
+		"name": "DS Sounds",
+		"category": "Key Item",
+		"effect": "A music player that allows you to listen to nostalgic songs. It's operated with the flip of a single switch."
+	},
+	"Dark Stone": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dark_stone.png",
+		"name": "Dark Stone",
+		"category": "Key Item",
+		"effect": "Zekrom's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero."
+	},
+	"Devon Goods": {
+		"image": "https://www.serebii.net/itemdex/sprites/devongoods.png",
+		"name": "Devon Goods",
+		"category": "Key Item",
+		"effect": "A package that contains DEVON's machine parts."
+	},
+	"Devon Parts": {
+		"image": "https://www.serebii.net/itemdex/sprites/devonparts.png",
+		"name": "Devon Parts",
+		"category": "Key Item",
+		"effect": "A case that contains mechanical parts of some sort made by the Devon Corporation."
+	},
+	"Devon Scope": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/devon_scope.png",
+		"name": "Devon Scope",
+		"category": "Key Item",
+		"effect": "A special device made by Devon Corporation that signals the presence of any unseen Pokémon."
+	},
+	"Devon Scuba Gear": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/devon_scuba_gear.png",
+		"name": "Devon Scuba Gear",
+		"category": "Key Item",
+		"effect": "A device made by Devon Corporation that provides oxygen to users during the use of Dive."
+	},
+	"Digger Drill": {
+		"image": "https://www.serebii.net/itemdex/sprites/diggerdrill.png",
+		"name": "Digger Drill",
+		"category": "Key Item",
+		"effect": "A single-use drill to bore a hole in the wall for your Secret Base."
+	},
+	"Dowsing Machine": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dowsing_machine.png",
+		"name": "Dowsing Machine",
+		"category": "Key Item",
+		"effect": "This high-tech machine shows the location of invisible items. It's attached to the head when in use."
+	},
+	"Dragon Skull": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dragon_skull.png",
+		"name": "Dragon Skull",
+		"category": "Key Item",
+		"effect": "The skull of a Pokémon that was said to have braved the raging seas to fly around the world."
+	},
+	"Dropped Item": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dropped_item.png",
+		"name": "Dropped Item",
+		"category": "Key Item",
+		"effect": "The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a boy."
+	},
+	"Dynamax Band": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dynamax_band.png",
+		"name": "Dynamax Band",
+		"category": "Key Item",
+		"effect": "A Wishing Star has been affixed to it. It lets out a light that allows Pokémon to Dynamax when at a Power Spot."
+	},
+	"Elevator Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/elevatorkey.png",
+		"name": "Elevator Key",
+		"category": "Key Item",
+		"effect": "A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare's logo."
+	},
+	"Endorsement": {
+		"image": "https://www.serebii.net/itemdex/sprites/endorsement.png",
+		"name": "Endorsement",
+		"category": "Key Item",
+		"effect": "A letter of recommendation that you'll need in order to participate in the Gym Challenge."
+	},
+	"Enigmatic Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/enigmaticcard.png",
+		"name": "Enigmatic Card",
+		"category": "Key Item",
+		"effect": "A mysterious card. Written on it is a request that you go to a guest room in the motel on Akala Island's Route 8."
+	},
+	"Eon Flute": {
+		"image": "https://www.serebii.net/itemdex/sprites/eonflute.png",
+		"name": "Eon Flute",
+		"category": "Key Item",
+		"effect": "A flute that can be used to summon Latios or Latias no matter where you are."
+	},
+	"Eternal Ice": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/eternalice.png",
+		"name": "Eternal Ice",
+		"category": "Key Item",
+		"effect": "A type of ice beloved by the Lord of the Tundra, Avalugg. This ice is said to be fragments of ancient Avalugg that lived long ago."
+	},
+	"Exp. Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/exp.charm.png",
+		"name": "Exp. Charm",
+		"category": "Key Item",
+		"effect": "Having one of these charms increases the Exp. Points your Pokémon get. A machine-like object is inside it."
+	},
+	"Explorer Kit": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/explorer_kit.png",
+		"name": "Explorer Kit",
+		"category": "Key Item",
+		"effect": "A bag filled with convenient tools for exploring. It provides access to the Underground in the Sinnoh region."
+	},
+	"Fashion Case": {
+		"image": "https://www.serebii.net/itemdex/sprites/fashioncase.png",
+		"name": "Fashion Case",
+		"category": "Key Item",
+		"effect": "A wondrous, pretty case to store lots of colorful Props for your Pokémon to wear in a musical."
+	},
+	"Fishing Rod": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/fishing_rod.png",
+		"name": "Fishing Rod",
+		"category": "Key Item",
+		"effect": "Use it by the water to fish up various kinds of Pokémon."
+	},
+	"Forage Bag": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/forage_bag.png",
+		"name": "Forage Bag",
+		"category": "Key Item",
+		"effect": "A bag to carry ingredients gathered during Mallow's trial in the jungle."
+	},
+	"GB Sounds": {
+		"image": "https://www.serebii.net/itemdex/sprites/gbsounds.png",
+		"name": "GB Sounds",
+		"category": "Key Item",
+		"effect": "A music player that allows you to listen to nostalgic songs. It's operated with the flip of a single switch."
+	},
+	"Galactic Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/galactickey.png",
+		"name": "Galactic Key",
+		"category": "Key Item",
+		"effect": "A card key for disengaging the security systems in the Galactic HQ. Losing it can result in punishment, apparently."
+	},
+	"Glimmering Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/glimmeringcharm.png",
+		"name": "Glimmering Charm",
+		"category": "Key Item",
+		"effect": "Having one of these mysterious glimmering charms increases the number of Tera Shards you receive from Tera Raid Battles."
+	},
+	"Go-Goggles": {
+		"image": "https://www.serebii.net/itemdex/sprites/go-goggles.png",
+		"name": "Go-Goggles",
+		"category": "Key Item",
+		"effect": "Nifty goggles to protect eyes from desert sandstorms."
+	},
+	"Gold Teeth": {
+		"image": "https://www.serebii.net/itemdex/sprites/goldteeth.png",
+		"name": "Gold Teeth",
+		"category": "Key Item",
+		"effect": "A set of false teeth lost by the SAFARI ZONE'S WARDEN. It makes his smile sparkle."
+	},
+	"Good Rod": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/good_rod.png",
+		"name": "Good Rod",
+		"category": "Key Item",
+		"effect": "A new, good-quality fishing rod. Use it at bodies of water to fish for Pokémon."
+	},
+	"Gracidea": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/gracidea.png",
+		"name": "Gracidea",
+		"category": "Key Item",
+		"effect": "A flower sometimes bundled into a bouquet to be given as an expression of gratitude on special occasions, such as birthdays and anniversaries."
+	},
+	"Gram 1": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png",
+		"name": "Gram 1",
+		"category": "Key Item",
+		"effect": "An important letter that Wingull delivers."
+	},
+	"Gram 2": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png",
+		"name": "Gram 2",
+		"category": "Key Item",
+		"effect": "An important letter that Wingull delivers."
+	},
+	"Gram 3": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gram.png",
+		"name": "Gram 3",
+		"category": "Key Item",
+		"effect": "An important letter that Wingull delivers."
+	},
+	"Green Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/green_petal.png",
+		"name": "Green Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Mallow during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Grubby Hanky": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/grubby_hanky.png",
+		"name": "Grubby Hanky",
+		"category": "Key Item",
+		"effect": "A handkerchief dropped by a regular at Nacrene City's Café Warehouse. It smells faintly like a Pokémon."
+	},
+	"Hi-tech Earbuds": {
+		"image": "https://www.serebii.net/itemdex/sprites/hi-techearbuds.png",
+		"name": "Hi-tech Earbuds",
+		"category": "Key Item",
+		"effect": "Strange earbuds that allow you to freely control the volume of various sounds."
+	},
+	"Holo Caster": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/holo_caster.png",
+		"name": "Holo Caster",
+		"category": "Key Item",
+		"effect": "A device that allows you to view the hologram clips you have received at any time."
+	},
+	"Honor of Kalos": {
+		"image": "https://www.serebii.net/itemdex/sprites/honorofkalos.png",
+		"name": "Honor of Kalos",
+		"category": "Key Item",
+		"effect": "A precious symbol that is awarded to individuals who have done great things for the Kalos region."
+	},
+	"Iceroot Carrot": {
+		"image": "https://www.serebii.net/itemdex/sprites/icerootcarrot.png",
+		"name": "Iceroot Carrot",
+		"category": "Key Item",
+		"effect": "Produce that the King of Bountiful Harvests' beloved steed likes to eat. It grew in a field covered in snow."
+	},
+	"Ilima's Normalium Z": {
+		"image": "https://www.serebii.net/itemdex/sprites/ilima'snormaliumz.png",
+		"name": "Ilima's Normalium Z",
+		"category": "Key Item",
+		"effect": "The Normalium Z you were entrusted with by Ilima. You were asked to place it on the pedestal at the back of Verdant Cavern."
+	},
+	"Indigo Style Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/indigostylecard.png",
+		"name": "Indigo Style Card",
+		"category": "Key Item",
+		"effect": "Having one of these cards increases the selection available to you in boutiques and hair salons."
+	},
+	"Intriguing Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/intriguingstone.png",
+		"name": "Intriguing Stone",
+		"category": "Key Item",
+		"effect": "A rather curious stone that might appear valuable to some. It's all in the eye of the beholder."
+	},
+	"Jade Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/jadeorb.png",
+		"name": "Jade Orb",
+		"category": "Key Item",
+		"effect": "A shiny green orb that is said to have a deep connection to a legend of the Hoenn region."
+	},
+	"Journal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/guidebook.png",
+		"name": "Journal",
+		"category": "Key Item",
+		"effect": "A notebook that keeps a record of your adventure so far."
+	},
+	"Key Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/keystone.png",
+		"name": "Key Stone",
+		"category": "Key Item",
+		"effect": "A stone filled with an unexplained power. It makes Pokémon that battle with a Mega Stone Mega Evolve."
+	},
+	"Key to Room 1": {
+		"image": "https://www.serebii.net/itemdex/sprites/keytoroom1.png",
+		"name": "Key to Room 1",
+		"category": "Key Item",
+		"effect": "A key that opens a door inside Sea Mauville."
+	},
+	"Key to Room 2": {
+		"image": "https://www.serebii.net/itemdex/sprites/keytoroom2.png",
+		"name": "Key to Room 2",
+		"category": "Key Item",
+		"effect": "A key that opens a door inside Sea Mauville."
+	},
+	"Key to Room 4": {
+		"image": "https://www.serebii.net/itemdex/sprites/keytoroom4.png",
+		"name": "Key to Room 4",
+		"category": "Key Item",
+		"effect": "A key that opens a door inside Sea Mauville."
+	},
+	"Key to Room 6": {
+		"image": "https://www.serebii.net/itemdex/sprites/keytoroom6.png",
+		"name": "Key to Room 6",
+		"category": "Key Item",
+		"effect": "A key that opens a door inside Sea Mauville."
+	},
+	"Kofu's Wallet": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/kofu'swallet.png",
+		"name": "Kofu's Wallet",
+		"category": "Key Item",
+		"effect": "A wallet that was left behind by Kofu, the Gym Leader at the Cascarrafa Gym. You're to deliver it to him at the market in Porto Marinada."
+	},
+	"Koraidon's Poké Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/koraidon'spokeball.png",
+		"name": "Koraidon's Poké Ball",
+		"category": "Key Item",
+		"effect": "A Poké Ball that can hold the mysterious Pokémon known as Koraidon. A boy named Arven gave it to you."
+	},
+	"Left Poké Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/pokeball.png",
+		"name": "Left Poké Ball",
+		"category": "Key Item",
+		"effect": "A Poké Ball containing a Pokémon that lost its Trainer. It seems the Trainer hails from Ula'ula Island."
+	},
+	"Legend Plate": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/legendplate.png",
+		"name": "Legend Plate",
+		"category": "Key Item",
+		"effect": "A stone tablet imbued with the essence of all creation. When used on a certain Pokémon, it allows that Pokémon to gain the power of every type there is."
+	},
+	"Legendary Clue": {
+		"image": "https://www.serebii.net/itemdex/sprites/legendaryclue.png",
+		"name": "Legendary Clue",
+		"category": "Key Item",
+		"effect": "A mysterious clue that Peony seems to have dropped. There's a photo attached to it showing a shining hole opening above the Max Lair."
+	},
+	"Legendary Clue 1": {
+		"image": "https://www.serebii.net/itemdex/sprites/legendaryclue1.png",
+		"name": "Legendary Clue 1",
+		"category": "Key Item",
+		"effect": "A clue about the King of Bountiful Harvests. It's written by Peony, and an old photo is attached to it."
+	},
+	"Legendary Clue 2": {
+		"image": "https://www.serebii.net/itemdex/sprites/legendaryclue2.png",
+		"name": "Legendary Clue 2",
+		"category": "Key Item",
+		"effect": "A clue about the legend of giants. It's written by Peony and has unique drawings."
+	},
+	"Legendary Clue 3": {
+		"image": "https://www.serebii.net/itemdex/sprites/legendaryclue3.png",
+		"name": "Legendary Clue 3",
+		"category": "Key Item",
+		"effect": "A clue about the legend of bird Pokémon. It's written by Peony and has a unique drawing."
+	},
+	"Lens Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lens_case.png",
+		"name": "Lens Case",
+		"category": "Key Item",
+		"effect": "A rather chic-looking case for carrying contact lenses."
+	},
+	"Letter": {
+		"image": "https://www.serebii.net/itemdex/sprites/letter.png",
+		"name": "Letter",
+		"category": "Key Item",
+		"effect": "An extremely important letter to Steven from the President of Devon Corporation."
+	},
+	"Lift Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/liftkey.png",
+		"name": "Lift Key",
+		"category": "Key Item",
+		"effect": "A key that operates the elevator in TEAM ROCKET's HIDEOUT. It bears the TEAM ROCKET logo."
+	},
+	"Light Stone": {
+		"image": "https://www.serebii.net/itemdex/sprites/lightstone.png",
+		"name": "Light Stone",
+		"category": "Key Item",
+		"effect": "Reshiram's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero."
+	},
+	"Looker Ticket": {
+		"image": "https://www.serebii.net/itemdex/sprites/lookerticket.png",
+		"name": "Looker Ticket",
+		"category": "Key Item",
+		"effect": "A ticket that was handmade by Looker. It's decorated with a liberal amount of glittery paint."
+	},
+	"Loot Sack": {
+		"image": "https://www.serebii.net/itemdex/sprites/lootsack.png",
+		"name": "Loot Sack",
+		"category": "Key Item",
+		"effect": "A sturdy, spacious bag that is used to carry any treasures or loot obtained in the coal mine."
+	},
+	"Lost Item": {
+		"image": "https://www.serebii.net/itemdex/sprites/lostitem.png",
+		"name": "Lost Item",
+		"category": "Key Item",
+		"effect": "The Mime Jr. doll that was lost by the Copycat."
+	},
+	"Lost Satchel": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/lostsatchel.png",
+		"name": "Lost Satchel",
+		"category": "Key Item",
+		"effect": "A satchel that someone dropped."
+	},
+	"Lunar Wing": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/lunar_wing.png",
+		"name": "Lunar Wing",
+		"category": "Key Item",
+		"effect": "A feather that glows like the moon. It's said to possess the power to dispel nightmares."
+	},
+	"Mach Bike": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/mach_bike.png",
+		"name": "Mach Bike",
+		"category": "Key Item",
+		"effect": "This folding Bike more than doubles your movement speed."
+	},
+	"Machine Part": {
+		"image": "https://www.serebii.net/itemdex/sprites/machinepart.png",
+		"name": "Machine Part",
+		"category": "Key Item",
+		"effect": "An important part of a machine that was stolen from the Power Plant."
+	},
+	"Magma Emblem": {
+		"image": "https://www.serebii.net/itemdex/sprites/magmaemblem.png",
+		"name": "Magma Emblem",
+		"category": "Key Item",
+		"effect": "A medal-like item in the same shape as Team Magma's mark."
+	},
+	"Magma Stone": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Magma_Stone.png",
+		"name": "Magma Stone",
+		"category": "Key Item",
+		"effect": "A stone formed by boulders melting in intensely hot magma, then hardening. Magma remains sealed inside it."
+	},
+	"Magma Suit": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Magma_Suit.png",
+		"name": "Magma Suit",
+		"category": "Key Item",
+		"effect": "A suit made with the collective technological know-how of Team Magma. It can withstand any impact."
+	},
+	"Mark Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/markcharm.png",
+		"name": "Mark Charm",
+		"category": "Key Item",
+		"effect": "Having one of these mysterious and unique charms makes it more likely you'll encounter a Pokémon with a mark."
+	},
+	"Medal Box": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Medal_Box.png",
+		"name": "Medal Box",
+		"category": "Key Item",
+		"effect": "A box-shaped machine that stores Medals and Medal information."
+	},
+	"Mega Bracelet": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Mega_Bracelet.png",
+		"name": "Mega Bracelet",
+		"category": "Key Item",
+		"effect": "This bracelet contains an unknown power that somehow enables a Pokémon carrying a Mega Stone to Mega Evolve in battle."
+	},
+	"Mega Ring": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Mega_Ring.png",
+		"name": "Mega Ring",
+		"category": "Key Item",
+		"effect": "This ring contains an unknown power that somehow enables a Pokémon carrying a Mega Stone to Mega Evolve in battle."
+	},
+	"Mesprit's Plume": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/mesprit'splume.png",
+		"name": "Mesprit's Plume",
+		"category": "Key Item",
+		"effect": "Proof that you have completed the trial set by Mesprit, the Being of Emotion that lives in Lake Verity. This item is needed to forge the Red Chain."
+	},
+	"Meteorite": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/meteorite.png",
+		"name": "Meteorite",
+		"category": "Key Item",
+		"effect": "A Meteorite originally found at Meteor Falls. You got it at Mt. Chimney."
+	},
+	"Meteorite Shard": {
+		"image": "https://www.serebii.net/itemdex/sprites/meteoriteshard.png",
+		"name": "Meteorite Shard",
+		"category": "Key Item",
+		"effect": "One of the fragments of a meteorite from Granite Cave. It's faintly warm to the touch."
+	},
+	"Miraidon's Poké Ball": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/miraidon'spokeball.png",
+		"name": "Miraidon's Poké Ball",
+		"category": "Key Item",
+		"effect": "A Poké Ball that can hold the mysterious Pokémon known as Miraidon. A boy named Arven gave it to you."
+	},
+	"Moon Flute": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Moon_Flute.png",
+		"name": "Moon Flute",
+		"category": "Key Item",
+		"effect": "It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the moon."
+	},
+	"Mystery Egg": {
+		"image": "https://www.serebii.net/itemdex/sprites/mysteryegg.png",
+		"name": "Mystery Egg",
+		"category": "Key Item",
+		"effect": "An Egg obtained from Mr. Pokémon. It has a mysterious pattern on it, and what is in the Egg is unknown."
+	},
+	"N-Lunarizer": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/n-lunarizer.png",
+		"name": "N-Lunarizer",
+		"category": "Key Item",
+		"effect": "A machine to separate Necrozma, which needed light, from Lunala."
+	},
+	"N-Solarizer": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/n-solarizer.png",
+		"name": "N-Solarizer",
+		"category": "Key Item",
+		"effect": "A machine to separate Necrozma, which needed light, from Solgaleo."
+	},
+	"Old Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/oldcharm.png",
+		"name": "Old Charm",
+		"category": "Key Item",
+		"effect": "An ancient good-luck charm made of Pokémon bones to be taken to the elder of Celestic Town."
+	},
+	"Old Journal": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/oldjournal.png",
+		"name": "Old Journal",
+		"category": "Key Item",
+		"effect": "A stab-bound journal that once had pages torn from it. All the pages have been collected and restored."
+	},
+	"Old Letter": {
+		"image": "https://www.serebii.net/itemdex/sprites/oldletter.png",
+		"name": "Old Letter",
+		"category": "Key Item",
+		"effect": "A letter entrusted to you by a girl, to be delivered to a boy. Strangely, it looks old to you."
+	},
+	"Old Rod": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Old_Rod.png",
+		"name": "Old Rod",
+		"category": "Key Item",
+		"effect": "An old and beat-up fishing rod. Use it at bodies of water to fish for Pokémon."
+	},
+	"Orange Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Orange_Petal.png",
+		"name": "Orange Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Ilima during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Origin Ore": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/originore.png",
+		"name": "Origin Ore",
+		"category": "Key Item",
+		"effect": "An ore of mysterious power, spoken of in ancient myths and said to contain the power of almighty Sinnoh itself."
+	},
+	"Oval Charm": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Oval_Charm.png",
+		"name": "Oval Charm",
+		"category": "Key Item",
+		"effect": "Having one of these mysterious oval charms makes it more likely Pokémon Eggs might be found during picnics."
+	},
+	"Pair of Tickets": {
+		"image": "https://www.serebii.net/itemdex/sprites/pairoftickets.png",
+		"name": "Pair of Tickets",
+		"category": "Key Item",
+		"effect": "Tickets for two to the astronomical show being held at the Mossdeep Space Center."
+	},
+	"Pal Pad": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pal_Pad.png",
+		"name": "Pal Pad",
+		"category": "Key Item",
+		"effect": "A convenient notepad that is used to register your friends and keep a record of your gameplay."
+	},
+	"Parcel": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Parcel.png",
+		"name": "Parcel",
+		"category": "Key Item",
+		"effect": "A parcel entrusted into your care. You're supposed to deliver it to your childhood friend who left Twinleaf Town."
+	},
+	"Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/pass.png",
+		"name": "Pass",
+		"category": "Key Item",
+		"effect": "A pass required for riding the Magnet Train. It allows you to ride whenever and however much you'd like."
+	},
+	"Permit": {
+		"image": "https://www.serebii.net/itemdex/sprites/permit.png",
+		"name": "Permit",
+		"category": "Key Item",
+		"effect": "A permit that is needed to enter the Nature Preserve, a place that not many people know about."
+	},
+	"Photo Album": {
+		"image": "https://www.serebii.net/itemdex/sprites/photoalbum.png",
+		"name": "Photo Album",
+		"category": "Key Item",
+		"effect": "A nice photo album for storing all the photos taken along your adventure."
+	},
+	"Picnic Set": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Picnic_Set.png",
+		"name": "Picnic Set",
+		"category": "Key Item",
+		"effect": "A roomy basket packed with all sorts of things for use when enjoying picnicking with your Pokémon."
+	},
+	"Pink Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pink_Petal.png",
+		"name": "Pink Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Mina during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Plasma Card": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Plasma_Card.png",
+		"name": "Plasma Card",
+		"category": "Key Item",
+		"effect": "A card key needed to enter the password inside the Plasma Frigate."
+	},
+	"Poffin Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poffin_Case.png",
+		"name": "Poffin Case",
+		"category": "Key Item",
+		"effect": "A case for storing Poffins cooked from Berries."
+	},
+	"Point Card": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Point_Card.png",
+		"name": "Point Card",
+		"category": "Key Item",
+		"effect": "A card that lists how many Battle Points you have earned."
+	},
+	"Poké Radar": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poké_Radar.png",
+		"name": "Poké Radar",
+		"category": "Key Item",
+		"effect": "A tool that can search out Pokémon that are hiding in the tall grass. Its battery is recharged as you walk."
+	},
+	"PokéBlock Kit": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock_Kit.png",
+		"name": "PokéBlock Kit",
+		"category": "Key Item",
+		"effect": "A set containing a Berry Blender for making Pokéblocks and a Pokéblock Case for storing Pokéblocks."
+	},
+	"PokéBlock Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock_Case.png",
+		"name": "PokéBlock Case",
+		"category": "Key Item",
+		"effect": "A case for holding POKéBLOCKS made with a BERRY BLENDER."
+	},
+	"Poké Flute": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Poké_Flute.png",
+		"name": "Poké Flute",
+		"category": "Key Item",
+		"effect": "A flute that can play with such a beautiful tone that even sleeping Pokémon find themselves woken up."
+	},
+	"Pokémon Box Link": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokémon_Box.png",
+		"name": "Pokémon Box Link",
+		"category": "Key Item",
+		"effect": "A device that allows you to access the Pokémon storage system. There are some places where it won't work."
+	},
+	"Power Plant Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/powerplantpass.png",
+		"name": "Power Plant Pass",
+		"category": "Key Item",
+		"effect": "This pass serves as an ID card for gaining access to the Power Plant that lies along Route 13."
+	},
+	"Prison Bottle": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/prisonbottle.png",
+		"name": "Prison Bottle",
+		"category": "Key Item",
+		"effect": "A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago."
+	},
+	"Prof's Letter": {
+		"image": "https://www.serebii.net/itemdex/sprites/prof'sletter.png",
+		"name": "Prof's Letter",
+		"category": "Key Item",
+		"effect": "A letter that Professor Sycamore wrote to your mother. A faint but pleasant perfume seems to cling to the paper."
+	},
+	"Professor's Mask": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Professor's_Mask.png",
+		"name": "Professor's Mask",
+		"category": "Key Item",
+		"effect": "The mask that belongs to The Masked Royal. This pro wrestler apparently sews his mask on a machine himself."
+	},
+	"Prop Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Prop_Case.png",
+		"name": "Prop Case",
+		"category": "Key Item",
+		"effect": "A wondrous, pretty case to store lots of colorful Props for your Pokémon to wear in a musical."
+	},
+	"Purple Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Purple_Petal.png",
+		"name": "Purple Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Nanu during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Radiant Petal": {
+		"image": "https://www.serebii.net/itemdex/sprites/radiantpetal.png",
+		"name": "Radiant Petal",
+		"category": "Key Item",
+		"effect": "A single petal that the King of Bountiful Harvests gave you. It radiates faint light."
+	},
+	"Rainbow Flower": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rainbow_Flower.png",
+		"name": "Rainbow Flower",
+		"category": "Key Item",
+		"effect": "A flower made of the petals you received from captains. It's proof that your growth has been recognized by them."
+	},
+	"Rainbow Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/rainbowpass.png",
+		"name": "Rainbow Pass",
+		"category": "Key Item",
+		"effect": "A pass for ferries between VERMILION and the SEVII ISLANDS. It features a drawing of a rainbow."
+	},
+	"Rainbow Wing": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rainbow_Wing.png",
+		"name": "Rainbow Wing",
+		"category": "Key Item",
+		"effect": "A strange feather that gleams in rainbow colors."
+	},
+	"Red Chain": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/redchain.png",
+		"name": "Red Chain",
+		"category": "Key Item",
+		"effect": "A mythical chain that is said to bind the Legendary Pokémon that created the Sinnoh region."
+	},
+	"Red Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Red_Petal.png",
+		"name": "Red Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Kiawe during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Red Scale": {
+		"image": "https://www.serebii.net/itemdex/sprites/redscale.png",
+		"name": "Red Scale",
+		"category": "Key Item",
+		"effect": "A scale from a red Gyarados that appeared at the Lake of Rage. It glows red like a flame."
+	},
+	"Reins of Unity": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/reinsofunity.png",
+		"name": "Reins of Unity",
+		"category": "Key Item",
+		"effect": "Reins that people presented to the king. They enable those who are connected to communicate with each other. The reins separate Calyrex and its beloved steed."
+	},
+	"Reveal Glass": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/revealglass.png",
+		"name": "Reveal Glass",
+		"category": "Key Item",
+		"effect": "A mysterious looking glass that reveals the truth. It can return a Pokémon to its original shape."
+	},
+	"Ride Pager": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Ride_Pager.png",
+		"name": "Ride Pager",
+		"category": "Key Item",
+		"effect": "By entering certain numbers on this pager, you can summon Ride Pokémon in an instant."
+	},
+	"Roller Skates": {
+		"image": "https://www.serebii.net/itemdex/sprites/rollerskates.png",
+		"name": "Roller Skates",
+		"category": "Key Item",
+		"effect": "Attaches roller skates to the bottom of your shoes, allowing you to glide quickly around and perform tricks."
+	},
+	"Roto-Stick": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/roto-stick.png",
+		"name": "Roto-Stick",
+		"category": "Key Item",
+		"effect": "A stick to rest a Rotom Phone on. It allows you to take selfies from a little bit farther away than you could on your own."
+	},
+	"Rotom Bike": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Rotom_Bike.png",
+		"name": "Rotom Bike",
+		"category": "Key Item",
+		"effect": "This bike can be combined with the Pokémon Rotom to not only do a turbo boost but also run on the water."
+	},
+	"Rotom Catalog": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rotomcatalog.png",
+		"name": "Rotom Catalog",
+		"category": "Key Item",
+		"effect": "A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the various devices listed within."
+	},
+	"Rotom Phone": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/rotomphone.png",
+		"name": "Rotom Phone",
+		"category": "Key Item",
+		"effect": "The latest model of smartphone. A Pokémon called Rotom lives within it, and it can be used to run all sorts of handy apps."
+	},
+	"Rule Book": {
+		"image": "https://www.serebii.net/itemdex/sprites/rulebook.png",
+		"name": "Rule Book",
+		"category": "Key Item",
+		"effect": "It lists the rules for holding battles. For Link Battles, you may choose which set of rules you wish to use."
+	},
+	"S.S. Ticket": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/SS_Ticket.png",
+		"name": "S.S. Ticket",
+		"category": "Key Item",
+		"effect": "A ticket required for sailing on the high-speed ferry S.S. Aqua. It has a drawing of a ship on it."
+	},
+	"Sandwich": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/sandwich.png",
+		"name": "Sandwich",
+		"category": "Key Item",
+		"effect": "A dish made by sandwiching vegetables, meat, or other ingredients between two pieces of bread. It makes a fantastic meal when out on a picnic."
+	},
+	"Scanner": {
+		"image": "https://www.serebii.net/itemdex/sprites/scanner.png",
+		"name": "Scanner",
+		"category": "Key Item",
+		"effect": "A device found inside Sea Mauville."
+	},
+	"Scarlet Book": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Scarlet_Book.png",
+		"name": "Scarlet Book",
+		"category": "Key Item",
+		"effect": "A record of the expedition that the author, Heath, went on within the Great Crater of Paldea. The book has the name “Sada” written on it in clumsy handwriting."
+	},
+	"Seal Bag": {
+		"image": "https://www.serebii.net/itemdex/sprites/sealbag.png",
+		"name": "Seal Bag",
+		"category": "Key Item",
+		"effect": "A tiny bag that can hold 10 Stickers for decorating Ball Capsules."
+	},
+	"Seal Case": {
+		"image": "https://www.serebii.net/itemdex/sprites/sealcase.png",
+		"name": "Seal Case",
+		"category": "Key Item",
+		"effect": "A case for storing Stickers that can be applied to Ball Capsules."
+	},
+	"Secret Medicine": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Secret_Medicine.png",
+		"name": "Secret Medicine",
+		"category": "Key Item",
+		"effect": "An astonishing medicine that can instantly restore health to any Pokémon. It is produced by an apothecary in Cianwood City."
+	},
+	"Secret Potion": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Secret_Medicine.png",
+		"name": "SecretPotion",
+		"category": "Key Item",
+		"effect": "A fantastic medicine dispensed by the pharmacy in Cianwood City. It fully heals a Pokémon of any ailment."
+	},
+	"Shaderoot Carrot": {
+		"image": "https://www.serebii.net/itemdex/sprites/shaderootcarrot.png",
+		"name": "Shaderoot Carrot",
+		"category": "Key Item",
+		"effect": "Produce that the King of Bountiful Harvests' beloved steed likes to eat. It grew in a gloomy field."
+	},
+	"Shiny Charm": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/shinycharm.png",
+		"name": "Shiny Charm",
+		"category": "Key Item",
+		"effect": "Having one of these mysterious shining charms makes it more likely you'll encounter Shiny Pokémon in the wild."
+	},
+	"Silph Scope": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Silph_Scope.png",
+		"name": "Silph Scope",
+		"category": "Key Item",
+		"effect": "This item gives you the ability to see ghost Pokémon as their actual species and thus allow you to battle them. It is necessary to pass through the Pokémon Tower."
+	},
+	"Silver Wing": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Silver_Wing.png",
+		"name": "Silver Wing",
+		"category": "Key Item",
+		"effect": "A strange feather that gleams with a silvery color."
+	},
+	"Sonia's Book": {
+		"image": "https://www.serebii.net/itemdex/sprites/sonia'sbook.png",
+		"name": "Sonia's Book",
+		"category": "Key Item",
+		"effect": "Professor Sonia's published writings. Her new discoveries about the Galar region's legends are recorded in this enjoyable read."
+	},
+	"Soot Sack": {
+		"image": "https://www.serebii.net/itemdex/sprites/sootsack.png",
+		"name": "Soot Sack",
+		"category": "Key Item",
+		"effect": "A sack used to gather and hold volcanic ash."
+	},
+	"Sparkling Stone": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sparkling_Stone.png",
+		"name": "Sparkling Stone",
+		"category": "Key Item",
+		"effect": "A stone entrusted to you by a Pokémon that has been venerated as a guardian deity in the Alola region. There is said to be some secret in how it sparkles."
+	},
+	"Sprayduck": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sprayduck.png",
+		"name": "Sprayduck",
+		"category": "Key Item",
+		"effect": "A watering can shaped like a Psyduck. It helps promote the healthy growth of any Berries planted in good, soft soil."
+	},
+	"Sprinklotad": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sprinklotad.png",
+		"name": "Sprinklotad",
+		"category": "Key Item",
+		"effect": "A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in good, soft soil."
+	},
+	"Squirt Bottle": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Squirt_Bottle.png",
+		"name": "Squirt Bottle",
+		"category": "Key Item",
+		"effect": "A bottle used for watering plants in the Berry Pots."
+	},
+	"Storage Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/storagekey.png",
+		"name": "Storage Key",
+		"category": "Key Item",
+		"effect": "The key to Team Galactic's sinister warehouse located at the edge of Veilstone City."
+	},
+	"Style Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/stylecard.png",
+		"name": "Style Card",
+		"category": "Key Item",
+		"effect": "Having one of these cards increases the selection available to you in boutiques and hair salons."
+	},
+	"Suite Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/suitekey.png",
+		"name": "Suite Key",
+		"category": "Key Item",
+		"effect": "A key to one of the suites at a certain luxury hotel by a lake. For some odd reason, it often disappears."
+	},
+	"Sun Flute": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Sun_Flute.png",
+		"name": "Sun Flute",
+		"category": "Key Item",
+		"effect": "It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the sun."
+	},
+	"Super Rod": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Super_Rod.png",
+		"name": "Super Rod",
+		"category": "Key Item",
+		"effect": "An awesome, high-spec fishing rod. Use it at bodies of water to fish for Pokémon."
+	},
+	"Surge Badge": {
+		"image": "https://www.serebii.net/itemdex/sprites/surgebadge.png",
+		"name": "Surge Badge",
+		"category": "Key Item",
+		"effect": "A novelty badge that you can receive at the Kantonian Gym. Rumor has it that it imitates the Badge of a Gym somewhere."
+	},
+	"TM Case": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/TM_Case.png",
+		"name": "TM Case",
+		"category": "Key Item",
+		"effect": "A case that holds TMs and HMs. It is attached to the BAG's compartment for important items."
+	},
+	"TMV Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/tmvpass.png",
+		"name": "TMV Pass",
+		"category": "Key Item",
+		"effect": "A commuter pass that allows the holder to ride the TMV between Lumiose City and Kiloude City at any time."
+	},
+	"Tea": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Tea.png",
+		"name": "Tea",
+		"category": "Key Item",
+		"effect": "An aromatic tea prepared by an old lady. It will slake even the worst thirst."
+	},
+	"Teal Mask": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/tealmask.png",
+		"name": "Teal Mask",
+		"category": "Key Item",
+		"effect": "A teal mask patterned after the face of an ogre. Ogerpon dropped it while fleeing up the stairs after visiting the Festival of Masks."
+	},
+	"Teal Style Card": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/tealstylecard.png",
+		"name": "Teal Style Card",
+		"category": "Key Item",
+		"effect": "Having one of these cards increases the selection available to you in boutiques and hair salons."
+	},
+	"Tera Orb": {
+		"image": "https://www.serebii.net/itemdex/sprites/sv/teraorb.png",
+		"name": "Tera Orb",
+		"category": "Key Item",
+		"effect": "An orb that holds within it the power to crystallize. When it is charged with energy, it can be used to cause Pokémon to Terastallize."
+	},
+	"Tidal Bell": {
+		"image": "https://www.serebii.net/itemdex/sprites/tidalbell.png",
+		"name": "Tidal Bell",
+		"category": "Key Item",
+		"effect": "A very old-fashioned bell that makes a gentle ringing sound."
+	},
+	"Torn Journal": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/tornjournal.png",
+		"name": "Torn Journal",
+		"category": "Key Item",
+		"effect": "An old, stab-bound diary in a traditional style. It has been torn and is missing the latter half of its pages."
+	},
+	"Town Map": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Town_Map.png",
+		"name": "Town Map",
+		"category": "Key Item",
+		"effect": "A very convenient map that can be viewed anytime. It even shows you your present location in the region."
+	},
+	"Travel Trunk": {
+		"image": "https://www.serebii.net/itemdex/sprites/traveltrunk.png",
+		"name": "Travel Trunk",
+		"category": "Key Item",
+		"effect": "A light and yet incredibly effective trunk, which can contain every last piece of clothing that can be bought."
+	},
+	"Tri-Pass": {
+		"image": "https://www.serebii.net/itemdex/sprites/tripass.png",
+		"name": "Tri-Pass",
+		"category": "Key Item",
+		"effect": "A pass for ferries between ONE, TWO, and THREE ISLAND. It has a drawing of three islands."
+	},
+	"Unown Report": {
+		"image": "https://www.serebii.net/itemdex/sprites/unownreport.png",
+		"name": "Unown Report",
+		"category": "Key Item",
+		"effect": "A report of all the discovered kinds of Unown."
+	},
+	"Uxie's Claw": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/uxie'sclaw.png",
+		"name": "Uxie's Claw",
+		"category": "Key Item",
+		"effect": "Proof that you have completed the trial set by Uxie, the Being of Knowledge that lives in Lake Acuity. This item is needed to forge the Red Chain."
+	},
+	"Violet Book": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Violet_Book.png",
+		"name": "Violet Book",
+		"category": "Key Item",
+		"effect": "A record of the expedition that the author, Heath, went on within the Great Crater of Paldea. The book has the name “Turo” written on it in clumsy handwriting."
+	},
+	"Vs. Recorder": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Vs._Recorder.png",
+		"name": "Vs. Recorder",
+		"category": "Key Item",
+		"effect": "An amazing device that can record a battle between friends or the battles at certain special battle facilities."
+	},
+	"Vs. Seeker": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/VS_Seeker.png",
+		"name": "Vs. Seeker",
+		"category": "Key Item",
+		"effect": "A device that indicates Trainers who want to battle. Its battery charges while you walk."
+	},
+	"Wailmer Pail": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Wailmer_Pail.png",
+		"name": "Wailmer Pail",
+		"category": "Key Item",
+		"effect": "This is a tool for watering Berries you planted to make them grow more quickly."
+	},
+	"Wall Fragment": {
+		"image": "https://www.serebii.net/itemdex/sprites/legends/wallfragment.png",
+		"name": "Wall Fragment",
+		"category": "Key Item",
+		"effect": "A fragment that was once part of a stone panel in the Solaceon Ruins. It has markings carved on it that appear to be some kind of writing."
+	},
+	"White Mane Hair": {
+		"image": "https://www.serebii.net/itemdex/sprites/whitemanehair.png",
+		"name": "White Mane Hair",
+		"category": "Key Item",
+		"effect": "Mane hair that belonged to the King of Bountiful Harvests' beloved steed, Glastrier. The hair is strong and very flexible."
+	},
+	"Wishing Star": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Wishing_Star.png",
+		"name": "Wishing Star",
+		"category": "Key Item",
+		"effect": "A stone found in the Galar region with a mysterious power. It's said that your dreams come true if you find one."
+	},
+	"Wooden Crown": {
+		"image": "https://www.serebii.net/itemdex/sprites/woodencrown.png",
+		"name": "Wooden Crown",
+		"category": "Key Item",
+		"effect": "A mysterious object made of wood. Part of it seems to be chipped. Maybe it's meant to be part of something."
+	},
+	"Works Key": {
+		"image": "https://www.serebii.net/itemdex/sprites/workskey.png",
+		"name": "Works Key",
+		"category": "Key Item",
+		"effect": "A large key for operating the doors of the Valley Windworks in the canyon. It was held by a Team Galactic Grunt."
+	},
+	"Xtransceiver": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Xtransceiver.png",
+		"name": "Xtransceiver",
+		"category": "Key Item",
+		"effect": "A high-tech transceiver with a camera function. It allows up to four-way calls."
+	},
+	"Yellow Petal": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Yellow_Petal.png",
+		"name": "Yellow Petal",
+		"category": "Key Item",
+		"effect": "A pressed flower petal you receive from Sophocles during Mina's trial. The goal is to collect seven different kinds of petals."
+	},
+	"Z-Power Ring": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Z-Power_Ring.png",
+		"name": "Z-Power Ring",
+		"category": "Key Item",
+		"effect": "A mysterious ring that enables Pokémon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it."
+	},
+	"Z-Ring": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Z-Ring.png",
+		"name": "Z-Ring",
+		"category": "Key Item",
+		"effect": "A mysterious ring that enables Pokémon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it."
+	},
+	"Zygarde Cube": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Zygarde_Cube.png",
+		"name": "Zygarde Cube",
+		"category": "Key Item",
+		"effect": "An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms."
 	}
 }
