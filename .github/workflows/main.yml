@@ -55,8 +55,10 @@ jobs:
           # fi
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',' | sed 's/,$//')
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
+          else
+            echo "conflict_files=" >> $GITHUB_ENV
           fi
           echo "Merge status: Completed"
           if [ -n "$CONFLICT_FILES" ]; then
