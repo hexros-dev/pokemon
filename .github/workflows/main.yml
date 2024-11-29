@@ -1,0 +1,67 @@
+name: Auto Merge Main to Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-main-to-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Configure Git user (required for merge)
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+      # Fetch all branches
+      - name: Fetch all branches
+        run: git fetch --all
+
+      # Ensure test branch exists or create it
+      - name: Ensure test branch exists
+        run: |
+          git branch -r | grep "origin/test" || git checkout -b test origin/main
+
+      # Merge Main into Test (excluding conflicted files)
+      - name: Merge Main into Test
+        run: |
+          git checkout test
+          git fetch origin main
+          # Checkout .github directory from 'test' to prevent overwriting
+          git checkout test -- .github
+          # Merge branch 'main' into 'test'
+          git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
+          # Detect and handle conflicts
+          if git ls-files -u | grep -q ""; then
+            echo "Conflicts detected!"
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+            CONFLICT_DETAILS=$(git diff --diff-filter=U)
+            for file in $CONFLICT_FILES; do
+              git checkout --ours -- $file
+              git add $file
+            done
+          fi
+          # Commit merged files without conflicts
+          git commit -m "Merge main into test (excluding conflicted files)" || true
+          git push origin test || true
+
+      # Notify conflict via Discord webhook
+      - name: Notify Discord of Conflict
+        if: ${{ failure() || success() }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -n "$CONFLICT_FILES" ]; then
+            curl -X POST -H "Content-Type: application/json" \
+            -d "{
+              \"content\": \"🚨 **Merge conflict detected!**\n- **Branch:** \`main\` → \`test\`\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n- **Conflicted Files:** \`$CONFLICT_FILES\`\n\nDetails:\n\`\`\`$CONFLICT_DETAILS\`\`\`\nPlease review and resolve conflicts manually.\"
+            }" \
+            $DISCORD_WEBHOOK_URL
+          fi
