@@ -37,36 +37,13 @@ jobs:
           git fetch origin main
           echo "Attempting to merge 'main' into 'test'..."
           git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
-          # Check for conflicts
-          # if git ls-files -u | grep -q ""; then
-          #   echo "Conflicts detected!"
-          #   CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',' | sed 's/,$//')
-          #   echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
-          # else
-          #   echo "No conflicts detected." >> $GITHUB_ENV
-          # fi
-          # echo "Merge status: Completed"
-          # if [ -n "$CONFLICT_FILES" ]; then
-          #   echo "Conflicted files: $CONFLICT_FILES"
-          #   for file in $(echo $CONFLICT_FILES | tr ', ' ' '); do
-          #     git checkout --ours -- "$file"
-          #     git add "$file"
-          #   done
-          # fi
+          # Kiểm tra xung đột
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ', ' | sed 's/,$//')
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ', ' | sed 's/, $//')
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
           else
             echo "conflict_files=" >> $GITHUB_ENV
-          fi
-          echo "Merge status: Completed"
-          if [ -n "$CONFLICT_FILES" ]; then
-            echo "Conflicted files: $CONFLICT_FILES"
-            for file in $(echo $CONFLICT_FILES | tr ', ' ' '); do
-              git checkout --ours -- "$file"
-              git add "$file"
-            done
           fi
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
@@ -79,43 +56,7 @@ jobs:
           git status >> logs/error_log.txt 2>&1
           git diff >> logs/error_log.txt 2>&1
           echo "Error log saved to logs/error_log.txt"
-          cat logs/error_log.txt  # In log ra console để kiểm tra
-
-      # - name: Send logs to Discord
-      #   if: failure()
-      #   env:
-      #     DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      #   run: |
-      #     # Lấy log chi tiết của các file bị xung đột
-      #     CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
-      #     CONFLICT_DETAILS=""
-          
-      #     for FILE in $CONFLICT_FILES; do
-      #       CONFLICT_DETAILS="$CONFLICT_DETAILS\n\n**$FILE**:\n"
-      #       CONFLICT_LINES=$(git diff $FILE | grep -E '^\+|^-' | tail -n 20) # Lấy 20 dòng xung đột gần nhất
-      #       CONFLICT_DETAILS="$CONFLICT_DETAILS$CONFLICT_LINES"
-      #     done
-      
-      #     # Escape các ký tự đặc biệt trong chuỗi JSON
-      #     # ESCAPED_CONFLICT_DETAILS=$(echo "$CONFLICT_DETAILS" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
-      
-      #     # Xây dựng thông báo Discord với JSON hợp lệ
-      #     MESSAGE="🚨 **Merge Conflict Detected**\n- **Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')\n\n### Conflicted Files and Details:\n$CONFLICT_DETAILS"
-          
-      #     # Kiểm tra log trước khi gửi
-      #     echo "Sending the following message to Discord:"
-      #     echo "$MESSAGE"
-      
-      #     # Sử dụng jq để tạo JSON hợp lệ (kiểm tra cú pháp JSON)
-      #     JSON_PAYLOAD=$(jq -n \
-      #       --arg content "$MESSAGE" \
-      #       '{content: $content}')
-      
-      #     # Gửi thông báo tới Discord
-      #     curl -X POST -H "Content-Type: application/json" \
-      #     -d "$JSON_PAYLOAD" \
-      #     $DISCORD_WEBHOOK_URL
-
+          cat logs/error_log.txt  # Hiển thị log để dễ kiểm tra
 
   notify-discord:
     runs-on: ubuntu-latest
@@ -128,6 +69,7 @@ jobs:
           CONFLICT_FILES: ${{ env.conflict_files }}
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
         run: |
+          # Tạo thông điệp dựa trên trạng thái công việc
           if [ "$JOB_STATUS" == "failure" ]; then
             MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease review the logs for details."
           elif [ "$JOB_STATUS" == "success" ]; then
@@ -135,12 +77,17 @@ jobs:
           else
             MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease check the logs for details."
           fi
+
+          # Thêm thông tin xung đột nếu có
           if [ -n "$CONFLICT_FILES" ]; then
-            echo $CONFLICT_FILES
-            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$(echo $CONFLICT_FILES | tr ', ' '\n')\n\`\`\`"
+            CONFLICT_LIST=$(echo $CONFLICT_FILES | tr ', ' '\n')
+            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           fi
+
+          # Sử dụng jq để tạo JSON hợp lệ
+          JSON_PAYLOAD=$(jq -n --arg content "$MESSAGE" '{content: $content}')
+
+          # Gửi thông báo tới Discord
           curl -X POST -H "Content-Type: application/json" \
-          -d "{
-            \"content\": \"$MESSAGE\"
-          }" \
+          -d "$JSON_PAYLOAD" \
           $DISCORD_WEBHOOK_URL
