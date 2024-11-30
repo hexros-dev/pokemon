@@ -35,7 +35,7 @@ jobs:
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
             CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
-            echo "CONFLICT=\"$CONFLICT_FILES\"" >> $GITHUB_OUTPUT
+            echo "CONFLICT=$CONFLICT_FILES" >> $GITHUB_OUTPUT
           else
             echo "CONFLICT=" >> $GITHUB_OUTPUT
           fi
