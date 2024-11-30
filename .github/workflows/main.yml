@@ -32,14 +32,14 @@ jobs:
 
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ', ')
-            echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',')
+            echo "CONFLICT=$CONFLICT_FILES" >> $GITHUB_ENV
           else
-            echo "conflict_files=" >> $GITHUB_ENV
+            echo "CONFLICT=NULL" >> $GITHUB_ENV
           fi
           if [ -n "$CONFLICT_FILES" ]; then
             echo "Conflicted files: $CONFLICT_FILES"
-            for file in $(echo $CONFLICT_FILES); do
+            for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
               git checkout --ours -- "$file"
               git add "$file"
             done
@@ -55,7 +55,7 @@ jobs:
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          CONFLICT_FILES: ${{ env.conflict_files }}
+          CONFLICT_FILES: ${{ env.CONFLICT }}
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
         run: |
           MESSAGE=""
@@ -68,10 +68,10 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ', ' '\n') # Chuyển dấu phẩy thành xuống dòng
-            MESSAGE="$MESAGE\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
+            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' '\n')
+            MESSAGE="$MESAGE" + "\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           else
-            MESSAGE="$MESAGE\n✅ **No conflicts detected!**"
+            MESSAGE="$MESAGE" + "\n✅ **No conflicts detected!**"
           fi
 
           curl -X POST -H "Content-Type: application/json" \
