@@ -47,11 +47,6 @@ jobs:
           git commit -m "Merge main into test (excluding conflicted files)" || true
           git push origin test || true
 
-      - name: Save Conflict Files
-        run: echo "$CONFLICT_FILES" > conflicts.txt
-        env:
-          CONFLICT_FILES: ${{ env.conflict_files }}
-
   notify-discord:
     runs-on: ubuntu-latest
     needs: merge-main-to-test
