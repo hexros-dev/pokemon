@@ -70,8 +70,11 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' '\n' | sed '/^$/d' | sed 's/^/- /' | tr '\n' '\\n')
-            MESSAGE="$MESSAGE\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
+            MESSAGE="$MESSAGE\n🛑 **Conflicted Files:**\n\`\`\`\n"
+            for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
+              MESSAGE="$MESSAGE- $file\n"
+            done
+            MESSAGE="$MESSAGE\`\`\`"
           else
             MESSAGE="$MESSAGE\n✅ **No conflicts detected!**"
           fi
