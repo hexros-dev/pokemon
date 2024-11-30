@@ -12,6 +12,7 @@ $超级喷火龙X=Mega Charizard X<img index="#0006" class="pokemon-image" data-
 $Mega 喷火龙X=Mega Charizard X<img index="#0006" class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"/>
 $超级喷火龙Y=Mega Charizard Y<img index="#0006" class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png"/>
 $Mega 喷火龙Y=Mega Charizard Y<img index="#0006" class="pokemon-image" data-pokedex="Mega Charizard Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png"/>
+$超级喷火龙=Mega Charizard<img index="#0006" class="pokemon-image" data-pokedex="Mega Charizard X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"/>
 $超级水箭龟=Mega Blastoise<img index="#0009" class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png"/>
 $Mega 水箭龟=Mega Blastoise<img index="#0009" class="pokemon-image" data-pokedex="Mega Blastoise" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png"/>
 $超级大针蜂=Mega Beedrill<img index="#0015" class="pokemon-image" data-pokedex="Mega Beedrill" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/015_f2.png"/>
@@ -36,6 +37,7 @@ $超级超梦X=Mega Mewtwo X<img index="#0150" class="pokemon-image" data-pokede
 $Mega 超梦X=Mega Mewtwo X<img index="#0150" class="pokemon-image" data-pokedex="Mega Mewtwo X" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f2.png"/>
 $超级超梦Y=Mega Mewtwo Y<img index="#0150" class="pokemon-image" data-pokedex="Mega Mewtwo Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"/>
 $Mega 超梦Y=Mega Mewtwo Y<img index="#0150" class="pokemon-image" data-pokedex="Mega Mewtwo Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"/>
+$超级超梦=Mega Mewtwo<img index="#0150" class="pokemon-image" data-pokedex="Mega Mewtwo Y" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"/>
 $超级电龙=Mega Ampharos<img index="#0181" class="pokemon-image" data-pokedex="Mega Ampharos" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/181_f2.png"/>
 $Mega 电龙=Mega Ampharos<img index="#0181" class="pokemon-image" data-pokedex="Mega Ampharos" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/181_f2.png"/>
 $超级大钢蛇=Mega Steelix<img index="#0208" class="pokemon-image" data-pokedex="Mega Steelix" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/208_f2.png"/>
@@ -2006,6 +2008,7 @@ $新月舞=<span class="pokemon-move Psychic Status" data-pokedex="Lunar Dance">
 $捏碎=<span class="pokemon-move Normal Physical" data-pokedex="Crush Grip">Crush Grip</span>
 $熔岩风暴=<span class="pokemon-move Fire Special" data-pokedex="Magma Storm">Magma Storm</span>
 $暗黑洞=<span class="pokemon-move Dark Status" data-pokedex="Dark Void">Dark Void</span>
+$黑暗洞=<span class="pokemon-move Dark Status" data-pokedex="Dark Void">Dark Void</span>
 $种子闪光=<span class="pokemon-move Grass Special" data-pokedex="Seed Flare">Seed Flare</span>
 $奇异之风=<span class="pokemon-move Ghost Special" data-pokedex="Ominous Wind">Ominous Wind</span>
 $暗影潜袭=<span class="pokemon-move Ghost Physical" data-pokedex="Shadow Force">Shadow Force</span>
@@ -5271,3 +5274,9 @@ $常磐市=Viridian City
 $维奥=Vio
 $七贤人=Seven Sages
 $巨人洞窟=Giant Chasm
+$连武=Marshal
+$芦荟=Lenora
+$盖诺=Gaynor
+$进化石=Evolution Stone
+$奥尔塔丝=Ortas
+$纽特市=New Talk City
