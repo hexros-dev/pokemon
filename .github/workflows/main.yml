@@ -9,7 +9,8 @@ on:
 jobs:
   merge-main-to-test:
     runs-on: ubuntu-latest
-
+    outputs:
+      conflict_files: ${{ steps.merge_branch.outputs.CONFLICT }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -23,6 +24,7 @@ jobs:
         run: git fetch --all
 
       - name: Merge Main into Test
+        id: merge_branch
         run: |
           set -e
           git checkout test
@@ -33,9 +35,9 @@ jobs:
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
             CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',')
-            echo "CONFLICT=\"$CONFLICT_FILES\"" >> $GITHUB_ENV
+            echo "CONFLICT=\"$CONFLICT_FILES\"" >> $GITHUB_OUTPUT
           else
-            echo "CONFLICT=" >> $GITHUB_ENV
+            echo "CONFLICT=" >> $GITHUB_OUTPUT
           fi
           if [ -n "$CONFLICT_FILES" ]; then
             echo "Conflicted files: $CONFLICT_FILES"
@@ -55,7 +57,7 @@ jobs:
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          CONFLICT_FILES: ${{ env.CONFLICT }}
+          CONFLICT_FILES: ${{ needs.merge-main-to-test.outputs.conflict_files }}
           JOB_STATUS: ${{ needs.merge-main-to-test.result }}
         run: |
           MESSAGE=""
