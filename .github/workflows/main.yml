@@ -32,7 +32,7 @@ jobs:
 
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ', ')
             echo "conflict_files=$CONFLICT_FILES" >> $GITHUB_ENV
           else
             echo "conflict_files=" >> $GITHUB_ENV
@@ -50,19 +50,8 @@ jobs:
   notify-discord:
     runs-on: ubuntu-latest
     needs: merge-main-to-test
+    if: always()
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Read Conflict Files
-        run: |
-          if [ -f conflicts.txt ]; then
-            CONFLICT_FILES=$(cat conflicts.txt)
-          else
-            CONFLICT_FILES=""
-          fi
-          echo "CONFLICT_FILES=$CONFLICT_FILES" >> $GITHUB_ENV
-
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -79,10 +68,10 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES")
-            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
+            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ', ' '\n') # Chuyển dấu phẩy thành xuống dòng
+            MESSAGE="$MESAGE\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           else
-            MESSAGE="$MESSAGE\n\n✅ **No conflicts detected!**"
+            MESSAGE="$MESAGE\n✅ **No conflicts detected!**"
           fi
 
           curl -X POST -H "Content-Type: application/json" \
