@@ -70,7 +70,7 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' '\n')
+            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' ', ')
             MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           else
             MESSAGE="$MESSAGE\n\n✅ **No conflicts detected!**"
