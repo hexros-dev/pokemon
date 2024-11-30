@@ -34,14 +34,14 @@ jobs:
 
           if git ls-files -u | grep -q ""; then
             echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',')
+            CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
             echo "CONFLICT=\"$CONFLICT_FILES\"" >> $GITHUB_OUTPUT
           else
             echo "CONFLICT=" >> $GITHUB_OUTPUT
           fi
           if [ -n "$CONFLICT_FILES" ]; then
             echo "Conflicted files: $CONFLICT_FILES"
-            for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
+            for file in $(echo "$CONFLICT_FILES"); do
               git checkout --ours -- "$file"
               git add "$file"
             done
@@ -70,12 +70,12 @@ jobs:
           fi
 
           if [ -n "$CONFLICT_FILES" ]; then
-            CONFLICT_LIST=$(echo "$CONFLICT_FILES" | tr ',' ', ')
-            MESSAGE="$MESSAGE\n\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
+            CONFLICT_LIST=$(echo "$CONFLICT_FILES")
+            MESSAGE="$MESSAGE\n🛑 **Conflicted Files:**\n\`\`\`\n$CONFLICT_LIST\n\`\`\`"
           else
-            MESSAGE="$MESSAGE\n\n✅ **No conflicts detected!**"
+            MESSAGE="$MESSAGE\n✅ **No conflicts detected!**"
           fi
-
+          echo $MESSAGE
           curl -X POST -H "Content-Type: application/json" \
           -d "{
             \"content\": \"$MESSAGE\"
