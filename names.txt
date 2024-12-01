@@ -4009,7 +4009,8 @@ $釜炎=Lavaridge
 $亚莎=Flannery
 $阿泉=Shelly
 $超级=Mega
-$超进化石=Mega Stone
+$超进化石=Mega Stone <img class="items" data-pokedex="Mega Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gengarite.png" />
+$超级石=Mega Stone <img class="items" data-pokedex="Mega Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gengarite.png" />
 $大紫堇=Greater Mauville
 $电磁悬浮=Magnet Rise
 $异色=Shiny
