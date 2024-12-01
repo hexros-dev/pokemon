@@ -390,7 +390,7 @@ $水君=Suicune<img index="#0245" class="pokemon-image" data-pokedex="Suicune" s
 $幼基拉斯=Larvitar<img index="#0246" class="pokemon-image" data-pokedex="Larvitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/246.png"/>
 $沙基拉=Pupitar<img index="#0247" class="pokemon-image" data-pokedex="Pupitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png"/>
 $沙基拉斯=Pupitar<img index="#0247" class="pokemon-image" data-pokedex="Pupitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png"/>
-$班吉拉=Tyranitar<img index="#0248" class="pokemon-image" data-pokedex="Tyranitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png"/>
+$班吉拉斯=Tyranitar<img index="#0248" class="pokemon-image" data-pokedex="Tyranitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png"/>
 $班基拉斯=Tyranitar<img index="#0248" class="pokemon-image" data-pokedex="Tyranitar" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png"/>
 $黑暗洛奇亚=Shadow Lugia <img index="#0249" class="pokemon-image" data-pokedex="Shadow Lugia" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/lugia_shadow.png"/>
 $洛奇亚=Lugia<img index="#0249" class="pokemon-image" data-pokedex="Lugia" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/249.png"/>
