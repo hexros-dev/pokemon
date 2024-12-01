@@ -5848,5 +5848,11 @@
 		"name": "Zygarde Cube",
 		"category": "Key Item",
 		"effect": "An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms."
+	},
+	"Swampertite": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/swampertite.png",
+		"name": "Swampertite",
+		"category": "Mega Stone",
+		"effect": "It is the Mega Stone that allows Swampert to Mega Evolve into Mega Swampert."
 	}
 }

@@ -1,3 +1,4 @@
+$巨沼怪超进化石=Swampertite <img class="items" data-pokedex="Swampertite" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/swampertite.png" />
 ==============Ranks==============
 $冠军=Champion <img class="pokemon-ball" data-pokedex="Cherish Ball" src="https://www.serebii.net/itemdex/sprites/sv/cherishball.png"/>
 $大师=Master <img class="pokemon-ball" data-pokedex="Master Ball" src="https://www.serebii.net/itemdex/sprites/sv/masterball.png"/>
