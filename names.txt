@@ -3503,7 +3503,7 @@ $蓝之时尚名人卡=Indigo Style Card <img class="items" data-pokedex="Indigo
 $似珍石=Intriguing Stone <img class="items" data-pokedex="Intriguing Stone" src="https://www.serebii.net/itemdex/sprites/intriguingstone.png" />
 $草绿色宝珠=Jade Orb <img class="items" data-pokedex="Jade Orb" src="https://www.serebii.net/itemdex/sprites/jadeorb.png" />
 $冒险笔记=Journal <img class="items" data-pokedex="Journal" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/guidebook.png" />
-$钥石=Key Stone <img class="items" data-pokedex="Key Stone" src="https://www.serebii.net/itemdex/sprites/keystone.png" />
+$钥石=Key Stone <img class="items" data-pokedex="Key Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/key_stone.png" />
 $１号客房的钥匙=Key to Room 1 <img class="items" data-pokedex="Key to Room 1" src="https://www.serebii.net/itemdex/sprites/keytoroom1.png" />
 $２号客房的钥匙=Key to Room 2 <img class="items" data-pokedex="Key to Room 2" src="https://www.serebii.net/itemdex/sprites/keytoroom2.png" />
 $４号客房的钥匙=Key to Room 4 <img class="items" data-pokedex="Key to Room 4" src="https://www.serebii.net/itemdex/sprites/keytoroom4.png" />
