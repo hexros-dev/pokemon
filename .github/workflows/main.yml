@@ -1,86 +1,86 @@
 name: Auto Merge Main to Test
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    workflow_dispatch:
+    # push:
+    #   branches:
+    #     - main
 
 jobs:
-  merge-main-to-test:
-    runs-on: ubuntu-latest
-    outputs:
-      conflict_files: ${{ steps.merge_branch.outputs.CONFLICT }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    merge-main-to-test:
+        runs-on: ubuntu-latest
+        outputs:
+            conflict_files: ${{ steps.merge_branch.outputs.CONFLICT }}
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+            - name: Configure Git
+              run: |
+                  git config user.name "GitHub Action"
+                  git config user.email "action@github.com"
 
-      - name: Fetch all branches
-        run: git fetch --all
+            - name: Fetch all branches
+              run: git fetch --all
 
-      - name: Merge Main into Test
-        id: merge_branch
-        run: |
-          set -e
-          git checkout test
-          git fetch origin main
-          echo "Attempting to merge 'main' into 'test'..."
-          git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
+            - name: Merge Main into Test
+              id: merge_branch
+              run: |
+                  set -e
+                  git checkout test
+                  git fetch origin main
+                  echo "Attempting to merge 'main' into 'test'..."
+                  git merge origin/main --no-commit --allow-unrelated-histories --no-ff || true
 
-          if git ls-files -u | grep -q ""; then
-            echo "Conflicts detected!"
-            CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',')
-            echo "CONFLICT=$CONFLICT_FILES" >> $GITHUB_OUTPUT
-          else
-            echo "CONFLICT=" >> $GITHUB_OUTPUT
-          fi
-          if [ -n "$CONFLICT_FILES" ]; then
-            echo "Conflicted files: $CONFLICT_FILES"
-            for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
-              git checkout --ours -- "$file"
-              git add "$file"
-            done
-          fi
-          git commit -m "Merge main into test (excluding conflicted files)" || true
-          git push origin test || true
+                  if git ls-files -u | grep -q ""; then
+                    echo "Conflicts detected!"
+                    CONFLICT_FILES=$(git diff --name-only --diff-filter=U | tr '\n' ',')
+                    echo "CONFLICT=$CONFLICT_FILES" >> $GITHUB_OUTPUT
+                  else
+                    echo "CONFLICT=" >> $GITHUB_OUTPUT
+                  fi
+                  if [ -n "$CONFLICT_FILES" ]; then
+                    echo "Conflicted files: $CONFLICT_FILES"
+                    for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
+                      git checkout --ours -- "$file"
+                      git add "$file"
+                    done
+                  fi
+                  git commit -m "Merge main into test (excluding conflicted files)" || true
+                  git push origin test || true
 
-  notify-discord:
-    runs-on: ubuntu-latest
-    needs: merge-main-to-test
-    if: always()
-    steps:
-      - name: Notify Discord
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          CONFLICT_FILES: ${{ needs.merge-main-to-test.outputs.conflict_files }}
-          JOB_STATUS: ${{ needs.merge-main-to-test.result }}
-        run: |
-          MESSAGE=""
-          if [ "$JOB_STATUS" == "failure" ]; then
-            MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease review the logs for details."
-          elif [ "$JOB_STATUS" == "success" ]; then
-            MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`."
-          else
-            MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease check the logs for details."
-          fi
+    notify-discord:
+        runs-on: ubuntu-latest
+        needs: merge-main-to-test
+        if: always()
+        steps:
+            - name: Notify Discord
+              env:
+                  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+                  CONFLICT_FILES: ${{ needs.merge-main-to-test.outputs.conflict_files }}
+                  JOB_STATUS: ${{ needs.merge-main-to-test.result }}
+              run: |
+                  MESSAGE=""
+                  if [ "$JOB_STATUS" == "failure" ]; then
+                    MESSAGE="🚨 **Job Failed:** \`merge-main-to-test\`\n- **Status:** \`Failure\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease review the logs for details."
+                  elif [ "$JOB_STATUS" == "success" ]; then
+                    MESSAGE="✅ **Workflow completed successfully!**\n- **Job:** \`merge-main-to-test\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`."
+                  else
+                    MESSAGE="⚠️ **Workflow completed with warnings.**\n- **Job:** \`merge-main-to-test\`\n- **Status:** \`$JOB_STATUS\`\n- **Branch:** \`main\` → \`test\`\n- **Time:** \`$(date -u +'%Y-%m-%d %H:%M:%S UTC')\`\n\nPlease check the logs for details."
+                  fi
 
-          if [ -n "$CONFLICT_FILES" ]; then
-            MESSAGE="$MESSAGE\n🛑 **Conflicted Files:**\n\`\`\`\n"
-            for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
-              MESSAGE="$MESSAGE- $file\n"
-            done
-            MESSAGE="$MESSAGE\`\`\`"
-          else
-            MESSAGE="$MESSAGE\n✅ **No conflicts detected!**"
-          fi
-          echo $MESSAGE
-          curl -X POST -H "Content-Type: application/json" \
-          -d "{
-            \"content\": \"$MESSAGE\"
-          }" \
-          $DISCORD_WEBHOOK_URL
+                  if [ -n "$CONFLICT_FILES" ]; then
+                    MESSAGE="$MESSAGE\n🛑 **Conflicted Files:**\n\`\`\`\n"
+                    for file in $(echo "$CONFLICT_FILES" | tr ',' '\n'); do
+                      MESSAGE="$MESSAGE- $file\n"
+                    done
+                    MESSAGE="$MESSAGE\`\`\`"
+                  else
+                    MESSAGE="$MESSAGE\n✅ **No conflicts detected!**"
+                  fi
+                  echo $MESSAGE
+                  curl -X POST -H "Content-Type: application/json" \
+                  -d "{
+                    \"content\": \"$MESSAGE\"
+                  }" \
+                  $DISCORD_WEBHOOK_URL
