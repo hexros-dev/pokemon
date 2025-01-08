@@ -1,3 +1,48 @@
+$黑暗酋雷姆=Black Kyurem<img index="#0646" class="pokemon-image" data-pokedex="Black Kyurem" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/646_f3.png"/>
+$哥特小姐=Gothitelle<img index="#0576" class="pokemon-image" data-pokedex="Gothitelle" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/576.png"/>
+$姜塔=Juanita
+$德雷多=Damon
+$卡莉塔=Carlita
+$闪光三首恶龙=Shiny Hydreigon<img index="#0635" class="pokemon-image" data-pokedex="Hydreigon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/635.png"/>
+$祝福之铠=Auspicious Armor <img class="items" data-pokedex="Auspicious Armor" src="https://www.serebii.net/itemdex/sprites/sv/auspiciousarmor.png" />
+$东海海兔兽=East Sea Gastrodon<img index="#0423" class="pokemon-image" data-pokedex="Gastrodon" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/423_f2.png"/>
+$西海海兔兽=West Sea Gastrodon<img index="#0423" class="pokemon-image" data-pokedex="Gastrodon" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/423.png"/>
+$娜琪=Winona
+$滑头小子=Scraggy<img index="#0559" class="pokemon-image" data-pokedex="Scraggy" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/559.png"/>
+$龙之石=Dragon Stone <img class="items" data-pokedex="Dark Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/dark_stone.png" />
+$闪光巨金怪=Shiny Metagross<img index="#0376" class="pokemon-image" data-pokedex="Metagross" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/376.png" />
+$一击流=Single Strike Style
+$连击流=Rapid Strike Style
+$连击流武道熊师= Urshifu Rapid Strike<img index="#0892" class="pokemon-image" data-pokedex="Urshifu Rapid Strike Style" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/892_f2.png"/>
+$一击流武道熊师=Urshifu Single Strike<img index="#0892" class="pokemon-image" data-pokedex="Urshifu" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/892.png"/>
+$重磅冲击=<span class="pokemon-move Steel Physical" data-pokedex="Heavy Slam">Heavy Slam</span>
+$超级进化石=Mega Stone <img class="items" data-pokedex="Mega Stone" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/gengarite.png" />
+$轰雷金刚猩=Rillaboom <img index="#0812" class="pokemon-image" data-pokedex="Rillaboom" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/812.png"/>
+$黏美=Goomi
+$帕奇拉=Malva
+$不变石=Everstone <img class="items" data-pokedex="Everstone" src="https://www.serebii.net/itemdex/sprites/sv/everstone.png" />
+$超能力系=<span class="Psychic">Psychic Type <img class="pokemon-type Psychic" style="display: inline-block;" data-pokedex="Psychic" src="https://www.serebii.net/pokedex-sv/type/icon/psychic.png"/></span>
+$成也=Samson
+$成也大木=Samson Oak
+$流沙深渊=<span class="pokemon-move Ground Physical" data-pokedex="Sand Tomb">Sand Tomb</span>
+$阿罗拉三地鼠=Alolan Dugtrio <img index="#0051" class="pokemon-image" data-pokedex="Alolan Dugtrio" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/051_f2.png"/>
+$乌拉乌拉=Ula’ula
+$阳光烈焰=<span class="pokemon-move Grass Special" data-pokedex="Solar Beam">Solar Beam</span>
+$海壬=Hairen
+$志米=Siebold
+$梨花=Karin
+$波克兰帝斯=Pokélantis
+$艾茵多奥克=Eindoak
+$布尔乔瓦=Bourgeoir
+$美罗耶塔=Meloetta <img index="#0648" class="pokemon-image" data-pokedex="Meloetta" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/648.png"/>
+$哈奇库=Brycen
+$荷莲娜=Helena
+$巴贝娜=Verbena
+==============SOUND==============
+$美洛=Merlot
+$路咔=Luca
+$呢咪=Nimi
+=================================
 $巨沼怪超进化石=Swampertite <img class="items" data-pokedex="Swampertite" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/swampertite.png" />
 ==============Ranks==============
 $冠军=Champion <img class="pokemon-ball" data-pokedex="Cherish Ball" src="https://www.serebii.net/itemdex/sprites/sv/cherishball.png"/>
