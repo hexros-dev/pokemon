@@ -1,5 +1,3 @@
-$神都=Sinjoh
-$阿笔=Bugsy
 $未知图腾 E =Unown E <img index="#0201" class="pokemon-image" data-pokedex="Unown" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/unown_e.png"/>
 $嘛如=Mayu
 $安农=Annon
@@ -50,6 +48,8 @@ $疗草=Medicinal Leek <img class="items no-data" data-pokedex="Medicinal Leek" 
 $活力蕾=Vivichoke <img class="items no-data" data-pokedex="Vivichoke" src="https://www.serebii.net/itemdex/sprites/legends/vivichoke.png" />
 $个体值=IV
 $努力值=EV
+$神都=Sinjoh
+$阿笔=Bugsy
 $黑暗酋雷姆=Black Kyurem<img index="#0646" class="pokemon-image" data-pokedex="Black Kyurem" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/646_f3.png"/>
 $哥特小姐=Gothitelle<img index="#0576" class="pokemon-image" data-pokedex="Gothitelle" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/576.png"/>
 $姜塔=Juanita
@@ -90,7 +90,6 @@ $美罗耶塔=Meloetta <img index="#0648" class="pokemon-image" data-pokedex="Me
 $哈奇库=Brycen
 $荷莲娜=Helena
 $巴贝娜=Verbena
-==============SOUND==============
 $美洛=Merlot
 $路咔=Luca
 $呢咪=Nimi
