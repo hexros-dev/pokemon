@@ -287,6 +287,12 @@
 		"category": "Berry",
 		"effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself."
 	},
+	"Mythical Pecha Berry": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/mythical_pecha_berry.png",
+		"name": "Mythical Pecha Berry",
+		"category": "Berry",
+		"effect": "A Pecha Berry of the highest quality. It’s said that a Pecha Berry tree carefully tended by an expert gardener will produce just one of these Berries every few years."
+	},
 	"Persim Berry": {
 		"image": "https://www.serebii.net/itemdex/sprites/sv/persimberry.png",
 		"name": "Persim Berry",
