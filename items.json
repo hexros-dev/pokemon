@@ -5393,6 +5393,12 @@
 		"category": "Key Item",
 		"effect": "A tool that can search out Pokémon that are hiding in the tall grass. Its battery is recharged as you walk."
 	},
+	"PokéBlock": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock.png",
+		"name": "PokéBlock",
+		"category": "Vitamins",
+		"effect": "Pokéblocks are used to prepare a Pokémon for contests by raising its condition in the appropriate category or categories. "
+	},
 	"PokéBlock Kit": {
 		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/items/Pokéblock_Kit.png",
 		"name": "PokéBlock Kit",
