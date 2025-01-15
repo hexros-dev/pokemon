@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.12
+// @version      3.15
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/truyen/*/*/*/*/
@@ -74,6 +74,7 @@
 		NAME_STV_SAVE: 'nameSave',
 	};
 	const DEFAULT_CONFIG = {
+		downloadNameButton: true,
 		getNameButton: true,
 		nameButton: true,
 		copyButton: true,
@@ -620,6 +621,28 @@
 			}, 2000);
 		}
 	};
+
+	const handleDownloadNameClick = async (e) => {
+		try {
+			const names = namewd?.value;
+			const blob = new Blob([names], { type: 'text/plain' });
+
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = 'names.txt';
+			a.style.display = 'none';
+
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+
+			URL.revokeObjectURL(url);
+		} catch (error) {
+			console.error(error);
+		}
+	};
+
 	const handleGetNameClick = async (e) => {
 		try {
 			const name = await fetchName(URLS.NAME);
@@ -682,6 +705,11 @@
 		);
 
 		const buttons = [
+			{
+				condition: 'downloadNameButton',
+				label: 'Down load',
+				onClick: handleDownloadNameClick,
+			},
 			{
 				condition: 'getNameButton',
 				label: 'Get Name',
