@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.15
+// @version      3.16
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
-// @match        *://sangtacviet.vip/truyen/*/*/*/*/
+// @include      *://sangtacviet.vip/truyen/*/*/*/*/
+// @exclude      *://sangtacviet.vip/truyen/*/*/*/0/
 // @license      GPL-3.0
 // @grant        GM.xmlHttpRequest
 // @grant        GM_addStyle
@@ -727,7 +728,7 @@
 			},
 			{
 				condition: 'reloadButton',
-				label: 'Reload',
+				label: 'Re load',
 				onClick: () => clickButton('excute()'),
 			},
 			{ condition: true, label: 'Config', onClick: createConfigMenu },
