@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.16
+// @version      3.17
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @include      *://sangtacviet.vip/truyen/*/*/*/*/
@@ -728,7 +728,7 @@
 			},
 			{
 				condition: 'reloadButton',
-				label: 'Re load',
+				label: 'Reload',
 				onClick: () => clickButton('excute()'),
 			},
 			{ condition: true, label: 'Config', onClick: createConfigMenu },
