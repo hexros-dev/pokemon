@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.18
+// @version      3.20
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @include      *://sangtacviet.vip/truyen/*/*/*/*/
@@ -218,7 +218,7 @@
 		.pokemon-image.clicked {
 			animation: float 1.5s ease-in-out infinite;
 		}
-			
+
 		.pokemon-type {
 			display: inline-block;
 			width: 35px;
@@ -244,16 +244,16 @@
 			height: 50px;
 			cursor: pointer;
 		}
-		
+
 		.type {
 			font-weight: bold;
 		}
-		
+
 		i:has(.pokemon-image),
 		.pokemon-ability {
 			color: #FFEBC6 !important;
 		}
-		
+
 		i:has(img),
 		i:has(span) {
 			white-space: nowrap;
@@ -273,7 +273,7 @@
 		.text-muted {
 			color: #737373;
 		}
-			
+
 		@keyframes float {
 			0% {
 				transform: translateY(0);
@@ -428,7 +428,8 @@
 				onclick: onClick,
 			},
 			{
-				fontSize: '14px',
+				fontSize: '25px',
+        lineHeight: '50px',
 				outline: 'none',
 				borderRadius: '100%',
 				height: '50px',
@@ -438,6 +439,9 @@
 				border: '1px solid #ccc',
 				backgroundColor: '#f0f0f0',
 				transition: 'background-color 0.3s',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
 				...styles,
 			},
 		);
@@ -560,13 +564,13 @@
 				modal.remove();
 				location.reload();
 			},
-			styles: { borderRadius: '5px', flex: '1', marginRight: '10px' },
+			styles: { borderRadius: '5px', flex: '1', marginRight: '10px', fontSize: '15px' },
 		});
 
 		const cancelButton = createButton({
 			label: 'Cancel',
 			onClick: () => modal.remove(),
-			styles: { borderRadius: '5px', flex: '1' },
+			styles: { borderRadius: '5px', flex: '1', fontSize: '15px'  },
 		});
 
 		buttonContainer.append(saveButton, cancelButton);
@@ -652,12 +656,12 @@
 			namewd.value = `\n${name}`;
 			clickButton('saveNS();excute();');
 
-			e.target.textContent = 'Done!';
+			e.target.textContent = '✅';
 		} catch (err) {
-			e.target.textContent = 'Error!';
+			e.target.textContent = '❌';
 		} finally {
 			setTimeout(() => {
-				e.target.textContent = 'Get Name';
+				e.target.textContent = '🌐';
 			}, 2000);
 		}
 	};
@@ -665,12 +669,12 @@
 		try {
 			const copyText = namewd?.value || '';
 			await navigator.clipboard.writeText(copyText);
-			e.target.textContent = 'Copied!';
+			e.target.textContent = '✅';
 		} catch (err) {
-			e.target.textContent = 'Error!';
+			e.target.textContent = '❌';
 		} finally {
 			setTimeout(() => {
-				e.target.textContent = 'Copy';
+				e.target.textContent = '📋';
 			}, 2000);
 		}
 	};
@@ -709,30 +713,30 @@
 		const buttons = [
 			{
 				condition: 'downloadNameButton',
-				label: 'Down load',
+				label: '📥',
 				onClick: handleDownloadNameClick,
 			},
 			{
 				condition: 'getNameButton',
-				label: 'Get Name',
+				label: '🌐',
 				onClick: handleGetNameClick,
 			},
 			{
 				condition: 'nameButton',
-				label: 'Name',
+				label: '📁',
 				onClick: () => clickButton('showNS()'),
 			},
 			{
 				condition: 'copyButton',
-				label: 'Copy',
+				label: '📋',
 				onClick: handleCopyClick,
 			},
 			{
 				condition: 'reloadButton',
-				label: 'Reload',
+				label: '🔄',
 				onClick: () => clickButton('excute()'),
 			},
-			{ condition: true, label: 'Config', onClick: createConfigMenu },
+			{ condition: true, label: '⚙️', onClick: createConfigMenu },
 		];
 
 		buttons.forEach(({ condition, ...props }) => {
