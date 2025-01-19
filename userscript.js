@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image Pokémon Names
 // @namespace    https://github.com/hexros-dev/
-// @version      3.20
+// @version      4.0
 // @description  Hiển thị hình ảnh trong name Pokémon cho trang web sangtacviet.vip
 // @author       Hexros Raymond
 // @include      *://sangtacviet.vip/truyen/*/*/*/*/
@@ -76,6 +76,7 @@
 		NAME_STV_SAVE: 'nameSave',
 	};
 	const DEFAULT_CONFIG = {
+		uploadNameButton: true,
 		downloadNameButton: true,
 		getNameButton: true,
 		nameButton: true,
@@ -429,7 +430,7 @@
 			},
 			{
 				fontSize: '25px',
-        lineHeight: '50px',
+				lineHeight: '50px',
 				outline: 'none',
 				borderRadius: '100%',
 				height: '50px',
@@ -439,9 +440,9 @@
 				border: '1px solid #ccc',
 				backgroundColor: '#f0f0f0',
 				transition: 'background-color 0.3s',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
 				...styles,
 			},
 		);
@@ -484,6 +485,127 @@
 
 		container.append(dataList, slider);
 		return container;
+	};
+	const createUploadMenu = () => {
+		const modal = createDOMElement(
+			'div',
+			{},
+			{
+				position: 'fixed',
+				top: '0',
+				left: '0',
+				width: '100%',
+				height: '100%',
+				backgroundColor: 'rgba(0, 0, 0, 0.5)',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
+				zIndex: '1000',
+			},
+		);
+
+		const menuContent = createDOMElement(
+			'div',
+			{},
+			{
+				backgroundColor: 'white',
+				padding: '20px',
+				borderRadius: '10px',
+				maxWidth: '300px',
+				width: '90%',
+			},
+		);
+
+		const title = createDOMElement(
+			'h2',
+			{ textContent: 'Upload Names' },
+			{ marginTop: '0', marginBottom: '20px', textAlign: 'left' },
+		);
+		menuContent.appendChild(title);
+
+		const textArea = createDOMElement(
+			'textarea',
+			{
+				id: 'uploadTextArea',
+				placeholder: 'Enter your text here...',
+			},
+			{
+				width: '100%',
+				height: '100px',
+				marginBottom: '10px',
+			},
+		);
+		const fileInput = createDOMElement(
+			'input',
+			{
+				type: 'file',
+				id: 'uploadFileInput',
+				accept: '.txt',
+			},
+			{
+				display: 'block',
+				marginBottom: '10px',
+			},
+		);
+		menuContent.appendChild(textArea);
+		menuContent.appendChild(fileInput);
+		const buttonContainer = createDOMElement(
+			'div',
+			{},
+			{
+				display: 'flex',
+				justifyContent: 'space-between',
+				marginTop: '20px',
+			},
+		);
+		const submitButton = createButton({
+			label: 'Submit',
+			onClick: async () => {
+				const namewd = document.querySelector('#namewd');
+				const text = textArea.value;
+				const file = fileInput.files[0];
+				let flag = false;
+				let fileText = '';
+				let result = '';
+				if (namewd) {
+					if (text) {
+						result += '\n==========\n' + text;
+						flag = true;
+					}
+					if (file) {
+						fileText = await file.text();
+						result += '\n==========\n' + fileText;
+						flag = true;
+					}
+					if (namewd.value) {
+						result = flag
+							? result + '\n==========\n' + namewd.value
+							: namewd.value;
+					}
+					namewd.value = result;
+				}
+				clickButton('saveNS();excute();');
+
+				document.body.removeChild(modal);
+			},
+			styles: {
+				borderRadius: '5px',
+				flex: '1',
+				marginRight: '10px',
+				fontSize: '15px',
+			},
+		});
+
+		const cancelButton = createButton({
+			label: 'Cancel',
+			onClick: () => modal.remove(),
+			styles: { borderRadius: '5px', flex: '1', fontSize: '15px' },
+		});
+		buttonContainer.append(submitButton, cancelButton);
+		menuContent.appendChild(buttonContainer);
+		modal.appendChild(menuContent);
+
+		document.body.appendChild(modal);
 	};
 	const createConfigMenu = () => {
 		const modal = createDOMElement(
@@ -564,13 +686,18 @@
 				modal.remove();
 				location.reload();
 			},
-			styles: { borderRadius: '5px', flex: '1', marginRight: '10px', fontSize: '15px' },
+			styles: {
+				borderRadius: '5px',
+				flex: '1',
+				marginRight: '10px',
+				fontSize: '15px',
+			},
 		});
 
 		const cancelButton = createButton({
 			label: 'Cancel',
 			onClick: () => modal.remove(),
-			styles: { borderRadius: '5px', flex: '1', fontSize: '15px'  },
+			styles: { borderRadius: '5px', flex: '1', fontSize: '15px' },
 		});
 
 		buttonContainer.append(saveButton, cancelButton);
@@ -645,7 +772,7 @@
 
 			URL.revokeObjectURL(url);
 		} catch (error) {
-			console.error(error);
+			console.error(`HANDLE_DOWNLOAD_NAME_CLICK:::${error}`);
 		}
 	};
 
@@ -711,6 +838,11 @@
 		);
 
 		const buttons = [
+			{
+				condition: 'uploadNameButton',
+				label: '📤',
+				onClick: createUploadMenu,
+			},
 			{
 				condition: 'downloadNameButton',
 				label: '📥',
