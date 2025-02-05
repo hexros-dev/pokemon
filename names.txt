@@ -3754,7 +3754,7 @@ $粗枝大葱=Large Leek
 $特选苹果=Fancy Apple
 $细骨=Brittle Bones
 $袋装土豆=Pack of Potatoes
-$水边香草=Pungent Root
+$水边香草=Pungent Root<img class="items" data-pokedex="Pungent Root" src="https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/main/images/items/Pungent_Root.png" />
 $袋装蔬菜=Salad Mix
 $炸物拼盘=Fried Food
 $水煮蛋=Boiled Egg
