@@ -3766,7 +3766,8 @@ $即食咖喱=Packaged Curry
 $椰奶=Coconut Milk
 $即食面=Instant Noodles
 $即食肉排=Precooked Burger
-$超极粉=Gigantamix
+$超极粉=Gigantamix<img class="items" data-pokedex="Gigantamix" src="https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/main/images/items/Gigantamix.png" />
+$超级粉=Gigantamix<img class="items" data-pokedex="Gigantamix" src="https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/main/images/items/Gigantamix.png" />
 $虹色之羽=Rainbow Feather
 $数据卡=Data Card
 $超级坠饰=Mega Charm
