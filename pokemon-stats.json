@@ -11406,6 +11406,23 @@
 		"speed": 52,
 		"total": 371
 	},
+	"Eternal Floette": {
+		"number": "#0670",
+		"name": "Eternal Floette",
+		"type": ["Fairy"],
+		"abilities": {
+			"ability1": "Flower Veil",
+			"ability2": null,
+			"hidden": "Symbiosis"
+		},
+		"hp": 74,
+		"attack": 65,
+		"defense": 67,
+		"spAttack": 125,
+		"spDefense": 128,
+		"speed": 92,
+		"total": 551
+	},
 	"Florges": {
 		"number": "#0671",
 		"name": "Florges",
