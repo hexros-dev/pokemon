@@ -4534,7 +4534,6 @@ $亚洛=Milo
 $亞洛=Milo
 $马士德=Mustard
 $馬士德=Mustard
-$亚洛=Nessa
 $露璃娜=Nessa
 $奥利薇=Oleana
 $奧利薇=Oleana
