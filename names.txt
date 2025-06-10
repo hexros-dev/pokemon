@@ -1,3 +1,74 @@
+Truyện được đăng tại https://sangtacviet.vip/truyen/qidian/1/1042708145/841161229/
+$老红豆杉博士=Professor Cedric Juniper
+$悖论=Paradox
+$起源帕路奇亚=Origin Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10246.png"/>
+$闪光帕路奇亚=Shiny Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/484.png"/>
+$时光机器=Time Machine
+$弗图=Turo
+$闪光铁武者=Shiny Iron Valiant<img index="#1006" class="pokemon-image" data-pokedex="Iron Valiant" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1006.png"/>
+$光机=quang cơ
+$时间之门旅行者=Timegate Traveler
+$坚铁=Ferrum
+$斯姆拉=Sumra
+$魁奇思 · 哈尔孟尼亚 · 格罗皮乌斯=Ghetsis Harmonia Gropius
+$死神棺=Cofagrigus<img index="#0563" class="pokemon-image" data-pokedex="Cofagrigus" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/563.png"/>
+$美拉=Mera
+$法娜=Fana
+$寇恩=Cress
+$天桐=Cilan
+$异色帕路奇亚=Shiny Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/484.png"/>
+$天堂之塔=Celestial Tower
+$翔子=Shouko
+$乌克丽丽=Ukulele
+$玛法=Mafa
+$南厦=Emmet
+$约格斯=Ryoku
+$阿响=Ethan
+$白露=Bianca
+$黑连=Cheren
+$松露=Amanita
+$奇迹发射器=Wonder Launcher <img class="items" data-pokedex="Wonder Launcher" src="https://archives.bulbagarden.net/media/upload/9/98/Wonder_Launcher.png" />
+$紫檀=Loblolly
+$健太郎=Kentarō
+$星之力=VStar
+$星星之力=VStar
+$白森林=White Forest
+$矢车森林=Pinwheel Forest
+$矢车=Pinwheel
+$新之助=Shinnosuke
+$卡斯巴斯奇亚=Casbaschia
+$帕希欧=Pasio
+$阿修=Shu
+$共平=Nate
+$阳葵=Haruki
+$罗德=Rood
+$斗子=Touko
+$慧子=Keiko
+$释出之力=Pass Power
+$连入=Entralink
+$训练师=Trainer
+$傑洛=Giallo
+$奥卜利比亚=Oblivia
+$时空之球=Space Globe<img class="items" data-pokedex="Space Globe" src="https://archives.bulbagarden.net/media/upload/e/e4/Space_Globe_artwork_S.png" />
+$秀力 · 史诺顿=Spencer Hale
+$史诺顿=Spencer
+$米拉特=Emerald
+$阿佐特=Azoth
+$奥卜比利亚=Oblivia
+$鳍鳍=Fini
+$卡璞=Tapu
+$小南=Konan
+$真司=Shinji
+$呦农=Unon
+$神阖=Celestica
+$路比=Ruby
+$头目=Alpha
+$神阖之民=Celestica People
+$米季纳=Michina
+$叶子=Leaf
+$雾江=Wujiang
+$悖谬=Paradox
+$宝可=Poké
 $神都=Sinjoh
 $阿笔=Bugsy
 $未知图腾 E =Unown E <img index="#0201" class="pokemon-image" data-pokedex="Unown" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/pokemon/unown_e.png"/>
