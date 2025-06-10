@@ -1,4 +1,3 @@
-Truyện được đăng tại https://sangtacviet.vip/truyen/qidian/1/1042708145/841161229/
 $老红豆杉博士=Professor Cedric Juniper
 $悖论=Paradox
 $起源帕路奇亚=Origin Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10246.png"/>
