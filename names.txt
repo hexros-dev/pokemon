@@ -1,47 +1,69 @@
+$塞德里克=Cedric
 $老红豆杉博士=Professor Cedric Juniper
 $悖论=Paradox
 $起源帕路奇亚=Origin Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10246.png"/>
+$闪光帕路奇亚 · 起源形态=Shiny Origin Palkia<br/><img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10246.png"/>
 $闪光帕路奇亚=Shiny Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/484.png"/>
 $时光机器=Time Machine
 $弗图=Turo
 $闪光铁武者=Shiny Iron Valiant<img index="#1006" class="pokemon-image" data-pokedex="Iron Valiant" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1006.png"/>
 $光机=quang cơ
 $时间之门旅行者=Timegate Traveler
+$奈菈=Naira
 $坚铁=Ferrum
 $斯姆拉=Sumra
 $魁奇思 · 哈尔孟尼亚 · 格罗皮乌斯=Ghetsis Harmonia Gropius
+$格罗皮乌斯=Gropius
 $死神棺=Cofagrigus<img index="#0563" class="pokemon-image" data-pokedex="Cofagrigus" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/563.png"/>
+$瓦多=Vado
 $美拉=Mera
+$异色拉帝欧斯=Shiny Latios<img index="#0381" class="pokemon-image" data-pokedex="Latios" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/381.png"/>
 $法娜=Fana
+$宝芙蕾=Poké Puff
 $寇恩=Cress
+$伯特=Chili
 $天桐=Cilan
+$异色骑拉帝纳=Shiny Giratina<img index="#0487" class="pokemon-image" data-pokedex="Giratina" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/487.png"/>
 $异色帕路奇亚=Shiny Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/484.png"/>
+$异色帝牙卢卡=Shiny Dialga<img index="#0483" class="pokemon-image" data-pokedex="Dialga" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/483.png"/>
 $天堂之塔=Celestial Tower
 $翔子=Shouko
+$风露=Skyla
 $乌克丽丽=Ukulele
 $玛法=Mafa
 $南厦=Emmet
 $约格斯=Ryoku
+$阿尔套装=Arc Suit
 $阿响=Ethan
 $白露=Bianca
 $黑连=Cheren
+$佐枝子=Saeko
 $松露=Amanita
+$木立=Hawes
 $奇迹发射器=Wonder Launcher <img class="items" data-pokedex="Wonder Launcher" src="https://archives.bulbagarden.net/media/upload/9/98/Wonder_Launcher.png" />
 $紫檀=Loblolly
 $健太郎=Kentarō
 $星之力=VStar
 $星星之力=VStar
+$异色大针蜂=Shiny Beedrill<img index="#0015" class="pokemon-image" data-pokedex="Beedrill" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/15.png"/>
 $白森林=White Forest
 $矢车森林=Pinwheel Forest
 $矢车=Pinwheel
+$邦尼=Bonney
 $新之助=Shinnosuke
+$等离子团=Team Plasma <img style="width: auto;" class="teams" data-pokedex="Team Plasma" src="https://raw.githubusercontent.com/hexros-dev/pokemon/main/images/teams_logo/team_plasma.png" />
 $卡斯巴斯奇亚=Casbaschia
+$茲伏奇=Joseph
 $帕希欧=Pasio
+$阿尔塔诺=Artano
 $阿修=Shu
+$鸣依=Mei
 $共平=Nate
 $阳葵=Haruki
+$亚堤=Burgh
 $罗德=Rood
 $斗子=Touko
+$斗也=Hilbert
 $慧子=Keiko
 $释出之力=Pass Power
 $连入=Entralink
@@ -51,22 +73,33 @@ $奥卜利比亚=Oblivia
 $时空之球=Space Globe<img class="items" data-pokedex="Space Globe" src="https://archives.bulbagarden.net/media/upload/e/e4/Space_Globe_artwork_S.png" />
 $秀力 · 史诺顿=Spencer Hale
 $史诺顿=Spencer
+$小遥=Haruka
 $米拉特=Emerald
+$弹枪=Shooter
 $阿佐特=Azoth
+$捕猎游标=Capture Styler
 $奥卜比利亚=Oblivia
+$卡璞 ・ 鳍鳍=Tapu Fini
 $鳍鳍=Fini
 $卡璞=Tapu
 $小南=Konan
+$小枫=Tate
 $真司=Shinji
+$赫月=Bloodmoon
 $呦农=Unon
+$美哆=Meito
 $神阖=Celestica
+$小悠=Brendan
 $路比=Ruby
 $头目=Alpha
+$秀力=Hale
 $神阖之民=Celestica People
 $米季纳=Michina
 $叶子=Leaf
+$灵能力者=Linh Năng Lực Giả
 $雾江=Wujiang
 $悖谬=Paradox
+$宝可装置=Pokégear
 $宝可=Poké
 $神都=Sinjoh
 $阿笔=Bugsy
