@@ -1,6 +1,8 @@
 $塞德里克=Cedric
 $老红豆杉博士=Professor Cedric Juniper
 $悖论=Paradox
+$异色金属怪=Shiny Metang<img index="#0375" class="pokemon-image" data-pokedex="Metang" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/375.png"/>
+$闪光金属怪=Shiny Metang<img index="#0375" class="pokemon-image" data-pokedex="Metang" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/375.png"/>
 $起源帕路奇亚=Origin Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10246.png"/>
 $闪光帕路奇亚 · 起源形态=Shiny Origin Palkia<br/><img index="#0484" class="pokemon-image" data-pokedex="Palkia Origin Forme" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10246.png"/>
 $闪光帕路奇亚=Shiny Palkia<img index="#0484" class="pokemon-image" data-pokedex="Palkia" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/484.png"/>
