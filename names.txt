@@ -5448,7 +5448,7 @@ $白色盘子=White Dish
 $黄色盘子=Yellow Dish
 $麻痹粉=Stun Spore
 $换档=Shift Gear
-$巨剑突击=Glaive Rush
+$巨剑突击=<span class="pokemon-move Dragon Physical" data-pokedex="Glaive Rush">Glaive Rush</span>
 $灼热暴冲=Blazing Torque
 $黑暗暴冲=Wicked Torque
 $剧毒暴冲=Noxious Torque
