@@ -1745,7 +1745,7 @@ $化学变化气体=<span class="pokemon-ability" data-pokedex="Neutralizing Gas
 $甩不掉的气味=<span class="pokemon-ability" data-pokedex="Lingering Aroma">Lingering Aroma</span>
 $飞出的内在物=<span class="pokemon-ability" data-pokedex="Innards Out">Innards Out</span>
 ==============Moves==============
-$咒术=<span class="type Ghost Status">Curse</span>
+$咒术=<span class="pokemon-move Ghost Status">Curse</span>
 $毒粉=<span class="pokemon-move Poison Status" data-pokedex="Poison Powder">Poison Powder</span>
 $空气之刃=<span class="pokemon-move Flying Special" data-pokedex="Air Slash">Air Slash</span>
 $拍击=<span class="pokemon-move Normal Physical" data-pokedex="Pound">Pound</span>
@@ -2698,9 +2698,9 @@ $火焰漩涡=<span class="pokemon-move Fire Special" data-pokedex="Fire Spin">F
 $恶魔之吻=<span class="pokemon-move Normal Status" data-pokedex="Lovely Kiss">Lovely Kiss</span>
 $大字炎爆=<span class="pokemon-move Fire Special" data-pokedex="Fire Blast">Fire Blast</span>
 $神鸟猛攻=<span class="pokemon-move Flying Physical" data-pokedex="Sky Attack">Sky Attack</span>
-$破坏死光=<span class="type Normal Special" data-pokedex="Hyper Beam">Hyper Beam</span>
-$龙之爪=<span class="type Dragon Physical" data-pokedex="Dragon Claw">Dragon Claw</span>
-$急冻光线=<span class="type Ice Special" data-pokedex="Ice Beam">Ice Beam</span>
+$破坏死光=<span class="pokemon-move Normal Special" data-pokedex="Hyper Beam">Hyper Beam</span>
+$龙之爪=<span class="pokemon-move Dragon Physical" data-pokedex="Dragon Claw">Dragon Claw</span>
+$急冻光线=<span class="pokemon-move Ice Special" data-pokedex="Ice Beam">Ice Beam</span>
 ==============Types==============
 $冰属性=<span class="Ice">Ice Type <img class="pokemon-type Ice" style="display: inline-block;" data-pokedex="Ice" src="https://www.serebii.net/pokedex-sv/type/icon/ice.png"/></span>
 $恶属性=<span class="Dark">Dark Type <img class="pokemon-type Dark" style="display: inline-block;" data-pokedex="Dark" src="https://www.serebii.net/pokedex-sv/type/icon/dark.png"/></span>
