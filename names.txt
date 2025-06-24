@@ -5449,11 +5449,11 @@ $黄色盘子=Yellow Dish
 $麻痹粉=Stun Spore
 $换档=Shift Gear
 $巨剑突击=<span class="pokemon-move Dragon Physical" data-pokedex="Glaive Rush">Glaive Rush</span>
-$灼热暴冲=Blazing Torque
-$黑暗暴冲=Wicked Torque
-$剧毒暴冲=Noxious Torque
-$格斗暴冲=Combat Torque
-$魔法暴冲=Magical Torque
+$灼热暴冲=<span class="pokemon-move Fire Physical" data-pokedex="Blazing Torque">Blazing Torque</span>
+$黑暗暴冲=<span class="pokemon-move Dark Physical" data-pokedex="Wicked Torque">Wicked Torque</span>
+$剧毒暴冲=<span class="pokemon-move Poison Physical" data-pokedex="Noxious Torque">Noxious Torque</span>
+$格斗暴冲=<span class="pokemon-move Fighting Physical" data-pokedex="Combat Torque">Combat Torque</span>
+$魔法暴冲=<span class="pokemon-move Fairy Physical" data-pokedex="Magical Torque">Magical Torque</span>
 $北上乡=Kitakami
 $查克拉=Chakra
 $渡渡鸟=Chim Dodo
