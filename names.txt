@@ -1,3 +1,4 @@
+$时之齿轮=Time Gear <img class="items" data-pokedex="Time Gear" src="https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/main/images/items/time_gear.png" />
 $闪光索罗亚克=Shiny Zoroark<img index="#0571" class="pokemon-image" data-pokedex="Zoroark" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/571.png" />
 $闪光大针蜂=Shiny Beedrill<img index="#0015" class="pokemon-image" data-pokedex="Beedrill" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/15.png"/>
 $塞德里克=Cedric
