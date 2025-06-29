@@ -5866,5 +5866,11 @@
 		"name": "Swampertite",
 		"category": "Mega Stone",
 		"effect": "It is the Mega Stone that allows Swampert to Mega Evolve into Mega Swampert."
+	},
+	"Time Gear": {
+		"image": "https://raw.githubusercontent.com/hexros-dev/pokemon/refs/heads/main/images/items/time_gear.png",
+		"name": "Time Gear",
+		"category": "Artifact",
+		"effect": "The Time Gears help keep control of the flow of time in the Pokémon world."
 	}
 }
