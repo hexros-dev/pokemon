@@ -17458,6 +17458,23 @@
 		"speed": 88,
 		"total": 600
 	},
+	"Mega Starmie": {
+		"number": "#0121",
+		"name": "Mega Starmie",
+		"type": ["Water", "Psychic"],
+		"abilities": {
+			"ability1": "Huge Power",
+			"ability2": null,
+			"hidden": null
+		},
+		"hp": 60,
+		"attack": 100,
+		"defense": 105,
+		"spAttack": 130,
+		"spDefense": 105,
+		"speed": 120,
+		"total": 660
+	},
 	"Mega Venusaur": {
 		"number": "#0003",
 		"name": "Mega Venusaur",
